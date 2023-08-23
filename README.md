@@ -604,33 +604,33 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 #### ChatGPT 技术篇
 
+**【博客】**【ChatGPT_Inference_Cost】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Inference_Cost.md)]
+
+**【博客】**【ChatGPT_Official_API_Learning】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Official_API_Learning.md)]
+
+**【博客】**【ChatGPT_Parameter_is_not_175B】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Parameter_is_not_175B.md)]
+
+**【博客】**【ChatGPT_Road_Map_from_yao.fu】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Road_Map_from_yao.fu.md)]
+
+**【博客】**【Lessons_Learned_from_ChatGPT_Recurrence】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/Lessons_Learned_from_ChatGPT_Recurrence.md)]
+
+**【博客】**【LLM_Pre-training_Guide（Bloom-175B）】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/LLM_Pre-training_Guide（Bloom-175B）.md)]
+
+**【博客】**【The_guide_of_training_LLM】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/The_guide_of_training_LLM.md)]
+
 **【符尧】**【深度拆解GPT-3.5能力起源】[[原文blog](https://yaofu.notion.site/GPT-3-5-360081d91ec245f29029d37b54573756)]，[[译文blog](https://mp.weixin.qq.com/s/ckd6KxeTfdQas_UCsJ7HgQ)]
 
 **【知乎】**【ChatGPT发展历程、原理、技术架构详解和产业未来】[[blog](https://zhuanlan.zhihu.com/p/590655677)]
 
-**【斯坦福】**【82页PPT ！最新ChatGPT: 提示学习, 指导微调和RLHF 】[[blog](https://pan.baidu.com/s/15Bs1u7z1RhCdfiR3oJ_gJQ)]，[提取码:chat]
-
 **【微软】**【让天下没有难训练的大模型，微软亚洲研究院开源TorchScale 】[[code](https://github.com/microsoft/torchscale)]
+
+**【斯坦福】**【82页PPT ！最新ChatGPT: 提示学习, 指导微调和RLHF 】[[blog](https://pan.baidu.com/s/15Bs1u7z1RhCdfiR3oJ_gJQ)]，[提取码:chat]
 
 **【亚马逊 】**【他们提出了包含视觉特征的 Multimodal-CoT，该架构在参数量小于 10 亿的情况下，在 ScienceQA 基准测试中，比 GPT-3.5 高出 16 个百分点 】[[paper](https://arxiv.org/abs/2302.00923 )]，[[code](https://github.com/amazon-science/mm-cot)]
 
 **【OpenBMB】**【Nature ：生成式 AI 的前景与风险】[[blog](https://mp.weixin.qq.com/s/d6t2xpdvSDCHzO2gG1N6eQ)]
 
 **【博客】**【万字长文解读：从Transformer到ChatGPT，通用人工智能曙光初现】[[blog](https://mp.weixin.qq.com/s/iZyKmWgXUkPv3Phyaw4Ppg)]
-
-**【博客】**[ChatGPT_Inference_Cost](https://github.com/wshzd/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Inference_Cost.md)
-
-**【博客】**[ChatGPT_Official_API_Learning](https://github.com/wshzd/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Official_API_Learning.md)
-
-**【博客】**[ChatGPT_Parameter_is_not_175B](https://github.com/wshzd/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Parameter_is_not_175B.md)
-
-**【博客】**[ChatGPT_Road_Map_from_yao.fu](https://github.com/wshzd/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Road_Map_from_yao.fu.md)
-
-**【博客】**[Lessons_Learned_from_ChatGPT_Recurrence](https://github.com/wshzd/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/Lessons_Learned_from_ChatGPT_Recurrence.md)
-
-**【博客】**[LLM_Pre-training_Guide（Bloom-175B）](https://github.com/wshzd/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/LLM_Pre-training_Guide（Bloom-175B）.md)
-
-**【博客】**[The_guide_of_training_LLM](https://github.com/wshzd/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/The_guide_of_training_LLM.md)
 
 **【博客】**【AI芯片制造商Cerebras发布7个基于GPT的大语言模型，现已开源】[[官网地址](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/)]，[[GPT地址](https://www.cerebras.net/cerebras-gpt)]，[[Hugging Face地址 ](https://huggingface.co/cerebras)]
 
@@ -719,9 +719,9 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 ### GPT4
 
 #### GPT4 官方文档
-**【博客】**【GPT4_System_Card中文翻译】[[blog](https://github.com/wshzd/ChatGPT-Summary/blob/main/GPT4/Official/GPT-4_System_Card_zh.md)]
+**【博客】**【GPT4_System_Card中文翻译】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Official/GPT-4_System_Card_zh.md)]
 
-**【博客】**【GPT4_Technical_Report中文翻译】[[blog](https://github.com/wshzd/ChatGPT-Summary/blob/main/GPT4/Official/GPT4_Technical_Report_zh.md)]
+**【博客】**【GPT4_Technical_Report中文翻译】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Official/GPT4_Technical_Report_zh.md)]
 
 #### GPT4 博客篇
 
@@ -739,11 +739,11 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【OpenAI】**【当GPT-4进入北京市2022高考考场能有什么表现？】[[blog](https://mp.weixin.qq.com/s/N_j01KSuEKuVwCCD69G92g)]
 
-**【博客】**【GPT4技术细节】[[blog](https://github.com/wshzd/ChatGPT-Summary/blob/main/GPT4/Blog/GPT4_Technical_Detail.md)]
+**【博客】**【GPT4技术细节】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Blog/GPT4_Technical_Detail.md)]
 
-**【博客】**【GPT4技术关键点总结】[[blog](https://github.com/wshzd/ChatGPT-Summary/blob/main/GPT4/Blog/GPT4_Technical_Summary.md)]
+**【博客】**【GPT4技术关键点总结】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Blog/GPT4_Technical_Summary.md)]
 
-**【博客】**【GPT4和ChatGPT的效果对比】[[blog](https://github.com/wshzd/ChatGPT-Summary/blob/main/ChatGPT_VS_GPT4/GPT4_VS_ChatGPT（from_nytimes）.md)]
+**【博客】**【GPT4和ChatGPT的效果对比】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT_VS_GPT4/GPT4_VS_ChatGPT（from_nytimes）.md)]
 
 **【博客】**【The Ultimate GPT-4 Guide】[[blog](https://doc.clickup.com/37456139/d/h/13q28b-324/e2a22b0c164b1f9)]
 
