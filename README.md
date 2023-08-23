@@ -56,7 +56,7 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【访谈】**【对话OpenAI研究科学家：他们是如何让GPT4更像人的？】[[访谈记录](https://mp.weixin.qq.com/s/iJImioHXxelCxUsETSxuXw)]
 
-**【视频】**【邱锡鹏教授介绍以ChatGPT为核心的大规模语言模型的相关知识及未来的发展方向 】[[B站](https://www.bilibili.com/video/BV1Xb411X7c3/)]
+**【视频】**【邱锡鹏教授介绍以ChatGPT为核心的大规模语言模型的相关知识及未来的发展方向】[[B站](https://www.bilibili.com/video/BV1Xb411X7c3/)]
 
 ## LLM体验效果&专业评估
 
@@ -88,7 +88,7 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【ChatGPT专业评估】**【一文看遍各行业对ChatGPT的专业评估】[[blog](https://mp.weixin.qq.com/s/2JryWW33j9udOpi3dK5X9g)]
 
-**【ChatGPT专业评估】**【ChatGPT关于推理、幻觉和交互的多任务、多语言、多通道评估 】[[paper](https://arxiv.org/abs/2302.04023 )]
+**【ChatGPT专业评估】**【ChatGPT关于推理、幻觉和交互的多任务、多语言、多通道评估 】[[paper](https://arxiv.org/abs/2302.04023)]
 
 **【ChatGPT专业评估】**【如何评价 OpenAI 的超级对话模型 ChatGPT ？】[[paper](https://www.zhihu.com/question/570189639)]
 
@@ -200,11 +200,15 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 ### LLM训练
 
+**【LLM训练】**【从头预训练大模型实践经验】[[blog](https://mp.weixin.qq.com/s/q8XNFzsm_sm_EocCIks-1w)]
+
 **【LLM训练】**【DeepSpeed的Tutorials】[[主页](https://www.deepspeed.ai)]，[[DeepSpeed Getting Starte](https://mp.weixin.qq.com/s/xpNQtl7hPs3fy9S7VRbIkg)]
 
 **【LLM训练】**【打造LLM界的Web UI：24GB显卡训练百亿大模型】[[blog](https://mp.weixin.qq.com/s/x9oED0Uxc5Wt-eR0Amde7g)]
 
 **【LLM训练】**【大模型训练感知量化开山之作：LLM-QAT】[[blog](https://mp.weixin.qq.com/s/zKndNym9Q7QJWlmn60HmyQ)]
+
+**【LLM训练】**【复现RLHF：通过开源项目 trl 搭建一个通过强化学习算法（PPO）来更新语言模型（GPT-2）】[[blog](https://mp.weixin.qq.com/s/e22hQYCnnh_k8qvDg-G0Zg)]
 
 **【LLM训练】**【混合精度训练技术梳理总结】[[blog](https://mp.weixin.qq.com/s/j-f47VPHKAkCwpwEheEgJQ)]
 
