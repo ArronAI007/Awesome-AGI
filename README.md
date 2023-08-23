@@ -16,7 +16,7 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 | 交流群二维码                    | 拉你入群(备注AIGC-github)  |
 | ------------------------------- | :------------------------: |
-| ![Arron](images/AIGC_group.jpeg) | ![Arron](https://i.postimg.cc/QMqj1DGc/Arron.jpg) |
+| ![Arron](https://i.postimg.cc/PqFvY1kW/AIGC-group.jpg) | ![Arron](https://i.postimg.cc/QMqj1DGc/Arron.jpg) |
 
 ## AIGC视频会议&访谈
 
