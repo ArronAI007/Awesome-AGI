@@ -6,7 +6,7 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 自2022年11月份OpenAI公布ChatGPT以来，ChatGPT在五天之内注册用户数就突破了百万
 
-![ChatGPT](images/chatgpt.png)
+![ChatGPT](https://i.postimg.cc/VvZy4sDb/chatgpt.png)
 
 由此拉开了AIGC大模型的序幕，也有人称为是AI2.0时代，2023年3月14日又发布了GPT4，性能进一步得到提升，关于ChatGPT和GPT4为代码的文本生成以及Codex的代码生成等博客和论文层出不穷，这里对一些重点资料进行了整理归类，持续更新中......
 
@@ -16,7 +16,7 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 | 交流群二维码                    | 拉你入群(备注AIGC-github)  |
 | ------------------------------- | :------------------------: |
-| ![Arron](images/AIGC_group.jpeg) | ![Arron](images/Arron.jpg) |
+| ![Arron](images/AIGC_group.jpeg) | ![Arron](https://i.postimg.cc/QMqj1DGc/Arron.jpg) |
 
 ## AIGC视频会议&访谈
 
