@@ -2,6 +2,8 @@
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=wshzd)](https://github.com/anuraghazra/github-readme-stats)
 
+该项目的旧地址是：https://github.com/wshzd/Awesome-AIGC，由于账户认证问题，旧地址不更新了，内容已经全部迁移到本地址了，以后只更新该地址，带来的不变敬请谅解。
+
 自2022年11月份OpenAI公布ChatGPT以来，ChatGPT在五天之内注册用户数就突破了百万
 
 ![ChatGPT](images/chatgpt.png)
@@ -20,15 +22,15 @@
 
 ### 智源社区
 
-**【论文分享】**【AugGPT：利用ChatGPT进行文本数据增强 】[[link](https://event.baai.ac.cn/activities/664 )]
+**【论文分享】**【AugGPT：利用ChatGPT进行文本数据增强】[[link](https://event.baai.ac.cn/activities/664)]
 
-**【论文分享】**【ChatGPT的鲁棒性探究——对抗性和分布外泛化的视角 】[[link](https://event.baai.ac.cn/activities/657 )]
+**【论文分享】**【ChatGPT的鲁棒性探究——对抗性和分布外泛化的视角】[[link](https://event.baai.ac.cn/activities/657)]
 
-**【论文分享】**【传统检索模型和大语言模型在信息搜索中的应用和对比 】[[link](https://event.baai.ac.cn/activities/656 )]，[[paper](https://arxiv.org/abs/2209.10063)]，[[code](https://github.com/wyu97/GenRead )]，[[blog](https://hub.baai.ac.cn/view/24380 )]
+**【论文分享】**【传统检索模型和大语言模型在信息搜索中的应用和对比】[[link](https://event.baai.ac.cn/activities/656)]，[[paper](https://arxiv.org/abs/2209.10063)]，[[code](https://github.com/wyu97/GenRead)]，[[blog](https://hub.baai.ac.cn/view/24380)]
 
 ### 访谈&视频
 
-**【访谈】**【OpenAI 的核心研发人员 Jack Rae 在参加 Stanford MLSys Seminar 的访谈时进行了一个名为 Compression for AGI的主题分享 】[[访谈记录](https://mp.weixin.qq.com/s/hQmvltuMlClBonM6UJmtLg)]
+**【访谈】**【OpenAI 的核心研发人员 Jack Rae 在参加 Stanford MLSys Seminar 的访谈时进行了一个名为 Compression for AGI的主题分享】[[访谈记录](https://mp.weixin.qq.com/s/hQmvltuMlClBonM6UJmtLg)]
 
 **【访谈】**【万字长文：想训大模型？这里有一份避坑指南】[[访谈记录](https://mp.weixin.qq.com/s/yX5B1ZzV7vewQs1-ezHIQg)]
 
@@ -38,15 +40,15 @@
 
 **【访谈】**【OpenAI创始人：GPT-4的研究起源和构建心法】[[访谈记录](https://mp.weixin.qq.com/s/hO1ZdqgOjpA328luobQ9eg)]
 
-**【访谈】**【ABC News 专访OpenAI首席执行官萨姆·奥尔特曼：AI风险和重塑社会的问题】[[访谈记录]([OpenAI CEO Sam Altman says AI will reshape society, acknowledges risks: 'A little bit scared of this](https://abcnews.go.com/Technology/openai-ceo-sam-altman-ai-reshape-society-acknowledges/story?id=97897122) )]
+**【访谈】**【ABC News 专访OpenAI首席执行官萨姆·奥尔特曼：AI风险和重塑社会的问题】[[访谈记录]([OpenAI CEO Sam Altman says AI will reshape society, acknowledges risks: 'A little bit scared of this](https://abcnews.go.com/Technology/openai-ceo-sam-altman-ai-reshape-society-acknowledges/story?id=97897122))]
 
-**【访谈】**【OpenAI联合创始人Ilya Sutskever等专访：开源人工智能是不明智的】[[访谈记录](https://www.theverge.com/2023/3/15/23640180/openai-gpt-4-launch-closed-research-ilya-sutskever-interview )]
+**【访谈】**【OpenAI联合创始人Ilya Sutskever等专访：开源人工智能是不明智的】[[访谈记录](https://www.theverge.com/2023/3/15/23640180/openai-gpt-4-launch-closed-research-ilya-sutskever-interview)]
 
-**【访谈】**【OpenAI董事长、CTO Greg Brockman专访 ：GPT-4 并不完美，不过人无完人】[[访谈记录](https://techcrunch.com/2023/03/15/interview-with-openais-greg-brockman-gpt-4-isnt-perfect-but-neither-are-you/ )]
+**【访谈】**【OpenAI董事长、CTO Greg Brockman专访 ：GPT-4 并不完美，不过人无完人】[[访谈记录](https://techcrunch.com/2023/03/15/interview-with-openais-greg-brockman-gpt-4-isnt-perfect-but-neither-are-you/)]
 
 **【访谈】**【图灵奖获得者 Yoshua Bengio 认为 ChatGPT 是一个“警钟”】[[访谈记录](https://mp.weixin.qq.com/s/2-QoJHKWxiS63vEjX9OOGQ)]
 
-**【访谈】**【《麻省理工科技评论》对 ChatGPT 幕后团队，进行了一次深入的独家专访】[[访谈记录](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai )]
+**【访谈】**【《麻省理工科技评论》对 ChatGPT 幕后团队，进行了一次深入的独家专访】[[访谈记录](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai)]
 
 **【访谈】**【口述历史，探析ChatGPT的创造历程，ChatGPT内部故事】[[访谈记录](https://mp.weixin.qq.com/s/RAdIxzdgs3elUiozB8cH8g)]
 
@@ -190,19 +192,27 @@
 
 ## LLM训练、微调、优化以及部署
 
-**【LLM学习网站】**【训练、微调、优化和部署大模型最新技术LLM Learning Lab】[[官网](https://lightning.ai/pages/llm-learning-lab/)]
+**【LLM 学习网站】**【训练、微调、优化和部署大模型最新技术LLM Learning Lab】[[官网](https://lightning.ai/pages/llm-learning-lab/)]
+
+**【LLM 算力评估】**【PEFT | Transformer参数量、计算量、显存占用分析】[[官网](https://mp.weixin.qq.com/s/5zxfwlO-skxZchJ0qtzqAw)]
+
+**【LLM Tokenizer】**【Tokenizer的系统梳理，并手推每个方法的具体实现】[[blog](https://mp.weixin.qq.com/s/W8QaPQFeGO7S6mTZt8iKcg)]
 
 ### LLM训练
 
 **【LLM训练】**【DeepSpeed的Tutorials】[[主页](https://www.deepspeed.ai)]，[[DeepSpeed Getting Starte](https://mp.weixin.qq.com/s/xpNQtl7hPs3fy9S7VRbIkg)]
 
-**【LLM训练】**【如何使用 Megatron-LM 训练语言模型】[[blog](https://mp.weixin.qq.com/s/QPg6gOWGbQDezTl8OFZU3g)]
-
-**【LLM训练】**【Muti Query Attention 和 Attention with Linear Bias（附源码）】[[blog](https://mp.weixin.qq.com/s/GXMwnbWLce9Aq4alEHCHJA)]，[[paper](https://arxiv.org/pdf/1911.02150.pdf)]
-
 **【LLM训练】**【打造LLM界的Web UI：24GB显卡训练百亿大模型】[[blog](https://mp.weixin.qq.com/s/x9oED0Uxc5Wt-eR0Amde7g)]
 
 **【LLM训练】**【大模型训练感知量化开山之作：LLM-QAT】[[blog](https://mp.weixin.qq.com/s/zKndNym9Q7QJWlmn60HmyQ)]
+
+**【LLM训练】**【混合精度训练技术梳理总结】[[blog](https://mp.weixin.qq.com/s/j-f47VPHKAkCwpwEheEgJQ)]
+
+**【LLM训练】**【LLM大模型训练Trick系列之拒绝采样】[[blog](https://zhuanlan.zhihu.com/p/649731916)]
+
+**【LLM训练】**【Muti Query Attention 和 Attention with Linear Bias（附源码）】[[blog](https://mp.weixin.qq.com/s/GXMwnbWLce9Aq4alEHCHJA)]，[[paper](https://arxiv.org/pdf/1911.02150.pdf)]
+
+**【LLM训练】**【如何使用 Megatron-LM 训练语言模型】[[blog](https://mp.weixin.qq.com/s/QPg6gOWGbQDezTl8OFZU3g)]
 
 ### LLM微调
 
@@ -362,7 +372,7 @@
 
 **【博客】**【大型语言模型成本分析】[[blog](https://hub.baai.ac.cn/view/24047)]
 
-**【博客】**【超越ChatGPT：大模型的智能极限 】[[blog](https://yaofu.notion.site/e1cd16d1fae84f87aeddf872c838e07c)]
+**【博客】**【超越ChatGPT：大模型的智能极限】[[blog](https://yaofu.notion.site/e1cd16d1fae84f87aeddf872c838e07c)]
 
 **【博客】**【Nature：AI模型越大越好吗? 】[[blog](https://www.nature.com/articles/d41586-023-00641-w)]
 
@@ -409,6 +419,8 @@
 **【博客】**【a16Z：大模型应用程序的新兴架构】[[中文blog](https://hub.baai.ac.cn/view/27506)]，[[英文blog](https://a16z.com/2023/06/20/emerging-architectures-for-llm-applications/)]
 
 **【博客】**【如何优雅下载huggingface大模型文件？】[[blog](https://mp.weixin.qq.com/s/biNtwJRuWuQxiaklyEWVMg)]
+
+**【博客】**【LLM 时代指南】[[blog](https://mp.weixin.qq.com/s/4EvcEzMLfZ3VQTFt7rLA2Q)]
 
 **【论文】**【RetNet：MSRA提出Transformer全新替代大模型基础架构，推理速度8倍提升，内存占用减少70%】[[blog](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247686895&idx=2&sn=9a2763953d209a29e5d0b03e8b75a912&chksm=e8dead9ddfa9248bea848d16358c5a3eabf11cdd13b5aa96033f3ab2b6dc1ee089bedc73c332&token=1541731120&lang=zh_CN#rd)]，[[paper](https://arxiv.org/abs/2307.08621)]
 
