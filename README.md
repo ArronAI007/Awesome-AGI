@@ -40,7 +40,7 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【访谈】**【OpenAI创始人：GPT-4的研究起源和构建心法】[[访谈记录](https://mp.weixin.qq.com/s/hO1ZdqgOjpA328luobQ9eg)]
 
-**【访谈】**【ABC News 专访OpenAI首席执行官萨姆·奥尔特曼：AI风险和重塑社会的问题】[[访谈记录]([OpenAI CEO Sam Altman says AI will reshape society, acknowledges risks: 'A little bit scared of this](https://abcnews.go.com/Technology/openai-ceo-sam-altman-ai-reshape-society-acknowledges/story?id=97897122))]
+**【访谈】**【ABC News 专访OpenAI首席执行官萨姆·奥尔特曼：AI风险和重塑社会的问题】[[访谈记录](https://abcnews.go.com/Technology/openai-ceo-sam-altman-ai-reshape-society-acknowledges/story?id=97897122)]
 
 **【访谈】**【OpenAI联合创始人Ilya Sutskever等专访：开源人工智能是不明智的】[[访谈记录](https://www.theverge.com/2023/3/15/23640180/openai-gpt-4-launch-closed-research-ilya-sutskever-interview)]
 
@@ -228,11 +228,11 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【LLM微调】**【LoRA：卷完图像生成领域，卷文本生成领域的东西，到时是个啥？】[[blog](https://mp.weixin.qq.com/s/emLpTAOhr8khO1hTgQhU9w)]，[[code](https://github.com/microsoft/LoRA)]
 
-**【LLM微调】**【Washington大学2023年5月新提出一种高效的微调方法QLoRA，通过降低显存使用，实现在单个48GB GPU上对65B参数的大模型进行微调，只需微调12个小时就可以达到97%的ChatGPT水平。同时只用int4就可以保持fp16精度的效果。】[[paper](https://arxiv.org/pdf/2305.14314.pdf)]
+**【LLM微调】**【QLoRA：在单个48GB GPU上对65B参数的大模型进行微调，只需微调12个小时就可以达到97%的ChatGPT水平。同时只用int4就可以保持fp16精度的效果。】[[paper](https://arxiv.org/pdf/2305.14314.pdf)]
 
 **【LLM微调】**【华盛顿大学提出全新量化和微调方法，在DB-GPT上享受33B参数的LLM】[[blog](https://mp.weixin.qq.com/s/A3flqm2FeOn0WQr5mrD1-Q)]
 
-**【LLM微调】**【陈丹琦团队提出低内存高效零阶优化器MeZO，单卡A100可训练300亿参数模型】[[paper](https://arxiv.org/abs/2305.17333)]，[[code](https://github.com/princeton-nlp/MeZO)]，[[blog](https://mp.weixin.qq.com/s/JteUpY4fEbENQFvReRLPJg)]
+**【LLM微调】**【MeZO：高效零阶优化器，单卡A100可训练300亿参数模型】[[paper](https://arxiv.org/abs/2305.17333)]，[[code](https://github.com/princeton-nlp/MeZO)]，[[blog](https://mp.weixin.qq.com/s/JteUpY4fEbENQFvReRLPJg)]
 
 **【LLM微调】**【人工智能大语言模型微调技术：SFT 监督微调、LoRA 微调方法、P-tuning v2 微调方法、Freeze 监督微调方法】[[blog](https://mp.weixin.qq.com/s/N0Z1Kq0mrVrK-RED_gvJmw)]
 
@@ -516,7 +516,7 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【博客】**【AGI通用智能发展的思考：是否存在足够通用的处理器？】[[blog](https://mp.weixin.qq.com/s/16TfOu4qfqlbQHpDgDUM2A)]
 
-**【论文】**【OpenAGI:当大语言模型遇到领域专家】[[paper](https://arxiv.org/abs/2304.04370)]，[[code](https://github.com/agiresearch/OpenAGI )]
+**【论文】**【OpenAGI:当大语言模型遇到领域专家】[[paper](https://arxiv.org/abs/2304.04370)]，[[code](https://github.com/agiresearch/OpenAGI)]
 
 ## 文本生成
 
@@ -524,7 +524,7 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 从GPT3到ChatGPT模型的发展路线图
 
-![ChatGPT_family](images/chatgpt-3.jpg)
+![ChatGPT_family](https://i.postimg.cc/GtZmmjG2/chatgpt-3.jpg)
 
 #### ChatGPT 应用篇
 
@@ -542,7 +542,7 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【博客】**【OpenAI开发Plugin将 ChatGPT 连接到互联网】[[blog](https://techcrunch.com/2023/03/23/openai-connects-chatgpt-to-the-internet/)]
 
-**【博客】**【ChatAug：利用ChatGPT进行文本数据增强】[[paper](https://arxiv.org/abs/2302.13007 )]
+**【博客】**【ChatAug：利用ChatGPT进行文本数据增强】[[paper](https://arxiv.org/abs/2302.13007)]
 
 **【博客】**【ChatGPT 是数据隐私的另一个障碍吗】[[blog](https://www.bizcommunity.com/Article/196/639/236418.html)]
 
@@ -606,11 +606,11 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【符尧】**【深度拆解GPT-3.5能力起源】[[原文blog](https://yaofu.notion.site/GPT-3-5-360081d91ec245f29029d37b54573756)]，[[译文blog](https://mp.weixin.qq.com/s/ckd6KxeTfdQas_UCsJ7HgQ)]
 
-**【知乎】**【ChatGPT发展历程、原理、技术架构详解和产业未来】[[blog](https://zhuanlan.zhihu.com/p/590655677 )]
+**【知乎】**【ChatGPT发展历程、原理、技术架构详解和产业未来】[[blog](https://zhuanlan.zhihu.com/p/590655677)]
 
 **【斯坦福】**【82页PPT ！最新ChatGPT: 提示学习, 指导微调和RLHF 】[[blog](https://pan.baidu.com/s/15Bs1u7z1RhCdfiR3oJ_gJQ)]，[提取码:chat]
 
-**【微软】**【让天下没有难训练的大模型，微软亚洲研究院开源TorchScale 】[[code](https://github.com/microsoft/torchscale )]
+**【微软】**【让天下没有难训练的大模型，微软亚洲研究院开源TorchScale 】[[code](https://github.com/microsoft/torchscale)]
 
 **【亚马逊 】**【他们提出了包含视觉特征的 Multimodal-CoT，该架构在参数量小于 10 亿的情况下，在 ScienceQA 基准测试中，比 GPT-3.5 高出 16 个百分点 】[[paper](https://arxiv.org/abs/2302.00923 )]，[[code](https://github.com/amazon-science/mm-cot)]
 
@@ -632,13 +632,13 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【博客】**[The_guide_of_training_LLM](https://github.com/wshzd/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/The_guide_of_training_LLM.md)
 
-**【博客】**【AI芯片制造商Cerebras发布7个基于GPT的大语言模型，现已开源】[[官网地址](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/) )]，[[GPT地址](https://www.cerebras.net/cerebras-gpt  )]，[[Hugging Face地址 ](https://huggingface.co/cerebras  )]
+**【博客】**【AI芯片制造商Cerebras发布7个基于GPT的大语言模型，现已开源】[[官网地址](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/)]，[[GPT地址](https://www.cerebras.net/cerebras-gpt)]，[[Hugging Face地址 ](https://huggingface.co/cerebras)]
 
 **【博客】**【大模型论文周报丨GPT-4发布，谷歌开放PaLM API，斯坦福7B开源模型Alpaca媲美GPT-3.5】[[blog](https://mp.weixin.qq.com/s/C6g_H6xfFn59IxnLpbjA1g)]
 
 **【博客】**【LLaMA模型Meta版泄露，GitHub获8K星】[[blog](https://mp.weixin.qq.com/s/2M19WSq2YICo-3t5ibQcig)]
 
-**【博客】**【ChatGPT or Grammarly? Evaluating ChatGPT on Grammatical Error Correction Benchmark 】[[paper](https://arxiv.org/abs/2303.13648 )]
+**【博客】**【ChatGPT or Grammarly? Evaluating ChatGPT on Grammatical Error Correction Benchmark 】[[paper](https://arxiv.org/abs/2303.13648)]
 
 **【博客】**【打造中国版ChatGPT，国内哪家实力最强】[[blog](https://mp.weixin.qq.com/s/B-n_qz110HmhSP66NKRCiQ)]
 
@@ -676,45 +676,45 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【论文】**【AIGC时代的ChatGPT全面综述】[[paper](https://arxiv.org/abs/2304.06488)]
 
-**【论文】**【ChatGPT is a Knowledgeable but Inexperienced Solver: An Investigation of Commonsense Problem in Large Language Models】[[paper](https://arxiv.org/pdf/2303.16421.pdf )]
+**【论文】**【ChatGPT is a Knowledgeable but Inexperienced Solver: An Investigation of Commonsense Problem in Large Language Models】[[paper](https://arxiv.org/pdf/2303.16421.pdf)]
 
 **【论文】**【GPT-3 和 GPT-3.5 系列模型的全面分析】[[paper](https://arxiv.org/abs/2303.10420v1)]
 
-**【论文】**【ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks】[[paper](https://arxiv.org/pdf/2303.15056.pdf )]
+**【论文】**【ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks】[[paper](https://arxiv.org/pdf/2303.15056.pdf)]
 
-**【论文】**【微软&佐治亚理工学院 | AdaLoRA：自适应预算分配以实现参数有效的微调】[[paper](https://arxiv.org/pdf/2303.10512.pdf )]，[[code](https://github.com/QingruZhang/AdaLoRA )]
+**【论文】**【微软&佐治亚理工学院 | AdaLoRA：自适应预算分配以实现参数有效的微调】[[paper](https://arxiv.org/pdf/2303.10512.pdf)]，[[code](https://github.com/QingruZhang/AdaLoRA)]
 
-**【论文】**【微软 | 大型语言模型的语境忠实提示法】[[paper](https://arxiv.org/pdf/2303.11315.pdf )]
+**【论文】**【微软 | 大型语言模型的语境忠实提示法】[[paper](https://arxiv.org/pdf/2303.11315.pdf)]
 
-**【论文】**【KAUST | ChatGPT问，BLIP-2回答模型：面向丰富的视觉描述的自动提问】[[paper](https://arxiv.org/pdf/2303.06594.pdf )]，[[code](https://github.com/Vision-CAIR/ChatCaptioner)]
+**【论文】**【KAUST | ChatGPT问，BLIP-2回答模型：面向丰富的视觉描述的自动提问】[[paper](https://arxiv.org/pdf/2303.06594.pdf)]，[[code](https://github.com/Vision-CAIR/ChatCaptioner)]
 
-**【论文】**【ChatGPT真的可以取代知识图谱问答吗？ 】[[paper](https://arxiv.org/abs/2303.07992)]，[[paper翻译](https://mp.weixin.qq.com/s/cvBVgxCrreic6U6CU-YB-A )]
+**【论文】**【ChatGPT真的可以取代知识图谱问答吗？】[[paper](https://arxiv.org/abs/2303.07992)]，[[paper翻译](https://mp.weixin.qq.com/s/cvBVgxCrreic6U6CU-YB-A)]
 
-**【论文】**【Meta & 斯坦福大学推出FlexGen：用单个GPU进行大型语言模型的高吞吐量生成性推理】[[paper](https://arxiv.org/pdf/2303.06865.pdf )]，[[code](https://github.com/FMInference/FlexGen )]
+**【论文】**【Meta & 斯坦福大学推出FlexGen：用单个GPU进行大型语言模型的高吞吐量生成性推理】[[paper](https://arxiv.org/pdf/2303.06865.pdf)]，[[code](https://github.com/FMInference/FlexGen)]
 
-**【论文】**【ChatGPT破圈的「秘密武器」：详解RLHF如何影响人类社会！ 】[[paper](https://arxiv.org/abs/2303.02891)]，[[blog](https://mp.weixin.qq.com/s/DCFhefWGQS5naYwT3o6neg )]
+**【论文】**【ChatGPT破圈的「秘密武器」：详解RLHF如何影响人类社会！】[[paper](https://arxiv.org/abs/2303.02891)]，[[blog](https://mp.weixin.qq.com/s/DCFhefWGQS5naYwT3o6neg)]
 
-**【论文】**【探讨ChatGPT在对抗攻击和分布外泛化下的鲁棒性】[[paper](https://arxiv.org/pdf/2302.12095.pdf )]，[[code](https://github.com/microsoft/robustlearn)]
+**【论文】**【探讨ChatGPT在对抗攻击和分布外泛化下的鲁棒性】[[paper](https://arxiv.org/pdf/2302.12095.pdf)]，[[code](https://github.com/microsoft/robustlearn)]
 
-**【论文】**【复旦清华联合顶刊发文｜ChatGPT：潜力、前景和局限 】[[blog](https://mp.weixin.qq.com/s/1D62QuxXFDXWwwRXrB-Ivw )]，[[paper](https://link.springer.com/article/10.1631/FITEE.2300089 )]
+**【论文】**【复旦清华联合顶刊发文｜ChatGPT：潜力、前景和局限】[[blog](https://mp.weixin.qq.com/s/1D62QuxXFDXWwwRXrB-Ivw)]，[[paper](https://link.springer.com/article/10.1631/FITEE.2300089 )]
 
-**【论文】**【引导ChatGPT不要输出有害信息】[[paper](https://arxiv.org/pdf/2302.07459.pdf )]
+**【论文】**【引导ChatGPT不要输出有害信息】[[paper](https://arxiv.org/pdf/2302.07459.pdf)]
 
-**【论文】**【Junnan Li大佬发表最新多模态的杰作BLIP2】[[paper](https://arxiv.org/abs/2301.12597 )]，[[code](https://github.com/salesforce/LAVIS/tree/main/projects/blip2 )]，[[blog](https://mp.weixin.qq.com/s/xmSy4m7NheY8iComv7grxQ )]
+**【论文】**【Junnan Li大佬发表最新多模态的杰作BLIP2】[[paper](https://arxiv.org/abs/2301.12597)]，[[code](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)]，[[blog](https://mp.weixin.qq.com/s/xmSy4m7NheY8iComv7grxQ)]
 
-**【论文】**【Instruction Tuning：无/少样本学习新范式 】[[paper](https://arxiv.org/abs/2109.01652)]，[[code](https://github.com/google-research/flan)]
+**【论文】**【Instruction Tuning：无/少样本学习新范式】[[paper](https://arxiv.org/abs/2109.01652)]，[[code](https://github.com/google-research/flan)]
 
-**【论文】**【GPTScore：一种新的评估语言模型方法】[[paper](https://arxiv.org/abs/2302.04166 )]，[[code](https://github.com/jinlanfu/GPTScore )]
+**【论文】**【GPTScore：一种新的评估语言模型方法】[[paper](https://arxiv.org/abs/2302.04166 )]，[[code](https://github.com/jinlanfu/GPTScore)]
 
 **【论文】**【ChatGPT内核：InstructGPT，基于反馈指令的PPO强化学习】[[blog](https://zhuanlan.zhihu.com/p/589747432)]，[[B站](https://www.bilibili.com/video/BV1hd4y187CR)]
 
-**【论文】**【Fine-tune-CoT：小模型也能做推理，完美逆袭大模型 】[[paper](https://arxiv.org/pdf/2212.10071.pdf )]，[[code](https://github.com/itsnamgyu/reasoning-teacher)]
+**【论文】**【Fine-tune-CoT：小模型也能做推理，完美逆袭大模型】[[paper](https://arxiv.org/pdf/2212.10071.pdf)]，[[code](https://github.com/itsnamgyu/reasoning-teacher)]
 
-**【论文】**【ChatGPT的潜力解锁：自然语言处理中应用、优势、限制和未来方向的全面探索】[[paper](https://arxiv.org/pdf/2304.02017.pdf )]
+**【论文】**【ChatGPT的潜力解锁：自然语言处理中应用、优势、限制和未来方向的全面探索】[[paper](https://arxiv.org/pdf/2304.02017.pdf)]
 
-**【论文】**【阿里巴巴&清华大学|大型语言模型在算术任务中的表现如何？】[[paper](https://arxiv.org/pdf/2304.02015.pdf )]，[[code](https://github.com/GanjinZero/math401-llm )]
+**【论文】**【阿里巴巴&清华大学|大型语言模型在算术任务中的表现如何？】[[paper](https://arxiv.org/pdf/2304.02015.pdf)]，[[code](https://github.com/GanjinZero/math401-llm)]
 
-**【代码】**【本科生60行代码教你手搓GPT大模型 】[[code](https://github.com/jaymody/picoGPT/tree/29e78cc52b58ed2c1c483ffea2eb46ff6bdec785)]
+**【代码】**【本科生60行代码教你手搓GPT大模型】[[code](https://github.com/jaymody/picoGPT/tree/29e78cc52b58ed2c1c483ffea2eb46ff6bdec785)]
 
 ### GPT4
 
@@ -733,23 +733,23 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【OpenAI】**【重磅发布GPT-4】[[blog](https://openai.com/research/gpt-4)]
 
-**【OpenAI】**【GPT-4 创造者 Ilya Sutskever 谈 AI 幻觉和 AI 民主】[[blog](https://www.forbes.com/sites/craigsmith/2023/03/15/gpt-4-creator-ilya-sutskever-on-ai-hallucinations-and-ai-democracy/?sh=7743f01e1218 )]
+**【OpenAI】**【GPT-4 创造者 Ilya Sutskever 谈 AI 幻觉和 AI 民主】[[blog](https://www.forbes.com/sites/craigsmith/2023/03/15/gpt-4-creator-ilya-sutskever-on-ai-hallucinations-and-ai-democracy/?sh=7743f01e1218)]
 
 **【OpenAI】**【GPT-4创造者：第二次改变AI浪潮的方向】[[blog](https://mp.weixin.qq.com/s/rZBEDlxFVsVXoL5YUVU3XQ)]
 
 **【OpenAI】**【当GPT-4进入北京市2022高考考场能有什么表现？】[[blog](https://mp.weixin.qq.com/s/N_j01KSuEKuVwCCD69G92g)]
 
-**【博客】**【GPT4技术细节】(https://github.com/wshzd/ChatGPT-Summary/blob/main/GPT4/Blog/GPT4_Technical_Detail.md)
+**【博客】**【GPT4技术细节】[[blog](https://github.com/wshzd/ChatGPT-Summary/blob/main/GPT4/Blog/GPT4_Technical_Detail.md)]
 
-**【博客】**【GPT4技术关键点总结】(https://github.com/wshzd/ChatGPT-Summary/blob/main/GPT4/Blog/GPT4_Technical_Summary.md)
+**【博客】**【GPT4技术关键点总结】[[blog](https://github.com/wshzd/ChatGPT-Summary/blob/main/GPT4/Blog/GPT4_Technical_Summary.md)]
 
-**【博客】**【GPT4和ChatGPT的效果对比】(https://github.com/wshzd/ChatGPT-Summary/blob/main/ChatGPT_VS_GPT4/GPT4_VS_ChatGPT（from_nytimes）.md)
+**【博客】**【GPT4和ChatGPT的效果对比】[[blog](https://github.com/wshzd/ChatGPT-Summary/blob/main/ChatGPT_VS_GPT4/GPT4_VS_ChatGPT（from_nytimes）.md)]
 
-**【博客】**【The Ultimate GPT-4 Guide】(https://doc.clickup.com/37456139/d/h/13q28b-324/e2a22b0c164b1f9)
+**【博客】**【The Ultimate GPT-4 Guide】[[blog](https://doc.clickup.com/37456139/d/h/13q28b-324/e2a22b0c164b1f9)]
 
-**【博客】**【GPT-4里套娃LLaMA 2！OpenAI创始成员周末爆改「羊驼宝宝」，GitHub一日千星】(https://mp.weixin.qq.com/s/Tp4q8VflEZ7o8FgpZfrNgQ)
+**【博客】**【GPT-4里套娃LLaMA 2！OpenAI创始成员周末爆改「羊驼宝宝」，GitHub一日千星】[[blog](https://mp.weixin.qq.com/s/Tp4q8VflEZ7o8FgpZfrNgQ)]
 
-**【博客】**【Claude 2 解读 ChatGPT 4 的技术秘密：细节：参数数量、架构、基础设施、训练数据集、成本】(https://mp.weixin.qq.com/s/E2KpvldbYrH0NFvxgfsMlw)
+**【博客】**【Claude 2 解读 ChatGPT 4 的技术秘密：细节：参数数量、架构、基础设施、训练数据集、成本】[[blog](https://mp.weixin.qq.com/s/E2KpvldbYrH0NFvxgfsMlw)]
 
 #### GPT4 论文篇
 
@@ -773,7 +773,7 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 ### Bard
 
-【谷歌再次开放Bard访问权，向着ChatGPT发起再一次攻击】[[报名地址 ]([http://Bard.google.com](http://bard.google.com/) )]，[[blog](https://twitter.com/sundarpichai/status/1638180697352593408 )]，[[theverge](https://www.theverge.com/23649897/google-Bard-chatbot-search-engine)]
+【谷歌再次开放Bard访问权，向着ChatGPT发起再一次攻击】[[报名地址 ]([http://Bard.google.com](http://bard.google.com/) )]，[[blog](https://twitter.com/sundarpichai/status/1638180697352593408)]，[[theverge](https://www.theverge.com/23649897/google-Bard-chatbot-search-engine)]
 
 ### Baize
 
@@ -903,7 +903,7 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【LLaMA】**【Meta开放小模型LLaMA，性能超过GPT-3】[[paper](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)]，[[code](https://github.com/facebookresearch/llama )]，[[blog1](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485822&idx=1&sn=b365d93a0a08769aef77f34069da1422&chksm=ced54a9af9a2c38cd5779284b5e9ae573846153e7dc00961dc163664a657d6a3fa5c8c14c7d2&token=447941009&lang=zh_CN#rd)]，[[blog2](https://mp.weixin.qq.com/s/fGNuTcYE8QI9_JKS9LcQ7w)]，[[详聊LLaMA大模型的技术细节](https://mp.weixin.qq.com/s/B9Ue0ihUGAFjT_X__R2u8Q)]
 
-**【LLaMA 2】【LLaMA 2技术细节详细介绍！】**[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486800&idx=1&sn=9b629ca41b9f6b4feedad94363a17253&chksm=ced54eb4f9a2c7a2a5b20c182981b4323b18509f2ca8f482c2a8cdbb29bf570488bdcd280eb6&token=882149695&lang=zh_CN#rd)]，[[在 Hugging Face 上玩转LLaMA 2](https://mp.weixin.qq.com/s/UnzhBJjZfPXsaSu8gNnosw)]，[[伯克利AI博士详解Llama 2的技术细节](https://mp.weixin.qq.com/s/Mee7sMq_bxLpIOOr91li9A)]，[[Chinese-LlaMA2](https://github.com/michael-wzhu/Chinese-LlaMA2)]，[[NLP社区对LLaMA2论文上半部分的讨论](https://mp.weixin.qq.com/s/SJNqjSCBX-k80_r3nmTiuA)]，[[NLP中文社区顶尖研究员们对LLaMA2论文下半部分的讨论](https://mp.weixin.qq.com/s/6k5ML3HtmvBTTCgHBZGycQ)]，[[在Colab笔记本中微调自己的Llama 2模型](https://mp.weixin.qq.com/s/pnDJaOUh_xdNdqSBl53Arw)]，[[三步上手 LLaMA2](https://mp.weixin.qq.com/s/lkRg8-rw57wDNr7FrjOSOQ)]，[[使用 Transformers 量化 Meta AI LLaMA2 中文版大模型](https://mp.weixin.qq.com/s/DEgFNAB4gwWDlQOj7-2CEg)]，[[3个最值得了解llama2开发库，助你快速搭建LLM应用](https://mp.weixin.qq.com/s/_3H6Y_NolUuxYxOo8Pl7fg)]，[[使用 Docker 快速上手中文版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/9cTNa_oya2Zj9YdDYodCvw)]
+**【LLaMA 2】【LLaMA 2技术细节详细介绍！】**[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486800&idx=1&sn=9b629ca41b9f6b4feedad94363a17253&chksm=ced54eb4f9a2c7a2a5b20c182981b4323b18509f2ca8f482c2a8cdbb29bf570488bdcd280eb6&token=882149695&lang=zh_CN#rd)]，[[在 Hugging Face 上玩转LLaMA 2](https://mp.weixin.qq.com/s/UnzhBJjZfPXsaSu8gNnosw)]，[[伯克利AI博士详解Llama 2的技术细节](https://mp.weixin.qq.com/s/Mee7sMq_bxLpIOOr91li9A)]，[[Chinese-LlaMA2](https://github.com/michael-wzhu/Chinese-LlaMA2)]，[[NLP社区对LLaMA2论文上半部分的讨论](https://mp.weixin.qq.com/s/SJNqjSCBX-k80_r3nmTiuA)]，[[NLP中文社区顶尖研究员们对LLaMA2论文下半部分的讨论](https://mp.weixin.qq.com/s/6k5ML3HtmvBTTCgHBZGycQ)]，[[在Colab笔记本中微调自己的Llama 2模型](https://mp.weixin.qq.com/s/pnDJaOUh_xdNdqSBl53Arw)]，[[三步上手 LLaMA2](https://mp.weixin.qq.com/s/lkRg8-rw57wDNr7FrjOSOQ)]，[[使用 Transformers 量化 Meta AI LLaMA2 中文版大模型](https://mp.weixin.qq.com/s/DEgFNAB4gwWDlQOj7-2CEg)]，[[3个最值得了解llama2开发库，助你快速搭建LLM应用](https://mp.weixin.qq.com/s/_3H6Y_NolUuxYxOo8Pl7fg)]，[[使用 Docker 快速上手中文版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/9cTNa_oya2Zj9YdDYodCvw)]，[[ Llama 2资料汇总](https://mp.weixin.qq.com/s/-01Dg9ZVfPYM4mZ4iKt8Cw)]
 
 **【llama2.c】**【OpenAI联创Karpathy爱上羊驼：纯C代码实现婴儿Llama2，MacBook可运行，已揽1.6k星】[[blog](https://mp.weixin.qq.com/s/VVR6N1duJM5vAU5cY9FrDQ)]，[[code](https://github.com/karpathy/llama2.c)]
 
@@ -1072,7 +1072,7 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **微信公众号**：
 
-![公众号二维码](images/ArronAI.jpg)
+![公众号二维码](https://i.postimg.cc/g092W4dB/ArronAI.jpg)
 
 ## 声明
 
