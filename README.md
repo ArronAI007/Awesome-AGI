@@ -2,7 +2,7 @@
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=wshzd)](https://github.com/anuraghazra/github-readme-stats)
 
-该项目的旧地址是：https://github.com/wshzd/Awesome-AIGC，由于账户认证问题，旧地址不更新了，内容已经全部迁移到本地址了，以后只更新该地址，带来的不变敬请谅解。
+NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账户认证问题，旧地址不更新了，内容已经全部迁移到本地址了，以后只更新该地址，带来的不变敬请谅解。
 
 自2022年11月份OpenAI公布ChatGPT以来，ChatGPT在五天之内注册用户数就突破了百万
 
