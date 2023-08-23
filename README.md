@@ -70,6 +70,8 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 
 **【LLM效果对比】**【Bard_VS_文心一言】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486260&idx=1&sn=a41224fee7ed4cb4a48eb40a420d7479&chksm=ced548d0f9a2c1c6f4930f30447468f9f01bb2af6031368e302b13a6354fc4bca6636e3b297e&token=666852558&lang=zh_CN#rd)]
 
+<details><summary>CLICK ME</summary>
+<p>
 **【LLM效果对比】**【ChatGPT_VS_GPT4】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485952&idx=2&sn=e54a62e358bf7aee3c007d59600fd452&chksm=ced549e4f9a2c0f2868eb8877c14fbe287a469e63b09774cefcb9edc4c0601016f6d36561973&token=666852558&lang=zh_CN#rd)]
 
 **【LLM效果对比】**【Claude2_VS_GPT4】[[blog1](https://mp.weixin.qq.com/s/dj2_WlWVpGwYsa8kO-GRFQ)]，[[blog2](https://mp.weixin.qq.com/s/Xo3XXQ5zYPmDxBYivhBYqA)]
@@ -107,6 +109,8 @@ NOTE:该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账�
 **【大模型排行榜】**【OpenLLM大模型排行榜】[[主页](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)]，[[blog](https://mp.weixin.qq.com/s/t1Th8iFOGoyuqqysUiIcXQ)]，[[最新进展blog](https://zhuanlan.zhihu.com/p/642996275)]
 
 **【大模型排行榜】**【斯坦福发布LLM排行榜AlpacaEval，微软WizardLM登顶开源模型第一】[[blog](https://mp.weixin.qq.com/s/7X8pRaexWJ4c0kVswawU1A)]，[[主页](https://tatsu-lab.github.io/alpaca_eval)]，[[code](https://github.com/tatsu-lab/alpaca_eval)]
+</p>
+</details>
 
 ## LLM垂直领域大模型
 
