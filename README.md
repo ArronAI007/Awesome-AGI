@@ -2,7 +2,7 @@
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ArronAI007)](https://github.com/anuraghazra/github-readme-stats)
 
-NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账户认证问题，旧地址暂停更新，内容已经全部迁移到本地址，以后只更新该地址，由此带来的不便，敬请谅解。
+**NOTE**：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账户认证问题，旧地址暂停更新，内容已经全部迁移到本地址，以后只更新该地址，由此带来的不便，敬请谅解。
 
 ## 技术交流
 
@@ -39,7 +39,13 @@ NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于�
 - [AGI开源工具-博客&论文](#AGI开源工具-博客&论文)
 - [文本生成](#文本生成)
   - [ChatGPT](#ChatGPT)
+    - [ChatGPT 应用篇](#ChatGPT-应用篇)
+    - [ChatGPT 工具篇](#ChatGPT-工具篇)
+    - [ChatGPT 技术篇](#ChatGPT-技术篇)
   - [GPT4](#GPT4)
+    - [GPT4 官方文档](#GPT4-官方文档)
+    - [GPT4 博客篇](#GPT4-博客篇)
+    - [GPT4 论文篇](#GPT4-论文篇)
   - [Anima](#Anima)
   - [Bard](#Bard)
   - [Baize](#Baize)
@@ -74,6 +80,9 @@ NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于�
 - [多模态生成](#多模态生成)
 
 ## AIGC视频会议 访谈
+
+<details><summary>展开更多</summary>
+<p>
 
 ### 智源社区
 
@@ -115,6 +124,9 @@ NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于�
 **【访谈】**【对话OpenAI研究科学家：他们是如何让GPT4更像人的？】[[访谈记录](https://mp.weixin.qq.com/s/iJImioHXxelCxUsETSxuXw)]
 
 **【视频】**【邱锡鹏教授介绍以ChatGPT为核心的大规模语言模型的相关知识及未来的发展方向】[[B站](https://www.bilibili.com/video/BV1Xb411X7c3/)]
+</p>
+</details>
+
 </p>
 </details>
 
