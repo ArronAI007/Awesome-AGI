@@ -81,8 +81,8 @@
 
 ## AIGC视频会议 访谈
 
-<details><summary>展开更多</summary>
-<p>
+## <details><summary>AIGC视频会议 访谈</summary>
+## <p>
 
 ### 智源社区
 
