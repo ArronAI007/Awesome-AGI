@@ -79,8 +79,7 @@
 - [语音生成](#语音生成)
 - [多模态生成](#多模态生成)
 
-<details><summary>## AIGC视频会议 访谈</summary>
-<p>
+## AIGC视频会议 访谈
 
 ### 智源社区
 
@@ -122,9 +121,6 @@
 **【访谈】**【对话OpenAI研究科学家：他们是如何让GPT4更像人的？】[[访谈记录](https://mp.weixin.qq.com/s/iJImioHXxelCxUsETSxuXw)]
 
 **【视频】**【邱锡鹏教授介绍以ChatGPT为核心的大规模语言模型的相关知识及未来的发展方向】[[B站](https://www.bilibili.com/video/BV1Xb411X7c3/)]
-</p>
-</details>
-
 </p>
 </details>
 
