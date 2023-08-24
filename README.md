@@ -79,8 +79,8 @@
 - [语音生成](#语音生成)
 - [多模态生成](#多模态生成)
 
-## <details><summary>AIGC视频会议 访谈</summary>
-## <p>
+<details><summary>## AIGC视频会议 访谈</summary>
+<p>
 
 ### 智源社区
 
@@ -125,8 +125,8 @@
 </p>
 </details>
 
-## </p>
-## </details>
+</p>
+</details>
 
 ## LLM体验效果 专业评估
 
