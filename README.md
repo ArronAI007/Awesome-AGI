@@ -13,10 +13,10 @@ NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于�
 | ![Arron](https://i.postimg.cc/PqFvY1kW/AIGC-group.jpg) | ![Arron](https://i.postimg.cc/QMqj1DGc/Arron.jpg) |
 
 ## Table of Context
-- [AIGC视频会议$访谈](#AIGC视频会议$访谈)
+- [AIGC视频会议 访谈](#AIGC视频会议-访谈)
   - [智源社区](#智源社区)
-  - [访谈$视频](#访谈$视频)
-- [LLM体验效果$专业评估](#LLM体验效果$专业评估)
+  - [访谈 视频](#访谈-视频)
+- [LLM体验效果 专业评估](#LLM体验效果-专业评估)
 - [LLM垂直领域大模型](#LLM垂直领域大模型)
   - [法律](#法律)
   - [医疗](#医疗)
@@ -28,15 +28,15 @@ NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于�
 - [LLM文本检测](#LLM文本检测)
 - [LLM长文本解决方案](#LLM长文本解决方案)
 - [LLM可控性与安全](#LLM可控性与安全)
-- [LLM训练$微调$优化以及部署](#LLM训练$微调$优化以及部署)
+- [LLM训练 微调 优化以及部署](#LLM训练-微调-优化以及部署)
   - [LLM训练](#LLM训练)
   - [LLM微调](#LLM微调)
   - [LLM优化](#LLM优化)
   - [LLM部署](#LLM部署)
-- [LLM博客$论文以及代码](#LLM博客$论文以及代码)
+- [LLM博客 论文以及代码](#LLM博客-论文以及代码)
 - [LLM数据集](#LLM数据集)
 - [Prompt工程](#Prompt工程)
-- [AGI开源工具$博客&论文](#AGI开源工具$博客&论文)
+- [AGI开源工具-博客&论文](#AGI开源工具-博客&论文)
 - [文本生成](#文本生成)
   - [ChatGPT](#ChatGPT)
   - [GPT4](#GPT4)
@@ -68,12 +68,12 @@ NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于�
   - [OpenAssistant](#OpenAssistant)
   - [WebCPM](#WebCPM)
   - [LLaMA以及扩展](#LLaMA以及扩展)
-- [图像、视频生成](#图像、视频生成)
+- [图像 视频生成](#图像-视频生成)
 - [代码生成](#代码生成)
 - [语音生成](#语音生成)
 - [多模态生成](#多模态生成)
 
-## AIGC视频会议$访谈
+## AIGC视频会议 访谈
 
 ### 智源社区
 
@@ -83,7 +83,7 @@ NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于�
 
 **【论文分享】**【传统检索模型和大语言模型在信息搜索中的应用和对比】[[link](https://event.baai.ac.cn/activities/656)]，[[paper](https://arxiv.org/abs/2209.10063)]，[[code](https://github.com/wyu97/GenRead)]，[[blog](https://hub.baai.ac.cn/view/24380)]
 
-### 访谈$视频
+### 访谈 视频
 
 **【访谈】**【OpenAI 的核心研发人员 Jack Rae 在参加 Stanford MLSys Seminar 的访谈时进行了一个名为 Compression for AGI的主题分享】[[访谈记录](https://mp.weixin.qq.com/s/hQmvltuMlClBonM6UJmtLg)]
 
@@ -118,7 +118,7 @@ NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于�
 </p>
 </details>
 
-## LLM体验效果$专业评估
+## LLM体验效果 专业评估
 
 **【LLM效果对比】**【360智脑_VS_讯飞星火】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486609&idx=2&sn=7fedb8ab37588d43968fdec2d7e5fcdd&chksm=ced54f75f9a2c663b9a2671f2548e2940730735605356cc0ffe72bc737470136a40032c80bfe&token=1282379489&lang=zh_CN#rd)]
 
@@ -265,7 +265,7 @@ NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于�
 
 **【安全】**【ChatGPT羊驼家族全沦陷！CMU博士击破LLM护栏，人类毁灭计划脱口而出】[[blog](https://mp.weixin.qq.com/s/298nwP98UdRNybV2Fuo6Wg)]，[[paper](https://arxiv.org/abs/2307.15043)]，[[code](https://github.com/llm-attacks/llm-attacks)]
 
-## LLM训练$微调$优化以及部署
+## LLM训练 微调 优化以及部署
 
 **【LLM 学习网站】**【训练、微调、优化和部署大模型最新技术LLM Learning Lab】[[官网](https://lightning.ai/pages/llm-learning-lab/)]
 
@@ -364,7 +364,7 @@ NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于�
 
 **【LLM部署】**【LLM 低成本 GPU 部署方案 lmdeploy 开源！】[[blog](https://mp.weixin.qq.com/s/cndjXFr3vJPdN-7aTNqCnQ)]，[[code](https://github.com/InternLM/lmdeploy)]
 
-## LLM博客$论文以及代码
+## LLM博客 论文以及代码
 
 **【综述】**【中文大语言模型汇总：医疗、法律、金融、教育、数学微调， 目前已1.1K星】[[code](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)]
 
@@ -613,7 +613,7 @@ NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于�
 </p>
 </details>
 
-## AGI开源工具$博客$论文
+## AGI开源工具 博客 论文
 
 **【工具】**【Google发布统计深度学习框架平台：OpenXLA】[[blog](https://github.com/wshzd/ChatGPT-Summary/blob/main/AGI/Google_OpenXLA.md)]
 
@@ -1110,7 +1110,7 @@ NOTE：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于�
 </p>
 </details>
 
-## 图像、视频生成
+## 图像 视频生成
 
 **【博客】**【Genmo Chat】【这是一款创造性的copilot，使用GPT-4和一大套生成人工智能工具创建并编辑您需要的任何视频或图像。 】[[blog](https://www.genmo.ai/)]
 
