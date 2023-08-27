@@ -27,6 +27,7 @@
   - [其他](#其他)
 - [LLM文本检测](#LLM文本检测)
 - [LLM长文本解决方案](#LLM长文本解决方案)
+- [LLM在知识库的应用](#LLM在知识库的应用)
 - [LLM可控性与安全](#LLM可控性与安全)
 - [LLM训练 微调 优化以及部署](#LLM训练-微调-优化以及部署)
   - [LLM训练](#LLM训练)
@@ -259,6 +260,10 @@
 
 **【博客】**【RoPE可能是LLM时代的Resnet】[[blog](https://mp.weixin.qq.com/s/BVm1XC7r1yzOiWIrEbWg3A)]
 
+## LLM在知识库的应用
+
+**【LlamaIndex】**【如何避免大语言模型绕过知识库乱答的情况？LlamaIndex 原理与应用简介】[[官方blog](https://betterprogramming.pub/llamaindex-how-to-use-index-correctly-6f928b8944c6)]，[[中文blog](https://mp.weixin.qq.com/s/D6_pUv7hHZHRrKSXqo0u2w)]
+
 ## LLM可控性与安全
 
 **【可控性】**【微软提出Control-GPT：用GPT-4实现可控文本到图像生成！】[[paper](https://arxiv.org/abs/2305.18583)]，[[blog](https://mp.weixin.qq.com/s/U3eWeGOEt9nhW-Xwbuah9w)]
@@ -459,7 +464,7 @@
 
 **【微软 & Meta】**【ART：大型语言模型的自动多步骤推理和工具使用】[[paper](https://arxiv.org/pdf/2303.09014.pdf)]
 
-**【EleutherAI&耶鲁大学】**【提出Pythia： 跨越训练和扩展的大型语言模型分析套件】[[paper](https://arxiv.org/pdf/2304.01373.pdf )]，[[code](https://github.com/EleutherAI/pythia )]
+**【EleutherAI&耶鲁大学】**【提出Pythia： 跨越训练和扩展的大型语言模型分析套件】[[paper](https://arxiv.org/pdf/2304.01373.pdf )]，[[code](https://github.com/EleutherAI/pythia)]
 
 **【博客】**【ChatGPT的底层逻辑】[[blog](https://mp.weixin.qq.com/s/Rv5htsD2x7TmD-E42RL6Vg)]
 
@@ -467,7 +472,7 @@
 
 **【博客】**【拨动大模型的琴弦｜Delta Tuning 成果登上 Nature子刊封面！】[[blog](https://mp.weixin.qq.com/s/m3fNselWKQ2m5XnBe79fQQ)]
 
-**【博客】**【大型人工智能模型中出现的不可预测的能力】[[blog]([https://www.quantamagazine.org/the-unpredictable-abilities-emerging-from-large-ai-models-20230316/ ](https://www.quantamagazine.org/the-unpredictable-abilities-emerging-from-large-ai-models-20230316) )]
+**【博客】**【大型人工智能模型中出现的不可预测的能力】[[blog]([https://www.quantamagazine.org/the-unpredictable-abilities-emerging-from-large-ai-models-20230316/](https://www.quantamagazine.org/the-unpredictable-abilities-emerging-from-large-ai-models-20230316))]
 
 **【博客】**【为什么现在的大语言模型（LLM）都是Decoder-only的架构？】[[blog](https://mp.weixin.qq.com/s/ZsHX-M9pisUvG9vqfzdzTQ)]
 
@@ -647,7 +652,7 @@
 
 **【微软】**【《ChatGPT机器人:设计原则和模型能力》论文 】[[paper](https://www.microsoft.com/en-us/research/group/autonomous-systems-group-robotics/articles/chatgpt-for-robotics/)]
 
-**【微软】**【各种环境下的ChatGPT赋能长步机器人控制： 一个案例的应用 】[[paper](https://arxiv.org/pdf/2304.03893.pdf )]，[[code](https://github.com/microsoft/ChatGPT-Robot-Manipulation-Prompts )]
+**【微软】**【各种环境下的ChatGPT赋能长步机器人控制： 一个案例的应用 】[[paper](https://arxiv.org/pdf/2304.03893.pdf)]，[[code](https://github.com/microsoft/ChatGPT-Robot-Manipulation-Prompts)]
 
 <details><summary>展开更多</summary>
 <p>
@@ -694,30 +699,30 @@
 
 **【工具】**【非常全面的ChatGPT、LLM相关资源整理分享】[[code](https://github.com/cedrickchee/chatgpt-universe)]
 
-**【工具】**【ChatGPT超全面课程】[[blog](https://tested-salto-cab.notion.site/The-Ultimate-Chat-GPT-Course-69ed24a317a942d288e740419b1ad6f6 )]
+**【工具】**【ChatGPT超全面课程】[[blog](https://tested-salto-cab.notion.site/The-Ultimate-Chat-GPT-Course-69ed24a317a942d288e740419b1ad6f6)]
 
 **【工具】**【BloombergGPT: A Large Language Model for Finance】[[paper](https://papers.labml.ai/api/v1/redirect/pdf?paper_key=b0e4b03ecf5c11edb95839eec3084ddd)]
 
 <details><summary>展开更多</summary>
 <p>
 
-**【工具】**【ChatPDF：一键上传PDF文件即可解读 】[[blog](https://mp.weixin.qq.com/s/S1DUJrNK5_H5krvHotOwHQ)]，[[试用地址](https://www.chatpdf.com/ )]
+**【工具】**【ChatPDF：一键上传PDF文件即可解读 】[[blog](https://mp.weixin.qq.com/s/S1DUJrNK5_H5krvHotOwHQ)]，[[试用地址](https://www.chatpdf.com/)]
 
-**【工具】**【ChatWeb：可爬取网页正文，并根据正文回答问题 】[[code](https://github.com/SkywalkerDarren/chatWeb )]
+**【工具】**【ChatWeb：可爬取网页正文，并根据正文回答问题 】[[code](https://github.com/SkywalkerDarren/chatWeb)]
 
 **【工具】**【chatgpt_academic：中科院基于 ChatGPT 专属定制的学术研究及日常开发工具】[[blog](https://hub.baai.ac.cn/view/25298)]，[[code](https://github.com/binary-husky/chatgpt_academic)]，[[demo](https://huggingface.co/spaces/qingxu98/gpt-academic)]
 
-**【工具】**【Einstein GPT：SaaS 行业巨头 Salesforce 宣布与 OpenAI 合作，推出 Einstein GPT，这是全球首个用于客户关系管理（CRM）的生成式 AI 产品 】[[Einstein GPT地址](https://www.salesforce.com/products/einstein/overview/?d=cta-body-promo-8 )]，[[试用地址](https://openai.com/waitlist/slack )]
+**【工具】**【Einstein GPT：SaaS 行业巨头 Salesforce 宣布与 OpenAI 合作，推出 Einstein GPT，这是全球首个用于客户关系管理（CRM）的生成式 AI 产品 】[[Einstein GPT地址](https://www.salesforce.com/products/einstein/overview/?d=cta-body-promo-8)]，[[试用地址](https://openai.com/waitlist/slack)]
 
-**【工具】**【HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace 】[[paper](https://arxiv.org/pdf/2303.17580.pdf )]
+**【工具】**【HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace 】[[paper](https://arxiv.org/pdf/2303.17580.pdf)]
 
 **【工具】**【ImpressionGPT： 利用ChatGPT对放射科报告进行总结的迭代优化框架】[[paper](https://arxiv.org/abs/2304.08448)]
 
-**【工具】**【OpenGpt：创建ChatGPT小应用的AI平台】[[官网](https://open-gpt.app/)]，[[code](https://github.com/futantan/OpenGpt )]
+**【工具】**【OpenGpt：创建ChatGPT小应用的AI平台】[[官网](https://open-gpt.app/)]，[[code](https://github.com/futantan/OpenGpt)]
 
-**【工具】**【TagGPT：腾讯提出零样本多模态标签的大语言模型TagGPT】[[paper](https://arxiv.org/abs/2304.03022)]，[[code](https://github.com/TencentARC/TagGPT )]
+**【工具】**【TagGPT：腾讯提出零样本多模态标签的大语言模型TagGPT】[[paper](https://arxiv.org/abs/2304.03022)]，[[code](https://github.com/TencentARC/TagGPT)]
 
-**【工具】**【Visual ChatGPT: 在视觉模型加持下的ChatGPT，聊天生图全拿捏了。】[[paper](https://arxiv.org/pdf/2303.04671.pdf )]
+**【工具】**【Visual ChatGPT: 在视觉模型加持下的ChatGPT，聊天生图全拿捏了。】[[paper](https://arxiv.org/pdf/2303.04671.pdf)]
 
 **【工具】**【NetGPT：用于网络流量的生成预训练Transformer模型】[[paper](https://arxiv.org/pdf/2304.09513.pdf)]
 </p>
@@ -750,7 +755,7 @@
 
 **【斯坦福】**【82页PPT ！最新ChatGPT: 提示学习, 指导微调和RLHF 】[[blog](https://pan.baidu.com/s/15Bs1u7z1RhCdfiR3oJ_gJQ)]，[提取码:chat]
 
-**【亚马逊 】**【他们提出了包含视觉特征的 Multimodal-CoT，该架构在参数量小于 10 亿的情况下，在 ScienceQA 基准测试中，比 GPT-3.5 高出 16 个百分点 】[[paper](https://arxiv.org/abs/2302.00923 )]，[[code](https://github.com/amazon-science/mm-cot)]
+**【亚马逊 】**【他们提出了包含视觉特征的 Multimodal-CoT，该架构在参数量小于 10 亿的情况下，在 ScienceQA 基准测试中，比 GPT-3.5 高出 16 个百分点 】[[paper](https://arxiv.org/abs/2302.00923)]，[[code](https://github.com/amazon-science/mm-cot)]
 
 **【OpenBMB】**【Nature ：生成式 AI 的前景与风险】[[blog](https://mp.weixin.qq.com/s/d6t2xpdvSDCHzO2gG1N6eQ)]
 
@@ -772,7 +777,7 @@
 
 **【博客】**【ChatGPT作为知识库问答系统的问答能力评测 】[[blog](https://mp.weixin.qq.com/s/xul2-SENnqxV8VehozDKHg )]
 
-**【博客】**【ChatGPT作者John Shulman：我们成功的秘密武器】[[blog](https://www.talkrl.com/episodes/john-schulman)]，[[blog译文](https://mp.weixin.qq.com/s/sDeBYMvAwbJr5_tj7Q20-w )]
+**【博客】**【ChatGPT作者John Shulman：我们成功的秘密武器】[[blog](https://www.talkrl.com/episodes/john-schulman)]，[[blog译文](https://mp.weixin.qq.com/s/sDeBYMvAwbJr5_tj7Q20-w)]
 
 **【博客】**【ChatGPT 是数据隐私的另一个障碍吗】[[blog](https://www.bizcommunity.com/Article/196/639/236418.html)]
 
@@ -1026,7 +1031,7 @@
 
 ### MOSS
 
-【FudanNLP团队最新成果，借助RLHF实现人类对齐的MOSS-RLHF来了】[[blog](https://mp.weixin.qq.com/s/BjXtnEEVCQiPOy-_qCNM4g)]，[[code](https://openlmlab.github.io/MOSS-RLHF/)]，[[测试链接](https://huggingface.co/spaces/togethercomputer/OpenChatKit)]，[[模型权重](https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B)]，[[数据集](https://laion.ai/blog/oig-dataset/ )]
+【FudanNLP团队最新成果，借助RLHF实现人类对齐的MOSS-RLHF来了】[[blog](https://mp.weixin.qq.com/s/BjXtnEEVCQiPOy-_qCNM4g)]，[[code](https://openlmlab.github.io/MOSS-RLHF/)]，[[测试链接](https://huggingface.co/spaces/togethercomputer/OpenChatKit)]，[[模型权重](https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B)]，[[数据集](https://laion.ai/blog/oig-dataset/)]
 
 ### OpenChatKit 
 
@@ -1042,7 +1047,7 @@
 
 ### LLaMA以及扩展
 
-**【LLaMA】**【Meta开放小模型LLaMA，性能超过GPT-3】[[paper](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)]，[[code](https://github.com/facebookresearch/llama )]，[[blog1](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485822&idx=1&sn=b365d93a0a08769aef77f34069da1422&chksm=ced54a9af9a2c38cd5779284b5e9ae573846153e7dc00961dc163664a657d6a3fa5c8c14c7d2&token=447941009&lang=zh_CN#rd)]，[[blog2](https://mp.weixin.qq.com/s/fGNuTcYE8QI9_JKS9LcQ7w)]，[[详聊LLaMA大模型的技术细节](https://mp.weixin.qq.com/s/B9Ue0ihUGAFjT_X__R2u8Q)]
+**【LLaMA】**【Meta开放小模型LLaMA，性能超过GPT-3】[[paper](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)]，[[code](https://github.com/facebookresearch/llama)]，[[blog1](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485822&idx=1&sn=b365d93a0a08769aef77f34069da1422&chksm=ced54a9af9a2c38cd5779284b5e9ae573846153e7dc00961dc163664a657d6a3fa5c8c14c7d2&token=447941009&lang=zh_CN#rd)]，[[blog2](https://mp.weixin.qq.com/s/fGNuTcYE8QI9_JKS9LcQ7w)]，[[详聊LLaMA大模型的技术细节](https://mp.weixin.qq.com/s/B9Ue0ihUGAFjT_X__R2u8Q)]
 
 **【LLaMA 2】【LLaMA 2技术细节详细介绍！】**[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486800&idx=1&sn=9b629ca41b9f6b4feedad94363a17253&chksm=ced54eb4f9a2c7a2a5b20c182981b4323b18509f2ca8f482c2a8cdbb29bf570488bdcd280eb6&token=882149695&lang=zh_CN#rd)]，[[在 Hugging Face 上玩转LLaMA 2](https://mp.weixin.qq.com/s/UnzhBJjZfPXsaSu8gNnosw)]，[[伯克利AI博士详解Llama 2的技术细节](https://mp.weixin.qq.com/s/Mee7sMq_bxLpIOOr91li9A)]，[[Chinese-LlaMA2](https://github.com/michael-wzhu/Chinese-LlaMA2)]，[[NLP社区对LLaMA2论文上半部分的讨论](https://mp.weixin.qq.com/s/SJNqjSCBX-k80_r3nmTiuA)]，[[NLP中文社区顶尖研究员们对LLaMA2论文下半部分的讨论](https://mp.weixin.qq.com/s/6k5ML3HtmvBTTCgHBZGycQ)]，[[在Colab笔记本中微调自己的Llama 2模型](https://mp.weixin.qq.com/s/pnDJaOUh_xdNdqSBl53Arw)]，[[三步上手 LLaMA2](https://mp.weixin.qq.com/s/lkRg8-rw57wDNr7FrjOSOQ)]，[[使用 Transformers 量化 Meta AI LLaMA2 中文版大模型](https://mp.weixin.qq.com/s/DEgFNAB4gwWDlQOj7-2CEg)]，[[3个最值得了解llama2开发库，助你快速搭建LLM应用](https://mp.weixin.qq.com/s/_3H6Y_NolUuxYxOo8Pl7fg)]，[[使用 Docker 快速上手中文版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/9cTNa_oya2Zj9YdDYodCvw)]，[[ Llama 2资料汇总](https://mp.weixin.qq.com/s/-01Dg9ZVfPYM4mZ4iKt8Cw)]
 
@@ -1124,20 +1129,20 @@
 
 **【博客】**【Firefly】【Adobe制造了一个人工智能图像生成器--并表示它没有窃取艺术家的作品来做这件事 】[[blog](https://www.theverge.com/2023/3/21/23648315/adobe-firefly-ai-image-generator-announced)]
 
-**【博客】**【Bing Image Creator】【微软推出Bing Image Creator，用户可根据文本提示创建图片】[[blog](https://techcrunch.com/2023/03/21/microsoft-brings-openais-dall-e-image-creator-to-the-new-bing/ )]
+**【博客】**【Bing Image Creator】【微软推出Bing Image Creator，用户可根据文本提示创建图片】[[blog](https://techcrunch.com/2023/03/21/microsoft-brings-openais-dall-e-image-creator-to-the-new-bing/)]
 
-**【博客】**【Hugging Face 现已支持使用达摩院text-to-video模型从文本生成视频】[[模型地址 ](https://modelscope.cn/models/damo/text-to-video-synthesis/summary )]
+**【博客】**【Hugging Face 现已支持使用达摩院text-to-video模型从文本生成视频】[[模型地址 ](https://modelscope.cn/models/damo/text-to-video-synthesis/summary)]
 
 <details><summary>展开更多</summary>
 <p>
 
-**【论文】**【最新女娲大模型，中科院提出NUWA-XL：扩散模型中的扩散，生成超长视频】[[paper](https://arxiv.org/pdf/2303.12346.pdf )]，[[blog](https://msra-nuwa.azurewebsites.net/#/ )]
+**【论文】**【最新女娲大模型，中科院提出NUWA-XL：扩散模型中的扩散，生成超长视频】[[paper](https://arxiv.org/pdf/2303.12346.pdf)]，[[blog](https://msra-nuwa.azurewebsites.net/#/)]
 
-**【论文】**【艾伦AI研究院 & 华盛顿大学 | CHAMPAGNE：从大规模的网络视频中学习真实世界的对话】[[paper](https://arxiv.org/pdf/2303.09713.pdf )]，[[code](https://seungjuhan.me/champagne )]
+**【论文】**【艾伦AI研究院 & 华盛顿大学 | CHAMPAGNE：从大规模的网络视频中学习真实世界的对话】[[paper](https://arxiv.org/pdf/2303.09713.pdf)]，[[code](https://seungjuhan.me/champagne)]
 
-**【论文】**【用AI直接复现你在想什么，Stable Diffusion逼真复现图像】[[paper](https://sites.google.com/view/stablediffusion-with-brain/ )]，[[blog](https://mp.weixin.qq.com/s/gIwj2eqNph8jHWOhYYEXIg)]
+**【论文】**【用AI直接复现你在想什么，Stable Diffusion逼真复现图像】[[paper](https://sites.google.com/view/stablediffusion-with-brain/)]，[[blog](https://mp.weixin.qq.com/s/gIwj2eqNph8jHWOhYYEXIg)]
 
-**【论文】**【Stable Diffusion公司新作Gen-1：基于扩散模型的视频合成新模型，加特效杠杠的！】[[paper](https://arxiv.org/pdf/2302.03011 )]，[[site](https://research.runwayml.com/gen1)]
+**【论文】**【Stable Diffusion公司新作Gen-1：基于扩散模型的视频合成新模型，加特效杠杠的！】[[paper](https://arxiv.org/pdf/2302.03011)]，[[site](https://research.runwayml.com/gen1)]
 
 **【论文】**【使用Diffusers 实现 ControlNet 高速推理】[[blog](https://mp.weixin.qq.com/s/k8rE9GrF97E-0TKJhih9kw)]
 
@@ -1147,7 +1152,7 @@
 
 **【论文】**【智源研究院提出SegGPT： 一个用于分割上下文中所有事物的通用模型】[[paper](https://arxiv.org/pdf/2304.03284.pdf)]
 
-**【论文】**【OpenAI开源新模型代码库Consistency Models，无需对抗训练即可快速获得高质量样本】[[paper](https://arxiv.org/abs/2303.01469 )]，[[code](https://github.com/openai/consistency_models)]，[[blog](https://hub.baai.ac.cn/view/25445)]
+**【论文】**【OpenAI开源新模型代码库Consistency Models，无需对抗训练即可快速获得高质量样本】[[paper](https://arxiv.org/abs/2303.01469)]，[[code](https://github.com/openai/consistency_models)]，[[blog](https://hub.baai.ac.cn/view/25445)]
 
 **【可控图文大模型】**【伯克利&微软｜用GPT-4进行可控的文本-图像生成】[[paper](https://arxiv.org/abs/2305.18583)]
 </p>
