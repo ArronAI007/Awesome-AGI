@@ -182,28 +182,54 @@
 
 ## LLM垂直领域大模型
 
+【垂直领域大模型的一些思考及开源模型汇总】[[blog](垂直领域大模型的一些思考及开源模型汇总)]
+
 ### 法律
 
-【再看基于LLaMA的最新微调模型变体：CaMA、ExpertLLaMA以及第四个中文法律微调模型LexiLaw】[[blog](https://mp.weixin.qq.com/s/FYWmMH2ndN5XfWvwI9dcUA)]
+【ChatLaw：=ChatLaw LLM + keyword LLM + laws LLM，法律领域具有很好的产品形态】[[paper](https://arxiv.org/pdf/2306.16092.pdf)]，[[code](https://github.com/PKU-YuanGroup/ChatLaw)]，[[官网](https://www.chatlaw.cloud/)]
 
-【基于中文法律知识的大语言模型——LaWGPT】[[blog](https://mp.weixin.qq.com/s/dI839IF0hdBTAfOBUg7Pfw)]
+【LaWGPT：基于中文法律知识的大语言模型】[[blog](https://mp.weixin.qq.com/s/dI839IF0hdBTAfOBUg7Pfw)]，[[code](https://github.com/pengxiao-song/LaWGPT)]
+
+【LAW-GPT：基于ChatGLM-6B，采用Lora&16bit方法进行模型训练】[[code](https://github.com/LiuHC0428/LAW-GPT)]
+
+【LexiLaw：基于ChatGLM-6B模型，采用Freeze、Lora、P-Tuning-V2三种方法进行模型训练】[[code](https://github.com/CSHaitao/LexiLaw)]
+
+【lawyer-llama：以Chinese-LLaMA-13B为底座，未经过法律语料continual training，使用通用instruction和法律instruction进行SFT】[[code](https://github.com/AndrewZhe/lawyer-llama)]
+
+【再看基于LLaMA的最新微调模型变体：CaMA、ExpertLLaMA以及第四个中文法律微调模型LexiLaw】[[blog](https://mp.weixin.qq.com/s/FYWmMH2ndN5XfWvwI9dcUA)]
 
 ### 医疗
 
 【AD-AutoGPT：用于阿尔茨海默病信息流行病学的自主GPT】[[paper](https://arxiv.org/abs/2306.10095)]
 
-【MedQA-ChatGLM - 基于真实医疗对话数据在ChatGLM上进行微调】[[code](http://github.com/WangRongsheng/MedQA-ChatGLM)]，[[主页](https://www.wangrs.co/MedQA-ChatGLM/)]
+【BianQue：扁鹊-1.0以ChatYuan-large-v2作为底座模型全量参数训练得来，扁鹊-2.0以ChatGLM-6B作为底座模型全量参数训练得来。】[[code](https://github.com/scutcyr/BianQue)]
 
-【谷歌医疗大模型登Nature，Med-PaLM重磅揭秘！AI医生成绩比肩人类】[[blog](https://mp.weixin.qq.com/s/Qf4Ts7UKJNzkW1Tfy-b0Zg)]，[[paper](https://www.nature.com/articles/s41586-023-06291-2)]
+【ChatMed：善于在线回答患者/用户的日常医疗相关问题，基于Llama-7B模型，采用Lora方法进行模型训练】[[code](https://github.com/michael-wzhu/ChatMed)]
 
-【PULSE：中文医疗大语言模型】[[code](https://huggingface.co/OpenMEDLab/PULSE-7bv5)]
+【DoctorGLM：基于ChatGLM-6B模型，采用Lora和P-tuning-v2两种方法进行模型训练】[[code](https://github.com/xionghonglin/DoctorGLM)]
 
-【医疗领域大模型的幻觉问题分析】[[blog](https://mp.weixin.qq.com/s/1o4u0Em0fFk9YndTaF2I7A)]
+【Huatuo-Llama-Med-Chinese：基于Llama-7B模型，通过医学知识图谱和GPT3.5 API构建了中文医学指令数据集，数据共开源9k条，采用Lora方法进行模型训练】[[code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)]
 
 <details><summary>展开更多</summary>
 <p>
 
+【MedQA-ChatGLM - 基于真实医疗对话数据在ChatGLM上进行微调】[[code](http://github.com/WangRongsheng/MedQA-ChatGLM)]，[[主页](https://www.wangrs.co/MedQA-ChatGLM/)]
+
+【MedicalGPT-zh：基于ChatGLM-6B，主要采用CMD（Chinese Medical Dialogue Data）数据，通过对16组诊疗情景和28个科室医用指南借助ChatGPT构造182k条数据，采用Lora&16bit方法进行模型训练】[[code](https://github.com/MediaBrain-SJTU/MedicalGPT-zh)]
+
+【Med-ChatGLM：基于ChatGLM-6B模型，与Huatuo-Llama-Med-Chinese相同数据，采用Lora方法进行模型训练】[[code](https://github.com/SCIR-HI/Med-ChatGLM)]
+
+【PULSE：中文医疗大语言模型】[[code](https://huggingface.co/OpenMEDLab/PULSE-7bv5)]
+
+【ShenNong-TCM-LLM：基于Llama-7B模型，以中医药知识图谱为基础，采用以实体为中心的自指令方法，调用ChatGPT得到11w+的围绕中医药的指令数据，采用Lora方法进行模型训练】[[code](https://github.com/michael-wzhu/ShenNong-TCM-LLM)]
+
+【SoulChat：基于ChatGLM-6B模型，构建了超过15万规模的单轮长文本心理咨询指令数据，并利用ChatGPT与GPT4，生成总共约100万轮次的多轮回答数据，采用全量参数微调方法进行模型训练】[[code](https://github.com/scutcyr/SoulChat)]
+
+【医疗领域大模型的幻觉问题分析】[[blog](https://mp.weixin.qq.com/s/1o4u0Em0fFk9YndTaF2I7A)]
+
 【基于中文金融知识的 LLaMA 系微调模型的智能问答系统：LLaMA大模型训练微调推理等详细教学】[[blog](https://mp.weixin.qq.com/s/lrKPUcS9GkSS20-Jda-8bA)]
+
+【谷歌医疗大模型登Nature，Med-PaLM重磅揭秘！AI医生成绩比肩人类】[[blog](https://mp.weixin.qq.com/s/Qf4Ts7UKJNzkW1Tfy-b0Zg)]，[[paper](https://www.nature.com/articles/s41586-023-06291-2)]
 
 【中文多模态医学大模型智能分析X光片，实现影像诊断，完成医生问诊多轮对话】[[blog](https://mp.weixin.qq.com/s/Spb_dbsHRyP9EvUaMYgHxw)]
 </p>
@@ -211,7 +237,9 @@
 
 ### 金融
 
-【FinGPT：一个「专用于金融领域」的开源大语言模型（LLM）框架，源码公开！】[[blog](https://mp.weixin.qq.com/s/A9euFin675nxGGciiX6rJQ)]，[[paper](https://arxiv.org/pdf/2306.06031v1.pdf)]，[[code](https://github.com/ai4finance-foundation/fingpt)]
+【FinGPT：基于ChatGLM-6B，采用Lora方法训练模型，一个「专用于金融领域」的开源大语言模型（LLM）框架，源码公开！】[[blog](https://mp.weixin.qq.com/s/A9euFin675nxGGciiX6rJQ)]，[[paper](https://arxiv.org/pdf/2306.06031v1.pdf)]，[[code](https://github.com/ai4finance-foundation/fingpt)]
+
+【FinTuo：一个中文金融大模型项目，旨在提供开箱即用且易于拓展的金融领域大模型工具链】[[code](https://github.com/qiyuan-chen/FinTuo-Chinese-Finance-LLM)]
 
 ### 环境
 
@@ -220,6 +248,10 @@
 ### 网络安全
 
 【专用于网络攻击的模型FraudGPT】[[blog](https://mp.weixin.qq.com/s/OtLNybsbxDlbVb-cs4Zk8g)]
+
+### 教育
+
+【EduChat：基于LLaMA模型训练而来，提供教育场景下自动出题、作业批改、情感支持、课程辅导、高考咨询等丰富功能】[[code](https://github.com/icalk-nlp/EduChat)]
 
 ### 交通
 
