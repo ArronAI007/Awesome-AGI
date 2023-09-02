@@ -77,6 +77,7 @@
   - [MOSS](#MOSS)
   - [OpenChatKit](#OpenChatKit)
   - [OpenAssistant](#OpenAssistant)
+  - [Platypus](#Platypus)
   - [WebCPM](#WebCPM)
   - [LLaMA以及扩展](#LLaMA以及扩展)
 - [图像 视频生成](#图像-视频生成)
@@ -1121,6 +1122,10 @@
 ### OpenAssistant
 
 【ChatGPT全球最大开源平替OpenAssistant，基于Pythia和LLaMA微调而来，主要用于训练人类标注的数据，支持35种语言，免费可用RLHF数据】[[官网](https://open-assistant.io/chat)]，[[paper](https://drive.google.com/file/d/10iR5hKwFqAKhL3umx8muOWSRm7hs5FqX/view)]，[[code](https://github.com/LAION-AI/Open-Assistant)]，[[dataset](https://huggingface.co/datasets/OpenAssistant/oasst1)]，[[youtube](https://youtu.be/ddG2fM9i4Kk)]
+
+### Platypus
+
+【Open LLM榜单再次刷新，比Llama 2更强的Platypus来了】[[paper](https://arxiv.org/abs/2308.07317)]，[[blog](https://mp.weixin.qq.com/s/yzfgITUWaCf3Wcdc6lGCQA)]
 
 ### WebCPM
 
