@@ -25,14 +25,15 @@
   - [网络安全](#网络安全)
   - [交通](#交通)
   - [其他](#其他)
-- [LLM关键技术点](#LLM关键技术点)
+- [LLM关键技术与应用](#LLM关键技术与应用)
   - [Prompt工程](#Prompt工程)
-  - [LLM数据集](#LLM数据集)
+  - [LLM 数据集](#LLM-数据集)
   - [LLM RLHF](#LLM-RLHF)
-  - [LLM可控性与安全](#LLM可控性与安全)
-  - [LLM长文本解决方案](#LLM长文本解决方案)
-  - [LLM在知识库的应用](#LLM在知识库的应用)
-  - [LLM文本检测](#LLM文本检测)
+  - [LLM 可控性与安全](#LLM-可控性与安全)
+  - [LLM 长文本解决方案](#LLM-长文本解决方案)
+  - [LLM 问答](#LLM-问答)
+  - [LLM Agent](#LLM-Agent)
+  - [LLM 文本检测](#LLM-文本检测)
 - [LLM训练 微调 优化 评估以及部署](#LLM训练-微调-优化-评估以及部署)
   - [LLM训练](#LLM训练)
   - [LLM微调](#LLM微调)
@@ -243,7 +244,7 @@
 
 【南洋理工开源海外中文大语言模型Panda LLM | 探索数据因素和训练策略如何影响大模型性能表现】[[paper](https://arxiv.org/pdf/2305.03025v1.pdf)]，[[code](https://github.com/dandelionsllm/pandallm)]，[[blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ)]
 
-## LLM关键技术点
+## LLM关键技术与应用
 
 ### Prompt工程
 
@@ -284,7 +285,7 @@
 </p>
 </details>
 
-### LLM数据集
+### LLM 数据集
 
 【**Instruct Tuning**】【一篇关于LLM指令微调的综述】[[blog](https://mp.weixin.qq.com/s/7pqBvgF1BWDFxP5hajmBNw)]，[[paper](https://arxiv.org/pdf/2308.10792.pdf)]
 
@@ -317,7 +318,7 @@
 
 **【LLM RM】**【想训练ChatGPT？得先弄明白Reward Model怎么训（附源码）】[[blog](https://mp.weixin.qq.com/s/1v4Uuc1YAZ9MRr1UWMH9xw)]
 
-### LLM可控性与安全
+### LLM 可控性与安全
 
 **【可控性】**【微软提出Control-GPT：用GPT-4实现可控文本到图像生成！】[[paper](https://arxiv.org/abs/2305.18583)]，[[blog](https://mp.weixin.qq.com/s/U3eWeGOEt9nhW-Xwbuah9w)]
 
@@ -329,7 +330,7 @@
 
 **【安全】**【ChatGPT羊驼家族全沦陷！CMU博士击破LLM护栏，人类毁灭计划脱口而出】[[blog](https://mp.weixin.qq.com/s/298nwP98UdRNybV2Fuo6Wg)]，[[paper](https://arxiv.org/abs/2307.15043)]，[[code](https://github.com/llm-attacks/llm-attacks)]
 
-### LLM长文本解决方案
+### LLM 长文本解决方案
 
 **【苏剑林】**【Transformer升级之路：一种全局长度外推的新思路】[[blog](https://mp.weixin.qq.com/s/YJ647EUfzWaJsGoMdgsguA)]
 
@@ -339,7 +340,9 @@
 
 **【博客】**【RoPE可能是LLM时代的Resnet】[[blog](https://mp.weixin.qq.com/s/BVm1XC7r1yzOiWIrEbWg3A)]
 
-### LLM在知识库的应用
+### LLM 问答
+
+**【LLM 问答流程】**【基于大语言模型的智能问答系统应该包含哪些环节？】[[blog](https://mp.weixin.qq.com/s/pXEyFHEv1pcqwMNhveneew)]，[[OpenAI 的审核函数接口 Moderation API](https://platform.openai.com/docs/guides/moderation)]
 
 **【ChatPDF】**【搭建本地的chatpdf（原理，文档处理，语义搜索等）】[[blog](https://mp.weixin.qq.com/s/aW7r4i54coW26RMsTdAQ5g)]
 
@@ -347,13 +350,25 @@
 
 **【Langchain】**【使用 Langchain 和 Azure OpenAI 构建一个聊天机器人来查询您的文档】[[blog](https://mp.weixin.qq.com/s/LeUuq6O5uIJPmrrYYtTaqA)]
 
-### LLM文本检测
+**【Langchain】**【一文搞懂LangChain是什么】[[blog](https://mp.weixin.qq.com/s/vLlS17AYe4lM95KrG5sFyQ)]
 
-**【论文&代码】**【美国麻省大学&谷歌研究院：改写文本可以避开AI生成文本的检测器，但检索则是一种有效的防御】[[paper](https://papers.labml.ai/api/v1/redirect/pdf?paper_key=2cfe8cecc9f211edb95839eec3084ddd )]，[[code](https://github.com/martiansideofthemoon/ai-detection-paraphrases)]
+### LLM Agent
+
+**【AutoGPT】**【】
+
+**【BabyAGI】**【】
+
+**【ChatRPA】**【在TARS大模型的加持下，它不仅能够理解人类的意图，还能操作所有桌面软件，包括各种复杂的CS架构软件，甚至对不开放接口的软件也能操作】
+
+**【GPT-Engineer】**【】
+
+### LLM 文本检测
+
+**【论文&代码】**【美国麻省大学&谷歌研究院：改写文本可以避开AI生成文本的检测器，但检索则是一种有效的防御】[[paper](https://papers.labml.ai/api/v1/redirect/pdf?paper_key=2cfe8cecc9f211edb95839eec3084ddd)]，[[code](https://github.com/martiansideofthemoon/ai-detection-paraphrases)]
 
 **【论文】**【人工智能生成的文本能被可靠地检测出来吗？】[[paper](https://arxiv.org/pdf/2303.11156.pdf )]，[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486128&idx=3&sn=e5ea32b7d7cb4c8c41f29a9ea15ac3ac&chksm=ced54954f9a2c0425a65761f1766550f6b90857da0106f6fd55f3c6773fbdbd1fc45bbb9369a&token=447941009&lang=zh_CN#rd)]
 
-**【论文】**【DetectGPT（斯坦福大学）：利用概率曲率检测文本是否大模型生成】[[paper](https://arxiv.org/abs/2301.11305 )]，[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485713&idx=2&sn=805caf25603cf15dbf71949f85b9d041&chksm=ced54af5f9a2c3e3e0dffd728592fd7ab8f738869e94240daba4fad9f6ac90a2f76a6b458e3f&token=447941009&lang=zh_CN#rd)]，[[code&data](https://ericmitchell.ai/detectgpt/)]
+**【论文】**【DetectGPT（斯坦福大学）：利用概率曲率检测文本是否大模型生成】[[paper](https://arxiv.org/abs/2301.11305)]，[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485713&idx=2&sn=805caf25603cf15dbf71949f85b9d041&chksm=ced54af5f9a2c3e3e0dffd728592fd7ab8f738869e94240daba4fad9f6ac90a2f76a6b458e3f&token=447941009&lang=zh_CN#rd)]，[[code&data](https://ericmitchell.ai/detectgpt/)]
 
 **【论文】**【Detecting LLM-Generated-Text综述】[[paper](https://github.com/datamllab/The-Science-of-LLM-generated-Text-Detection)]，[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485747&idx=1&sn=5e5029a70c54c08f6f8c40631962b1e1&chksm=ced54ad7f9a2c3c184ccb123199510bb09470e054fb5cb887e70bac204927b65e296f8921db1&token=447941009&lang=zh_CN#rd)]
 
@@ -465,6 +480,9 @@
 
 **【LLM评估】**【用ChatGPT参加计算机科学考试】[[paper](https://arxiv.org/abs/2303.09461)]
 
+<details><summary>展开更多</summary>
+<p>
+
 **【LLM评估】**【C-Eval：构造中文大模型的知识评估基准】[[主页](https://cevalbenchmark.com/)]，[[paper](https://mp.weixin.qq.com/s/4560jl7ctWmHz3xGVIKkRw)]，[[code](https://github.com/SJTU-LIT/ceval)]，[[blog](https://mp.weixin.qq.com/s/4560jl7ctWmHz3xGVIKkRw)]
 
 **【LLM评估】**【多模态大模型的幻觉问题与评估】[[blog](https://mp.weixin.qq.com/s/s0z-mAyjAaqvNcaTg2VFEA)]，[[paper](https://arxiv.org/abs/2305.10355)]，[[code](https://github.com/RUCAIBox/POPE)]
@@ -478,6 +496,8 @@
 **【大模型排行榜】**【OpenLLM大模型排行榜】[[主页](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)]，[[blog](https://mp.weixin.qq.com/s/t1Th8iFOGoyuqqysUiIcXQ)]，[[最新进展blog](https://zhuanlan.zhihu.com/p/642996275)]
 
 **【大模型排行榜】**【斯坦福发布LLM排行榜AlpacaEval，微软WizardLM登顶开源模型第一】[[blog](https://mp.weixin.qq.com/s/7X8pRaexWJ4c0kVswawU1A)]，[[主页](https://tatsu-lab.github.io/alpaca_eval)]，[[code](https://github.com/tatsu-lab/alpaca_eval)]
+</p>
+</details>
 
 ### LLM部署
 
@@ -490,6 +510,13 @@
 **【LLM部署】**【【完全指南】如何在本地运行LLM模型：提高模型性能与运行速度】[[blog](https://mp.weixin.qq.com/s/Ijf6MrUdqG0JxiRmF6Wh5w)]
 
 **【LLM部署】**【LLM 低成本 GPU 部署方案 lmdeploy 开源！】[[blog](https://mp.weixin.qq.com/s/cndjXFr3vJPdN-7aTNqCnQ)]，[[code](https://github.com/InternLM/lmdeploy)]
+
+<details><summary>展开更多</summary>
+<p>
+
+**【LLM部署】**【使用 BentoML 部署 🤗 Hugging Face 上的模型：DeepFloyd IF 实战】[[中文blog](https://mp.weixin.qq.com/s/GySP9vpzf3cj6vtQAsRRvw)]，[[英文blog](https://hf.co/blog/deploy-deepfloydif-using-bentoml)]，[[code](https://github.com/bentoml)]
+</p>
+</details>
 
 ## LLM博客 论文以及代码
 
