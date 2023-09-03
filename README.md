@@ -132,37 +132,20 @@
 
 ## LLM体验效果
 
-**【LLM效果对比】**【360智脑_VS_讯飞星火】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486609&idx=2&sn=7fedb8ab37588d43968fdec2d7e5fcdd&chksm=ced54f75f9a2c663b9a2671f2548e2940730735605356cc0ffe72bc737470136a40032c80bfe&token=1282379489&lang=zh_CN#rd)]
-
-**【LLM效果对比】**【阿里通义千问_VS_讯飞星火】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486534&idx=1&sn=6f36d41b618790cba62e63eb25bb033b&chksm=ced54fa2f9a2c6b4a901528f87a7e74628dfd79d835f4cdea1ee4dea442f339adfd2736b2305&token=1282379489&lang=zh_CN#rd)]
-
-**【LLM效果对比】**【Bard_VS_Baize-7B_VS_文心一言】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486317&idx=1&sn=ea3cc745d2991b8c657325392ce68f71&chksm=ced54889f9a2c19f3c2f85d8d7af7fff366027f79d1f4a5b2c650fea1b5dee9efde0b7c992ca&token=1173964254&lang=zh_CN#rd)]
-
-**【LLM效果对比】**【Bard_VS_Bing_VS_ChatGPT】[[blog](https://www.theverge.com/2023/3/24/23653377/ai-chatbots-comparison-bard-bing-chatgpt-gpt-4)]
-
-**【LLM效果对比】**【Bard_VS_文心一言】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486260&idx=1&sn=a41224fee7ed4cb4a48eb40a420d7479&chksm=ced548d0f9a2c1c6f4930f30447468f9f01bb2af6031368e302b13a6354fc4bca6636e3b297e&token=666852558&lang=zh_CN#rd)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【LLM效果对比】**【ChatGPT_VS_GPT4】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485952&idx=2&sn=e54a62e358bf7aee3c007d59600fd452&chksm=ced549e4f9a2c0f2868eb8877c14fbe287a469e63b09774cefcb9edc4c0601016f6d36561973&token=666852558&lang=zh_CN#rd)]
-
-**【LLM效果对比】**【Claude2_VS_GPT4】[[blog1](https://mp.weixin.qq.com/s/dj2_WlWVpGwYsa8kO-GRFQ)]，[[blog2](https://mp.weixin.qq.com/s/Xo3XXQ5zYPmDxBYivhBYqA)]
-
-**【LLM效果对比】**【OpenAssistant_VS_百度文心一言】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486413&idx=2&sn=3816e5a4bccceee5e2af868166b18897&chksm=ced54829f9a2c13fb787b7a7e3c2aa0799eb7ff6d124f6847349346146900e05684ceb8cc7f7&token=1282379489&lang=zh_CN#rd)]
-
-**【LLM效果对比】**【文心一言新闻发布会内容复现】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486081&idx=1&sn=034480a8b00778cb6a4f2b5ea4214974&chksm=ced54965f9a2c0733ff09fbff4953da484180f48545da3d9b476f1e7375c162f9e8d4eaa0afd&token=666852558&lang=zh_CN#rd)]
-
-**【LLM效果对比】**【文心一言_VS_ChatGLM-6B】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486081&idx=2&sn=fd87305419158d66dd4b05b57bee1324&chksm=ced54965f9a2c073ba1badfedbc6610036455cd769a3c8ee3445f7fbff9364b5624091be9914&token=666852558&lang=zh_CN#rd)]
-
-**【LLM效果对比】**【文心一言 VS GPT-4：20道问答PK】[[blog](https://mp.weixin.qq.com/s/l1pTPlohMmiYEMc4x6QKhw)]
-
-**【LLM效果对比】**【文心一言 vs GPT-4实测！】[[blog](https://mp.weixin.qq.com/s/uO8N3RpcrYU8rV1RkwBxzQ)]
-
-**【LLM效果对比】**【讯飞星火_VS_文心一言】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486490&idx=1&sn=c8d756f7f26a4e35f8b67ae485efabce&chksm=ced54ffef9a2c6e8d66f8b744d6af524e320d5aec384d142621cee53fd2150f2c7db1fa7596a&token=1282379489&lang=zh_CN#rd)]
-
-</p>
-</details>
+| Model_A| Model_B | Blog |
+| --- | --- | --- |                                                                                                                     
+| 360智脑 | 讯飞星火 | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486609&idx=2&sn=7fedb8ab37588d43968fdec2d7e5fcdd&chksm=ced54f75f9a2c663b9a2671f2548e2940730735605356cc0ffe72bc737470136a40032c80bfe&token=1282379489&lang=zh_CN#rd)|
+| 阿里通义千问 | 讯飞星火 | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486534&idx=1&sn=6f36d41b618790cba62e63eb25bb033b&chksm=ced54fa2f9a2c6b4a901528f87a7e74628dfd79d835f4cdea1ee4dea442f339adfd2736b2305&token=1282379489&lang=zh_CN#rd)|
+| Bard | Bing_VS_ChatGPT | [对比效果](https://www.theverge.com/2023/3/24/23653377/ai-chatbots-comparison-bard-bing-chatgpt-gpt-4)|
+| 文心一言 | Bard | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486260&idx=1&sn=a41224fee7ed4cb4a48eb40a420d7479&chksm=ced548d0f9a2c1c6f4930f30447468f9f01bb2af6031368e302b13a6354fc4bca6636e3b297e&token=666852558&lang=zh_CN#rd)|
+| 文心一言 | Baize-7B | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486317&idx=1&sn=ea3cc745d2991b8c657325392ce68f71&chksm=ced54889f9a2c19f3c2f85d8d7af7fff366027f79d1f4a5b2c650fea1b5dee9efde0b7c992ca&token=1173964254&lang=zh_CN#rd)|
+| 文心一言 | OpenAssistant | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486413&idx=2&sn=3816e5a4bccceee5e2af868166b18897&chksm=ced54829f9a2c13fb787b7a7e3c2aa0799eb7ff6d124f6847349346146900e05684ceb8cc7f7&token=1282379489&lang=zh_CN#rd)|
+| 文心一言 | ChatGLM-6B | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486081&idx=2&sn=fd87305419158d66dd4b05b57bee1324&chksm=ced54965f9a2c073ba1badfedbc6610036455cd769a3c8ee3445f7fbff9364b5624091be9914&token=666852558&lang=zh_CN#rd)|
+| 文心一言 | GPT-4 | [对比效果](https://mp.weixin.qq.com/s/l1pTPlohMmiYEMc4x6QKhw)|
+| 文心一言 | GPT-4实测 | [对比效果](https://mp.weixin.qq.com/s/uO8N3RpcrYU8rV1RkwBxzQ)|
+| 文心一言 | 讯飞星火 | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486490&idx=1&sn=c8d756f7f26a4e35f8b67ae485efabce&chksm=ced54ffef9a2c6e8d66f8b744d6af524e320d5aec384d142621cee53fd2150f2c7db1fa7596a&token=1282379489&lang=zh_CN#rd)|
+| GPT4 | ChatGPT | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485952&idx=2&sn=e54a62e358bf7aee3c007d59600fd452&chksm=ced549e4f9a2c0f2868eb8877c14fbe287a469e63b09774cefcb9edc4c0601016f6d36561973&token=666852558&lang=zh_CN#rd)|
+| GPT4 | Claude2 | [对比效果1](https://mp.weixin.qq.com/s/dj2_WlWVpGwYsa8kO-GRFQ)，[对比效果2](https://mp.weixin.qq.com/s/Xo3XXQ5zYPmDxBYivhBYqA)|
 
 ## LLM领域大模型
 
@@ -170,17 +153,15 @@
 
 ### 法律
 
-【ChatLaw：=ChatLaw LLM + keyword LLM + laws LLM，法律领域具有很好的产品形态】[[paper](https://arxiv.org/pdf/2306.16092.pdf)]，[[code](https://github.com/PKU-YuanGroup/ChatLaw)]，[[官网](https://www.chatlaw.cloud/)]
-
-【LaWGPT：基于中文法律知识的大语言模型】[[blog](https://mp.weixin.qq.com/s/dI839IF0hdBTAfOBUg7Pfw)]，[[code](https://github.com/pengxiao-song/LaWGPT)]
-
-【LAW-GPT：基于ChatGLM-6B，采用Lora&16bit方法进行模型训练】[[code](https://github.com/LiuHC0428/LAW-GPT)]
-
-【LexiLaw：基于ChatGLM-6B模型，采用Freeze、Lora、P-Tuning-V2三种方法进行模型训练】[[code](https://github.com/CSHaitao/LexiLaw)]
-
-【lawyer-llama：以Chinese-LLaMA-13B为底座，未经过法律语料continual training，使用通用instruction和法律instruction进行SFT】[[code](https://github.com/AndrewZhe/lawyer-llama)]
-
-【再看基于LLaMA的最新微调模型变体：CaMA、ExpertLLaMA以及第四个中文法律微调模型LexiLaw】[[blog](https://mp.weixin.qq.com/s/FYWmMH2ndN5XfWvwI9dcUA)]
+| Model| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| CaMA |  |  | [blog](https://mp.weixin.qq.com/s/FYWmMH2ndN5XfWvwI9dcUA) |  
+| ChatLaw | [ChatLaw: Open-Source Legal Large Language Model with Integrated External Knowledge Bases](https://arxiv.org/pdf/2306.16092.pdf) | [ChatLaw Code](https://github.com/PKU-YuanGroup/ChatLaw)|[official website](https://www.chatlaw.cloud/) |
+| ExpertLLaMA |  |  | [blog](https://mp.weixin.qq.com/s/FYWmMH2ndN5XfWvwI9dcUA) |  
+| LaWGPT |  | [LaWGPT Code](https://github.com/pengxiao-song/LaWGPT) | [LaWGPT Blog](https://mp.weixin.qq.com/s/dI839IF0hdBTAfOBUg7Pfw) |  
+| LAW-GPT |  | [LAW-GPT Code](https://github.com/LiuHC0428/LAW-GPT) |  |  
+| LexiLaw |  | [LexiLaw Code](https://github.com/CSHaitao/LexiLaw) |  |  
+| lawyer-llama |  | [lawyer-llama Code](https://github.com/AndrewZhe/lawyer-llama) |  |  
 
 ### 医疗
 
