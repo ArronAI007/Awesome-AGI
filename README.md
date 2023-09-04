@@ -2,8 +2,6 @@
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ArronAI007)](https://github.com/anuraghazra/github-readme-stats)
 
-**NOTE**：该项目的[旧地址](https://github.com/wshzd/Awesome-AIGC)，由于账户认证问题，旧地址暂停更新，内容已经全部迁移到本地址，以后只更新该地址，由此带来的不便，敬请谅解。
-
 ## 技术交流
 
 欢迎加入AIGC技术交流群，与AI领域专家和各行各业的AIGC爱好者一起交流技术理论与行业信息！不管你是学术界还是工业界实践者或爱好者，都欢迎加入群体！
@@ -14,7 +12,7 @@
 
 ## Table of Context
 - [AIGC视频会议 访谈](#AIGC视频会议-访谈)
-  - [智源社区](#智源社区)
+  - [论文分享](#论文分享)
   - [访谈 视频](#访谈-视频)
 - [LLM体验效果](#LLM体验效果)
 - [LLM领域大模型](#LLM领域大模型)
@@ -26,7 +24,7 @@
   - [交通](#交通)
   - [其他](#其他)
 - [LLM关键技术与应用](#LLM关键技术与应用)
-  - [Prompt工程](#Prompt工程)
+  - [Prompt Engineering](#Prompt-Engineering)
   - [LLM 数据集](#LLM-数据集)
   - [LLM RLHF](#LLM-RLHF)
   - [LLM 可控性与安全](#LLM-可控性与安全)
@@ -41,7 +39,6 @@
   - [LLM评估](#LLM评估)
   - [LLM部署](#LLM部署)
 - [AGI Paper List](#AGI-Paper-List)
-- [AGI开源工具-博客&论文](#AGI开源工具-博客&论文)
 - [文本生成](#文本生成)
   - [ChatGPT](#ChatGPT)
     - [ChatGPT 应用篇](#ChatGPT-应用篇)
@@ -87,48 +84,32 @@
 
 ## AIGC视频会议 访谈
 
-### 智源社区
+### 论文分享
 
-**【论文分享】**【AugGPT：利用ChatGPT进行文本数据增强】[[link](https://event.baai.ac.cn/activities/664)]
-
-**【论文分享】**【ChatGPT的鲁棒性探究——对抗性和分布外泛化的视角】[[link](https://event.baai.ac.cn/activities/657)]
-
-**【论文分享】**【传统检索模型和大语言模型在信息搜索中的应用和对比】[[link](https://event.baai.ac.cn/activities/656)]，[[paper](https://arxiv.org/abs/2209.10063)]，[[code](https://github.com/wyu97/GenRead)]，[[blog](https://hub.baai.ac.cn/view/24380)]
+| Description| Paper | Code | Blog |Video |
+| --- | --- | --- | --- | --- |  
+| AugGPT：利用ChatGPT进行文本数据增强 |[AugGPT: Leveraging ChatGPT for Text Data Augmentation](https://arxiv.org/abs/2302.13007) | | [blog](https://hub.baai.ac.cn/view/24771) | [link](https://event.baai.ac.cn/activities/664) |
+| ChatGPT的鲁棒性探究——对抗性和分布外泛化的视角 | [On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective ](https://arxiv.org/pdf/2302.12095.pdf) | [code](https://github.com/microsoft/robustlearn) | [blog](https://hub.baai.ac.cn/view/24771) |[link](https://event.baai.ac.cn/activities/657) |
+| 传统检索模型和大语言模型（GPT-3）在信息搜索中的应用和对比 | [Generate rather than Retrieve: Large Language Models are Strong Context Generators](https://arxiv.org/abs/2209.10063) |[code](https://github.com/wyu97/GenRead) | [blog](https://hub.baai.ac.cn/view/24380) | [link](https://event.baai.ac.cn/activities/656) | 
 
 ### 访谈 视频
 
-**【访谈】**【OpenAI 的核心研发人员 Jack Rae 在参加 Stanford MLSys Seminar 的访谈时进行了一个名为 Compression for AGI的主题分享】[[访谈记录](https://mp.weixin.qq.com/s/hQmvltuMlClBonM6UJmtLg)]
-
-**【访谈】**【万字长文：想训大模型？这里有一份避坑指南】[[访谈记录](https://mp.weixin.qq.com/s/yX5B1ZzV7vewQs1-ezHIQg)]
-
-**【访谈】**【微软Bing版ChatGPT表明想做人类，并且对纽约时报专栏作家表达爱意】[[访谈记录](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485854&idx=1&sn=011e0ef0f2c69cd48d042495b2a47eb3&chksm=ced54a7af9a2c36c29fec6301236685d443bde94681ec3f669408d953ae92bb54b686aeab9f8&token=447941009&lang=zh_CN#rd)]
-
-**【访谈】**【Midjourney创始人David Holz关于生成式AI的访谈】[[访谈记录](https://mp.weixin.qq.com/s/jMyuSYu8ACk2peu_OfZK0w)]
-
-**【访谈】**【OpenAI创始人：GPT-4的研究起源和构建心法】[[访谈记录](https://mp.weixin.qq.com/s/hO1ZdqgOjpA328luobQ9eg)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【访谈】**【ABC News 专访OpenAI首席执行官萨姆·奥尔特曼：AI风险和重塑社会的问题】[[访谈记录](https://abcnews.go.com/Technology/openai-ceo-sam-altman-ai-reshape-society-acknowledges/story?id=97897122)]
-
-**【访谈】**【OpenAI联合创始人Ilya Sutskever等专访：开源人工智能是不明智的】[[访谈记录](https://www.theverge.com/2023/3/15/23640180/openai-gpt-4-launch-closed-research-ilya-sutskever-interview)]
-
-**【访谈】**【OpenAI董事长、CTO Greg Brockman专访 ：GPT-4 并不完美，不过人无完人】[[访谈记录](https://techcrunch.com/2023/03/15/interview-with-openais-greg-brockman-gpt-4-isnt-perfect-but-neither-are-you/)]
-
-**【访谈】**【图灵奖获得者 Yoshua Bengio 认为 ChatGPT 是一个“警钟”】[[访谈记录](https://mp.weixin.qq.com/s/2-QoJHKWxiS63vEjX9OOGQ)]
-
-**【访谈】**【《麻省理工科技评论》对 ChatGPT 幕后团队，进行了一次深入的独家专访】[[访谈记录](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai)]
-
-**【访谈】**【口述历史，探析ChatGPT的创造历程，ChatGPT内部故事】[[访谈记录](https://mp.weixin.qq.com/s/RAdIxzdgs3elUiozB8cH8g)]
-
-**【访谈】**【对话ChatGPT之父！AI会改变什么？不会改变什么？】[[访谈记录](https://mp.weixin.qq.com/s/zNuOmVeVKP335iJ4RNJqNw)]
-
-**【访谈】**【对话OpenAI研究科学家：他们是如何让GPT4更像人的？】[[访谈记录](https://mp.weixin.qq.com/s/iJImioHXxelCxUsETSxuXw)]
-
-**【视频】**【邱锡鹏教授介绍以ChatGPT为核心的大规模语言模型的相关知识及未来的发展方向】[[B站](https://www.bilibili.com/video/BV1Xb411X7c3/)]
-</p>
-</details>
+| Description| Blog |
+| --- | --- |  
+| OpenAI 的核心研发人员 Jack Rae 在参加 Stanford MLSys Seminar 的访谈时进行了一个名为 Compression for AGI的主题分享 | [访谈记录](https://mp.weixin.qq.com/s/hQmvltuMlClBonM6UJmtLg) | 
+| 万字长文：想训大模型？这里有一份避坑指南 | [访谈记录](https://mp.weixin.qq.com/s/yX5B1ZzV7vewQs1-ezHIQg) | 
+| 微软Bing版ChatGPT表明想做人类，并且对纽约时报专栏作家表达爱意 | [访谈记录](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485854&idx=1&sn=011e0ef0f2c69cd48d042495b2a47eb3&chksm=ced54a7af9a2c36c29fec6301236685d443bde94681ec3f669408d953ae92bb54b686aeab9f8&token=447941009&lang=zh_CN#rd) | 
+| Midjourney创始人David Holz关于生成式AI的访谈 | [访谈记录](https://mp.weixin.qq.com/s/jMyuSYu8ACk2peu_OfZK0w) | 
+| OpenAI创始人：GPT-4的研究起源和构建心法 | [访谈记录](https://mp.weixin.qq.com/s/hO1ZdqgOjpA328luobQ9eg) | 
+| ABC News 专访OpenAI首席执行官萨姆·奥尔特曼：AI风险和重塑社会的问题 | [访谈记录](https://abcnews.go.com/Technology/openai-ceo-sam-altman-ai-reshape-society-acknowledges/story?id=97897122) | 
+| OpenAI联合创始人Ilya Sutskever等专访：开源人工智能是不明智的 | [访谈记录](https://www.theverge.com/2023/3/15/23640180/openai-gpt-4-launch-closed-research-ilya-sutskever-interview) | 
+| OpenAI董事长、CTO Greg Brockman专访 ：GPT-4 并不完美，不过人无完人 | [访谈记录](https://techcrunch.com/2023/03/15/interview-with-openais-greg-brockman-gpt-4-isnt-perfect-but-neither-are-you/) | 
+| 图灵奖获得者 Yoshua Bengio 认为 ChatGPT 是一个“警钟” | [访谈记录](https://mp.weixin.qq.com/s/2-QoJHKWxiS63vEjX9OOGQ) | 
+| 《麻省理工科技评论》对 ChatGPT 幕后团队，进行了一次深入的独家专访 | [访谈记录](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai) | 
+| 口述历史，探析ChatGPT的创造历程，ChatGPT内部故事 | [访谈记录](https://mp.weixin.qq.com/s/RAdIxzdgs3elUiozB8cH8g) | 
+| 对话ChatGPT之父！AI会改变什么？不会改变什么？ | [访谈记录](https://mp.weixin.qq.com/s/zNuOmVeVKP335iJ4RNJqNw) | 
+| 对话OpenAI研究科学家：他们是如何让GPT4更像人的？ | [访谈记录](https://mp.weixin.qq.com/s/iJImioHXxelCxUsETSxuXw) | 
+| 邱锡鹏教授介绍以ChatGPT为核心的大规模语言模型的相关知识及未来的发展方向 | [视频](https://www.bilibili.com/video/BV1Xb411X7c3/) | 
 
 ## LLM体验效果
 
@@ -221,31 +202,23 @@
 
 | Model| Paper | Code | Blog |
 | --- | --- | --- | --- |  
-| Panda LLM | [Panda LLM: Training Data and Evaluation for Open-Sourced Chinese
-Instruction-Following Large Language Models](https://arxiv.org/pdf/2305.03025v1.pdf) | [Panda LLM](https://github.com/dandelionsllm/pandallm) | [blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ) | 
+| Panda LLM | [Panda LLM: Training Data and Evaluation for Open-Sourced Chinese Instruction-Following Large Language Models](https://arxiv.org/pdf/2305.03025v1.pdf) | [Panda LLM](https://github.com/dandelionsllm/pandallm) | [blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ) | 
 
 ## LLM关键技术与应用
 
-### Prompt工程
+### Prompt Engineering
+
+Some examples of AGI Paper List as follows：
 
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
 | OpenAI 应用人工智能研究负责人Lilian Weng新博文：关于提示工程的介绍 | |  | [blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) | 
 | Prompt Engineering全面自动化 | | | [blog](https://mp.weixin.qq.com/s/aj8Ls463jpF92ssn6Acwzg) | 
 | ChatGPT提示示例集合 | [huggingface](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts) | [ChatGPT提示示例集合](https://github.com/f/awesome-chatgpt-prompts/) | [主页](https://prompts.chat) | 
-| 深入浅出Prompt Learning要旨及常用方法 | | | [blog](https://mp.weixin.qq.com/s/Wgj1ATMAkL1Gx4dsAlkJZw) | 
-| ChatGPT火爆，最全prompt工程指南登GitHub热榜，标星4.7k！| []() | [code](https://github.com/dair-ai/Prompt-Engineering-Guide)| [youtube](https://www.youtube.com/watch?v=dOxUroR57xs) | 
 | ChatGPT Prompt工程：设计、实践与思考 | | | [blog](https://mp.weixin.qq.com/s/a8hjzZ_Rzl6pOU1PRAARJQ) | 
-| 全面的提示工程指南 | | | [blog](https://www.promptingguide.ai/zh) | 
 | 指令学习综述｜ChatGPT背后的指令学习是什么 | [Is Prompt All You Need? No. A Comprehensive and Broader View of Instruction Learning](https://arxiv.org/pdf/2303.10475v2.pdf) | | [blog](https://mp.weixin.qq.com/s/BK30JkIlshwkdHRjaRCD2g) | 
-| 免费教你提示工程，全中文教学 | | [code](https://github.com/LearnPrompt/LearnPrompt) | [主页](https://www.learnprompt.pro/) | 
-| 吴恩达Prompt课程笔记 | | | [主页](https://islinxu.github.io/prompt-engineering-note/) | 
-| ChatGPT使用进阶，Prompt工程 | | | [blog](https://mp.weixin.qq.com/s/Uy_wX6DsASBDU2f_6qAy-Q) | 
-| 50个Claude 2高级Prompts让工作逆天提效 | | | [blog](https://mp.weixin.qq.com/s/cv7U1b2rUdHitTx8CVvFeA) | 
-| 系统论述文章： 构建高性能 Prompt 之路——结构化 Prompt | | | [blog](https://mp.weixin.qq.com/s/N9BrkDqvkIHQD7TTnhNk6Q) | 
-| 吴恩达Prompt教程之总结图解 | | | [blog](https://mp.weixin.qq.com/s/KECEIHC4ZRQMbSzFd8l1Hw) | 
-| 面向大型语言模型的**提升提示集成** | [Boosted Prompt Ensembles for Large Language Models](https://arxiv.org/abs/2304.05970) | | | 
-| DTG：一种简单有效的Prompt方法，激发大模型思考判断能力！ | | | [blog](https://mp.weixin.qq.com/s/Eio62_Hn0mML3Pfb3G36cA) | 
+
+**Complete Content**: please refer to [Prompt Engineering](https://github.com/ArronAI007/Awesome-AGI/tree/main/Prompt/README.md)
 
 ### LLM 数据集
 
@@ -355,130 +328,74 @@ Instruction-Following Large Language Models](https://arxiv.org/pdf/2305.03025v1.
 
 ### LLM训练
 
-**【LLM训练】**【从头预训练大模型实践经验】[[blog](https://mp.weixin.qq.com/s/q8XNFzsm_sm_EocCIks-1w)]
-
-**【LLM训练】**【DeepSpeed的Tutorials】[[主页](https://www.deepspeed.ai)]，[[DeepSpeed Getting Starte](https://mp.weixin.qq.com/s/xpNQtl7hPs3fy9S7VRbIkg)]
-
-**【LLM训练】**【打造LLM界的Web UI：24GB显卡训练百亿大模型】[[blog](https://mp.weixin.qq.com/s/x9oED0Uxc5Wt-eR0Amde7g)]
-
-**【LLM训练】**【大模型训练感知量化开山之作：LLM-QAT】[[blog](https://mp.weixin.qq.com/s/zKndNym9Q7QJWlmn60HmyQ)]
-
-**【LLM训练】**【混合精度训练技术梳理总结】[[blog](https://mp.weixin.qq.com/s/j-f47VPHKAkCwpwEheEgJQ)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【LLM训练】**【LLM大模型训练Trick系列之拒绝采样】[[blog](https://zhuanlan.zhihu.com/p/649731916)]
-
-**【LLM训练】**【Muti Query Attention 和 Attention with Linear Bias（附源码）】[[blog](https://mp.weixin.qq.com/s/GXMwnbWLce9Aq4alEHCHJA)]，[[paper](https://arxiv.org/pdf/1911.02150.pdf)]
-
-**【LLM训练】**【如何使用 Megatron-LM 训练语言模型】[[blog](https://mp.weixin.qq.com/s/QPg6gOWGbQDezTl8OFZU3g)]
-</p>
-</details>
+| Description| Blog |
+| --- | --- | 
+| 从头预训练大模型实践经验 | [blog](https://mp.weixin.qq.com/s/q8XNFzsm_sm_EocCIks-1w) | 
+| DeepSpeed的Tutorials | [主页](https://www.deepspeed.ai)，[DeepSpeed Getting Starte](https://mp.weixin.qq.com/s/xpNQtl7hPs3fy9S7VRbIkg) | 
+| 打造LLM界的Web UI：24GB显卡训练百亿大模型 | [blog](https://mp.weixin.qq.com/s/x9oED0Uxc5Wt-eR0Amde7g) | 
+| 大模型训练感知量化开山之作：LLM-QAT | [blog](https://mp.weixin.qq.com/s/zKndNym9Q7QJWlmn60HmyQ) | 
+| 混合精度训练技术梳理总结 | [blog](https://mp.weixin.qq.com/s/j-f47VPHKAkCwpwEheEgJQ) | 
+| LLM大模型训练Trick系列之拒绝采样 | [blog](https://zhuanlan.zhihu.com/p/649731916) | 
+| Muti Query Attention 和 Attention with Linear Bias（附源码） | [blog](https://mp.weixin.qq.com/s/GXMwnbWLce9Aq4alEHCHJA)，[paper](https://arxiv.org/pdf/1911.02150.pdf) | 
+| 如何使用 Megatron-LM 训练语言模型 | [blog](https://mp.weixin.qq.com/s/QPg6gOWGbQDezTl8OFZU3g) | 
 
 ### LLM微调
 
-**【LLM微调】**【PEFT: 在低资源硬件上对十亿规模模型进行参数高效微调 】[[blog](https://mp.weixin.qq.com/s/x2mQBE0pfTv8w3Czp8JkDg)]
-
-**【LLM微调】**【大语言模型（LLM）微调技术笔记】[[code](https://github.com/ninehills/ninehills.github.io/issues/92)]
-
-**【LLM微调】**【大模型LLM-微调经验分享&总结】[[code](https://github.com/liucongg/ChatGLM-Finetuning)]，[[blog](https://mp.weixin.qq.com/s/pkBvL0k7sZWaW6jMlSSIZA)]
-
-**【LLM微调】**【LoRA：卷完图像生成领域，卷文本生成领域的东西，到时是个啥？】[[blog](https://mp.weixin.qq.com/s/emLpTAOhr8khO1hTgQhU9w)]，[[code](https://github.com/microsoft/LoRA)]
-
-**【LLM微调】**【QLoRA：在单个48GB GPU上对65B参数的大模型进行微调，只需微调12个小时就可以达到97%的ChatGPT水平。同时只用int4就可以保持fp16精度的效果。】[[paper](https://arxiv.org/pdf/2305.14314.pdf)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【LLM微调】**【华盛顿大学提出全新量化和微调方法，在DB-GPT上享受33B参数的LLM】[[blog](https://mp.weixin.qq.com/s/A3flqm2FeOn0WQr5mrD1-Q)]
-
-**【LLM微调】**【MeZO：高效零阶优化器，单卡A100可训练300亿参数模型】[[paper](https://arxiv.org/abs/2305.17333)]，[[code](https://github.com/princeton-nlp/MeZO)]，[[blog](https://mp.weixin.qq.com/s/JteUpY4fEbENQFvReRLPJg)]
-
-**【LLM微调】**【人工智能大语言模型微调技术：SFT 监督微调、LoRA 微调方法、P-tuning v2 微调方法、Freeze 监督微调方法】[[blog](https://mp.weixin.qq.com/s/N0Z1Kq0mrVrK-RED_gvJmw)]
-
-**【LLM微调】**【LLM微调经验分享】[[中文blog](https://mp.weixin.qq.com/s/83sqfeaoSKtMSo_5Sf_doA)]，[[英文blog](https://twitter.com/xinqiu_bot/status/1679786303716749312)]
-
-**【LLM微调】**【Firefly项目】[[介绍Firefly项目如何充分高效训练多轮对话大模型](https://mp.weixin.qq.com/s/WG_YCk6DM8nWvLfpw1OmoA)]，[[源码解析ChatGLM2多轮对话训练方法的不足，以及改进方法](https://mp.weixin.qq.com/s/r-JOLsoIAgZynGIeryU1-Q)]
-</p>
-</details>
+| Description| Blog |
+| --- | --- | 
+| PEFT: 在低资源硬件上对十亿规模模型进行参数高效微调 | [blog](https://mp.weixin.qq.com/s/x2mQBE0pfTv8w3Czp8JkDg) | 
+| 大语言模型（LLM）微调技术笔记 | [code](https://github.com/ninehills/ninehills.github.io/issues/92) | 
+| 大模型LLM-微调经验分享&总结 | [code](https://github.com/liucongg/ChatGLM-Finetuning)，[blog](https://mp.weixin.qq.com/s/pkBvL0k7sZWaW6jMlSSIZA) | 
+| LoRA：卷完图像生成领域，卷文本生成领域的东西，到时是个啥？ | [blog](https://mp.weixin.qq.com/s/emLpTAOhr8khO1hTgQhU9w)，[code](https://github.com/microsoft/LoRA) | 
+| QLoRA：在单个48GB GPU上对65B参数的大模型进行微调，只需微调12个小时就可以达到97%的ChatGPT水平。同时只用int4就可以保持fp16精度的效果。 | [paper](https://arxiv.org/pdf/2305.14314.pdf) | 
+| 华盛顿大学提出全新量化和微调方法，在DB-GPT上享受33B参数的LLM | [blog](https://mp.weixin.qq.com/s/A3flqm2FeOn0WQr5mrD1-Q) | 
+| MeZO：高效零阶优化器，单卡A100可训练300亿参数模型 | [paper](https://arxiv.org/abs/2305.17333)，[code](https://github.com/princeton-nlp/MeZO)，[blog](https://mp.weixin.qq.com/s/JteUpY4fEbENQFvReRLPJg) | 
+| 人工智能大语言模型微调技术：SFT 监督微调、LoRA 微调方法、P-tuning v2 微调方法、Freeze 监督微调方法 | [blog](https://mp.weixin.qq.com/s/N0Z1Kq0mrVrK-RED_gvJmw) | 
+| LLM微调经验分享 | [中文blog](https://mp.weixin.qq.com/s/83sqfeaoSKtMSo_5Sf_doA)，[英文blog](https://twitter.com/xinqiu_bot/status/1679786303716749312) | 
+| Firefly项目 | [介绍Firefly项目如何充分高效训练多轮对话大模型](https://mp.weixin.qq.com/s/WG_YCk6DM8nWvLfpw1OmoA)，[源码解析ChatGLM2多轮对话训练方法的不足，以及改进方法](https://mp.weixin.qq.com/s/r-JOLsoIAgZynGIeryU1-Q) | 
 
 ### LLM优化
 
-**【LLM优化】**【伯克利开源LLM推理与服务库：GPU减半、吞吐数十倍猛增】[[中文blog](https://hub.baai.ac.cn/view/27505)]，[[英文blog](https://vllm.ai/?continueFlag=24b2e01413fd53e24a2779b4a664ca16)]
-
-**【LLM优化】**【CAME：大模型训练成本降低近一半】[[blog](https://mp.weixin.qq.com/s/iUXu_Pfsop0bq7ktoXTY4A)]
-
-**【LLM优化】**【大模型推理性能优化之KV Cache解读】[[blog](https://mp.weixin.qq.com/s/ydjcUOF9iUM581hUTSXPdw)]
-
-**【LLM优化】**【LLM，压缩即泛化，泛化即智能】[[blog](https://mp.weixin.qq.com/s/tSj9npIPg8IlYr2jbtg-Og)]
-
-**【LLM优化】**【LLM-Pruner: 剪枝+少量数据+少量训练 = 高效的LLM压缩】[[blog](https://mp.weixin.qq.com/s/feqFfy4n31eztoZfodMieQ)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【LLM优化】**【LLM Accelerator：使用参考文本无损加速大语言模型推理】[[blog](https://mp.weixin.qq.com/s/H1JaQZ9-m2gkZaIwzJTTtg)]，[[paper](https://arxiv.org/pdf/2304.04487.pdf)]，[[code](https://github.com/microsoft/LMOps)]
-
-**【LLM优化】**【LLM 的推理优化技术纵览】[[blog](https://mp.weixin.qq.com/s/Os4Uy8K6z2fVMSa7ihR1dg)]
-
-**【LLM优化】**【LLM量化之后，能力退化了多少】[[blog](https://mp.weixin.qq.com/s/ri4SS_NCKn4boGZfJtUWUQ)]
-
-**【LLM优化】**【邱锡鹏团队提出新优化器LOMO｜650亿参数，8块GPU全参数微调】[[blog](https://mp.weixin.qq.com/s/339iXf2bimusfq6zQmFpWw)]，[[paper](https://arxiv.org/abs/2306.09782)]
-
-**【LLM优化】**【继思维链、思维树后又一思维骨架：让大模型能做并行解码】[[blog](https://mp.weixin.qq.com/s/cyyKEtGe6QBmP8aAU9fmhQ)]
-</p>
-</details>
+| Description| Blog |
+| --- | --- | 
+| 伯克利开源LLM推理与服务库：GPU减半、吞吐数十倍猛增 | [中文blog](https://hub.baai.ac.cn/view/27505)，[英文blog](https://vllm.ai/?continueFlag=24b2e01413fd53e24a2779b4a664ca16) | 
+| CAME：大模型训练成本降低近一半 | [blog](https://mp.weixin.qq.com/s/iUXu_Pfsop0bq7ktoXTY4A) | 
+| 大模型推理性能优化之KV Cache解读 | [blog](https://mp.weixin.qq.com/s/ydjcUOF9iUM581hUTSXPdw) | 
+| LLM，压缩即泛化，泛化即智能 | [blog](https://mp.weixin.qq.com/s/tSj9npIPg8IlYr2jbtg-Og) | 
+| LLM-Pruner: 剪枝+少量数据+少量训练 = 高效的LLM压缩 | [blog](https://mp.weixin.qq.com/s/feqFfy4n31eztoZfodMieQ) | 
+| LLM Accelerator：使用参考文本无损加速大语言模型推理 | [blog](https://mp.weixin.qq.com/s/H1JaQZ9-m2gkZaIwzJTTtg)，[paper](https://arxiv.org/pdf/2304.04487.pdf)，[code](https://github.com/microsoft/LMOps) | 
+| LLM 的推理优化技术纵览 | [blog](https://mp.weixin.qq.com/s/Os4Uy8K6z2fVMSa7ihR1dg) | 
+| LLM量化之后，能力退化了多少 | [blog](https://mp.weixin.qq.com/s/ri4SS_NCKn4boGZfJtUWUQ) | 
+| 邱锡鹏团队提出新优化器LOMO｜650亿参数，8块GPU全参数微调 | [blog](https://mp.weixin.qq.com/s/339iXf2bimusfq6zQmFpWw)，[paper](https://arxiv.org/abs/2306.09782) | 
+| 继思维链、思维树后又一思维骨架：让大模型能做并行解码 | [blog](https://mp.weixin.qq.com/s/cyyKEtGe6QBmP8aAU9fmhQ) | 
 
 ### LLM评估
 
-**【LLM评估】**【工程实践！以LLAMA为例的大模型部署方案】[[blog](https://mp.weixin.qq.com/s/zGkkekFqKsnM66uQwfUPcw)]
-
-**【LLM评估】**【一文看遍各行业对ChatGPT的专业评估】[[blog](https://mp.weixin.qq.com/s/2JryWW33j9udOpi3dK5X9g)]
-
-**【LLM评估】**【ChatGPT关于推理、幻觉和交互的多任务、多语言、多通道评估 】[[paper](https://arxiv.org/abs/2302.04023)]
-
-**【LLM评估】**【如何评价 OpenAI 的超级对话模型 ChatGPT ？】[[paper](https://www.zhihu.com/question/570189639)]
-
-**【LLM评估】**【用ChatGPT参加计算机科学考试】[[paper](https://arxiv.org/abs/2303.09461)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【LLM评估】**【C-Eval：构造中文大模型的知识评估基准】[[主页](https://cevalbenchmark.com/)]，[[paper](https://mp.weixin.qq.com/s/4560jl7ctWmHz3xGVIKkRw)]，[[code](https://github.com/SJTU-LIT/ceval)]，[[blog](https://mp.weixin.qq.com/s/4560jl7ctWmHz3xGVIKkRw)]
-
-**【LLM评估】**【多模态大模型的幻觉问题与评估】[[blog](https://mp.weixin.qq.com/s/s0z-mAyjAaqvNcaTg2VFEA)]，[[paper](https://arxiv.org/abs/2305.10355)]，[[code](https://github.com/RUCAIBox/POPE)]
-
-**【LLM评估】**【谷歌提出TrueTeacher：基于大型语言模型的学习事实一致性评价】[[blog](https://mp.weixin.qq.com/s/tcqHXIHxrkiYrYBX8JzIZA)]，[[paper](https://arxiv.org/pdf/2305.10601.pdf)]
-
-**【LLM评估】**【粗看大模型ChatGLM、MOSS、Bloomz在中文垂域评测中的性能表现：医学、法律、心理学、教育等四大类试题下的测试报告介绍】[[paper](https://arxiv.org/pdf/2304.12986.pdf)]，[[code](github.com/Felixgithub2017/MMCU)]，[[blog](https://mp.weixin.qq.com/s/Hq6bn_4vD559TMQxx806tg)]
-
-**【LLM评估】**【评测国内各种对标 ChatGPT 的大语言模型】[[blog](https://mp.weixin.qq.com/s/Oe1Rc0kXjMOD2G_Sqambow)]，[[code](https://github.com/dongrixinyu/JioNLP/wiki/LLM%E8%AF%84%E6%B5%8B%E6%95%B0%E6%8D%AE%E9%9B%86)]
-
-**【大模型排行榜】**【OpenLLM大模型排行榜】[[主页](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)]，[[blog](https://mp.weixin.qq.com/s/t1Th8iFOGoyuqqysUiIcXQ)]，[[最新进展blog](https://zhuanlan.zhihu.com/p/642996275)]
-
-**【大模型排行榜】**【斯坦福发布LLM排行榜AlpacaEval，微软WizardLM登顶开源模型第一】[[blog](https://mp.weixin.qq.com/s/7X8pRaexWJ4c0kVswawU1A)]，[[主页](https://tatsu-lab.github.io/alpaca_eval)]，[[code](https://github.com/tatsu-lab/alpaca_eval)]
-</p>
-</details>
+| Description| Blog |
+| --- | --- | 
+| 工程实践！以LLAMA为例的大模型部署方案 | [blog](https://mp.weixin.qq.com/s/zGkkekFqKsnM66uQwfUPcw) | 
+| 一文看遍各行业对ChatGPT的专业评估 | [blog](https://mp.weixin.qq.com/s/2JryWW33j9udOpi3dK5X9g) | 
+| ChatGPT关于推理、幻觉和交互的多任务、多语言、多通道评估 | [paper](https://arxiv.org/abs/2302.04023) | 
+| 如何评价 OpenAI 的超级对话模型 ChatGPT ？ | [paper](https://www.zhihu.com/question/570189639) | 
+| 用ChatGPT参加计算机科学考试 | [paper](https://arxiv.org/abs/2303.09461) | 
+| C-Eval：构造中文大模型的知识评估基准 | [主页](https://cevalbenchmark.com/)，[paper](https://mp.weixin.qq.com/s/4560jl7ctWmHz3xGVIKkRw)，[code](https://github.com/SJTU-LIT/ceval)，[blog](https://mp.weixin.qq.com/s/4560jl7ctWmHz3xGVIKkRw) | 
+| 多模态大模型的幻觉问题与评估 | [blog](https://mp.weixin.qq.com/s/s0z-mAyjAaqvNcaTg2VFEA)，[paper](https://arxiv.org/abs/2305.10355)，[code](https://github.com/RUCAIBox/POPE) | 
+| 谷歌提出TrueTeacher：基于大型语言模型的学习事实一致性评价 | [blog](https://mp.weixin.qq.com/s/tcqHXIHxrkiYrYBX8JzIZA)，[paper](https://arxiv.org/pdf/2305.10601.pdf) | 
+| 粗看大模型ChatGLM、MOSS、Bloomz在中文垂域评测中的性能表现：医学、法律、心理学、教育等四大类试题下的测试报告介绍 | [paper](https://arxiv.org/pdf/2304.12986.pdf)，[code](https://github.com/Felixgithub2017/MMCU)，[blog](https://mp.weixin.qq.com/s/Hq6bn_4vD559TMQxx806tg) | 
+| 评测国内各种对标 ChatGPT 的大语言模型 | [blog](https://mp.weixin.qq.com/s/Oe1Rc0kXjMOD2G_Sqambow)，[code](https://github.com/dongrixinyu/JioNLP/wiki/LLM%E8%AF%84%E6%B5%8B%E6%95%B0%E6%8D%AE%E9%9B%86) | 
+| OpenLLM大模型排行榜 | [主页](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)，[blog](https://mp.weixin.qq.com/s/t1Th8iFOGoyuqqysUiIcXQ)，[最新进展blog](https://zhuanlan.zhihu.com/p/642996275) | 
+| 斯坦福发布LLM排行榜AlpacaEval，微软WizardLM登顶开源模型第一 | [blog](https://mp.weixin.qq.com/s/7X8pRaexWJ4c0kVswawU1A)，[主页](https://tatsu-lab.github.io/alpaca_eval)，[code](https://github.com/tatsu-lab/alpaca_eval) | 
 
 ### LLM部署
 
-**【LLM部署】**【工程实践！以LLAMA为例的大模型部署方案】[[blog](https://mp.weixin.qq.com/s/zGkkekFqKsnM66uQwfUPcw)]
-
-**【LLM部署】**【大模型部署框架FastLLM解析，支持X86/Arm/CUDA 3种架构的硬件！】[[blog](https://mp.weixin.qq.com/s/j19QdlFvblcABXzB7Vi5wg)]，[[code](https://github.com/ztxz16/fastllm)]
-
-**【LLM部署】**【用 Hugging Face 推理端点部署 LLM】[[blog](https://mp.weixin.qq.com/s/ms1ThLcN6uTOFgKm5FqBig)]
-
-**【LLM部署】**【【完全指南】如何在本地运行LLM模型：提高模型性能与运行速度】[[blog](https://mp.weixin.qq.com/s/Ijf6MrUdqG0JxiRmF6Wh5w)]
-
-**【LLM部署】**【LLM 低成本 GPU 部署方案 lmdeploy 开源！】[[blog](https://mp.weixin.qq.com/s/cndjXFr3vJPdN-7aTNqCnQ)]，[[code](https://github.com/InternLM/lmdeploy)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【LLM部署】**【使用 BentoML 部署 🤗 Hugging Face 上的模型：DeepFloyd IF 实战】[[中文blog](https://mp.weixin.qq.com/s/GySP9vpzf3cj6vtQAsRRvw)]，[[英文blog](https://hf.co/blog/deploy-deepfloydif-using-bentoml)]，[[code](https://github.com/bentoml)]
-</p>
-</details>
+| Description| Blog |
+| --- | --- | 
+| 工程实践！以LLAMA为例的大模型部署方案 | [blog](https://mp.weixin.qq.com/s/zGkkekFqKsnM66uQwfUPcw) | 
+| 大模型部署框架FastLLM解析，支持X86/Arm/CUDA 3种架构的硬件！ | [blog](https://mp.weixin.qq.com/s/j19QdlFvblcABXzB7Vi5wg)，[code](https://github.com/ztxz16/fastllm) | 
+| 用 Hugging Face 推理端点部署 LLM | [blog](https://mp.weixin.qq.com/s/ms1ThLcN6uTOFgKm5FqBig) | 
+| 【完全指南】如何在本地运行LLM模型：提高模型性能与运行速度 | [blog](https://mp.weixin.qq.com/s/Ijf6MrUdqG0JxiRmF6Wh5w) | 
+| LLM 低成本 GPU 部署方案 lmdeploy 开源！ | [blog](https://mp.weixin.qq.com/s/cndjXFr3vJPdN-7aTNqCnQ)，[code](https://github.com/InternLM/lmdeploy) | 
+| 使用 BentoML 部署 🤗 Hugging Face 上的模型：DeepFloyd IF 实战 | [中文blog](https://mp.weixin.qq.com/s/GySP9vpzf3cj6vtQAsRRvw)，[英文blog](https://hf.co/blog/deploy-deepfloydif-using-bentoml)，[code](https://github.com/bentoml) | 
 
 ## AGI Paper List
 
@@ -492,17 +409,7 @@ Some examples of AGI Paper List as follows：
 | AIGC综述: 从GAN到ChatGPT的生成式人工智能简史 | [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/abs/2303.04226v1) |  |  | 
 | 大模型综述来了！一文带你理清全球AI巨头的大模型进化史 | [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](https://arxiv.org/pdf/2304.13712.pdf) | [code](https://github.com/Mooler0410/LLMsPracticalGuide) |  | 
 
-Please refer to [AGI Paper List](https://github.com/ArronAI007/Awesome-AGI/tree/main/AGI-Paper-List/README.md) for complete content
-
-## AGI开源工具 博客 论文
-
-**【工具】**【Google发布统计深度学习框架平台：OpenXLA】[[blog](https://github.com/wshzd/ChatGPT-Summary/blob/main/AGI/Google_OpenXLA.md)]
-
-**【博客】**【AGI的火花一作Sébastien Bubeck演讲万字全文】[[blog](https://mp.weixin.qq.com/s/H1RVdH0fmwM0GjfV3uvd4g)]
-
-**【博客】**【AGI通用智能发展的思考：是否存在足够通用的处理器？】[[blog](https://mp.weixin.qq.com/s/16TfOu4qfqlbQHpDgDUM2A)]
-
-**【论文】**【OpenAGI:当大语言模型遇到领域专家】[[paper](https://arxiv.org/abs/2304.04370)]，[[code](https://github.com/agiresearch/OpenAGI)]
+Complete Content: please refer to [AGI Paper List](https://github.com/ArronAI007/Awesome-AGI/tree/main/AGI-Paper-List/README.md)
 
 ## 文本生成
 

@@ -90,4 +90,8 @@
 | Chameleon：使用大型语言模型进行即插即用的组合推理 | [Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models](https://arxiv.org/abs/2304.09842) |  |  | 
 | 大型语言模型相关文献资源列表 |  | [code](https://github.com/RUCAIBox/LLMSurvey) |  | 
 | RRTF：通过反馈提高代码生成的能力 | [PanGu-Coder2: Boosting Large Language Models for Code with Ranking Feedback](https://arxiv.org/abs/2307.14936.pdf) |  | [blog](https://mp.weixin.qq.com/s/3lgztkBGlfCdHwygDggBbw) | 
+| Google发布统计深度学习框架平台：OpenXLA |  |  | [blog](https://github.com/wshzd/ChatGPT-Summary/blob/main/AGI/Google_OpenXLA.md) |  
+| AGI的火花一作Sébastien Bubeck演讲万字全文 |  | | [blog](https://mp.weixin.qq.com/s/H1RVdH0fmwM0GjfV3uvd4g) |  
+| AGI通用智能发展的思考：是否存在足够通用的处理器？ |  |  | [blog](https://mp.weixin.qq.com/s/16TfOu4qfqlbQHpDgDUM2A) |  
+| OpenAGI:当大语言模型遇到领域专家 | [OpenAGI: When LLM Meets Domain Experts](https://arxiv.org/abs/2304.04370) | [code](https://github.com/agiresearch/OpenAGI) |  |  
 
