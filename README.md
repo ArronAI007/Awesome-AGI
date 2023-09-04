@@ -528,64 +528,30 @@ Some examples of AGI Paper List as follows：
 
 ### GPT4
 
-#### GPT4 官方文档
-**【博客】**【GPT4_System_Card中文翻译】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Official/GPT-4_System_Card_zh.md)]
-
-**【博客】**【GPT4_Technical_Report中文翻译】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Official/GPT4_Technical_Report_zh.md)]
-
-#### GPT4 博客篇
-
-**【博客】**【【万字长文】GPT-4秘密泄露！所有的信息都在这里！从GPT-4 架构、基础设施、训练数据集、成本、视觉到MoE！】[[blog](https://mp.weixin.qq.com/s/vgUKe31pykC12sUV5xyLNQ)]，[[原blog](https://www.semianalysis.com/p/gpt-4-architecture-infrastructure)]
-
-**【纽约时报】**【GPT-4 令人印象深刻但仍在 10 个方面具有缺陷】[[blog](https://www.nytimes.com/2023/03/14/technology/openai-new-gpt4.html)]
-
-**【Open AI】**【多模态大模型GPT-4的新突破】[[blog](https://hub.baai.ac.cn/view/24852)]
-
-**【OpenAI】**【重磅发布GPT-4】[[blog](https://openai.com/research/gpt-4)]
-
-**【OpenAI】**【GPT-4 创造者 Ilya Sutskever 谈 AI 幻觉和 AI 民主】[[blog](https://www.forbes.com/sites/craigsmith/2023/03/15/gpt-4-creator-ilya-sutskever-on-ai-hallucinations-and-ai-democracy/?sh=7743f01e1218)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【OpenAI】**【GPT-4创造者：第二次改变AI浪潮的方向】[[blog](https://mp.weixin.qq.com/s/rZBEDlxFVsVXoL5YUVU3XQ)]
-
-**【OpenAI】**【当GPT-4进入北京市2022高考考场能有什么表现？】[[blog](https://mp.weixin.qq.com/s/N_j01KSuEKuVwCCD69G92g)]
-
-**【博客】**【GPT4技术细节】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Blog/GPT4_Technical_Detail.md)]
-
-**【博客】**【GPT4技术关键点总结】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Blog/GPT4_Technical_Summary.md)]
-
-**【博客】**【GPT4和ChatGPT的效果对比】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT_VS_GPT4/GPT4_VS_ChatGPT（from_nytimes）.md)]
-
-**【博客】**【The Ultimate GPT-4 Guide】[[blog](https://doc.clickup.com/37456139/d/h/13q28b-324/e2a22b0c164b1f9)]
-
-**【博客】**【GPT-4里套娃LLaMA 2！OpenAI创始成员周末爆改「羊驼宝宝」，GitHub一日千星】[[blog](https://mp.weixin.qq.com/s/Tp4q8VflEZ7o8FgpZfrNgQ)]
-
-**【博客】**【Claude 2 解读 ChatGPT 4 的技术秘密：细节：参数数量、架构、基础设施、训练数据集、成本】[[blog](https://mp.weixin.qq.com/s/E2KpvldbYrH0NFvxgfsMlw)]
-</p>
-</details>
-
-#### GPT4 论文篇
-
-**【微软】**【用GPT-4进行指令调优】[[paper](https://arxiv.org/pdf/2304.03277.pdf)]，[[code](https://instruction-tuning-with-gpt-4.github.io/)]
-
-**【论文】**【点燃通用人工智能的火花：GPT-4的早期实验】[[原始paper](https://arxiv.org/pdf/2303.12712.pdf)]，[[中文版paper](https://event-cdn.baai.ac.cn/file/file-browser/waTXJn85fm3FPyDXpsZ4faGk47trjjYb.pdf)]，[[blog](https://mp.weixin.qq.com/s/H1RVdH0fmwM0GjfV3uvd4g)]
-
-**【论文】**【GPT4All：用GPT-3.5-Turbo的大规模数据提炼训练一个助理式聊天机器人】[[paper](https://s3.amazonaws.com/static.nomic.ai/gpt4all/2023_GPT4All_Technical_Report.pdf)]，[[code](https://github.com/nomic-ai/gpt4all)]
-
-**【论文】**【美国东北大学：可以通过要求GPT4反思“你为什么错了？”来提高30%的性能】[[paper](https://arxiv.org/abs/2303.11366)]，[[code](https://github.com/noahshinn024/reflexion)]
-
-**【论文】**【对ChatGPT/GPT-4研究的总结以及对大型语言模型未来的展望】[[paper](https://arxiv.org/pdf/2304.01852.pdf)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【论文】**【评估日本医疗执照考试的GPT-4和ChatGPT】[[paper](https://arxiv.org/pdf/2303.18027.pdf)]
-
-**【论文】**【Amazon | 深入研究LLMs与AutoGPT的结合：揭示出GPT-4惊人的人类决策能力！】[[blog](https://mp.weixin.qq.com/s/Gbz7ZVVdeTq64mj1-__aQA)]，[[paper](https://arxiv.org/pdf/2306.02224.pdf)]，[[code](https://github.com/younghuman/LLMAgent)]
-</p>
-</details>
+| Description| Paper | Code | Blog |
+| --- | --- |--- | --- |
+| GPT4_System_Card中文翻译 |  |  |[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Official/GPT-4_System_Card_zh.md) |
+| GPT4_Technical_Report中文翻译 |  |  |[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Official/GPT4_Technical_Report_zh.md) |
+| 【万字长文】GPT-4秘密泄露！所有的信息都在这里！从GPT-4 架构、基础设施、训练数据集、成本、视觉到MoE！ |  |  | [blog](https://mp.weixin.qq.com/s/vgUKe31pykC12sUV5xyLNQ)，[原blog](https://www.semianalysis.com/p/gpt-4-architecture-infrastructure) |
+| GPT-4 令人印象深刻但仍在 10 个方面具有缺陷 |  |  | [blog](https://www.nytimes.com/2023/03/14/technology/openai-new-gpt4.html) |
+| 多模态大模型GPT-4的新突破 |  |  | [blog](https://hub.baai.ac.cn/view/24852) |
+| 重磅发布GPT-4 |  |  | [blog](https://openai.com/research/gpt-4) |
+| GPT-4 创造者 Ilya Sutskever 谈 AI 幻觉和 AI 民主 |  |  | [blog](https://www.forbes.com/sites/craigsmith/2023/03/15/gpt-4-creator-ilya-sutskever-on-ai-hallucinations-and-ai-democracy/?sh=7743f01e1218) |
+| GPT-4创造者：第二次改变AI浪潮的方向 |  |  | [blog](https://mp.weixin.qq.com/s/rZBEDlxFVsVXoL5YUVU3XQ) |
+| 当GPT-4进入北京市2022高考考场能有什么表现？ |  |  | [blog](https://mp.weixin.qq.com/s/N_j01KSuEKuVwCCD69G92g) |
+| GPT4技术细节 |  |  | [blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Blog/GPT4_Technical_Detail.md) |
+| GPT4技术关键点总结 |  |  | [blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Blog/GPT4_Technical_Summary.md) |
+| GPT4和ChatGPT的效果对比 |  |  | [blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT_VS_GPT4/GPT4_VS_ChatGPT（from_nytimes）.md) |
+| The Ultimate GPT-4 Guide |  |  | [blog](https://doc.clickup.com/37456139/d/h/13q28b-324/e2a22b0c164b1f9) |
+| GPT-4里套娃LLaMA 2！OpenAI创始成员周末爆改「羊驼宝宝」，GitHub一日千星 |  |  | [blog](https://mp.weixin.qq.com/s/Tp4q8VflEZ7o8FgpZfrNgQ) |
+| Claude 2 解读 ChatGPT 4 的技术秘密：细节：参数数量、架构、基础设施、训练数据集、成本 |  |  | [blog](https://mp.weixin.qq.com/s/E2KpvldbYrH0NFvxgfsMlw) |
+| 用GPT-4进行指令调优 | [INSTRUCTION TUNING WITH GPT-4](https://arxiv.org/pdf/2304.03277.pdf) | [code](https://instruction-tuning-with-gpt-4.github.io/) |  |
+| 点燃通用人工智能的火花：GPT-4的早期实验 | [原始paper](https://arxiv.org/pdf/2303.12712.pdf)，[中文版paper](https://event-cdn.baai.ac.cn/file/file-browser/waTXJn85fm3FPyDXpsZ4faGk47trjjYb.pdf) |  |  [blog](https://mp.weixin.qq.com/s/H1RVdH0fmwM0GjfV3uvd4g) |
+| GPT4All：用GPT-3.5-Turbo的大规模数据提炼训练一个助理式聊天机器人 | [GPT4All: Training an Assistant-style Chatbot with Large Scale Data Distillation from GPT-3.5-Turbo](https://s3.amazonaws.com/static.nomic.ai/gpt4all/2023_GPT4All_Technical_Report.pdf) | [code](https://github.com/nomic-ai/gpt4all) |  |
+| 美国东北大学：可以通过要求GPT4反思“你为什么错了？”来提高30%的性能 | [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) | [code](https://github.com/noahshinn024/reflexion) |  |
+| 对ChatGPT/GPT-4研究的总结以及对大型语言模型未来的展望 | [Summary of ChatGPT-Related Research and Perspective Towards the Future of Large Language Models](https://arxiv.org/pdf/2304.01852.pdf) |  |  |
+| 评估日本医疗执照考试的GPT-4和ChatGPT | [Evaluating GPT-4 and ChatGPT on Japanese Medical Licensing Examinations](https://arxiv.org/pdf/2303.18027.pdf) |  |  |
+| 深入研究LLMs与AutoGPT的结合：揭示出GPT-4惊人的人类决策能力！ | [Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf) | [code](https://github.com/younghuman/LLMAgent) | [blog](https://mp.weixin.qq.com/s/Gbz7ZVVdeTq64mj1-__aQA) |
 
 ### Anima
 
