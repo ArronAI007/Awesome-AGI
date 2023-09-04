@@ -409,7 +409,7 @@ Some examples of AGI Paper List as follows：
 | AIGC综述: 从GAN到ChatGPT的生成式人工智能简史 | [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/abs/2303.04226v1) |  |  | 
 | 大模型综述来了！一文带你理清全球AI巨头的大模型进化史 | [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](https://arxiv.org/pdf/2304.13712.pdf) | [code](https://github.com/Mooler0410/LLMsPracticalGuide) |  | 
 
-Complete Content: please refer to [AGI Paper List](https://github.com/ArronAI007/Awesome-AGI/tree/main/AGI-Paper-List/README.md)
+**Complete Content**: please refer to [AGI Paper List](https://github.com/ArronAI007/Awesome-AGI/tree/main/AGI-Paper-List/README.md)
 
 ## 文本生成
 
@@ -421,208 +421,110 @@ Complete Content: please refer to [AGI Paper List](https://github.com/ArronAI007
 
 #### ChatGPT 应用篇
 
-**【58】**【从 GPT 到 ChatGPT 的演进与应用思考】[[blog](https://mp.weixin.qq.com/s/3Pr82xKpZ7mAWQcxPPB1xA)]
-
-**【MIT & 哈佛大学 】**【语言模型可以预测公众舆论 】[[paper](https://arxiv.org/pdf/2303.16779.pdf )]
-
-**【中科院】**【ChatGPT助力芯片，传统 EDA如何演变成智能EDA】[[blog](https://mp.weixin.qq.com/s/JyveUDEYKLrFolfCFLqhhw)]
-
-**【微软】**【《ChatGPT机器人:设计原则和模型能力》论文 】[[paper](https://www.microsoft.com/en-us/research/group/autonomous-systems-group-robotics/articles/chatgpt-for-robotics/)]
-
-**【微软】**【各种环境下的ChatGPT赋能长步机器人控制： 一个案例的应用 】[[paper](https://arxiv.org/pdf/2304.03893.pdf)]，[[code](https://github.com/microsoft/ChatGPT-Robot-Manipulation-Prompts)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【博客】**【ChatGPT获得了「Wolfram」超能力】[[blog](https://writings.stephenwolfram.com/2023/03/chatgpt-gets-its-wolfram-superpowers/)]
-
-**【博客】**【OpenAI开发Plugin将 ChatGPT 连接到互联网】[[blog](https://techcrunch.com/2023/03/23/openai-connects-chatgpt-to-the-internet/)]
-
-**【博客】**【ChatAug：利用ChatGPT进行文本数据增强】[[paper](https://arxiv.org/abs/2302.13007)]
-
-**【博客】**【ChatGPT 是数据隐私的另一个障碍吗】[[blog](https://www.bizcommunity.com/Article/196/639/236418.html)]
-
-**【博客】**【基于ChatGPT的数据增强方法：ChatAug和AugGPT】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486140&idx=1&sn=bba4342966c99559938824f2d747d231&chksm=ced54958f9a2c04ec121b8c198d69a5a17c8b3e0a96a0cfcd8d1271bd6097a2cbf66895dd8a9&token=447941009&lang=zh_CN#rd)]
-
-**【博客】**【Character.AI 在ChatGPT基础上加入个性化、UGC两大武器，有比 ChatGPT 更丰富的使用场景】[[blog](https://mp.weixin.qq.com/s/U4R8loz1G9PYM_l6IvNF_A)]
-
-**【博客】**【让ChatGPT可以**语音交互**】[[blog](https://mp.weixin.qq.com/s/H4XLCQ-kR7T28yywHJL4uA)]
-
-**【博客】**【“ChatGPT们”的淘金时代】[[blog](https://mp.weixin.qq.com/s/otdenJh5FJsCgi5ONy9JIQ)]
-
-**【博客】**【70 款 ChatGPT 插件评测（含样例分析）】[[blog](https://mp.weixin.qq.com/s/vHwAk63ukRteF1u1myrTlA)]
-
-**【论文】**【人大提出WebBrain：NLP新任务，通过网络数据的挖掘生成真实文章】[[paper](https://arxiv.org/abs/2304.04358)]，[[code](https://github.com/qhjqhj00/WebBrain)]
-
-**【医疗】**【ChatGPT爆火带来思考：医学界或将迎来与AI融合的奇点？】[[blog](https://mp.weixin.qq.com/s/x8ppg6GVCAeLNpv5uJ7B7g )]
-
-**【教育】**【论ChatGPT大语言模型在教育中的机遇与挑战 】[[blog](https://url39.ctfile.com/f/2501739-809898048-6394c7?p=2096)]
-
-**【投资】**【ChatGPT在投资研究领域的应用初探及原理分析】[[blog](https://mp.weixin.qq.com/s/LFPeSLeEOTb1-2YJBXclbQ)]
-
-**【软件】**【OpenAI总裁Greg Brockman转发｜一种编译语言的调试器，利用ChatGPT旨在增强您使用GDB进行调试体验】[[code](https://github.com/pgosar/ChatGDB)]
-
-**【软件】**【不必排队等 OpenAI Plugins，OpenBMB 开源大模型工具学习引擎】[[blog](https://hub.baai.ac.cn/view/25189)]
-
-**【其他】**【分析了ChatGPT技术以及落地应用场景 】[[blog](https://url39.ctfile.com/f/2501739-805099789-098b62?p=2096)]
-</p>
-</details>
+| Description| Paper | Code |Blog |
+| --- | --- | --- | --- | 
+| 从 GPT 到 ChatGPT 的演进与应用思考 |  | | [blog](https://mp.weixin.qq.com/s/3Pr82xKpZ7mAWQcxPPB1xA) | 
+| 语言模型可以预测公众舆论 | [Language models trained on media diets can predict public opinion](https://arxiv.org/pdf/2303.16779.pdf) |  |  | 
+| ChatGPT助力芯片，传统 EDA如何演变成智能EDA |  |  | [blog](https://mp.weixin.qq.com/s/JyveUDEYKLrFolfCFLqhhw) | 
+| ChatGPT机器人:设计原则和模型能力 | [ChatGPT for Robotics: Design Principles and Model Abilities](https://www.microsoft.com/en-us/research/group/autonomous-systems-group-robotics/articles/chatgpt-for-robotics/) |  |  | 
+| 各种环境下的ChatGPT赋能长步机器人控制： 一个案例的应用 | [ChatGPT Empowered Long-Step Robot Control in Various Environments: A Case Application](https://arxiv.org/pdf/2304.03893.pdf) | [code](https://github.com/microsoft/ChatGPT-Robot-Manipulation-Prompts) |  | 
+| ChatGPT获得了「Wolfram」超能力 |  |  | [blog](https://writings.stephenwolfram.com/2023/03/chatgpt-gets-its-wolfram-superpowers/) | 
+| OpenAI开发Plugin将 ChatGPT 连接到互联网 |  |  | [blog](https://techcrunch.com/2023/03/23/openai-connects-chatgpt-to-the-internet/) | 
+| ChatAug：利用ChatGPT进行文本数据增强 | [ChatAug: Leveraging ChatGPT for Text Data Augmentation](https://arxiv.org/pdf/2302.13007v1.pdf) |  |  | 
+| ChatGPT 是数据隐私的另一个障碍吗 |  |  | [blog](https://www.bizcommunity.com/Article/196/639/236418.html) | 
+| 基于ChatGPT的数据增强方法：ChatAug和AugGPT |  |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486140&idx=1&sn=bba4342966c99559938824f2d747d231&chksm=ced54958f9a2c04ec121b8c198d69a5a17c8b3e0a96a0cfcd8d1271bd6097a2cbf66895dd8a9&token=447941009&lang=zh_CN#rd) | 
+| Character.AI 在ChatGPT基础上加入个性化、UGC两大武器，有比 ChatGPT 更丰富的使用场景 |  |  | [blog](https://mp.weixin.qq.com/s/U4R8loz1G9PYM_l6IvNF_A) | 
+| 让ChatGPT可以**语音交互** |  |  | [blog](https://mp.weixin.qq.com/s/H4XLCQ-kR7T28yywHJL4uA) | 
+| “ChatGPT们”的淘金时代 |  |  | [blog](https://mp.weixin.qq.com/s/otdenJh5FJsCgi5ONy9JIQ) | 
+| 70 款 ChatGPT 插件评测（含样例分析） |  |  | [blog](https://mp.weixin.qq.com/s/vHwAk63ukRteF1u1myrTlA) | 
+| 人大提出WebBrain：NLP新任务，通过网络数据的挖掘生成真实文章 | [WebBrain: Learning to Generate Factually Correct Articles for Queries by Grounding on Large Web Corpus](https://arxiv.org/abs/2304.04358) | [code](https://github.com/qhjqhj00/WebBrain) |  | 
+| ChatGPT爆火带来思考：医学界或将迎来与AI融合的奇点？ |  |  | [blog](https://mp.weixin.qq.com/s/x8ppg6GVCAeLNpv5uJ7B7g) | 
+| 论ChatGPT大语言模型在教育中的机遇与挑战 |  |  | [blog](https://url39.ctfile.com/f/2501739-809898048-6394c7?p=2096) | 
+| ChatGPT在投资研究领域的应用初探及原理分析 |  |  | [blog](https://mp.weixin.qq.com/s/LFPeSLeEOTb1-2YJBXclbQ) | 
+| OpenAI总裁Greg Brockman转发｜一种编译语言的调试器，利用ChatGPT旨在增强您使用GDB进行调试体验 |  | [code](https://github.com/pgosar/ChatGDB) |  | 
+| 不必排队等 OpenAI Plugins，OpenBMB 开源大模型工具学习引擎 |  |  | [blog](https://hub.baai.ac.cn/view/25189) | 
+| 分析了ChatGPT技术以及落地应用场景 |  |  | [blog](https://url39.ctfile.com/f/2501739-805099789-098b62?p=2096) | 
 
 #### ChatGPT 工具篇
 
-**【工具】**【ChatGPT 应用汇总及操作手册】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485794&idx=1&sn=6aa0500e3139b67246dd5f96007d1487&chksm=ced54a86f9a2c390d86856181f1fcd09091cf84d67e81535b6d592617f49fe24349779cfa1e5&token=447941009&lang=zh_CN#rd)]
-
-**【工具】**【ChatGPT提示和技巧速查手册】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485766&idx=1&sn=43ad627e4e183d7a108c3c57ab0e02dc&chksm=ced54aa2f9a2c3b4a2d529e4ed7c2acc7fa32e7465837045d3ec607701e0da2a55c0c557cad2&token=447941009&lang=zh_CN#rd)]
-
-**【工具】**【非常全面的ChatGPT、LLM相关资源整理分享】[[code](https://github.com/cedrickchee/chatgpt-universe)]
-
-**【工具】**【ChatGPT超全面课程】[[blog](https://tested-salto-cab.notion.site/The-Ultimate-Chat-GPT-Course-69ed24a317a942d288e740419b1ad6f6)]
-
-**【工具】**【BloombergGPT: A Large Language Model for Finance】[[paper](https://papers.labml.ai/api/v1/redirect/pdf?paper_key=b0e4b03ecf5c11edb95839eec3084ddd)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【工具】**【ChatPDF：一键上传PDF文件即可解读 】[[blog](https://mp.weixin.qq.com/s/S1DUJrNK5_H5krvHotOwHQ)]，[[试用地址](https://www.chatpdf.com/)]
-
-**【工具】**【ChatWeb：可爬取网页正文，并根据正文回答问题 】[[code](https://github.com/SkywalkerDarren/chatWeb)]
-
-**【工具】**【chatgpt_academic：中科院基于 ChatGPT 专属定制的学术研究及日常开发工具】[[blog](https://hub.baai.ac.cn/view/25298)]，[[code](https://github.com/binary-husky/chatgpt_academic)]，[[demo](https://huggingface.co/spaces/qingxu98/gpt-academic)]
-
-**【工具】**【Einstein GPT：SaaS 行业巨头 Salesforce 宣布与 OpenAI 合作，推出 Einstein GPT，这是全球首个用于客户关系管理（CRM）的生成式 AI 产品 】[[Einstein GPT地址](https://www.salesforce.com/products/einstein/overview/?d=cta-body-promo-8)]，[[试用地址](https://openai.com/waitlist/slack)]
-
-**【工具】**【HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace 】[[paper](https://arxiv.org/pdf/2303.17580.pdf)]
-
-**【工具】**【ImpressionGPT： 利用ChatGPT对放射科报告进行总结的迭代优化框架】[[paper](https://arxiv.org/abs/2304.08448)]
-
-**【工具】**【OpenGpt：创建ChatGPT小应用的AI平台】[[官网](https://open-gpt.app/)]，[[code](https://github.com/futantan/OpenGpt)]
-
-**【工具】**【TagGPT：腾讯提出零样本多模态标签的大语言模型TagGPT】[[paper](https://arxiv.org/abs/2304.03022)]，[[code](https://github.com/TencentARC/TagGPT)]
-
-**【工具】**【Visual ChatGPT: 在视觉模型加持下的ChatGPT，聊天生图全拿捏了。】[[paper](https://arxiv.org/pdf/2303.04671.pdf)]
-
-**【工具】**【NetGPT：用于网络流量的生成预训练Transformer模型】[[paper](https://arxiv.org/pdf/2304.09513.pdf)]
-</p>
-</details>
+| Description| Paper | Code |Blog |
+| --- | --- | --- | --- | 
+| ChatGPT 应用汇总及操作手册 |  |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485794&idx=1&sn=6aa0500e3139b67246dd5f96007d1487&chksm=ced54a86f9a2c390d86856181f1fcd09091cf84d67e81535b6d592617f49fe24349779cfa1e5&token=447941009&lang=zh_CN#rd) | 
+| ChatGPT提示和技巧速查手册 |  |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485766&idx=1&sn=43ad627e4e183d7a108c3c57ab0e02dc&chksm=ced54aa2f9a2c3b4a2d529e4ed7c2acc7fa32e7465837045d3ec607701e0da2a55c0c557cad2&token=447941009&lang=zh_CN#rd) | 
+| 非常全面的ChatGPT、LLM相关资源整理分享 |  | [code](https://github.com/cedrickchee/chatgpt-universe) |  | 
+| ChatGPT超全面课程 |  |  | [blog](https://tested-salto-cab.notion.site/The-Ultimate-Chat-GPT-Course-69ed24a317a942d288e740419b1ad6f6) | 
+| BloombergGPT: A Large Language Model for Finance | [BloombergGPT: A Large Language Model for Finance](https://papers.labml.ai/api/v1/redirect/pdf?paper_key=b0e4b03ecf5c11edb95839eec3084ddd) |  |  | 
+| ChatPDF：一键上传PDF文件即可解读 |  |  | [blog](https://mp.weixin.qq.com/s/S1DUJrNK5_H5krvHotOwHQ)，[试用地址](https://www.chatpdf.com/) | 
+| ChatWeb：可爬取网页正文，并根据正文回答问题 |  | [code](https://github.com/SkywalkerDarren/chatWeb) |  | 
+| chatgpt_academic：中科院基于 ChatGPT 专属定制的学术研究及日常开发工具 | --- | [code](https://github.com/binary-husky/chatgpt_academic) | [blog](https://hub.baai.ac.cn/view/25298)，[demo](https://huggingface.co/spaces/qingxu98/gpt-academic) | 
+| Einstein GPT：SaaS 行业巨头 Salesforce 宣布与 OpenAI 合作，推出 Einstein GPT，这是全球首个用于客户关系管理（CRM）的生成式 AI 产品 |  |  | [Einstein GPT地址](https://www.salesforce.com/products/einstein/overview/?d=cta-body-promo-8)，[试用地址](https://openai.com/waitlist/slack) | 
+| HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace | [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace](https://arxiv.org/pdf/2303.17580.pdf) |  |  | 
+| ImpressionGPT： 利用ChatGPT对放射科报告进行总结的迭代优化框架 | [ImpressionGPT: An Iterative Optimizing Framework for Radiology Report Summarization with ChatGPT](https://arxiv.org/abs/2304.08448) |  |  | 
+| OpenGpt：创建ChatGPT小应用的AI平台 |  | [code](https://github.com/futantan/OpenGpt) | [官网](https://open-gpt.app/) | 
+| TagGPT：腾讯提出零样本多模态标签的大语言模型TagGPT | [TagGPT: Large Language Models are Zero-shot Multimodal Taggers](https://arxiv.org/abs/2304.03022) | [code](https://github.com/TencentARC/TagGPT) |  | 
+| Visual ChatGPT: 在视觉模型加持下的ChatGPT，聊天生图全拿捏了。 | [Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models](https://arxiv.org/pdf/2303.04671.pdf) |  |  | 
+| NetGPT：用于网络流量的生成预训练Transformer模型 | [NetGPT: Generative Pretrained Transformer for Network Traffic](https://arxiv.org/pdf/2304.09513.pdf) |  |  | 
 
 #### ChatGPT 技术篇
 
-**【博客】**【ChatGPT_Inference_Cost】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Inference_Cost.md)]
-
-**【博客】**【ChatGPT_Official_API_Learning】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Official_API_Learning.md)]
-
-**【博客】**【ChatGPT_Parameter_is_not_175B】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Parameter_is_not_175B.md)]
-
-**【博客】**【ChatGPT_Road_Map_from_yao.fu】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Road_Map_from_yao.fu.md)]
-
-**【博客】**【Lessons_Learned_from_ChatGPT_Recurrence】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/Lessons_Learned_from_ChatGPT_Recurrence.md)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【博客】**【LLM_Pre-training_Guide（Bloom-175B）】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/LLM_Pre-training_Guide（Bloom-175B）.md)]
-
-**【博客】**【The_guide_of_training_LLM】[[blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/The_guide_of_training_LLM.md)]
-
-**【符尧】**【深度拆解GPT-3.5能力起源】[[原文blog](https://yaofu.notion.site/GPT-3-5-360081d91ec245f29029d37b54573756)]，[[译文blog](https://mp.weixin.qq.com/s/ckd6KxeTfdQas_UCsJ7HgQ)]
-
-**【知乎】**【ChatGPT发展历程、原理、技术架构详解和产业未来】[[blog](https://zhuanlan.zhihu.com/p/590655677)]
-
-**【微软】**【让天下没有难训练的大模型，微软亚洲研究院开源TorchScale 】[[code](https://github.com/microsoft/torchscale)]
-
-**【斯坦福】**【82页PPT ！最新ChatGPT: 提示学习, 指导微调和RLHF 】[[blog](https://pan.baidu.com/s/15Bs1u7z1RhCdfiR3oJ_gJQ)]，[提取码:chat]
-
-**【亚马逊 】**【他们提出了包含视觉特征的 Multimodal-CoT，该架构在参数量小于 10 亿的情况下，在 ScienceQA 基准测试中，比 GPT-3.5 高出 16 个百分点 】[[paper](https://arxiv.org/abs/2302.00923)]，[[code](https://github.com/amazon-science/mm-cot)]
-
-**【OpenBMB】**【Nature ：生成式 AI 的前景与风险】[[blog](https://mp.weixin.qq.com/s/d6t2xpdvSDCHzO2gG1N6eQ)]
-
-**【博客】**【万字长文解读：从Transformer到ChatGPT，通用人工智能曙光初现】[[blog](https://mp.weixin.qq.com/s/iZyKmWgXUkPv3Phyaw4Ppg)]
-
-**【博客】**【AI芯片制造商Cerebras发布7个基于GPT的大语言模型，现已开源】[[官网地址](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/)]，[[GPT地址](https://www.cerebras.net/cerebras-gpt)]，[[Hugging Face地址 ](https://huggingface.co/cerebras)]
-
-**【博客】**【大模型论文周报丨GPT-4发布，谷歌开放PaLM API，斯坦福7B开源模型Alpaca媲美GPT-3.5】[[blog](https://mp.weixin.qq.com/s/C6g_H6xfFn59IxnLpbjA1g)]
-
-**【博客】**【LLaMA模型Meta版泄露，GitHub获8K星】[[blog](https://mp.weixin.qq.com/s/2M19WSq2YICo-3t5ibQcig)]
-
-**【博客】**【ChatGPT or Grammarly? Evaluating ChatGPT on Grammatical Error Correction Benchmark 】[[paper](https://arxiv.org/abs/2303.13648)]
-
-**【博客】**【打造中国版ChatGPT，国内哪家实力最强】[[blog](https://mp.weixin.qq.com/s/B-n_qz110HmhSP66NKRCiQ)]
-
-**【博客】**【复旦大学邱锡鹏教授解读ChatGPT】[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485810&idx=1&sn=47eb672c688517d6bade2c62c7eae94f&chksm=ced54a96f9a2c380ccacfbb223df52de64f2c410a91e726023a074fc98fb87fcd9f60f5a4957&token=447941009&lang=zh_CN#rd)]
-
-**【博客】**【万字长文:可能是全网最晚的ChatGPT技术总结 】[[blog](https://mp.weixin.qq.com/s/LJoxupaKflL793TCwnpyPg)]
-
-**【博客】**【ChatGPT作为知识库问答系统的问答能力评测 】[[blog](https://mp.weixin.qq.com/s/xul2-SENnqxV8VehozDKHg )]
-
-**【博客】**【ChatGPT作者John Shulman：我们成功的秘密武器】[[blog](https://www.talkrl.com/episodes/john-schulman)]，[[blog译文](https://mp.weixin.qq.com/s/sDeBYMvAwbJr5_tj7Q20-w)]
-
-**【博客】**【ChatGPT 是数据隐私的另一个障碍吗】[[blog](https://www.bizcommunity.com/Article/196/639/236418.html)]
-
-**【博客】**【Hugging Face 每周速递: ChatGPT API 怎么用？我们帮你搭好页面了 】[[blog](https://mp.weixin.qq.com/s/oeXgd78vFV8os2uTGZkFQQ)]
-
-**【博客】**【复旦大学教授肖仰华：ChatGPT 浪潮下，面向大模型如何做数据治理？】[[blog](https://mp.weixin.qq.com/s/od24PYvFLUJe4NQxjvsbMw)]
-
-**【博客】**【腾讯在ChatGPT的布局】[[blog](https://mp.weixin.qq.com/s/rdpGZII3pu3MHr-lFm3GyQ)]
-
-**【博客】**【浅析ChatGPT：历史沿革、应用现状及前景展望】[[blog](https://mp.weixin.qq.com/s/fQ8DmL_M3QMiFX23Tf0z7w)]
-
-**【博客】**【ChatGPT 背后的“功臣”——人类反馈强化学习RLHF 技术详解】[[blog](https://mp.weixin.qq.com/s/mZdZS9QNda26Ae0OIhRjFA)]
-
-**【博客】**【万字长文解析！复现和使用GPT-3/ChatGPT，你所应该知道的】[[blog](https://mp.weixin.qq.com/s/ILpbRRNP10Ef1z3lb2CqmA)]
-
-**【博客】**【想训练ChatGPT？得先弄明白Reward Model怎么训（附源码） 】[[blog](https://mp.weixin.qq.com/s/1v4Uuc1YAZ9MRr1UWMH9xw)]
-
-**【博客】**【ChatGPT核心技术：强化学习PPO算法】[[blog](https://mp.weixin.qq.com/s/z4oc9xQmduKMolWxztdHjA)]
-
-**【博客】**【解读 ChatGPT 背后的技术重点：RLHF、IFT、CoT、红蓝对抗】[[blog](https://mp.weixin.qq.com/s/y4ywidZ55BQLgQzJa_Wjbg)]
-
-**【博客】**【OpenAI ChatGPT Code Interpreter入门】[[blog](https://www.oneusefulthing.org/p/what-ai-can-do-with-a-toolbox-getting)]
-
-**【伦理】**【加拿大魁北克大学教授详述：我们该拿ChatGPT怎么办？】[[blog](https://lemire.me/blog/2023/04/03/what-are-we-going-to-do-about-chatgpt/)]
-
-**【论文】**【AIGC时代的ChatGPT全面综述】[[paper](https://arxiv.org/abs/2304.06488)]
-
-**【论文】**【ChatGPT is a Knowledgeable but Inexperienced Solver: An Investigation of Commonsense Problem in Large Language Models】[[paper](https://arxiv.org/pdf/2303.16421.pdf)]
-
-**【论文】**【GPT-3 和 GPT-3.5 系列模型的全面分析】[[paper](https://arxiv.org/abs/2303.10420v1)]
-
-**【论文】**【ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks】[[paper](https://arxiv.org/pdf/2303.15056.pdf)]
-
-**【论文】**【微软&佐治亚理工学院 | AdaLoRA：自适应预算分配以实现参数有效的微调】[[paper](https://arxiv.org/pdf/2303.10512.pdf)]，[[code](https://github.com/QingruZhang/AdaLoRA)]
-
-**【论文】**【微软 | 大型语言模型的语境忠实提示法】[[paper](https://arxiv.org/pdf/2303.11315.pdf)]
-
-**【论文】**【KAUST | ChatGPT问，BLIP-2回答模型：面向丰富的视觉描述的自动提问】[[paper](https://arxiv.org/pdf/2303.06594.pdf)]，[[code](https://github.com/Vision-CAIR/ChatCaptioner)]
-
-**【论文】**【ChatGPT真的可以取代知识图谱问答吗？】[[paper](https://arxiv.org/abs/2303.07992)]，[[paper翻译](https://mp.weixin.qq.com/s/cvBVgxCrreic6U6CU-YB-A)]
-
-**【论文】**【Meta & 斯坦福大学推出FlexGen：用单个GPU进行大型语言模型的高吞吐量生成性推理】[[paper](https://arxiv.org/pdf/2303.06865.pdf)]，[[code](https://github.com/FMInference/FlexGen)]
-
-**【论文】**【ChatGPT破圈的「秘密武器」：详解RLHF如何影响人类社会！】[[paper](https://arxiv.org/abs/2303.02891)]，[[blog](https://mp.weixin.qq.com/s/DCFhefWGQS5naYwT3o6neg)]
-
-**【论文】**【探讨ChatGPT在对抗攻击和分布外泛化下的鲁棒性】[[paper](https://arxiv.org/pdf/2302.12095.pdf)]，[[code](https://github.com/microsoft/robustlearn)]
-
-**【论文】**【复旦清华联合顶刊发文｜ChatGPT：潜力、前景和局限】[[blog](https://mp.weixin.qq.com/s/1D62QuxXFDXWwwRXrB-Ivw)]，[[paper](https://link.springer.com/article/10.1631/FITEE.2300089 )]
-
-**【论文】**【引导ChatGPT不要输出有害信息】[[paper](https://arxiv.org/pdf/2302.07459.pdf)]
-
-**【论文】**【Junnan Li大佬发表最新多模态的杰作BLIP2】[[paper](https://arxiv.org/abs/2301.12597)]，[[code](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)]，[[blog](https://mp.weixin.qq.com/s/xmSy4m7NheY8iComv7grxQ)]
-
-**【论文】**【Instruction Tuning：无/少样本学习新范式】[[paper](https://arxiv.org/abs/2109.01652)]，[[code](https://github.com/google-research/flan)]
-
-**【论文】**【GPTScore：一种新的评估语言模型方法】[[paper](https://arxiv.org/abs/2302.04166 )]，[[code](https://github.com/jinlanfu/GPTScore)]
-
-**【论文】**【ChatGPT内核：InstructGPT，基于反馈指令的PPO强化学习】[[blog](https://zhuanlan.zhihu.com/p/589747432)]，[[B站](https://www.bilibili.com/video/BV1hd4y187CR)]
-
-**【论文】**【Fine-tune-CoT：小模型也能做推理，完美逆袭大模型】[[paper](https://arxiv.org/pdf/2212.10071.pdf)]，[[code](https://github.com/itsnamgyu/reasoning-teacher)]
-
-**【论文】**【ChatGPT的潜力解锁：自然语言处理中应用、优势、限制和未来方向的全面探索】[[paper](https://arxiv.org/pdf/2304.02017.pdf)]
-
-**【论文】**【阿里巴巴&清华大学|大型语言模型在算术任务中的表现如何？】[[paper](https://arxiv.org/pdf/2304.02015.pdf)]，[[code](https://github.com/GanjinZero/math401-llm)]
-
-**【代码】**【本科生60行代码教你手搓GPT大模型】[[code](https://github.com/jaymody/picoGPT/tree/29e78cc52b58ed2c1c483ffea2eb46ff6bdec785)]
-</p>
-</details>
+| Description| Paper | Code |Blog |
+| --- | --- | --- | --- | 
+| ChatGPT_Inference_Cost | --- | --- | [blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Inference_Cost.md) | 
+| ChatGPT_Official_API_Learning |  |  | [blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Official_API_Learning.md) | 
+| ChatGPT_Parameter_is_not_175B |  |  | [blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Parameter_is_not_175B.md) | 
+| ChatGPT_Road_Map_from_yao.fu |  |  | [blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/ChatGPT_Road_Map_from_yao.fu.md) | 
+| Lessons_Learned_from_ChatGPT_Recurrence |  |  | [blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/Lessons_Learned_from_ChatGPT_Recurrence.md) | 
+| LLM_Pre-training_Guide（Bloom-175B） |  |  | [blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/LLM_Pre-training_Guide（Bloom-175B）.md) | 
+| The_guide_of_training_LLM |  |  | [blog](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/ChatGPT/Blog/ChatGPT_Technology/The_guide_of_training_LLM.md) | 
+| 深度拆解GPT-3.5能力起源 |  |  | [原文blog](https://yaofu.notion.site/GPT-3-5-360081d91ec245f29029d37b54573756)，[译文blog](https://mp.weixin.qq.com/s/ckd6KxeTfdQas_UCsJ7HgQ) | 
+| ChatGPT发展历程、原理、技术架构详解和产业未来 |  |  | [blog](https://zhuanlan.zhihu.com/p/590655677) | 
+| 让天下没有难训练的大模型，微软亚洲研究院开源TorchScale |  | [code](https://github.com/microsoft/torchscale) |  | 
+| 82页PPT ！最新ChatGPT: 提示学习, 指导微调和RLHF |  |  | [blog](https://pan.baidu.com/s/15Bs1u7z1RhCdfiR3oJ_gJQ), [提取码:chat]| 
+| 他们提出了包含视觉特征的 Multimodal-CoT，该架构在参数量小于 10 亿的情况下，在 ScienceQA 基准测试中，比 GPT-3.5 高出 16 个百分点 | [Multimodal Chain-of-Thought Reasoning in Language Models](https://arxiv.org/abs/2302.00923) | [code](https://github.com/amazon-science/mm-cot) |  | 
+| Nature ：生成式 AI 的前景与风险 |  |  | [blog](https://mp.weixin.qq.com/s/d6t2xpdvSDCHzO2gG1N6eQ) | 
+| 万字长文解读：从Transformer到ChatGPT，通用人工智能曙光初现 |  |  | [blog](https://mp.weixin.qq.com/s/iZyKmWgXUkPv3Phyaw4Ppg) | 
+| AI芯片制造商Cerebras发布7个基于GPT的大语言模型，现已开源 |  |  | [官网地址](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/)，[GPT地址](https://www.cerebras.net/cerebras-gpt)，[Hugging Face地址](https://huggingface.co/cerebras) | 
+| 大模型论文周报丨GPT-4发布，谷歌开放PaLM API，斯坦福7B开源模型Alpaca媲美GPT-3.5 |  |  | [blog](https://mp.weixin.qq.com/s/C6g_H6xfFn59IxnLpbjA1g) | 
+| LLaMA模型Meta版泄露，GitHub获8K星 |  |  | [blog](https://mp.weixin.qq.com/s/2M19WSq2YICo-3t5ibQcig) | 
+| ChatGPT or Grammarly? Evaluating ChatGPT on Grammatical Error Correction Benchmark | [ChatGPT or Grammarly? Evaluating ChatGPT on Grammatical Error Correction Benchmark](https://arxiv.org/abs/2303.13648) |  |  | 
+| 打造中国版ChatGPT，国内哪家实力最强 |  |  | [blog](https://mp.weixin.qq.com/s/B-n_qz110HmhSP66NKRCiQ) | 
+| 复旦大学邱锡鹏教授解读ChatGPT |  |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485810&idx=1&sn=47eb672c688517d6bade2c62c7eae94f&chksm=ced54a96f9a2c380ccacfbb223df52de64f2c410a91e726023a074fc98fb87fcd9f60f5a4957&token=447941009&lang=zh_CN#rd) | 
+| 万字长文:可能是全网最晚的ChatGPT技术总结 |  |  | [blog](https://mp.weixin.qq.com/s/LJoxupaKflL793TCwnpyPg) | 
+| ChatGPT作为知识库问答系统的问答能力评测 |  |  | [blog](https://mp.weixin.qq.com/s/xul2-SENnqxV8VehozDKHg) | 
+| ChatGPT作者John Shulman：我们成功的秘密武器 |  |  | [blog](https://www.talkrl.com/episodes/john-schulman)，[blog译文](https://mp.weixin.qq.com/s/sDeBYMvAwbJr5_tj7Q20-w) | 
+| ChatGPT 是数据隐私的另一个障碍吗 |  |  | [blog](https://www.bizcommunity.com/Article/196/639/236418.html) | 
+| Hugging Face 每周速递: ChatGPT API 怎么用？我们帮你搭好页面了 |  |  | [blog](https://mp.weixin.qq.com/s/oeXgd78vFV8os2uTGZkFQQ) | 
+| 复旦大学教授肖仰华：ChatGPT 浪潮下，面向大模型如何做数据治理？ |  |  | [blog](https://mp.weixin.qq.com/s/od24PYvFLUJe4NQxjvsbMw) | 
+| 腾讯在ChatGPT的布局 |  |  | [blog](https://mp.weixin.qq.com/s/rdpGZII3pu3MHr-lFm3GyQ) | 
+| 浅析ChatGPT：历史沿革、应用现状及前景展望 |  |  | [blog](https://mp.weixin.qq.com/s/fQ8DmL_M3QMiFX23Tf0z7w) | 
+| ChatGPT 背后的“功臣”——人类反馈强化学习RLHF 技术详解 |  |  | [blog](https://mp.weixin.qq.com/s/mZdZS9QNda26Ae0OIhRjFA) | 
+| 万字长文解析！复现和使用GPT-3/ChatGPT，你所应该知道的 |  |  | [blog](https://mp.weixin.qq.com/s/ILpbRRNP10Ef1z3lb2CqmA) | 
+| 想训练ChatGPT？得先弄明白Reward Model怎么训（附源码） |  |  | [blog](https://mp.weixin.qq.com/s/1v4Uuc1YAZ9MRr1UWMH9xw) | 
+| ChatGPT核心技术：强化学习PPO算法 |  |  | [blog](https://mp.weixin.qq.com/s/z4oc9xQmduKMolWxztdHjA) | 
+| 解读 ChatGPT 背后的技术重点：RLHF、IFT、CoT、红蓝对抗 |  |  | [blog](https://mp.weixin.qq.com/s/y4ywidZ55BQLgQzJa_Wjbg) | 
+| OpenAI ChatGPT Code Interpreter入门 |  |  | [blog](https://www.oneusefulthing.org/p/what-ai-can-do-with-a-toolbox-getting) | 
+| 加拿大魁北克大学教授详述：我们该拿ChatGPT怎么办？ |  |  | [blog](https://lemire.me/blog/2023/04/03/what-are-we-going-to-do-about-chatgpt/) | 
+| AIGC时代的ChatGPT全面综述 | [One Small Step for Generative AI, One Giant Leap for AGI: A Complete Survey on ChatGPT in AIGC Era](https://arxiv.org/abs/2304.06488) |  |  | 
+| ChatGPT is a Knowledgeable but Inexperienced Solver: An Investigation of Commonsense Problem in Large Language Models |  [ChatGPT is a Knowledgeable but Inexperienced Solver: An Investigation of Commonsense Problem in Large Language Models](https://arxiv.org/pdf/2303.16421.pdf) |  |  | 
+| GPT-3 和 GPT-3.5 系列模型的全面分析 | [A Comprehensive Capability Analysis of GPT-3 and GPT-3.5 Series Models](https://arxiv.org/abs/2303.10420v1) |  |  | 
+| ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks | [CHATGPT OUTPERFORMS CROWD-WORKERS FOR TEXT-ANNOTATION TASKS](https://arxiv.org/pdf/2303.15056.pdf) |  |  | 
+| AdaLoRA：自适应预算分配以实现参数有效的微调 | [ADAPTIVE BUDGET ALLOCATION FOR PARAMETEREFFICIENT FINE-TUNING](https://arxiv.org/pdf/2303.10512.pdf) | [code](https://github.com/QingruZhang/AdaLoRA) |  | 
+| 大型语言模型的语境忠实提示法 | [Context-faithful Prompting for Large Language Models](https://arxiv.org/pdf/2303.11315.pdf) |  |  | 
+| ChatGPT问，BLIP-2回答模型：面向丰富的视觉描述的自动提问 | [ChatGPT Asks, BLIP-2 Answers: Automatic Questioning Towards Enriched Visual Descriptions](https://arxiv.org/pdf/2303.06594.pdf) | [code](https://github.com/Vision-CAIR/ChatCaptioner) |  | 
+| ChatGPT真的可以取代知识图谱问答吗？ | [Can ChatGPT Replace Traditional KBQA Models? An In-depth Analysis of GPT family LLMs' Question Answering Performance](https://arxiv.org/abs/2303.07992)，[paper翻译](https://mp.weixin.qq.com/s/cvBVgxCrreic6U6CU-YB-A) |  |  | 
+| Meta & 斯坦福大学推出FlexGen：用单个GPU进行大型语言模型的高吞吐量生成性推理 | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://arxiv.org/pdf/2303.06865.pdf) | [code](https://github.com/FMInference/FlexGen) |  | 
+| ChatGPT破圈的「秘密武器」：详解RLHF如何影响人类社会！ | [Perspectives on the Social Impacts of Reinforcement Learning with Human Feedback](https://arxiv.org/abs/2303.02891) |  | [blog](https://mp.weixin.qq.com/s/DCFhefWGQS5naYwT3o6neg) | 
+| 探讨ChatGPT在对抗攻击和分布外泛化下的鲁棒性 | [On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective](https://arxiv.org/pdf/2302.12095.pdf) | [code](https://github.com/microsoft/robustlearn) |  | 
+| 复旦清华联合顶刊发文｜ChatGPT：潜力、前景和局限 | [ChatGPT: potential, prospects, and limitations](https://link.springer.com/article/10.1631/FITEE.2300089) |  | [blog](https://mp.weixin.qq.com/s/1D62QuxXFDXWwwRXrB-Ivw) | 
+| 引导ChatGPT不要输出有害信息 | [The Capacity for Moral Self-Correction in Large Language Models](https://arxiv.org/pdf/2302.07459.pdf) |  |  | 
+| Junnan Li大佬发表最新多模态的杰作BLIP2 | [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) | [code](https://github.com/salesforce/LAVIS/tree/main/projects/blip2) | [blog](https://mp.weixin.qq.com/s/xmSy4m7NheY8iComv7grxQ) | 
+| Instruction Tuning：无/少样本学习新范式 | [Finetuned Language Models Are Zero-Shot Learners](https://arxiv.org/abs/2109.01652) | [code](https://github.com/google-research/flan) |  | 
+| GPTScore：一种新的评估语言模型方法 | [GPTScore: Evaluate as You Desire](https://arxiv.org/abs/2302.04166) | [code](https://github.com/jinlanfu/GPTScore) |  | 
+| ChatGPT内核：InstructGPT，基于反馈指令的PPO强化学习 |  |  | [blog](https://zhuanlan.zhihu.com/p/589747432)，[video](https://www.bilibili.com/video/BV1hd4y187CR) | 
+| Fine-tune-CoT：小模型也能做推理，完美逆袭大模型 | [Large Language Models Are Reasoning Teachers](https://arxiv.org/pdf/2212.10071.pdf) | [code](https://github.com/itsnamgyu/reasoning-teacher) |  | 
+| ChatGPT的潜力解锁：自然语言处理中应用、优势、限制和未来方向的全面探索 | [UNLOCKING THE POTENTIAL OF CHATGPT: A COMPREHENSIVE EXPLORATION OF ITS APPLICATIONS, ADVANTAGES, LIMITATIONS, AND FUTURE DIRECTIONS IN NATURAL LANGUAGE PROCESSING](https://arxiv.org/pdf/2304.02017.pdf) |  |  | 
+| 阿里巴巴&清华大学|大型语言模型在算术任务中的表现如何？ | [How well do Large Language Models perform in Arithmetic tasks?](https://arxiv.org/pdf/2304.02015.pdf) | [code](https://github.com/GanjinZero/math401-llm) |  | 
+| 本科生60行代码教你手搓GPT大模型 |  | [code](https://github.com/jaymody/picoGPT/tree/29e78cc52b58ed2c1c483ffea2eb46ff6bdec785) |  | 
 
 ### GPT4
 
