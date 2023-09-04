@@ -165,107 +165,87 @@
 
 ### 医疗
 
-【AD-AutoGPT：用于阿尔茨海默病信息流行病学的自主GPT】[[paper](https://arxiv.org/abs/2306.10095)]
-
-【BianQue：扁鹊-1.0以ChatYuan-large-v2作为底座模型全量参数训练得来，扁鹊-2.0以ChatGLM-6B作为底座模型全量参数训练得来。】[[code](https://github.com/scutcyr/BianQue)]
-
-【ChatMed：善于在线回答患者/用户的日常医疗相关问题，基于Llama-7B模型，采用Lora方法进行模型训练】[[code](https://github.com/michael-wzhu/ChatMed)]
-
-【DoctorGLM：基于ChatGLM-6B模型，采用Lora和P-tuning-v2两种方法进行模型训练】[[code](https://github.com/xionghonglin/DoctorGLM)]
-
-【Huatuo-Llama-Med-Chinese：基于Llama-7B模型，通过医学知识图谱和GPT3.5 API构建了中文医学指令数据集，数据共开源9k条，采用Lora方法进行模型训练】[[code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)]
-
-<details><summary>展开更多</summary>
-<p>
-
-【MedQA-ChatGLM - 基于真实医疗对话数据在ChatGLM上进行微调】[[code](http://github.com/WangRongsheng/MedQA-ChatGLM)]，[[主页](https://www.wangrs.co/MedQA-ChatGLM/)]
-
-【MedicalGPT-zh：基于ChatGLM-6B，主要采用CMD（Chinese Medical Dialogue Data）数据，通过对16组诊疗情景和28个科室医用指南借助ChatGPT构造182k条数据，采用Lora&16bit方法进行模型训练】[[code](https://github.com/MediaBrain-SJTU/MedicalGPT-zh)]
-
-【Med-ChatGLM：基于ChatGLM-6B模型，与Huatuo-Llama-Med-Chinese相同数据，采用Lora方法进行模型训练】[[code](https://github.com/SCIR-HI/Med-ChatGLM)]
-
-【PULSE：中文医疗大语言模型】[[code](https://huggingface.co/OpenMEDLab/PULSE-7bv5)]
-
-【ShenNong-TCM-LLM：基于Llama-7B模型，以中医药知识图谱为基础，采用以实体为中心的自指令方法，调用ChatGPT得到11w+的围绕中医药的指令数据，采用Lora方法进行模型训练】[[code](https://github.com/michael-wzhu/ShenNong-TCM-LLM)]
-
-【SoulChat：基于ChatGLM-6B模型，构建了超过15万规模的单轮长文本心理咨询指令数据，并利用ChatGPT与GPT4，生成总共约100万轮次的多轮回答数据，采用全量参数微调方法进行模型训练】[[code](https://github.com/scutcyr/SoulChat)]
+| Model| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| AD-AutoGPT | [AD-AutoGPT: An Autonomous GPT for Alzheimer's Disease Infodemiology](https://arxiv.org/abs/2306.10095) |  |  | 
+| BianQue |  | [BianQue](https://github.com/scutcyr/BianQue) |  | 
+| ChatMed | | [ChatMed](https://github.com/michael-wzhu/ChatMed) |  | 
+| DoctorGLM | | [DoctorGLM](https://github.com/xionghonglin/DoctorGLM) |  | 
+| Huatuo-Llama-Med-Chinese |  | [Huatuo-Llama-Med-Chinese](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) |  | 
+| Med-PaLM |  | [Large language models encode clinical knowledge](https://www.nature.com/articles/s41586-023-06291-2) | [blog](https://mp.weixin.qq.com/s/Qf4Ts7UKJNzkW1Tfy-b0Zg) | 
+| MedQA-ChatGLM |  | [MedQA-ChatGLM](http://github.com/WangRongsheng/MedQA-ChatGLM) | [主页](https://www.wangrs.co/MedQA-ChatGLM/) | 
+| MedicalGPT-zh |  | [MedicalGPT-zh](https://github.com/MediaBrain-SJTU/MedicalGPT-zh) |  | 
+| Med-ChatGLM |  | [Med-ChatGLM](https://github.com/SCIR-HI/Med-ChatGLM) |  | 
+| PULSE |  | [PULSE](https://huggingface.co/OpenMEDLab/PULSE-7bv5) |  | 
+| ShenNong-TCM-LLM |  | [ShenNong-TCM-LLM](https://github.com/michael-wzhu/ShenNong-TCM-LLM) |  | 
+| SoulChat |  | [SoulChat](https://github.com/scutcyr/SoulChat) |  | 
 
 【医疗领域大模型的幻觉问题分析】[[blog](https://mp.weixin.qq.com/s/1o4u0Em0fFk9YndTaF2I7A)]
 
 【基于中文金融知识的 LLaMA 系微调模型的智能问答系统：LLaMA大模型训练微调推理等详细教学】[[blog](https://mp.weixin.qq.com/s/lrKPUcS9GkSS20-Jda-8bA)]
 
-【谷歌医疗大模型登Nature，Med-PaLM重磅揭秘！AI医生成绩比肩人类】[[blog](https://mp.weixin.qq.com/s/Qf4Ts7UKJNzkW1Tfy-b0Zg)]，[[paper](https://www.nature.com/articles/s41586-023-06291-2)]
-
 【中文多模态医学大模型智能分析X光片，实现影像诊断，完成医生问诊多轮对话】[[blog](https://mp.weixin.qq.com/s/Spb_dbsHRyP9EvUaMYgHxw)]
-</p>
-</details>
 
 ### 金融
 
-【FinGPT：基于ChatGLM-6B，采用Lora方法训练模型，一个「专用于金融领域」的开源大语言模型（LLM）框架，源码公开！】[[blog](https://mp.weixin.qq.com/s/A9euFin675nxGGciiX6rJQ)]，[[paper](https://arxiv.org/pdf/2306.06031v1.pdf)]，[[code](https://github.com/ai4finance-foundation/fingpt)]
-
-【FinTuo：一个中文金融大模型项目，旨在提供开箱即用且易于拓展的金融领域大模型工具链】[[code](https://github.com/qiyuan-chen/FinTuo-Chinese-Finance-LLM)]
+| Model| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| FinGPT | [FinGPT: Open-Source Financial Large Language Models](https://arxiv.org/pdf/2306.06031v1.pdf) | [FinGPT](https://github.com/ai4finance-foundation/fingpt) | [blog](https://mp.weixin.qq.com/s/A9euFin675nxGGciiX6rJQ) | 
+| FinTuo |  | [FinTuo](https://github.com/qiyuan-chen/FinTuo-Chinese-Finance-LLM) |  | 
 
 ### 环境
 
-【清华&中国气象局大模型登Nature：预报时效首次达3小时】[[blog](https://mp.weixin.qq.com/s/Aygm03CdA0zFNf9F3_JU5A)]，[[paper](https://www.nature.com/articles/s41586-023-06184-4)]
+| Model| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| NowcastNet | [Skilful nowcasting of extreme precipitation with NowcastNet](https://www.nature.com/articles/s41586-023-06184-4) |  | [blog](https://mp.weixin.qq.com/s/Aygm03CdA0zFNf9F3_JU5A) | 
 
 ### 网络安全
 
-【专用于网络攻击的模型FraudGPT】[[blog](https://mp.weixin.qq.com/s/OtLNybsbxDlbVb-cs4Zk8g)]
+| Model| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| FraudGPT |  |  | [blog](https://mp.weixin.qq.com/s/OtLNybsbxDlbVb-cs4Zk8g) | 
 
 ### 教育
 
-【EduChat：基于LLaMA模型训练而来，提供教育场景下自动出题、作业批改、情感支持、课程辅导、高考咨询等丰富功能】[[code](https://github.com/icalk-nlp/EduChat)]
+| Model| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| EduChat |  | [EduChat](https://github.com/icalk-nlp/EduChat) |  | 
 
 ### 交通
 
-【北交大开源交通大模型TransGPT·致远，可免费商用】[[blog](https://mp.weixin.qq.com/s/WvzyjHqI0lOGIyPlCIFNQg)]，[[code](https://github.com/DUOMO/TransGPT)]
+| Model| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| TransGPT |  | [TransGPT](https://github.com/DUOMO/TransGPT) | [blog](https://mp.weixin.qq.com/s/WvzyjHqI0lOGIyPlCIFNQg) | 
 
 ### 其他
 
-【南洋理工开源海外中文大语言模型Panda LLM | 探索数据因素和训练策略如何影响大模型性能表现】[[paper](https://arxiv.org/pdf/2305.03025v1.pdf)]，[[code](https://github.com/dandelionsllm/pandallm)]，[[blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ)]
+| Model| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| Panda LLM | [Panda LLM: Training Data and Evaluation for Open-Sourced Chinese
+Instruction-Following Large Language Models](https://arxiv.org/pdf/2305.03025v1.pdf) | [Panda LLM](https://github.com/dandelionsllm/pandallm) | [blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ) | 
 
 ## LLM关键技术与应用
 
 ### Prompt工程
 
-**【博客】**【OpenAI 应用人工智能研究负责人Lilian Weng新博文：关于提示工程的介绍】[[blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)]
-
-**【博客】**【Prompt Engineering全面自动化】[[blog](https://mp.weixin.qq.com/s/aj8Ls463jpF92ssn6Acwzg)]
-
-**【博客】**【ChatGPT提示示例集合】[[地址](https://prompts.chat)]，[[code](https://github.com/f/awesome-chatgpt-prompts/)]，[huggingface](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)]
-
-**【博客】**【深入浅出Prompt Learning要旨及常用方法】[[blog](https://mp.weixin.qq.com/s/Wgj1ATMAkL1Gx4dsAlkJZw)]
-
-**【博客】**【ChatGPT火爆，最全prompt工程指南登GitHub热榜，标星4.7k！】[[code](https://github.com/dair-ai/Prompt-Engineering-Guide)]，[youtube](https://www.youtube.com/watch?v=dOxUroR57xs)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【博客】**【ChatGPT Prompt工程：设计、实践与思考】[[blog](https://mp.weixin.qq.com/s/a8hjzZ_Rzl6pOU1PRAARJQ)]
-
-**【博客】**【全面的提示工程指南】[[blog](https://www.promptingguide.ai/zh)]
-
-**【博客】**【指令学习综述｜ChatGPT背后的指令学习是什么】[[blog](https://mp.weixin.qq.com/s/BK30JkIlshwkdHRjaRCD2g)]，[[paper](https://arxiv.org/pdf/2303.10475v2.pdf)]
-
-**【博客】**【免费教你提示工程，全中文教学】[[主页](https://www.learnprompt.pro/)]，[[code](https://github.com/LearnPrompt/LearnPrompt)]
-
-**【博客】**【吴恩达Prompt课程笔记】[[主页](https://islinxu.github.io/prompt-engineering-note/)]
-
-**【博客】**【ChatGPT使用进阶，Prompt工程】[[blog](https://mp.weixin.qq.com/s/Uy_wX6DsASBDU2f_6qAy-Q)]
-
-**【博客】**【50个Claude 2高级Prompts让工作逆天提效】[[blog](https://mp.weixin.qq.com/s/cv7U1b2rUdHitTx8CVvFeA)]
-
-**【博客】**【系统论述文章： 构建高性能 Prompt 之路——结构化 Prompt】[[blog](https://mp.weixin.qq.com/s/N9BrkDqvkIHQD7TTnhNk6Q)]
-
-**【博客】**【吴恩达Prompt教程之总结图解】[[blog](https://mp.weixin.qq.com/s/KECEIHC4ZRQMbSzFd8l1Hw)]
-
-**【论文】**【面向大型语言模型的**提升提示集成**】[[paper](https://arxiv.org/abs/2304.05970)]
-
-**【论文】**【DTG：一种简单有效的Prompt方法，激发大模型思考判断能力！】[[blog](https://mp.weixin.qq.com/s/Eio62_Hn0mML3Pfb3G36cA)]
-</p>
-</details>
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| OpenAI 应用人工智能研究负责人Lilian Weng新博文：关于提示工程的介绍 | |  | [blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) | 
+| Prompt Engineering全面自动化 | | | [blog](https://mp.weixin.qq.com/s/aj8Ls463jpF92ssn6Acwzg) | 
+| ChatGPT提示示例集合 | [huggingface](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts) | [ChatGPT提示示例集合](https://github.com/f/awesome-chatgpt-prompts/) | [主页](https://prompts.chat) | 
+| 深入浅出Prompt Learning要旨及常用方法 | | | [blog](https://mp.weixin.qq.com/s/Wgj1ATMAkL1Gx4dsAlkJZw) | 
+| ChatGPT火爆，最全prompt工程指南登GitHub热榜，标星4.7k！| []() | [code](https://github.com/dair-ai/Prompt-Engineering-Guide)| [youtube](https://www.youtube.com/watch?v=dOxUroR57xs) | 
+| ChatGPT Prompt工程：设计、实践与思考 | | | [blog](https://mp.weixin.qq.com/s/a8hjzZ_Rzl6pOU1PRAARJQ) | 
+| 全面的提示工程指南 | | | [blog](https://www.promptingguide.ai/zh) | 
+| 指令学习综述｜ChatGPT背后的指令学习是什么 | [Is Prompt All You Need? No. A Comprehensive and Broader View of Instruction Learning](https://arxiv.org/pdf/2303.10475v2.pdf) | | [blog](https://mp.weixin.qq.com/s/BK30JkIlshwkdHRjaRCD2g) | 
+| 免费教你提示工程，全中文教学 | | [code](https://github.com/LearnPrompt/LearnPrompt) | [主页](https://www.learnprompt.pro/) | 
+| 吴恩达Prompt课程笔记 | | | [主页](https://islinxu.github.io/prompt-engineering-note/) | 
+| ChatGPT使用进阶，Prompt工程 | | | [blog](https://mp.weixin.qq.com/s/Uy_wX6DsASBDU2f_6qAy-Q) | 
+| 50个Claude 2高级Prompts让工作逆天提效 | | | [blog](https://mp.weixin.qq.com/s/cv7U1b2rUdHitTx8CVvFeA) | 
+| 系统论述文章： 构建高性能 Prompt 之路——结构化 Prompt | | | [blog](https://mp.weixin.qq.com/s/N9BrkDqvkIHQD7TTnhNk6Q) | 
+| 吴恩达Prompt教程之总结图解 | | | [blog](https://mp.weixin.qq.com/s/KECEIHC4ZRQMbSzFd8l1Hw) | 
+| 面向大型语言模型的**提升提示集成** | [Boosted Prompt Ensembles for Large Language Models](https://arxiv.org/abs/2304.05970) | | | 
+| DTG：一种简单有效的Prompt方法，激发大模型思考判断能力！ | | | [blog](https://mp.weixin.qq.com/s/Eio62_Hn0mML3Pfb3G36cA) | 
 
 ### LLM 数据集
 
