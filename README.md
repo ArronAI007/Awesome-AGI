@@ -480,7 +480,9 @@ Instruction-Following Large Language Models](https://arxiv.org/pdf/2305.03025v1.
 </p>
 </details>
 
-## LLM博客 论文以及代码
+## AGI-Paper-List
+
+[AGI-Paper-List](https://github.com/ArronAI007/Awesome-AGI/tree/main/AGI-Paper-List/README.md)
 
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
