@@ -31,10 +31,7 @@
   - [LLM评估](#LLM评估)
   - [LLM部署](#LLM部署)
 - [AGI Paper List](#AGI-Paper-List)
-- [文本生成](#文本生成)
-  - [ChatGPT](#ChatGPT)
-  - [GPT4](#GPT4)
-  - [LLMs](#LLMs)
+- [LLM Lists](#LLM-Lists)
   - [baichuan以及扩展](#baichuan以及扩展)
   - [ChatGLM以及扩展](#ChatGLM以及扩展)
   - [LLaMA以及扩展](#LLaMA以及扩展)
@@ -103,101 +100,75 @@ Some examples of AGI Paper List as follows：
 
 ### LLM 数据集
 
-【**Instruct Tuning**】【一篇关于LLM指令微调的综述】[[blog](https://mp.weixin.qq.com/s/7pqBvgF1BWDFxP5hajmBNw)]，[[paper](https://arxiv.org/pdf/2308.10792.pdf)]
-
-【**COIG-PC**】【智源研究院发布国内首个大规模、可商用中文开源指令数据集COIG：最大规模中文多任务指令集，上新千个中文数据集】[[blog](https://mp.weixin.qq.com/s/PvJa8dPHk6aGEv1G1B3PUw)]，[[paper](https://arxiv.org/pdf/2304.07987.pdf)]，[[COIG-PC数据下载地址](https://huggingface.co/datasets/BAAI/COIG-PC)]，[[COIG数据下载地址](https://huggingface.co/datasets/BAAI/COIG)]
-
-【**Instruct/Prompt Tuning可用数据**】【总结当前开源可用的Instruct/Prompt Tuning数据】[[blog](https://mp.weixin.qq.com/s/vDbTJo3F7sy3-NY8xxg8jw)]
-
-【**MiniGPT-4**】【GPT-4平替版：MiniGPT-4，支持图像理解和对话，现已开源】[[dataset](https://drive.google.com/file/d/1nJXhoEcy3KTExr17I7BXqY5Y9Lx_-n-9/view)]
-
-【**Multimodal C4**】【多模态C4：一个开放的、10亿规模的、与文本交错的图像语料库】[[paper](https://arxiv.org/abs/2304.06939)]，[[code](https://github.com/allenai/mmc4)]
-
-【**Mind2Web**】【Mind2Web: 首个全面衡量大模型上网能力的数据集】[[blog](https://mp.weixin.qq.com/s/vge4CJbBfLXFIYYyNC12Hw)]
-
-<details><summary>展开更多</summary>
-<p>
-
-【**OpenAssistant Conversations**】【该数据集是一个由人工生成、人工注释的助理式对话语料库，覆盖了广泛的主题和写作风格，由 161443 条消息组成，分布在 66497 个会话树中，使用 35 种不同的语言。该语料库是全球众包工作的产物，涉及超过 13500 名志愿者。为了证明 OpenAssistant Conversations 数据集的有效性，该研究还提出了一个基于聊天的助手 OpenAssistant，其可以理解任务、与第三方系统交互、动态检索信息。】[[dataset](https://huggingface.co/datasets/OpenAssistant/oasst1 )]，[[paper](https://drive.google.com/file/d/10iR5hKwFqAKhL3umx8muOWSRm7hs5FqX/view )]，[[code](https://github.com/LAION-AI/Open-Assistant )]
-
-【**Panda LLM**】【为了让Panda LLM在中文数据集上获得强大的性能，作者使用了强大的指令微调instruction-tuning技术，将LLaMA基础模型在五个开源的中文数据集进行混合训练，其中包括来自各种语言领域的1530万个样本，例如维基百科语料，新闻语料，百科问答语料，社区问答语料，和翻译语料。】[[blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ)]
-
-【**RedPajama**】【RedPajama开源项目｜复制超过1.2万亿个令牌的LLaMA训练数据集】[[原始blog](https://www.together.xyz/blog/redpajama)]，[[中文blog](https://hub.baai.ac.cn/view/25485)]，[[dataset](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T)]，[[code](https://github.com/togethercomputer/RedPajama-Data)]
-</p>
-</details>
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| 一篇关于LLM指令微调的综述 | [paper](https://arxiv.org/pdf/2308.10792.pdf) |  | [blog](https://mp.weixin.qq.com/s/7pqBvgF1BWDFxP5hajmBNw) |  
+| 智源研究院发布国内首个大规模、可商用中文开源指令数据集COIG：最大规模中文多任务指令集，上新千个中文数据集 | [paper](https://arxiv.org/pdf/2304.07987.pdf) |  | [blog](https://mp.weixin.qq.com/s/PvJa8dPHk6aGEv1G1B3PUw)，[COIG-PC数据下载地址](https://huggingface.co/datasets/BAAI/COIG-PC)，[COIG数据下载地址](https://huggingface.co/datasets/BAAI/COIG) |  
+| 总结当前开源可用的Instruct/Prompt Tuning数据 |  |  | [blog](https://mp.weixin.qq.com/s/vDbTJo3F7sy3-NY8xxg8jw) |  
+| GPT-4平替版：MiniGPT-4，支持图像理解和对话，现已开源 |  |  | [dataset](https://drive.google.com/file/d/1nJXhoEcy3KTExr17I7BXqY5Y9Lx_-n-9/view) |  
+| 多模态C4：一个开放的、10亿规模的、与文本交错的图像语料库 | [paper](https://arxiv.org/abs/2304.06939) | [code](https://github.com/allenai/mmc4) |  |  
+| Mind2Web: 首个全面衡量大模型上网能力的数据集 |  |  | [blog](https://mp.weixin.qq.com/s/vge4CJbBfLXFIYYyNC12Hw) |  
+| 该数据集是一个由人工生成、人工注释的助理式对话语料库，覆盖了广泛的主题和写作风格，由 161443 条消息组成，分布在 66497 个会话树中，使用 35 种不同的语言。该语料库是全球众包工作的产物，涉及超过 13500 名志愿者。为了证明 OpenAssistant Conversations 数据集的有效性，该研究还提出了一个基于聊天的助手 OpenAssistant，其可以理解任务、与第三方系统交互、动态检索信息。 | [paper](https://drive.google.com/file/d/10iR5hKwFqAKhL3umx8muOWSRm7hs5FqX/view ) | [code](https://github.com/LAION-AI/Open-Assistant) | [dataset](https://huggingface.co/datasets/OpenAssistant/oasst1) |  
+| 为了让Panda LLM在中文数据集上获得强大的性能，作者使用了强大的指令微调instruction-tuning技术，将LLaMA基础模型在五个开源的中文数据集进行混合训练，其中包括来自各种语言领域的1530万个样本，例如维基百科语料，新闻语料，百科问答语料，社区问答语料，和翻译语料。 |  |  | [blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ) |  
+| RedPajama开源项目｜复制超过1.2万亿个令牌的LLaMA训练数据集 |  | [code](https://github.com/togethercomputer/RedPajama-Data) | [原始blog](https://www.together.xyz/blog/redpajama)，[中文blog](https://hub.baai.ac.cn/view/25485)，[dataset](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T) |  
 
 ### LLM RLHF
 
-**【LLM RLHF】**【复现RLHF：通过开源项目 trl 搭建一个通过强化学习算法（PPO）来更新语言模型（GPT-2）】[[blog](https://mp.weixin.qq.com/s/1v4Uuc1YAZ9MRr1UWMH9xw)]，[[code](https://github.com/HarderThenHarder/transformers_tasks/tree/main/RLHF)]
-
-**【LLM RLHF】**【详解大模型RLHF过程（配代码解读）】[[blog](https://mp.weixin.qq.com/s/2M3igy7Ctk2LAdNQLSO5tg)]
-
-**【LLM RM】**【想训练ChatGPT？得先弄明白Reward Model怎么训（附源码）】[[blog](https://mp.weixin.qq.com/s/1v4Uuc1YAZ9MRr1UWMH9xw)]
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| 复现RLHF：通过开源项目 trl 搭建一个通过强化学习算法（PPO）来更新语言模型（GPT-2） |  | [code](https://github.com/HarderThenHarder/transformers_tasks/tree/main/RLHF) | [blog](https://mp.weixin.qq.com/s/1v4Uuc1YAZ9MRr1UWMH9xw) |  
+| 详解大模型RLHF过程（配代码解读） |  |  | [blog](https://mp.weixin.qq.com/s/2M3igy7Ctk2LAdNQLSO5tg) |  
+| 想训练ChatGPT？得先弄明白Reward Model怎么训（附源码） |  |  | [blog](https://mp.weixin.qq.com/s/1v4Uuc1YAZ9MRr1UWMH9xw) |  
 
 ### LLM 可控性与安全
 
-**【可控性】**【微软提出Control-GPT：用GPT-4实现可控文本到图像生成！】[[paper](https://arxiv.org/abs/2305.18583)]，[[blog](https://mp.weixin.qq.com/s/U3eWeGOEt9nhW-Xwbuah9w)]
-
-**【可控性】**【AIGC如何安全可控?中山大学等最新《AIGC中对隐私和安全的挑战及其补救措施：探索隐私计算、区块链潜在应用》全面阐述】[[paper](https://www.zhuanzhi.ai/paper/0dd95e1d5aae9eb2e60aabf36a107482)]，[[blog](https://mp.weixin.qq.com/s/V8QjMQSO2tX6PFx_LfLIEA)]
-
-**【可控性】**【ControlVideo: 可控的Training-free的文本生成视频】[[blog](https://mp.weixin.qq.com/s/CAH6u-MT3cFM359d5_Xpxg)]，[[paper](https://arxiv.org/pdf/2305.13077.pdf)]，[[code](https://github.com/YBYBZhang/ControlVideo)]
-
-**【安全】**【大模型切脑后变身PoisonGPT，虚假信息案例】[[blog](https://hub.baai.ac.cn/view/27736)]，[[code](https://colab.research.google.com/drive/16RPph6SobDLhisNzA5azcP-0uMGGq10R?usp=sharing&ref=blog.mithrilsecurity.io)]
-
-**【安全】**【ChatGPT羊驼家族全沦陷！CMU博士击破LLM护栏，人类毁灭计划脱口而出】[[blog](https://mp.weixin.qq.com/s/298nwP98UdRNybV2Fuo6Wg)]，[[paper](https://arxiv.org/abs/2307.15043)]，[[code](https://github.com/llm-attacks/llm-attacks)]
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| 微软提出Control-GPT：用GPT-4实现可控文本到图像生成！ | [paper](https://arxiv.org/abs/2305.18583) |  |  [blog](https://mp.weixin.qq.com/s/U3eWeGOEt9nhW-Xwbuah9w)|  
+| AIGC如何安全可控?中山大学等最新《AIGC中对隐私和安全的挑战及其补救措施：探索隐私计算、区块链潜在应用》全面阐述 | [paper](https://www.zhuanzhi.ai/paper/0dd95e1d5aae9eb2e60aabf36a107482) |  | [blog](https://mp.weixin.qq.com/s/V8QjMQSO2tX6PFx_LfLIEA) |  
+| ControlVideo: 可控的Training-free的文本生成视频 | [paper](https://arxiv.org/pdf/2305.13077.pdf) | [code](https://github.com/YBYBZhang/ControlVideo) | [blog](https://mp.weixin.qq.com/s/CAH6u-MT3cFM359d5_Xpxg) |  
+| 大模型切脑后变身PoisonGPT，虚假信息案例 |  | [code](https://colab.research.google.com/drive/16RPph6SobDLhisNzA5azcP-0uMGGq10R?usp=sharing&ref=blog.mithrilsecurity.io) | [blog](https://hub.baai.ac.cn/view/27736) |  
+| ChatGPT羊驼家族全沦陷！CMU博士击破LLM护栏，人类毁灭计划脱口而出 | [paper](https://arxiv.org/abs/2307.15043) | [code](https://github.com/llm-attacks/llm-attacks) | [blog](https://mp.weixin.qq.com/s/298nwP98UdRNybV2Fuo6Wg) |  
 
 ### LLM 长文本解决方案
 
-**【苏剑林】**【Transformer升级之路：一种全局长度外推的新思路】[[blog](https://mp.weixin.qq.com/s/YJ647EUfzWaJsGoMdgsguA)]
-
-**【博客】**【ChatGPT能写长篇小说了，ETH提出RecurrentGPT实现交互式超长文本生成】[[paper](https://arxiv.org/abs/2305.13304)]，[[code](https://github.com/aiwaves-cn/RecurrentGPT)]，[[blog](https://mp.weixin.qq.com/s/5UVTwSWgoz7uhozMeps3EQ)]，[[demo1](https://www.aiwaves.org/recurrentgpt (长篇小说写作))]，[[demo2](https://www.aiwaves.org/interactivefiction (交互式小说))]
-
-**【博客】**【语言大模型100K上下文窗口的秘诀】[[blog](https://mp.weixin.qq.com/s/_i0eQgYNSLJydv3qOTqr-Q)]
-
-**【博客】**【RoPE可能是LLM时代的Resnet】[[blog](https://mp.weixin.qq.com/s/BVm1XC7r1yzOiWIrEbWg3A)]
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| Transformer升级之路：一种全局长度外推的新思路 |  |  | [blog](https://mp.weixin.qq.com/s/YJ647EUfzWaJsGoMdgsguA) |  
+| ChatGPT能写长篇小说了，ETH提出RecurrentGPT实现交互式超长文本生成 | [paper](https://arxiv.org/abs/2305.13304) | [code](https://github.com/aiwaves-cn/RecurrentGPT) | [blog](https://mp.weixin.qq.com/s/5UVTwSWgoz7uhozMeps3EQ)，[demo1](https://www.aiwaves.org/recurrentgpt (长篇小说写作))，[demo2](https://www.aiwaves.org/interactivefiction (交互式小说)) |  
+| 语言大模型100K上下文窗口的秘诀 |  |  | [blog](https://mp.weixin.qq.com/s/_i0eQgYNSLJydv3qOTqr-Q) |  
+| RoPE可能是LLM时代的Resnet |  |  | [blog](https://mp.weixin.qq.com/s/BVm1XC7r1yzOiWIrEbWg3A) |  
 
 ### LLM 问答
 
-**【LLM 问答流程】**【基于大语言模型的智能问答系统应该包含哪些环节？】[[blog](https://mp.weixin.qq.com/s/pXEyFHEv1pcqwMNhveneew)]，[[OpenAI 的审核函数接口 Moderation API](https://platform.openai.com/docs/guides/moderation)]
-
-**【ChatPDF】**【搭建本地的chatpdf（原理，文档处理，语义搜索等）】[[blog](https://mp.weixin.qq.com/s/aW7r4i54coW26RMsTdAQ5g)]
-
-**【LlamaIndex】**【如何避免大语言模型绕过知识库乱答的情况？LlamaIndex 原理与应用简介】[[官方blog](https://betterprogramming.pub/llamaindex-how-to-use-index-correctly-6f928b8944c6)]，[[中文blog](https://mp.weixin.qq.com/s/D6_pUv7hHZHRrKSXqo0u2w)]
-
-**【Langchain】**【使用 Langchain 和 Azure OpenAI 构建一个聊天机器人来查询您的文档】[[blog](https://mp.weixin.qq.com/s/LeUuq6O5uIJPmrrYYtTaqA)]
-
-**【Langchain】**【一文搞懂LangChain是什么】[[blog](https://mp.weixin.qq.com/s/vLlS17AYe4lM95KrG5sFyQ)]
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| 基于大语言模型的智能问答系统应该包含哪些环节？ |  | [OpenAI 的审核函数接口 Moderation API](https://platform.openai.com/docs/guides/moderation)  | [blog](https://mp.weixin.qq.com/s/pXEyFHEv1pcqwMNhveneew) |  
+| 搭建本地的chatpdf（原理，文档处理，语义搜索等） |  |  | [blog](https://mp.weixin.qq.com/s/aW7r4i54coW26RMsTdAQ5g) |  
+| 如何避免大语言模型绕过知识库乱答的情况？LlamaIndex 原理与应用简介 |  |  | [官方blog](https://betterprogramming.pub/llamaindex-how-to-use-index-correctly-6f928b8944c6)，[中文blog](https://mp.weixin.qq.com/s/D6_pUv7hHZHRrKSXqo0u2w) |  
+| 使用 Langchain 和 Azure OpenAI 构建一个聊天机器人来查询您的文档 |  |  | [blog](https://mp.weixin.qq.com/s/LeUuq6O5uIJPmrrYYtTaqA) |  
+| 一文搞懂LangChain是什么 |  |  | [blog](https://mp.weixin.qq.com/s/vLlS17AYe4lM95KrG5sFyQ) |  
 
 ### LLM Agent
 
-**【AutoGPT】**【】
-
-**【BabyAGI】**【】
-
-**【ChatRPA】**【在TARS大模型的加持下，它不仅能够理解人类的意图，还能操作所有桌面软件，包括各种复杂的CS架构软件，甚至对不开放接口的软件也能操作】
-
-**【GPT-Engineer】**【】
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| AutoGPT |  |  |  |  
+| BabyAGI |  |  |  |  
+| ChatRPA |  |  |  |  
+| GPT-Engineer |  |  |  |  
 
 ### LLM 文本检测
 
-**【论文&代码】**【美国麻省大学&谷歌研究院：改写文本可以避开AI生成文本的检测器，但检索则是一种有效的防御】[[paper](https://papers.labml.ai/api/v1/redirect/pdf?paper_key=2cfe8cecc9f211edb95839eec3084ddd)]，[[code](https://github.com/martiansideofthemoon/ai-detection-paraphrases)]
-
-**【论文】**【人工智能生成的文本能被可靠地检测出来吗？】[[paper](https://arxiv.org/pdf/2303.11156.pdf )]，[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486128&idx=3&sn=e5ea32b7d7cb4c8c41f29a9ea15ac3ac&chksm=ced54954f9a2c0425a65761f1766550f6b90857da0106f6fd55f3c6773fbdbd1fc45bbb9369a&token=447941009&lang=zh_CN#rd)]
-
-**【论文】**【DetectGPT（斯坦福大学）：利用概率曲率检测文本是否大模型生成】[[paper](https://arxiv.org/abs/2301.11305)]，[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485713&idx=2&sn=805caf25603cf15dbf71949f85b9d041&chksm=ced54af5f9a2c3e3e0dffd728592fd7ab8f738869e94240daba4fad9f6ac90a2f76a6b458e3f&token=447941009&lang=zh_CN#rd)]，[[code&data](https://ericmitchell.ai/detectgpt/)]
-
-**【论文】**【Detecting LLM-Generated-Text综述】[[paper](https://github.com/datamllab/The-Science-of-LLM-generated-Text-Detection)]，[[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485747&idx=1&sn=5e5029a70c54c08f6f8c40631962b1e1&chksm=ced54ad7f9a2c3c184ccb123199510bb09470e054fb5cb887e70bac204927b65e296f8921db1&token=447941009&lang=zh_CN#rd)]
-
-**【论文】**【一个专为**教育**者打造的全新 AI 检测模型】[[blog](https://gptzero.substack.com/p/gptzerox)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【论文】**【OpenAI重磅发布官方「ChatGPT检测器」】[[blog](https://mp.weixin.qq.com/s/EcZE7TgHspf22rPRWhAybw)]
-
-**【论文】**【斯坦福最新研究：不要过度依赖GPT生成内容，其检测器可能存在不利于非母语英语写作者的偏见】[[paper](https://arxiv.org/abs/2304.02819)]
-</p>
-</details>
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| 美国麻省大学&谷歌研究院：改写文本可以避开AI生成文本的检测器，但检索则是一种有效的防御 | [paper](https://papers.labml.ai/api/v1/redirect/pdf?paper_key=2cfe8cecc9f211edb95839eec3084ddd) | [code](https://github.com/martiansideofthemoon/ai-detection-paraphrases) |  |  
+| 人工智能生成的文本能被可靠地检测出来吗？ | [paper](https://arxiv.org/pdf/2303.11156.pdf) |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486128&idx=3&sn=e5ea32b7d7cb4c8c41f29a9ea15ac3ac&chksm=ced54954f9a2c0425a65761f1766550f6b90857da0106f6fd55f3c6773fbdbd1fc45bbb9369a&token=447941009&lang=zh_CN#rd) |  
+| DetectGPT（斯坦福大学）：利用概率曲率检测文本是否大模型生成 | [paper](https://arxiv.org/abs/2301.11305) | [code&data](https://ericmitchell.ai/detectgpt/) | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485713&idx=2&sn=805caf25603cf15dbf71949f85b9d041&chksm=ced54af5f9a2c3e3e0dffd728592fd7ab8f738869e94240daba4fad9f6ac90a2f76a6b458e3f&token=447941009&lang=zh_CN#rd) |  
+| Detecting LLM-Generated-Text综述 | [paper](https://github.com/datamllab/The-Science-of-LLM-generated-Text-Detection) |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485747&idx=1&sn=5e5029a70c54c08f6f8c40631962b1e1&chksm=ced54ad7f9a2c3c184ccb123199510bb09470e054fb5cb887e70bac204927b65e296f8921db1&token=447941009&lang=zh_CN#rd) |  
+| 一个专为**教育**者打造的全新 AI 检测模型 |  |  | [blog](https://gptzero.substack.com/p/gptzerox) |  
+| OpenAI重磅发布官方「ChatGPT检测器」 |  |  | [blog](https://mp.weixin.qq.com/s/EcZE7TgHspf22rPRWhAybw) |  
+| 斯坦福最新研究：不要过度依赖GPT生成内容，其检测器可能存在不利于非母语英语写作者的偏见 | [paper](https://arxiv.org/abs/2304.02819) |  |  |  
 
 ## LLM训练 微调 优化 评估以及部署
 
