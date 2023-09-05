@@ -214,7 +214,7 @@ Some examples of **Universal LLMs for Text** as follows：
 | DLite | 2023/05 | [dlite-v2-1_5b](https://huggingface.co/aisquared/dlite-v2-1_5b) | [Announcing DLite V2: Lightweight, Open LLMs That Can Run Anywhere](https://medium.com/ai-squared/announcing-dlite-v2-lightweight-open-llms-that-can-run-anywhere-a852e5978c6e) | 0.124 - 1.5 | [1024](https://huggingface.co/aisquared/dlite-v2-1_5b/blob/main/config.json) | Apache 2.0         | [DLite-v2-1.5B](https://github.com/slai-labs/get-beam/tree/main/examples/dlite-v2)                                    |
 | FastChat-T5 | 2023/04 | [fastchat-t5-3b-v1.0](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0) | [We are excited to release FastChat-T5: our compact and commercial-friendly chatbot!](https://twitter.com/lmsysorg/status/1652037026705985537?s=20) | 3 | [512](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0/blob/main/config.json) | Apache 2.0 |                                                                                                                       |
 
-**Complete Content**: please refer to [AGI-Model-Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/AGI-Model-Survey/README.md)
+**Complete Content**: please refer to [Model Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model Survey/README.md)
 
 ---
 
@@ -231,7 +231,7 @@ Some examples of **Universal LLMs for Code** as follows：
 | CodeGen2.5 | 2023/07 | [CodeGen2.5-7B-multi](https://huggingface.co/Salesforce/codegen25-7b-multi) | [CodeGen2.5: Small, but mighty](https://blog.salesforceairesearch.com/codegen25/) | 7 | [2048](https://huggingface.co/Salesforce/codegen25-7b-multi/blob/main/config.json) | [Apache 2.0](https://huggingface.co/Salesforce/codegen25-7b-multi/blob/main/README.md) | 
 | Code Llama  | 2023 | [Inference Code for CodeLlama models]([https://ai.meta.com/resources/models-and-libraries/llama-downloads/](https://github.com/facebookresearch/codellama)) | [Code Llama: Open Foundation Models for Code](https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/)     | 7 - 34       | [4096](https://scontent-zrh1-1.xx.fbcdn.net/v/t39.2365-6/369856151_1754812304950972_1159666448927483931_n.pdf?_nc_cat=107&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=wURKmnWKaloAX-ib5XW&_nc_ht=scontent-zrh1-1.xx&oh=00_AfAN1GB2K_XwIz54PqXTr-dhilI3CfCwdQoaLMyaYEEECg&oe=64F0A68F)  | [Custom](https://github.com/facebookresearch/llama/blob/main/LICENSE) Free if you have under 700M users and you cannot use LLaMA outputs to train other LLMs besides LLaMA and its derivatives   | [HuggingChat](https://huggingface.co/blog/codellama) | 
 
-**Complete Content**: please refer to [AGI-Model-Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/AGI-Model-Survey/README.md)
+**Complete Content**: please refer to [Model Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model Survey/README.md)
 
 ---
 
@@ -248,7 +248,7 @@ Some examples of **Universal LLMs for Picture/Video** as follows：
 | Consistency Models |  |  | [Consistency Models](https://arxiv.org/abs/2303.01469)，[Consistency Models Blog](https://hub.baai.ac.cn/view/25445) |  |  |  | [Consistency Models Code](https://github.com/openai/consistency_models) |
 | ControlNet |  |  | [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/pdf/2302.05543.pdf)，[ControlNet Blog](https://mp.weixin.qq.com/s/k8rE9GrF97E-0TKJhih9kw)  |  |  |  | [ControlNet Code](https://github.com/lllyasviel/ControlNet) |
 
-**Complete Content**: please refer to [AGI-Model-Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/AGI-Model-Survey/README.md)
+**Complete Content**: please refer to [Model Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model Survey/README.md)
 
 ---  
 
@@ -540,7 +540,7 @@ Some examples of LLM DataSets as follows：
 
 ## AGI Paper List
 
-Some examples of AGI Paper List as follows：
+Some examples of **AGI Paper List** as follows：
 
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
@@ -550,7 +550,7 @@ Some examples of AGI Paper List as follows：
 | AIGC综述: 从GAN到ChatGPT的生成式人工智能简史 | [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/abs/2303.04226v1) |  |  | 
 | 大模型综述来了！一文带你理清全球AI巨头的大模型进化史 | [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](https://arxiv.org/pdf/2304.13712.pdf) | [code](https://github.com/Mooler0410/LLMsPracticalGuide) |  | 
 
-**Complete Content**: please refer to [AGI Paper List](https://github.com/ArronAI007/Awesome-AGI/tree/main/AGI-Paper-List/README.md)
+**Complete Content**: please refer to [AGI Paper List](https://github.com/ArronAI007/Awesome-AGI/tree/main/Paper List/README.md)
 
 ## 欢迎共创
 

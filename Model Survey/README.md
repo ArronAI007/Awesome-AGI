@@ -1,6 +1,6 @@
-# AGI-Model-Survey
+# Model-Survey
 
-AGI Model Survey mainly includes Universal LLMs and Domain LLMs, In terms of Universal LLMs， including text generation model, image and video generation model, code generation model, music generation model, multimodal model；In terms of Domain LLMs， including law, medical, finance, environment, network security, education, Traffic and so on.
+Model Survey mainly includes Universal LLMs and Domain LLMs, In terms of Universal LLMs， including text generation model, image and video generation model, code generation model, music generation model, multimodal model；In terms of Domain LLMs， including law, medical, finance, environment, network security, education, Traffic and so on.
 
 ## Universal LLMs
 
