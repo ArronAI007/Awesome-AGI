@@ -70,14 +70,12 @@ AGI Survey mainly includes LLM and AIGC, specifically including text generation 
 | Gen-1 |  |  | [Structure and Content-Guided Video Synthesis with Diffusion Models](https://arxiv.org/pdf/2302.03011)，[Gen-1 site](https://research.runwayml.com/gen1) |  |  |  |  |
 | Stable Diffusion |  |  | [High-resolution image reconstruction with latent diffusion models from human brain activity](https://sites.google.com/view/stablediffusion-with-brain/)，[Stable Diffusion Blog](https://mp.weixin.qq.com/s/gIwj2eqNph8jHWOhYYEXIg) |  |  |  |  |
 | SegGPT |  |  | [SegGPT: Segmenting Everything In Context](https://arxiv.org/pdf/2304.03284.pdf) |  |  |  |  |
-| text-to-video |  | [模型地址 ](https://modelscope.cn/models/damo/text-to-video-synthesis/summary) |  |  |  |  |  |
+| text-to-video |  | [text-to-video-synthesis](https://modelscope.cn/models/damo/text-to-video-synthesis/summary) |  |  |  |  |  |
 | NUWA-XL |  |  | [NUWA-XL: Diffusion over Diffusion for eXtremely Long Video Generation](https://arxiv.org/pdf/2303.12346.pdf)，[NUWA-XL Blog](https://msra-nuwa.azurewebsites.net/#/)  |  |  |  |  |
 
 ---  
 
 ### Universal LLMs for Audio
-
-## 语音生成
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length                                                                         | Licence | Code                                                                                    |
 | --- | --- | --- | --- | --- |----------------------------------------------------------------------------------------| --- |-------------------------------------------------------------------------------------------|
@@ -118,6 +116,7 @@ AGI Survey mainly includes LLM and AIGC, specifically including text generation 
 | LexiLaw |  |  |  |  |  |   | [LexiLaw Code](https://github.com/CSHaitao/LexiLaw) |   
 | lawyer-llama |  |  |  |  |  |   | [lawyer-llama Code](https://github.com/AndrewZhe/lawyer-llama) |   
 
+---
                                                                                                            
 ### Domain LLMs for Medical
 
@@ -134,20 +133,26 @@ AGI Survey mainly includes LLM and AIGC, specifically including text generation 
 | Med-ChatGLM |  |  |  |  |  |  | [Med-ChatGLM Code](https://github.com/SCIR-HI/Med-ChatGLM) |   
 | PULSE |  | [PULSE](https://huggingface.co/OpenMEDLab/PULSE-7bv5) |  |  |  |  |  |   
 | ShenNong-TCM-LLM |  |  |  |  |  |  | [ShenNong-TCM-LLM Code](https://github.com/michael-wzhu/ShenNong-TCM-LLM) |  
-| SoulChat |  |  |  |  |  |  | [SoulChat Code](https://github.com/scutcyr/SoulChat) |                                                                                                                  
+| SoulChat |  |  |  |  |  |  | [SoulChat Code](https://github.com/scutcyr/SoulChat) |    
+
+---                                                                                                              
 
 ### Domain LLMs for Finance
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
 | --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
 | FinGPT |  |  | [FinGPT: Open-Source Financial Large Language Models](https://arxiv.org/pdf/2306.06031v1.pdf)，[FinGPT Blog](https://mp.weixin.qq.com/s/A9euFin675nxGGciiX6rJQ) |  |  |  | [FinGPT Code](https://github.com/ai4finance-foundation/fingpt) |     
-| FinTuo |  |  |  |  |  |  | [FinTuo Code](https://github.com/qiyuan-chen/FinTuo-Chinese-Finance-LLM) |     
+| FinTuo |  |  |  |  |  |  | [FinTuo Code](https://github.com/qiyuan-chen/FinTuo-Chinese-Finance-LLM) |    
+
+--- 
 
 ### Domain LLMs for Environment
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
 | --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
-| NowcastNet |  |  | [Skilful nowcasting of extreme precipitation with NowcastNet](https://www.nature.com/articles/s41586-023-06184-4)，[NowcastNet Blog](https://mp.weixin.qq.com/s/Aygm03CdA0zFNf9F3_JU5A) |  |  |  |  |      
+| NowcastNet |  |  | [Skilful nowcasting of extreme precipitation with NowcastNet](https://www.nature.com/articles/s41586-023-06184-4)，[NowcastNet Blog](https://mp.weixin.qq.com/s/Aygm03CdA0zFNf9F3_JU5A) |  |  |  |  |   
+
+---   
 
 ### Domain LLMs for Network Security
 
@@ -155,17 +160,23 @@ AGI Survey mainly includes LLM and AIGC, specifically including text generation 
 | --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
 | FraudGPT |  |  | [FraudGPT Blog](https://mp.weixin.qq.com/s/OtLNybsbxDlbVb-cs4Zk8g) |  |  |  |  |      
 
+---
+
 ### Domain LLMs for Education
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
 | --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
-| EduChat |  |  |  |  |  |  | [EduChat Code](https://github.com/icalk-nlp/EduChat) |       
+| EduChat |  |  |  |  |  |  | [EduChat Code](https://github.com/icalk-nlp/EduChat) |  
+
+---     
 
 ### Domain LLMs for Traffic
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
 | --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
-| TransGPT |  |  | [TransGPT Blog](https://mp.weixin.qq.com/s/WvzyjHqI0lOGIyPlCIFNQg) |  |  |  | [TransGPT Code](https://github.com/DUOMO/TransGPT) |       
+| TransGPT |  |  | [TransGPT Blog](https://mp.weixin.qq.com/s/WvzyjHqI0lOGIyPlCIFNQg) |  |  |  | [TransGPT Code](https://github.com/DUOMO/TransGPT) |   
+
+---    
 
 ### Domain LLMs for Other
 
@@ -173,3 +184,5 @@ AGI Survey mainly includes LLM and AIGC, specifically including text generation 
 | --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
 | Panda LLM |  |  | [Panda LLM: Training Data and Evaluation for Open-Sourced Chinese Instruction-Following Large Language Models](https://arxiv.org/pdf/2305.03025v1.pdf)，[Panda LLM Blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ) |  |  |  | [Panda LLM Code](https://github.com/dandelionsllm/pandallm) |     
   
+---
+
