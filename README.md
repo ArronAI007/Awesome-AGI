@@ -624,150 +624,71 @@ Some examples of AGI Paper List as follows：
 
 | Model| Paper | Code |Blog |
 | --- | --- | --- | --- | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-
-**【博客】**【Genmo Chat】【这是一款创造性的copilot，使用GPT-4和一大套生成人工智能工具创建并编辑您需要的任何视频或图像。 】[[blog](https://www.genmo.ai/)]
-
-**【博客】**【BlenderGPT】【**一款基于GPT-4的扩展程序BlenderGPT开源，这是一个由GPT3/4驱动的全能AI编辑助手，为Blender提供支持** 】[[code](https://github.com/gd3kr/BlenderGPT)]
-
-**【博客】**【Firefly】【Adobe制造了一个人工智能图像生成器--并表示它没有窃取艺术家的作品来做这件事 】[[blog](https://www.theverge.com/2023/3/21/23648315/adobe-firefly-ai-image-generator-announced)]
-
-**【博客】**【Bing Image Creator】【微软推出Bing Image Creator，用户可根据文本提示创建图片】[[blog](https://techcrunch.com/2023/03/21/microsoft-brings-openais-dall-e-image-creator-to-the-new-bing/)]
-
-**【博客】**【Hugging Face 现已支持使用达摩院text-to-video模型从文本生成视频】[[模型地址 ](https://modelscope.cn/models/damo/text-to-video-synthesis/summary)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【论文】**【最新女娲大模型，中科院提出NUWA-XL：扩散模型中的扩散，生成超长视频】[[paper](https://arxiv.org/pdf/2303.12346.pdf)]，[[blog](https://msra-nuwa.azurewebsites.net/#/)]
-
-**【论文】**【艾伦AI研究院 & 华盛顿大学 | CHAMPAGNE：从大规模的网络视频中学习真实世界的对话】[[paper](https://arxiv.org/pdf/2303.09713.pdf)]，[[code](https://seungjuhan.me/champagne)]
-
-**【论文】**【用AI直接复现你在想什么，Stable Diffusion逼真复现图像】[[paper](https://sites.google.com/view/stablediffusion-with-brain/)]，[[blog](https://mp.weixin.qq.com/s/gIwj2eqNph8jHWOhYYEXIg)]
-
-**【论文】**【Stable Diffusion公司新作Gen-1：基于扩散模型的视频合成新模型，加特效杠杠的！】[[paper](https://arxiv.org/pdf/2302.03011)]，[[site](https://research.runwayml.com/gen1)]
-
-**【论文】**【使用Diffusers 实现 ControlNet 高速推理】[[blog](https://mp.weixin.qq.com/s/k8rE9GrF97E-0TKJhih9kw)]
-
-**【论文】**【文生图引入ControlNet，深度、边缘信息全能复用 】[[paper](https://arxiv.org/pdf/2302.05543.pdf)]，[[code](https://github.com/lllyasviel/ControlNet)]
-
-**【论文】**【ChatGPT｜可用于AI绘画，效果飞升47% 】[[paper](https://arxiv.org/abs/2302.12192)]
-
-**【论文】**【智源研究院提出SegGPT： 一个用于分割上下文中所有事物的通用模型】[[paper](https://arxiv.org/pdf/2304.03284.pdf)]
-
-**【论文】**【OpenAI开源新模型代码库Consistency Models，无需对抗训练即可快速获得高质量样本】[[paper](https://arxiv.org/abs/2303.01469)]，[[code](https://github.com/openai/consistency_models)]，[[blog](https://hub.baai.ac.cn/view/25445)]
+| Genmo Chat |  |  | [blog](https://www.genmo.ai/) | 
+| BlenderGPT |  | [code](https://github.com/gd3kr/BlenderGPT) |  | 
+| Firefly |  |  | [blog](https://www.theverge.com/2023/3/21/23648315/adobe-firefly-ai-image-generator-announced) | 
+| Bing Image Creator |  |  | [blog](https://techcrunch.com/2023/03/21/microsoft-brings-openais-dall-e-image-creator-to-the-new-bing/) | 
+| text-to-video |  | [模型地址 ](https://modelscope.cn/models/damo/text-to-video-synthesis/summary) |  | 
+| NUWA-XL | [NUWA-XL: Diffusion over Diffusion for eXtremely Long Video Generation](https://arxiv.org/pdf/2303.12346.pdf) |  | [blog](https://msra-nuwa.azurewebsites.net/#/) | 
+| CHAMPAGNE | [CHAMPAGNE: Learning Real-world Conversation from Large-Scale Web Videos](https://arxiv.org/pdf/2303.09713.pdf) | [code](https://seungjuhan.me/champagne) |  | 
+| Stable Diffusion | [High-resolution image reconstruction with latent diffusion models from human brain activity](https://sites.google.com/view/stablediffusion-with-brain/) |  | [blog](https://mp.weixin.qq.com/s/gIwj2eqNph8jHWOhYYEXIg) | 
+| Gen-1 | [Structure and Content-Guided Video Synthesis with Diffusion Models](https://arxiv.org/pdf/2302.03011) |  | [site](https://research.runwayml.com/gen1) | 
+| ControlNet | [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/pdf/2302.05543.pdf) | [code](https://github.com/lllyasviel/ControlNet) | [blog](https://mp.weixin.qq.com/s/k8rE9GrF97E-0TKJhih9kw) | 
+|  | [Aligning Text-to-Image Models using Human Feedback](https://arxiv.org/abs/2302.12192) |  |  | 
+| SegGPT | [SegGPT: Segmenting Everything In Context](https://arxiv.org/pdf/2304.03284.pdf) |  |  | 
+| Consistency Models | [Consistency Models](https://arxiv.org/abs/2303.01469) | [code](https://github.com/openai/consistency_models) | [blog](https://hub.baai.ac.cn/view/25445) | 
 
 **【可控图文大模型】**【伯克利&微软｜用GPT-4进行可控的文本-图像生成】[[paper](https://arxiv.org/abs/2305.18583)]
-</p>
-</details>
 
 ## 代码生成
 
 | Model| Paper | Code |Blog |
 | --- | --- | --- | --- | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
+| GPT-Engineer |  | [code](https://github.com/AntonOsika/gpt-engineer) | [blog](https://mp.weixin.qq.com/s/rtsVsQbh7NnTh5vjgNMJHQ) | 
+| StarCoder |  |  | [blog](https://mp.weixin.qq.com/s/f-WwzLcEO-ZJczI-_bZh3Q) | 
+| StableCode |  | [4k代码补全模型](https://huggingface.co/stabilityai/stablecode-completion-alpha-3b-4k)，[指令模型](https://huggingface.co/stabilityai/stablecode-instruct-alpha-3b)，[16k代码补全模型](https://huggingface.co/stabilityai/stablecode-completion-alpha-3b)  | [中文blog](https://mp.weixin.qq.com/s/aAGMwSyT7Kgj3FLbzebJaQ)，[英文blog](https://stability.ai/blog/stablecode-llm-generative-ai-coding)| 
+| Baldur | [Baldur: Whole-Proof Generation and Repair with Large Language Models](https://arxiv.org/abs/2303.04910) |  |  | 
+| CodeGeeX | [CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X](https://arxiv.org/pdf/2303.17568.pdf) | [code](https://github.com/THUDM/CodeGeeX) |  | 
+| CodeGeeX2-6B |  | [code](https://github.com/THUDM/CodeGeeX2) | [blog](https://mp.weixin.qq.com/s/roQSCo-7s361P3TmJjjZjA) | 
+| CodeT5 | [CodeT5+: Open Code Large Language Models for Code Understanding and Generation](https://arxiv.org/abs/2305.07922) |  |  | 
+| Cursor |  |  | [官网地址](https://www.cursor.so/) | 
 
 **【综述】**【代码大模型综述：中科院和MSRA调研27个LLMs，并给出5个有趣挑战】[[blog](https://mp.weixin.qq.com/s/t2SMftox6546E7kvRgQMnA)]，[[paper](https://arxiv.org/abs/2212.09420)]，[[项目主页](https://nl2code.github.io)]
 
-**【博客】**【GPT-Engineer｜提需求即可生成整个代码库，已20K星】[[blog](https://mp.weixin.qq.com/s/rtsVsQbh7NnTh5vjgNMJHQ)]，[[code](https://github.com/AntonOsika/gpt-engineer)]
-
-**【博客】**【StarCoder: 最先进的代码大模型】[[blog](https://mp.weixin.qq.com/s/f-WwzLcEO-ZJczI-_bZh3Q)]
-
-**【博客】**【StableCode: Stability Al发布的代码大模型：上下文窗口1.6万token、30亿参数】[[中文blog](https://mp.weixin.qq.com/s/aAGMwSyT7Kgj3FLbzebJaQ)]，[[英文blog](https://stability.ai/blog/stablecode-llm-generative-ai-coding)]，[[4k代码补全模型](https://huggingface.co/stabilityai/stablecode-completion-alpha-3b-4k)]，[[指令模型](https://huggingface.co/stabilityai/stablecode-instruct-alpha-3b)]，[[16k代码补全模型](https://huggingface.co/stabilityai/stablecode-completion-alpha-3b)]
-
 **【论文】**【北京大学：具有大语言模型的自我规划代码生成】[[paper](https://arxiv.org/pdf/2303.06689.pdf)]
-
-<details><summary>展开更多</summary>
-<p>
 
 **【论文】**【谷歌提出Self-Debugging:教导大型语言模型进行自我调试】[[paper](https://arxiv.org/pdf/2304.05128.pdf)]
 
 **【论文】**【通过自我改进实现更好的代码语言模型，显著提高模型生成任务的性能】[[paper](https://arxiv.org/pdf/2304.01228.pdf)]
-
-**【论文】**【Baldur: 基于大型语言模型的完全证明生成与修复】[[paper](https://arxiv.org/abs/2303.04910)]
-
-**【论文】**【CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X 】[[paper](https://arxiv.org/pdf/2303.17568.pdf)]，[[code](https://github.com/THUDM/CodeGeeX)]
-
-**【论文】**【代码模型 CodeGeeX2-6B 开源，最低6GB显存，性能优于StarCoder】[[blog](https://mp.weixin.qq.com/s/roQSCo-7s361P3TmJjjZjA)]，[[code](https://github.com/THUDM/CodeGeeX2)]
-
-**【论文】**【CodeT5+：非常灵活的、面向代码理解和生成的开放大型代码语言模型】[[paper](https://arxiv.org/abs/2305.07922)]
-
-【**工具**】【Cursor：一个集成了 GPT-4 的国内直接可以访问的，优秀而强大的免费代码生成器，可以帮助你快速编写、编辑和讨论代码。】[[官网地址](https://www.cursor.so/)]
 
 **【论文】**【MIT最新研究：利用大预言模型生成Code】[[paper](https://arxiv.org/abs/2303.05510)]，[[code](https://github.com/shunzh/Code-AI-Tree-Search)]，[[项目网址](https://codeaimcts.github.io/)]
 
 **【论文】**【MathPrompter: 基于大型语言模型的数学推理】[[paper](https://arxiv.org/abs/2303.05398)]
 
 **【论文】**【MIT最新研究：利用大语言模型生成Code】[[paper](https://arxiv.org/abs/2303.05510)]，[[code](https://github.com/shunzh/Code-AI-Tree-Search)]，[[官网地址](https://codeaimcts.github.io/)]
-</p>
-</details>
 
 ## 语音生成
 
 | Model| Paper | Code |Blog |
 | --- | --- | --- | --- | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-
-**【论文】**【Meta AI研究者推出MUSICGEN】[[paper](https://arxiv.org/pdf/2306.05284.pdf)]，[[blog](https://the-decoder.com/metas-open-source-ai-musicgen-turns-text-and-melody-into-new-songs/)]，[[demo](https://huggingface.co/spaces/facebook/MusicGen)]
-
-【**论文**】【MetaAI发布第一个生成的人工智能语音模型Voicebox】[[blog](https://hub.baai.ac.cn/view/27492)]，[[paper](https://research.facebook.com/file/649409006862002/paper_fixed.pdf)]
-
-【**论文**】【MetaAI开源AudioCraft：一个支持AudioGen、MusicGen等模型的音频生成开发框架】[[blog](https://mp.weixin.qq.com/s/OLLCiMqKHQJxGGR1sPA3qw)]，[[code](https://github.com/facebookresearch/audiocraft)]
-
-**【论文】**【文字、图片一键生成逼真音效，音频界AIGC来了】[[paper](https://arxiv.org/abs/2301.12661)]，[[code](https://text-to-audio.github.io)]
-
-【**论文**】【音乐可视化｜利用大型语言模型和文本到图像模型帮助生成「音乐迪斯科」】[[paper](https://arxiv.org/pdf/2304.08551.pdf)]，[[blog](https://hub.baai.ac.cn/view/25517)]
+| MUSICGEN | [Simple and Controllable Music Generation](https://arxiv.org/pdf/2306.05284.pdf) |  | [blog](https://the-decoder.com/metas-open-source-ai-musicgen-turns-text-and-melody-into-new-songs/)，[demo](https://huggingface.co/spaces/facebook/MusicGen) | 
+| Voicebox | [Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale](https://research.facebook.com/file/649409006862002/paper_fixed.pdf) |  | [blog](https://hub.baai.ac.cn/view/27492) | 
+| AudioCraft |  | [code](https://github.com/facebookresearch/audiocraft) | [blog](https://mp.weixin.qq.com/s/OLLCiMqKHQJxGGR1sPA3qw) | 
+| Make-An-Audio | [Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models](https://arxiv.org/abs/2301.12661) | [code](https://text-to-audio.github.io) |  | 
+| Generative Disco | [Generative Disco: Text-to-Video Generation for Music Visualization](https://arxiv.org/pdf/2304.08551.pdf) |  | [blog](https://hub.baai.ac.cn/view/25517) | 
 
 ## 多模态生成
 
 | Model| Paper | Code |Blog |
 | --- | --- | --- | --- | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-
-**【BLIP-2】**【高效训练多模态大模型（BLIP-2）】[[paper](https://arxiv.org/abs/2301.12597)]，[[code](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)]，[[demo](https://huggingface.co/spaces/Salesforce/BLIP2)]，[[doc](https://huggingface.co/docs/transformers/main/en/model_doc/blip-2)]，[[fine-tuing](https://github.com/salesforce/LAVIS)]，[[hugging face spaces](https://hf.co/spaces/Salesforce/BLIP2)]
-
-**【VisCPM】**【SOTA 开源中文多模态大模型】[[blog](https://mp.weixin.qq.com/s/Fgfbs1vV7RF6kpyk4bfIYw)]，[[code](https://github.com/OpenBMB/VisCPM)]
+| BLIP-2 | [paper](https://arxiv.org/abs/2301.12597) | [code](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)，[fine-tuing](https://github.com/salesforce/LAVIS)，[hugging face spaces](https://hf.co/spaces/Salesforce/BLIP2) | [demo](https://huggingface.co/spaces/Salesforce/BLIP2)，[doc](https://huggingface.co/docs/transformers/main/en/model_doc/blip-2) | 
+| VisCPM |  | [code](https://github.com/OpenBMB/VisCPM) | [blog](https://mp.weixin.qq.com/s/Fgfbs1vV7RF6kpyk4bfIYw) | 
+| LLaVA | [Visual Instruction Tuning](https://arxiv.org/pdf/2304.08485.pdf) |  | [introduce](https://llava-vl.github.io/) | 
+| UniDiffuser | [One Transformer Fits All Distributions in Multi-Modal Diffusion at Scale](https://ml.cs.tsinghua.edu.cn/diffusion/unidiffuser.pdf) | [code](https://github.com/thu-ml/unidiffuser) |  | 
+| Video-LLaMA | [Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding](https://arxiv.org/abs/2306.02858) |  |  | 
+| X-LLM | [X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages](https://arxiv.org/abs/2305.04160) |  | [项目地址](https://x-llm.github.io/) | 
 
 **【HuggingFace Transformers Agents】**【一键控制10万多个AI模型，HuggingFace给类ChatGPT模型们做了个「APP Store」】[[demo](https://huggingface.co/docs/transformers/transformers_agents)]，[[blog](https://mp.weixin.qq.com/s/8gyTqT1B4C2Da_6dmtaNiw)]
-
-**【LLaVA】**【熔岩羊驼LLaVA来了：像GPT-4一样可以看图聊天，无需邀请码，在线可玩】[[paper](https://arxiv.org/pdf/2304.08485.pdf)]，[[introduce](https://llava-vl.github.io/)]
-
-**【UniDiffuser】**【清华朱军团队开源UniDiffuser：首个基于Transformer的多模态扩散大模型！文图互生、改写全拿下！】[[paper](https://ml.cs.tsinghua.edu.cn/diffusion/unidiffuser.pdf)]，[[code](https://github.com/thu-ml/unidiffuser)]
-
-<details><summary>展开更多</summary>
-<p>
-
-**【Video-LLaMA】**【人机视频对话｜Video-LLaMA多模态框架，使大型语言模型具备了理解视频内容的能力】[[paper](https://arxiv.org/abs/2306.02858)]
-
-**【X-LLM】**【多模态语言训练大模型】[[项目地址](https://x-llm.github.io/)]，[[paper](https://arxiv.org/abs/2305.04160)]
-</p>
-</details>
 
 ## 欢迎共创
 
