@@ -105,9 +105,6 @@ AGI Survey mainly includes LLM and AIGC, specifically including text generation 
 ---
 
 ## Domain LLMs
-## LLM领域大模型
-
-【论文】[[垂直领域大模型的一些思考及开源模型汇总](https://mp.weixin.qq.com/s/HiGkSwbGeo4sPZvQeKCJfQ)]，[[大模型时代-行业落地的再思考](https://mp.weixin.qq.com/s/wSQSjO_0OmIg2kBZUuXA4Q)]
 
 ### Domain LLMs for Law
 
@@ -123,12 +120,6 @@ AGI Survey mainly includes LLM and AIGC, specifically including text generation 
 
                                                                                                            
 ### Domain LLMs for Medical
-
-【医疗领域大模型的幻觉问题分析】[[blog](https://mp.weixin.qq.com/s/1o4u0Em0fFk9YndTaF2I7A)]
-
-【基于中文金融知识的 LLaMA 系微调模型的智能问答系统：LLaMA大模型训练微调推理等详细教学】[[blog](https://mp.weixin.qq.com/s/lrKPUcS9GkSS20-Jda-8bA)]
-
-【中文多模态医学大模型智能分析X光片，实现影像诊断，完成医生问诊多轮对话】[[blog](https://mp.weixin.qq.com/s/Spb_dbsHRyP9EvUaMYgHxw)]
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
 | --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
