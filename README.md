@@ -15,14 +15,6 @@
   - [论文分享](#论文分享)
   - [访谈 视频](#访谈-视频)
 - [LLM体验效果](#LLM体验效果)
-- [LLM领域大模型](#LLM领域大模型)
-  - [法律](#法律)
-  - [医疗](#医疗)
-  - [金融](#金融)
-  - [环境](#环境)
-  - [网络安全](#网络安全)
-  - [交通](#交通)
-  - [其他](#其他)
 - [LLM关键技术与应用](#LLM关键技术与应用)
   - [Prompt Engineering](#Prompt-Engineering)
   - [LLM 数据集](#LLM-数据集)
@@ -46,10 +38,6 @@
   - [baichuan以及扩展](#baichuan以及扩展)
   - [ChatGLM以及扩展](#ChatGLM以及扩展)
   - [LLaMA以及扩展](#LLaMA以及扩展)
-- [图像 视频生成](#图像-视频生成)
-- [代码生成](#代码生成)
-- [语音生成](#语音生成)
-- [多模态生成](#多模态生成)
 
 ## AIGC视频会议 访谈
 
@@ -96,82 +84,6 @@
 | 文心一言 | 讯飞星火 | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486490&idx=1&sn=c8d756f7f26a4e35f8b67ae485efabce&chksm=ced54ffef9a2c6e8d66f8b744d6af524e320d5aec384d142621cee53fd2150f2c7db1fa7596a&token=1282379489&lang=zh_CN#rd)|
 | GPT4 | ChatGPT | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485952&idx=2&sn=e54a62e358bf7aee3c007d59600fd452&chksm=ced549e4f9a2c0f2868eb8877c14fbe287a469e63b09774cefcb9edc4c0601016f6d36561973&token=666852558&lang=zh_CN#rd)|
 | GPT4 | Claude2 | [对比效果1](https://mp.weixin.qq.com/s/dj2_WlWVpGwYsa8kO-GRFQ)，[对比效果2](https://mp.weixin.qq.com/s/Xo3XXQ5zYPmDxBYivhBYqA)|
-
-## LLM领域大模型
-
-【论文】[[垂直领域大模型的一些思考及开源模型汇总](https://mp.weixin.qq.com/s/HiGkSwbGeo4sPZvQeKCJfQ)]，[[大模型时代-行业落地的再思考](https://mp.weixin.qq.com/s/wSQSjO_0OmIg2kBZUuXA4Q)]
-
-### 法律
-
-| Model| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| CaMA |  |  | [blog](https://mp.weixin.qq.com/s/FYWmMH2ndN5XfWvwI9dcUA) |  
-| ChatLaw | [ChatLaw: Open-Source Legal Large Language Model with Integrated External Knowledge Bases](https://arxiv.org/pdf/2306.16092.pdf) | [ChatLaw Code](https://github.com/PKU-YuanGroup/ChatLaw)|[official website](https://www.chatlaw.cloud/) |
-| ExpertLLaMA |  |  | [blog](https://mp.weixin.qq.com/s/FYWmMH2ndN5XfWvwI9dcUA) |  
-| LaWGPT |  | [LaWGPT Code](https://github.com/pengxiao-song/LaWGPT) | [LaWGPT Blog](https://mp.weixin.qq.com/s/dI839IF0hdBTAfOBUg7Pfw) |  
-| LAW-GPT |  | [LAW-GPT Code](https://github.com/LiuHC0428/LAW-GPT) |  |  
-| LexiLaw |  | [LexiLaw Code](https://github.com/CSHaitao/LexiLaw) |  |  
-| lawyer-llama |  | [lawyer-llama Code](https://github.com/AndrewZhe/lawyer-llama) |  |  
-
-### 医疗
-
-| Model| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| AD-AutoGPT | [AD-AutoGPT: An Autonomous GPT for Alzheimer's Disease Infodemiology](https://arxiv.org/abs/2306.10095) |  |  | 
-| BianQue |  | [BianQue](https://github.com/scutcyr/BianQue) |  | 
-| ChatMed | | [ChatMed](https://github.com/michael-wzhu/ChatMed) |  | 
-| DoctorGLM | | [DoctorGLM](https://github.com/xionghonglin/DoctorGLM) |  | 
-| Huatuo-Llama-Med-Chinese |  | [Huatuo-Llama-Med-Chinese](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) |  | 
-| Med-PaLM |  | [Large language models encode clinical knowledge](https://www.nature.com/articles/s41586-023-06291-2) | [blog](https://mp.weixin.qq.com/s/Qf4Ts7UKJNzkW1Tfy-b0Zg) | 
-| MedQA-ChatGLM |  | [MedQA-ChatGLM](http://github.com/WangRongsheng/MedQA-ChatGLM) | [主页](https://www.wangrs.co/MedQA-ChatGLM/) | 
-| MedicalGPT-zh |  | [MedicalGPT-zh](https://github.com/MediaBrain-SJTU/MedicalGPT-zh) |  | 
-| Med-ChatGLM |  | [Med-ChatGLM](https://github.com/SCIR-HI/Med-ChatGLM) |  | 
-| PULSE |  | [PULSE](https://huggingface.co/OpenMEDLab/PULSE-7bv5) |  | 
-| ShenNong-TCM-LLM |  | [ShenNong-TCM-LLM](https://github.com/michael-wzhu/ShenNong-TCM-LLM) |  | 
-| SoulChat |  | [SoulChat](https://github.com/scutcyr/SoulChat) |  | 
-
-【医疗领域大模型的幻觉问题分析】[[blog](https://mp.weixin.qq.com/s/1o4u0Em0fFk9YndTaF2I7A)]
-
-【基于中文金融知识的 LLaMA 系微调模型的智能问答系统：LLaMA大模型训练微调推理等详细教学】[[blog](https://mp.weixin.qq.com/s/lrKPUcS9GkSS20-Jda-8bA)]
-
-【中文多模态医学大模型智能分析X光片，实现影像诊断，完成医生问诊多轮对话】[[blog](https://mp.weixin.qq.com/s/Spb_dbsHRyP9EvUaMYgHxw)]
-
-### 金融
-
-| Model| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| FinGPT | [FinGPT: Open-Source Financial Large Language Models](https://arxiv.org/pdf/2306.06031v1.pdf) | [FinGPT](https://github.com/ai4finance-foundation/fingpt) | [blog](https://mp.weixin.qq.com/s/A9euFin675nxGGciiX6rJQ) | 
-| FinTuo |  | [FinTuo](https://github.com/qiyuan-chen/FinTuo-Chinese-Finance-LLM) |  | 
-
-### 环境
-
-| Model| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| NowcastNet | [Skilful nowcasting of extreme precipitation with NowcastNet](https://www.nature.com/articles/s41586-023-06184-4) |  | [blog](https://mp.weixin.qq.com/s/Aygm03CdA0zFNf9F3_JU5A) | 
-
-### 网络安全
-
-| Model| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| FraudGPT |  |  | [blog](https://mp.weixin.qq.com/s/OtLNybsbxDlbVb-cs4Zk8g) | 
-
-### 教育
-
-| Model| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| EduChat |  | [EduChat](https://github.com/icalk-nlp/EduChat) |  | 
-
-### 交通
-
-| Model| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| TransGPT |  | [TransGPT](https://github.com/DUOMO/TransGPT) | [blog](https://mp.weixin.qq.com/s/WvzyjHqI0lOGIyPlCIFNQg) | 
-
-### 其他
-
-| Model| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| Panda LLM | [Panda LLM: Training Data and Evaluation for Open-Sourced Chinese Instruction-Following Large Language Models](https://arxiv.org/pdf/2305.03025v1.pdf) | [Panda LLM](https://github.com/dandelionsllm/pandallm) | [blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ) | 
 
 ## LLM关键技术与应用
 
@@ -382,7 +294,7 @@ Some examples of AGI Paper List as follows：
 
 ## LLM Lists
 
-**Here are the LLMs sorted alphabetically**
+**Here are the LLMs sorted alphabetically，except for baichuan, ChatGLM, and LLaMA**
 
 从GPT3到ChatGPT模型的发展路线图
 
@@ -481,76 +393,6 @@ Some examples of AGI Paper List as follows：
 | PaLM |  |  | [blog](https://mp.weixin.qq.com/s/MT1xCsJp98BM-lkuOKJF-A) | 
 | StackLLaMA |  |  | [中文blog](https://hub.baai.ac.cn/view/25341)，[英文blog](https://huggingface.co/blog/stackllama) | 
 | Vicuna |  |  | [Vicuna官网地址](https://vicuna.lmsys.org/)，[blog](https://hub.baai.ac.cn/view/25328) | 
-
-## 图像 视频生成
-
-| Model| Paper | Code |Blog |
-| --- | --- | --- | --- | 
-| Genmo Chat |  |  | [blog](https://www.genmo.ai/) | 
-| BlenderGPT |  | [code](https://github.com/gd3kr/BlenderGPT) |  | 
-| Firefly |  |  | [blog](https://www.theverge.com/2023/3/21/23648315/adobe-firefly-ai-image-generator-announced) | 
-| Bing Image Creator |  |  | [blog](https://techcrunch.com/2023/03/21/microsoft-brings-openais-dall-e-image-creator-to-the-new-bing/) | 
-| text-to-video |  | [模型地址 ](https://modelscope.cn/models/damo/text-to-video-synthesis/summary) |  | 
-| NUWA-XL | [NUWA-XL: Diffusion over Diffusion for eXtremely Long Video Generation](https://arxiv.org/pdf/2303.12346.pdf) |  | [blog](https://msra-nuwa.azurewebsites.net/#/) | 
-| CHAMPAGNE | [CHAMPAGNE: Learning Real-world Conversation from Large-Scale Web Videos](https://arxiv.org/pdf/2303.09713.pdf) | [code](https://seungjuhan.me/champagne) |  | 
-| Stable Diffusion | [High-resolution image reconstruction with latent diffusion models from human brain activity](https://sites.google.com/view/stablediffusion-with-brain/) |  | [blog](https://mp.weixin.qq.com/s/gIwj2eqNph8jHWOhYYEXIg) | 
-| Gen-1 | [Structure and Content-Guided Video Synthesis with Diffusion Models](https://arxiv.org/pdf/2302.03011) |  | [site](https://research.runwayml.com/gen1) | 
-| ControlNet | [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/pdf/2302.05543.pdf) | [code](https://github.com/lllyasviel/ControlNet) | [blog](https://mp.weixin.qq.com/s/k8rE9GrF97E-0TKJhih9kw) | 
-|  | [Aligning Text-to-Image Models using Human Feedback](https://arxiv.org/abs/2302.12192) |  |  | 
-| SegGPT | [SegGPT: Segmenting Everything In Context](https://arxiv.org/pdf/2304.03284.pdf) |  |  | 
-| Consistency Models | [Consistency Models](https://arxiv.org/abs/2303.01469) | [code](https://github.com/openai/consistency_models) | [blog](https://hub.baai.ac.cn/view/25445) | 
-
-**【可控图文大模型】**【伯克利&微软｜用GPT-4进行可控的文本-图像生成】[[paper](https://arxiv.org/abs/2305.18583)]
-
-## 代码生成
-
-| Model| Paper | Code |Blog |
-| --- | --- | --- | --- | 
-| GPT-Engineer |  | [code](https://github.com/AntonOsika/gpt-engineer) | [blog](https://mp.weixin.qq.com/s/rtsVsQbh7NnTh5vjgNMJHQ) | 
-| StarCoder |  |  | [blog](https://mp.weixin.qq.com/s/f-WwzLcEO-ZJczI-_bZh3Q) | 
-| StableCode |  | [4k代码补全模型](https://huggingface.co/stabilityai/stablecode-completion-alpha-3b-4k)，[指令模型](https://huggingface.co/stabilityai/stablecode-instruct-alpha-3b)，[16k代码补全模型](https://huggingface.co/stabilityai/stablecode-completion-alpha-3b)  | [中文blog](https://mp.weixin.qq.com/s/aAGMwSyT7Kgj3FLbzebJaQ)，[英文blog](https://stability.ai/blog/stablecode-llm-generative-ai-coding)| 
-| Baldur | [Baldur: Whole-Proof Generation and Repair with Large Language Models](https://arxiv.org/abs/2303.04910) |  |  | 
-| CodeGeeX | [CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X](https://arxiv.org/pdf/2303.17568.pdf) | [code](https://github.com/THUDM/CodeGeeX) |  | 
-| CodeGeeX2-6B |  | [code](https://github.com/THUDM/CodeGeeX2) | [blog](https://mp.weixin.qq.com/s/roQSCo-7s361P3TmJjjZjA) | 
-| CodeT5 | [CodeT5+: Open Code Large Language Models for Code Understanding and Generation](https://arxiv.org/abs/2305.07922) |  |  | 
-| Cursor |  |  | [官网地址](https://www.cursor.so/) | 
-
-**【综述】**【代码大模型综述：中科院和MSRA调研27个LLMs，并给出5个有趣挑战】[[blog](https://mp.weixin.qq.com/s/t2SMftox6546E7kvRgQMnA)]，[[paper](https://arxiv.org/abs/2212.09420)]，[[项目主页](https://nl2code.github.io)]
-
-**【论文】**【北京大学：具有大语言模型的自我规划代码生成】[[paper](https://arxiv.org/pdf/2303.06689.pdf)]
-
-**【论文】**【谷歌提出Self-Debugging:教导大型语言模型进行自我调试】[[paper](https://arxiv.org/pdf/2304.05128.pdf)]
-
-**【论文】**【通过自我改进实现更好的代码语言模型，显著提高模型生成任务的性能】[[paper](https://arxiv.org/pdf/2304.01228.pdf)]
-
-**【论文】**【MIT最新研究：利用大预言模型生成Code】[[paper](https://arxiv.org/abs/2303.05510)]，[[code](https://github.com/shunzh/Code-AI-Tree-Search)]，[[项目网址](https://codeaimcts.github.io/)]
-
-**【论文】**【MathPrompter: 基于大型语言模型的数学推理】[[paper](https://arxiv.org/abs/2303.05398)]
-
-**【论文】**【MIT最新研究：利用大语言模型生成Code】[[paper](https://arxiv.org/abs/2303.05510)]，[[code](https://github.com/shunzh/Code-AI-Tree-Search)]，[[官网地址](https://codeaimcts.github.io/)]
-
-## 语音生成
-
-| Model| Paper | Code |Blog |
-| --- | --- | --- | --- | 
-| MUSICGEN | [Simple and Controllable Music Generation](https://arxiv.org/pdf/2306.05284.pdf) |  | [blog](https://the-decoder.com/metas-open-source-ai-musicgen-turns-text-and-melody-into-new-songs/)，[demo](https://huggingface.co/spaces/facebook/MusicGen) | 
-| Voicebox | [Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale](https://research.facebook.com/file/649409006862002/paper_fixed.pdf) |  | [blog](https://hub.baai.ac.cn/view/27492) | 
-| AudioCraft |  | [code](https://github.com/facebookresearch/audiocraft) | [blog](https://mp.weixin.qq.com/s/OLLCiMqKHQJxGGR1sPA3qw) | 
-| Make-An-Audio | [Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models](https://arxiv.org/abs/2301.12661) | [code](https://text-to-audio.github.io) |  | 
-| Generative Disco | [Generative Disco: Text-to-Video Generation for Music Visualization](https://arxiv.org/pdf/2304.08551.pdf) |  | [blog](https://hub.baai.ac.cn/view/25517) | 
-
-## 多模态生成
-
-| Model| Paper | Code |Blog |
-| --- | --- | --- | --- | 
-| BLIP-2 | [paper](https://arxiv.org/abs/2301.12597) | [code](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)，[fine-tuing](https://github.com/salesforce/LAVIS)，[hugging face spaces](https://hf.co/spaces/Salesforce/BLIP2) | [demo](https://huggingface.co/spaces/Salesforce/BLIP2)，[doc](https://huggingface.co/docs/transformers/main/en/model_doc/blip-2) | 
-| VisCPM |  | [code](https://github.com/OpenBMB/VisCPM) | [blog](https://mp.weixin.qq.com/s/Fgfbs1vV7RF6kpyk4bfIYw) | 
-| LLaVA | [Visual Instruction Tuning](https://arxiv.org/pdf/2304.08485.pdf) |  | [introduce](https://llava-vl.github.io/) | 
-| UniDiffuser | [One Transformer Fits All Distributions in Multi-Modal Diffusion at Scale](https://ml.cs.tsinghua.edu.cn/diffusion/unidiffuser.pdf) | [code](https://github.com/thu-ml/unidiffuser) |  | 
-| Video-LLaMA | [Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding](https://arxiv.org/abs/2306.02858) |  |  | 
-| X-LLM | [X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages](https://arxiv.org/abs/2305.04160) |  | [项目地址](https://x-llm.github.io/) | 
-
-**【HuggingFace Transformers Agents】**【一键控制10万多个AI模型，HuggingFace给类ChatGPT模型们做了个「APP Store」】[[demo](https://huggingface.co/docs/transformers/transformers_agents)]，[[blog](https://mp.weixin.qq.com/s/8gyTqT1B4C2Da_6dmtaNiw)]
 
 ## 欢迎共创
 

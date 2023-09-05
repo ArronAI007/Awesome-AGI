@@ -93,7 +93,26 @@
 | Google发布统计深度学习框架平台：OpenXLA |  |  | [blog](https://github.com/wshzd/ChatGPT-Summary/blob/main/AGI/Google_OpenXLA.md) |  
 | AGI的火花一作Sébastien Bubeck演讲万字全文 |  | | [blog](https://mp.weixin.qq.com/s/H1RVdH0fmwM0GjfV3uvd4g) |  
 | AGI通用智能发展的思考：是否存在足够通用的处理器？ |  |  | [blog](https://mp.weixin.qq.com/s/16TfOu4qfqlbQHpDgDUM2A) |  
-| OpenAGI:当大语言模型遇到领域专家 | [OpenAGI: When LLM Meets Domain Experts](https://arxiv.org/abs/2304.04370) | [code](https://github.com/agiresearch/OpenAGI) |  |  
+| OpenAGI:当大语言模型遇到领域专家 | [OpenAGI: When LLM Meets Domain Experts](https://arxiv.org/abs/2304.04370) | [code](https://github.com/agiresearch/OpenAGI) |  | 
+| 垂直领域大模型的一些思考及开源模型汇总 |  |  | [blog](https://mp.weixin.qq.com/s/HiGkSwbGeo4sPZvQeKCJfQ) | 
+| 大模型时代-行业落地的再思考 |  |  | [blog](https://mp.weixin.qq.com/s/wSQSjO_0OmIg2kBZUuXA4Q) | 
+| 医疗领域大模型的幻觉问题分析 |  |  | [blog](https://mp.weixin.qq.com/s/1o4u0Em0fFk9YndTaF2I7A) | 
+| 基于中文金融知识的 LLaMA 系微调模型的智能问答系统：LLaMA大模型训练微调推理等详细教学 |  |  | [blog](https://mp.weixin.qq.com/s/lrKPUcS9GkSS20-Jda-8bA) | 
+| 中文多模态医学大模型智能分析X光片，实现影像诊断，完成医生问诊多轮对话 |  |  | [blog](https://mp.weixin.qq.com/s/Spb_dbsHRyP9EvUaMYgHxw) | 
+| 伯克利&微软｜用GPT-4进行可控的文本-图像生成 | [paper](https://arxiv.org/abs/2305.18583) |  |  |
+
+## 代码生成
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- | 
+| 代码大模型综述：中科院和MSRA调研27个LLMs，并给出5个有趣挑战 | [paper](https://arxiv.org/abs/2212.09420) |  | [blog](https://mp.weixin.qq.com/s/t2SMftox6546E7kvRgQMnA)，[项目主页](https://nl2code.github.io) |
+| 北京大学：具有大语言模型的自我规划代码生成 | [paper](https://arxiv.org/pdf/2303.06689.pdf) |  |  |
+| 谷歌提出Self-Debugging:教导大型语言模型进行自我调试 | [paper](https://arxiv.org/pdf/2304.05128.pdf) |  |  |
+| 通过自我改进实现更好的代码语言模型，显著提高模型生成任务的性能 | [paper](https://arxiv.org/pdf/2304.01228.pdf) |  |  |
+| MIT最新研究：利用大预言模型生成Code | [paper](https://arxiv.org/abs/2303.05510) | [code](https://github.com/shunzh/Code-AI-Tree-Search) | [项目网址](https://codeaimcts.github.io/) |
+| MathPrompter: 基于大型语言模型的数学推理 | [paper](https://arxiv.org/abs/2303.05398) |  |  |
+| MIT最新研究：利用大语言模型生成Code | [paper](https://arxiv.org/abs/2303.05510) | [code](https://github.com/shunzh/Code-AI-Tree-Search) | [官网地址](https://codeaimcts.github.io/) |
+| 一键控制10万多个AI模型，HuggingFace给类ChatGPT模型们做了个「APP Store」 |  | [demo](https://huggingface.co/docs/transformers/transformers_agents) | [blog](https://mp.weixin.qq.com/s/8gyTqT1B4C2Da_6dmtaNiw) |
 
 ## ChatGPT 应用篇
 
