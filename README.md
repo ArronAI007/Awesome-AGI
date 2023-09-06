@@ -11,9 +11,6 @@
 | ![Arron](https://i.postimg.cc/PqFvY1kW/AIGC-group.jpg) | ![Arron](https://i.postimg.cc/QMqj1DGc/Arron.jpg) |
 
 ## Table of Context
-- [AIGC视频会议 访谈](#AIGC视频会议-访谈)
-  - [论文分享](#论文分享)
-  - [访谈 视频](#访谈-视频)
 - [LLM体验效果](#LLM体验效果)
 - [LLM Lists](#LLM-Lists)
   - [baichuan以及扩展](#baichuan以及扩展)
@@ -50,36 +47,6 @@
   - [LLM Agent](#LLM-Agent)
   - [LLM 文本检测](#LLM-文本检测)
 - [AGI Paper Lists](#AGI-Paper-Lists)
-
-
-## AIGC视频会议 访谈
-
-### 论文分享
-
-| Description| Paper | Code | Blog |Video |
-| --- | --- | --- | --- | --- |  
-| AugGPT：利用ChatGPT进行文本数据增强 |[AugGPT: Leveraging ChatGPT for Text Data Augmentation](https://arxiv.org/abs/2302.13007) | | [blog](https://hub.baai.ac.cn/view/24771) | [link](https://event.baai.ac.cn/activities/664) |
-| ChatGPT的鲁棒性探究——对抗性和分布外泛化的视角 | [On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective ](https://arxiv.org/pdf/2302.12095.pdf) | [code](https://github.com/microsoft/robustlearn) | [blog](https://hub.baai.ac.cn/view/24771) |[link](https://event.baai.ac.cn/activities/657) |
-| 传统检索模型和大语言模型（GPT-3）在信息搜索中的应用和对比 | [Generate rather than Retrieve: Large Language Models are Strong Context Generators](https://arxiv.org/abs/2209.10063) |[code](https://github.com/wyu97/GenRead) | [blog](https://hub.baai.ac.cn/view/24380) | [link](https://event.baai.ac.cn/activities/656) | 
-
-### 访谈 视频
-
-| Description| Blog |
-| --- | --- |  
-| OpenAI 的核心研发人员 Jack Rae 在参加 Stanford MLSys Seminar 的访谈时进行了一个名为 Compression for AGI的主题分享 | [访谈记录](https://mp.weixin.qq.com/s/hQmvltuMlClBonM6UJmtLg) | 
-| 万字长文：想训大模型？这里有一份避坑指南 | [访谈记录](https://mp.weixin.qq.com/s/yX5B1ZzV7vewQs1-ezHIQg) | 
-| 微软Bing版ChatGPT表明想做人类，并且对纽约时报专栏作家表达爱意 | [访谈记录](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485854&idx=1&sn=011e0ef0f2c69cd48d042495b2a47eb3&chksm=ced54a7af9a2c36c29fec6301236685d443bde94681ec3f669408d953ae92bb54b686aeab9f8&token=447941009&lang=zh_CN#rd) | 
-| Midjourney创始人David Holz关于生成式AI的访谈 | [访谈记录](https://mp.weixin.qq.com/s/jMyuSYu8ACk2peu_OfZK0w) | 
-| OpenAI创始人：GPT-4的研究起源和构建心法 | [访谈记录](https://mp.weixin.qq.com/s/hO1ZdqgOjpA328luobQ9eg) | 
-| ABC News 专访OpenAI首席执行官萨姆·奥尔特曼：AI风险和重塑社会的问题 | [访谈记录](https://abcnews.go.com/Technology/openai-ceo-sam-altman-ai-reshape-society-acknowledges/story?id=97897122) | 
-| OpenAI联合创始人Ilya Sutskever等专访：开源人工智能是不明智的 | [访谈记录](https://www.theverge.com/2023/3/15/23640180/openai-gpt-4-launch-closed-research-ilya-sutskever-interview) | 
-| OpenAI董事长、CTO Greg Brockman专访 ：GPT-4 并不完美，不过人无完人 | [访谈记录](https://techcrunch.com/2023/03/15/interview-with-openais-greg-brockman-gpt-4-isnt-perfect-but-neither-are-you/) | 
-| 图灵奖获得者 Yoshua Bengio 认为 ChatGPT 是一个“警钟” | [访谈记录](https://mp.weixin.qq.com/s/2-QoJHKWxiS63vEjX9OOGQ) | 
-| 《麻省理工科技评论》对 ChatGPT 幕后团队，进行了一次深入的独家专访 | [访谈记录](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai) | 
-| 口述历史，探析ChatGPT的创造历程，ChatGPT内部故事 | [访谈记录](https://mp.weixin.qq.com/s/RAdIxzdgs3elUiozB8cH8g) | 
-| 对话ChatGPT之父！AI会改变什么？不会改变什么？ | [访谈记录](https://mp.weixin.qq.com/s/zNuOmVeVKP335iJ4RNJqNw) | 
-| 对话OpenAI研究科学家：他们是如何让GPT4更像人的？ | [访谈记录](https://mp.weixin.qq.com/s/iJImioHXxelCxUsETSxuXw) | 
-| 邱锡鹏教授介绍以ChatGPT为核心的大规模语言模型的相关知识及未来的发展方向 | [视频](https://www.bilibili.com/video/BV1Xb411X7c3/) | 
 
 ## LLM体验效果
 
