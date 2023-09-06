@@ -49,7 +49,7 @@
   - [LLM 问答](#LLM-问答)
   - [LLM Agent](#LLM-Agent)
   - [LLM 文本检测](#LLM-文本检测)
-- [AGI Paper List](#AGI-Paper-List)
+- [AGI Paper Lists](#AGI-Paper-Lists)
 
 
 ## AIGC视频会议 访谈
@@ -454,7 +454,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 
 ### Prompt Engineering
 
-Some examples of Prompt Engineering as follows：
+Some examples of **Prompt Engineering** as follows：
 
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
