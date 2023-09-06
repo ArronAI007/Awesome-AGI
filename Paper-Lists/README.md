@@ -248,6 +248,85 @@
 | 评估日本医疗执照考试的GPT-4和ChatGPT | [Evaluating GPT-4 and ChatGPT on Japanese Medical Licensing Examinations](https://arxiv.org/pdf/2303.18027.pdf) |  |  |
 | 深入研究LLMs与AutoGPT的结合：揭示出GPT-4惊人的人类决策能力！ | [Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf) | [code](https://github.com/younghuman/LLMAgent) | [blog](https://mp.weixin.qq.com/s/Gbz7ZVVdeTq64mj1-__aQA) |
 
+## LLM训练 微调 优化 评估以及部署
+
+**【LLM 学习网站】**【训练、微调、优化和部署大模型最新技术LLM Learning Lab】[[官网](https://lightning.ai/pages/llm-learning-lab/)]
+
+**【LLM 算力评估】**【PEFT | Transformer参数量、计算量、显存占用分析】[[官网](https://mp.weixin.qq.com/s/5zxfwlO-skxZchJ0qtzqAw)]
+
+**【LLM Tokenizer】**【Tokenizer的系统梳理，并手推每个方法的具体实现】[[blog](https://mp.weixin.qq.com/s/W8QaPQFeGO7S6mTZt8iKcg)]
+
+### LLM训练
+
+| Description| Blog |
+| --- | --- | 
+| 从头预训练大模型实践经验 | [blog](https://mp.weixin.qq.com/s/q8XNFzsm_sm_EocCIks-1w) | 
+| DeepSpeed的Tutorials | [主页](https://www.deepspeed.ai)，[DeepSpeed Getting Starte](https://mp.weixin.qq.com/s/xpNQtl7hPs3fy9S7VRbIkg) | 
+| 打造LLM界的Web UI：24GB显卡训练百亿大模型 | [blog](https://mp.weixin.qq.com/s/x9oED0Uxc5Wt-eR0Amde7g) | 
+| 大模型训练感知量化开山之作：LLM-QAT | [blog](https://mp.weixin.qq.com/s/zKndNym9Q7QJWlmn60HmyQ) | 
+| 混合精度训练技术梳理总结 | [blog](https://mp.weixin.qq.com/s/j-f47VPHKAkCwpwEheEgJQ) | 
+| LLM大模型训练Trick系列之拒绝采样 | [blog](https://zhuanlan.zhihu.com/p/649731916) | 
+| Muti Query Attention 和 Attention with Linear Bias（附源码） | [blog](https://mp.weixin.qq.com/s/GXMwnbWLce9Aq4alEHCHJA)，[paper](https://arxiv.org/pdf/1911.02150.pdf) | 
+| 如何使用 Megatron-LM 训练语言模型 | [blog](https://mp.weixin.qq.com/s/QPg6gOWGbQDezTl8OFZU3g) | 
+
+### LLM微调
+
+| Description| Blog |
+| --- | --- | 
+| PEFT: 在低资源硬件上对十亿规模模型进行参数高效微调 | [blog](https://mp.weixin.qq.com/s/x2mQBE0pfTv8w3Czp8JkDg) | 
+| 大语言模型（LLM）微调技术笔记 | [code](https://github.com/ninehills/ninehills.github.io/issues/92) | 
+| 大模型LLM-微调经验分享&总结 | [code](https://github.com/liucongg/ChatGLM-Finetuning)，[blog](https://mp.weixin.qq.com/s/pkBvL0k7sZWaW6jMlSSIZA) | 
+| LoRA：卷完图像生成领域，卷文本生成领域的东西，到时是个啥？ | [blog](https://mp.weixin.qq.com/s/emLpTAOhr8khO1hTgQhU9w)，[code](https://github.com/microsoft/LoRA) | 
+| QLoRA：在单个48GB GPU上对65B参数的大模型进行微调，只需微调12个小时就可以达到97%的ChatGPT水平。同时只用int4就可以保持fp16精度的效果。 | [paper](https://arxiv.org/pdf/2305.14314.pdf) | 
+| 华盛顿大学提出全新量化和微调方法，在DB-GPT上享受33B参数的LLM | [blog](https://mp.weixin.qq.com/s/A3flqm2FeOn0WQr5mrD1-Q) | 
+| MeZO：高效零阶优化器，单卡A100可训练300亿参数模型 | [paper](https://arxiv.org/abs/2305.17333)，[code](https://github.com/princeton-nlp/MeZO)，[blog](https://mp.weixin.qq.com/s/JteUpY4fEbENQFvReRLPJg) | 
+| 人工智能大语言模型微调技术：SFT 监督微调、LoRA 微调方法、P-tuning v2 微调方法、Freeze 监督微调方法 | [blog](https://mp.weixin.qq.com/s/N0Z1Kq0mrVrK-RED_gvJmw) | 
+| LLM微调经验分享 | [中文blog](https://mp.weixin.qq.com/s/83sqfeaoSKtMSo_5Sf_doA)，[英文blog](https://twitter.com/xinqiu_bot/status/1679786303716749312) | 
+| Firefly项目 | [介绍Firefly项目如何充分高效训练多轮对话大模型](https://mp.weixin.qq.com/s/WG_YCk6DM8nWvLfpw1OmoA)，[源码解析ChatGLM2多轮对话训练方法的不足，以及改进方法](https://mp.weixin.qq.com/s/r-JOLsoIAgZynGIeryU1-Q) | 
+
+### LLM优化
+
+| Description| Blog |
+| --- | --- | 
+| 伯克利开源LLM推理与服务库：GPU减半、吞吐数十倍猛增 | [中文blog](https://hub.baai.ac.cn/view/27505)，[英文blog](https://vllm.ai/?continueFlag=24b2e01413fd53e24a2779b4a664ca16) | 
+| CAME：大模型训练成本降低近一半 | [blog](https://mp.weixin.qq.com/s/iUXu_Pfsop0bq7ktoXTY4A) | 
+| 大模型推理性能优化之KV Cache解读 | [blog](https://mp.weixin.qq.com/s/ydjcUOF9iUM581hUTSXPdw) | 
+| LLM，压缩即泛化，泛化即智能 | [blog](https://mp.weixin.qq.com/s/tSj9npIPg8IlYr2jbtg-Og) | 
+| LLM-Pruner: 剪枝+少量数据+少量训练 = 高效的LLM压缩 | [blog](https://mp.weixin.qq.com/s/feqFfy4n31eztoZfodMieQ) | 
+| LLM Accelerator：使用参考文本无损加速大语言模型推理 | [blog](https://mp.weixin.qq.com/s/H1JaQZ9-m2gkZaIwzJTTtg)，[paper](https://arxiv.org/pdf/2304.04487.pdf)，[code](https://github.com/microsoft/LMOps) | 
+| LLM 的推理优化技术纵览 | [blog](https://mp.weixin.qq.com/s/Os4Uy8K6z2fVMSa7ihR1dg) | 
+| LLM量化之后，能力退化了多少 | [blog](https://mp.weixin.qq.com/s/ri4SS_NCKn4boGZfJtUWUQ) | 
+| 邱锡鹏团队提出新优化器LOMO｜650亿参数，8块GPU全参数微调 | [blog](https://mp.weixin.qq.com/s/339iXf2bimusfq6zQmFpWw)，[paper](https://arxiv.org/abs/2306.09782) | 
+| 继思维链、思维树后又一思维骨架：让大模型能做并行解码 | [blog](https://mp.weixin.qq.com/s/cyyKEtGe6QBmP8aAU9fmhQ) | 
+
+### LLM评估
+
+| Description| Blog |
+| --- | --- | 
+| 工程实践！以LLAMA为例的大模型部署方案 | [blog](https://mp.weixin.qq.com/s/zGkkekFqKsnM66uQwfUPcw) | 
+| 一文看遍各行业对ChatGPT的专业评估 | [blog](https://mp.weixin.qq.com/s/2JryWW33j9udOpi3dK5X9g) | 
+| ChatGPT关于推理、幻觉和交互的多任务、多语言、多通道评估 | [paper](https://arxiv.org/abs/2302.04023) | 
+| 如何评价 OpenAI 的超级对话模型 ChatGPT ？ | [paper](https://www.zhihu.com/question/570189639) | 
+| 用ChatGPT参加计算机科学考试 | [paper](https://arxiv.org/abs/2303.09461) | 
+| C-Eval：构造中文大模型的知识评估基准 | [主页](https://cevalbenchmark.com/)，[paper](https://mp.weixin.qq.com/s/4560jl7ctWmHz3xGVIKkRw)，[code](https://github.com/SJTU-LIT/ceval)，[blog](https://mp.weixin.qq.com/s/4560jl7ctWmHz3xGVIKkRw) | 
+| 多模态大模型的幻觉问题与评估 | [blog](https://mp.weixin.qq.com/s/s0z-mAyjAaqvNcaTg2VFEA)，[paper](https://arxiv.org/abs/2305.10355)，[code](https://github.com/RUCAIBox/POPE) | 
+| 谷歌提出TrueTeacher：基于大型语言模型的学习事实一致性评价 | [blog](https://mp.weixin.qq.com/s/tcqHXIHxrkiYrYBX8JzIZA)，[paper](https://arxiv.org/pdf/2305.10601.pdf) | 
+| 粗看大模型ChatGLM、MOSS、Bloomz在中文垂域评测中的性能表现：医学、法律、心理学、教育等四大类试题下的测试报告介绍 | [paper](https://arxiv.org/pdf/2304.12986.pdf)，[code](https://github.com/Felixgithub2017/MMCU)，[blog](https://mp.weixin.qq.com/s/Hq6bn_4vD559TMQxx806tg) | 
+| 评测国内各种对标 ChatGPT 的大语言模型 | [blog](https://mp.weixin.qq.com/s/Oe1Rc0kXjMOD2G_Sqambow)，[code](https://github.com/dongrixinyu/JioNLP/wiki/LLM%E8%AF%84%E6%B5%8B%E6%95%B0%E6%8D%AE%E9%9B%86) | 
+| OpenLLM大模型排行榜 | [主页](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)，[blog](https://mp.weixin.qq.com/s/t1Th8iFOGoyuqqysUiIcXQ)，[最新进展blog](https://zhuanlan.zhihu.com/p/642996275) | 
+| 斯坦福发布LLM排行榜AlpacaEval，微软WizardLM登顶开源模型第一 | [blog](https://mp.weixin.qq.com/s/7X8pRaexWJ4c0kVswawU1A)，[主页](https://tatsu-lab.github.io/alpaca_eval)，[code](https://github.com/tatsu-lab/alpaca_eval) | 
+
+### LLM部署
+
+| Description| Blog |
+| --- | --- | 
+| 工程实践！以LLAMA为例的大模型部署方案 | [blog](https://mp.weixin.qq.com/s/zGkkekFqKsnM66uQwfUPcw) | 
+| 大模型部署框架FastLLM解析，支持X86/Arm/CUDA 3种架构的硬件！ | [blog](https://mp.weixin.qq.com/s/j19QdlFvblcABXzB7Vi5wg)，[code](https://github.com/ztxz16/fastllm) | 
+| 用 Hugging Face 推理端点部署 LLM | [blog](https://mp.weixin.qq.com/s/ms1ThLcN6uTOFgKm5FqBig) | 
+| 【完全指南】如何在本地运行LLM模型：提高模型性能与运行速度 | [blog](https://mp.weixin.qq.com/s/Ijf6MrUdqG0JxiRmF6Wh5w) | 
+| LLM 低成本 GPU 部署方案 lmdeploy 开源！ | [blog](https://mp.weixin.qq.com/s/cndjXFr3vJPdN-7aTNqCnQ)，[code](https://github.com/InternLM/lmdeploy) | 
+| 使用 BentoML 部署 🤗 Hugging Face 上的模型：DeepFloyd IF 实战 | [中文blog](https://mp.weixin.qq.com/s/GySP9vpzf3cj6vtQAsRRvw)，[英文blog](https://hf.co/blog/deploy-deepfloydif-using-bentoml)，[code](https://github.com/bentoml) | 
+
 
 
 

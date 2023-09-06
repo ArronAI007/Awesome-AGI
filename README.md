@@ -34,12 +34,12 @@
   - [Domain LLMs for Education](#Domain-LLMs-for-Education)
   - [Domain LLMs for Traffic](#Domain-LLMs-for-Traffic)
   - [Domain LLMs for Other](#Domain-LLMs-for-Other)
-- [LLM训练 微调 优化 评估以及部署](#LLM训练-微调-优化-评估以及部署)
-  - [LLM训练](#LLM训练)
-  - [LLM微调](#LLM微调)
-  - [LLM优化](#LLM优化)
-  - [LLM评估](#LLM评估)
-  - [LLM部署](#LLM部署)
+- [LLM Pipeline](#LLM-Pipeline)
+  - [LLM Pre-Training](#LLM-Pre-Training)
+  - [LLM Fine-Tuning](#LLM-Fine-Tuning)
+  - [LLM Optimization](#LLM-Optimization)
+  - [LLM Evaluation](#LLM-Evaluation)
+  - [LLM Deployment](#LLM-Deployment)
 - [LLM关键技术与应用](#LLM关键技术与应用)
   - [Prompt Engineering](#Prompt-Engineering)
   - [LLM DataSets](#LLM-DataSets)
@@ -371,7 +371,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
   
 ---
 
-## LLM训练 微调 优化 评估以及部署
+## LLM Pipeline
 
 **【LLM 学习网站】**【训练、微调、优化和部署大模型最新技术LLM Learning Lab】[[官网](https://lightning.ai/pages/llm-learning-lab/)]
 
@@ -379,7 +379,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 
 **【LLM Tokenizer】**【Tokenizer的系统梳理，并手推每个方法的具体实现】[[blog](https://mp.weixin.qq.com/s/W8QaPQFeGO7S6mTZt8iKcg)]
 
-### LLM训练
+### LLM Pre-Training
 
 | Description| Blog |
 | --- | --- | 
@@ -392,7 +392,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 | Muti Query Attention 和 Attention with Linear Bias（附源码） | [blog](https://mp.weixin.qq.com/s/GXMwnbWLce9Aq4alEHCHJA)，[paper](https://arxiv.org/pdf/1911.02150.pdf) | 
 | 如何使用 Megatron-LM 训练语言模型 | [blog](https://mp.weixin.qq.com/s/QPg6gOWGbQDezTl8OFZU3g) | 
 
-### LLM微调
+### LLM Fine-Tuning
 
 | Description| Blog |
 | --- | --- | 
@@ -407,7 +407,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 | LLM微调经验分享 | [中文blog](https://mp.weixin.qq.com/s/83sqfeaoSKtMSo_5Sf_doA)，[英文blog](https://twitter.com/xinqiu_bot/status/1679786303716749312) | 
 | Firefly项目 | [介绍Firefly项目如何充分高效训练多轮对话大模型](https://mp.weixin.qq.com/s/WG_YCk6DM8nWvLfpw1OmoA)，[源码解析ChatGLM2多轮对话训练方法的不足，以及改进方法](https://mp.weixin.qq.com/s/r-JOLsoIAgZynGIeryU1-Q) | 
 
-### LLM优化
+### LLM Optimization
 
 | Description| Blog |
 | --- | --- | 
@@ -422,7 +422,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 | 邱锡鹏团队提出新优化器LOMO｜650亿参数，8块GPU全参数微调 | [blog](https://mp.weixin.qq.com/s/339iXf2bimusfq6zQmFpWw)，[paper](https://arxiv.org/abs/2306.09782) | 
 | 继思维链、思维树后又一思维骨架：让大模型能做并行解码 | [blog](https://mp.weixin.qq.com/s/cyyKEtGe6QBmP8aAU9fmhQ) | 
 
-### LLM评估
+### LLM Evaluation
 
 | Description| Blog |
 | --- | --- | 
@@ -439,16 +439,26 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 | OpenLLM大模型排行榜 | [主页](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)，[blog](https://mp.weixin.qq.com/s/t1Th8iFOGoyuqqysUiIcXQ)，[最新进展blog](https://zhuanlan.zhihu.com/p/642996275) | 
 | 斯坦福发布LLM排行榜AlpacaEval，微软WizardLM登顶开源模型第一 | [blog](https://mp.weixin.qq.com/s/7X8pRaexWJ4c0kVswawU1A)，[主页](https://tatsu-lab.github.io/alpaca_eval)，[code](https://github.com/tatsu-lab/alpaca_eval) | 
 
-### LLM部署
+### LLM Deployment
 
-| Description| Blog |
-| --- | --- | 
-| 工程实践！以LLAMA为例的大模型部署方案 | [blog](https://mp.weixin.qq.com/s/zGkkekFqKsnM66uQwfUPcw) | 
-| 大模型部署框架FastLLM解析，支持X86/Arm/CUDA 3种架构的硬件！ | [blog](https://mp.weixin.qq.com/s/j19QdlFvblcABXzB7Vi5wg)，[code](https://github.com/ztxz16/fastllm) | 
-| 用 Hugging Face 推理端点部署 LLM | [blog](https://mp.weixin.qq.com/s/ms1ThLcN6uTOFgKm5FqBig) | 
-| 【完全指南】如何在本地运行LLM模型：提高模型性能与运行速度 | [blog](https://mp.weixin.qq.com/s/Ijf6MrUdqG0JxiRmF6Wh5w) | 
-| LLM 低成本 GPU 部署方案 lmdeploy 开源！ | [blog](https://mp.weixin.qq.com/s/cndjXFr3vJPdN-7aTNqCnQ)，[code](https://github.com/InternLM/lmdeploy) | 
-| 使用 BentoML 部署 🤗 Hugging Face 上的模型：DeepFloyd IF 实战 | [中文blog](https://mp.weixin.qq.com/s/GySP9vpzf3cj6vtQAsRRvw)，[英文blog](https://hf.co/blog/deploy-deepfloydif-using-bentoml)，[code](https://github.com/bentoml) | 
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| BentoML |  |  |  |  
+| CLIP-API-service |  |  |  |  
+| CTranslate2 |  |  |  |  
+| DeepSpeed-MII |  |  |  |  
+| LightLLM |  |  |  |  
+| LMDeploy |  |  |  |  
+| MLC LLM |  |  |  |  
+| OneDiffusion |  |  |  |  
+| OpenLLM |  |  |  |  
+| Ray Serve |  |  |  |  
+| 工程实践！以LLAMA为例的大模型部署方案 | | |[blog](https://mp.weixin.qq.com/s/zGkkekFqKsnM66uQwfUPcw) | 
+| 大模型部署框架FastLLM解析，支持X86/Arm/CUDA 3种架构的硬件！ |  | [code](https://github.com/ztxz16/fastllm) | [blog](https://mp.weixin.qq.com/s/j19QdlFvblcABXzB7Vi5wg) |
+| 用 Hugging Face 推理端点部署 LLM | | | [blog](https://mp.weixin.qq.com/s/ms1ThLcN6uTOFgKm5FqBig) | 
+| 【完全指南】如何在本地运行LLM模型：提高模型性能与运行速度 |  |  | [blog](https://mp.weixin.qq.com/s/Ijf6MrUdqG0JxiRmF6Wh5w) | 
+| LLM 低成本 GPU 部署方案 lmdeploy 开源！ |  | [code](https://github.com/InternLM/lmdeploy)  | [blog](https://mp.weixin.qq.com/s/cndjXFr3vJPdN-7aTNqCnQ) | 
+| 使用 BentoML 部署 🤗 Hugging Face 上的模型：DeepFloyd IF 实战 |  | [code](https://github.com/bentoml) |[中文blog](https://mp.weixin.qq.com/s/GySP9vpzf3cj6vtQAsRRvw)，[英文blog](https://hf.co/blog/deploy-deepfloydif-using-bentoml) | 
 
 ## LLM关键技术与应用
 
@@ -554,7 +564,7 @@ Some examples of **Paper Lists** as follows：
 | AIGC综述: 从GAN到ChatGPT的生成式人工智能简史 | [A Comprehensive Survey of AI-Generated Content (AIGC): A History of Generative AI from GAN to ChatGPT](https://arxiv.org/abs/2303.04226v1) |  |  | 
 | 大模型综述来了！一文带你理清全球AI巨头的大模型进化史 | [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](https://arxiv.org/pdf/2304.13712.pdf) | [code](https://github.com/Mooler0410/LLMsPracticalGuide) |  | 
 
-**Complete Content**: please refer to [Paper Lists](https://github.com/ArronAI007/Awesome-AGI/tree/main/Paper-List/README.md)
+**Complete Content**: please refer to [Paper Lists](https://github.com/ArronAI007/Awesome-AGI/tree/main/Paper-Lists/README.md)
 
 ## 欢迎共创
 
