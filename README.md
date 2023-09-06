@@ -11,7 +11,7 @@
 | ![Arron](https://i.postimg.cc/PqFvY1kW/AIGC-group.jpg) | ![Arron](https://i.postimg.cc/QMqj1DGc/Arron.jpg) |
 
 ## Table of Context
-- [LLM体验效果](#LLM体验效果)
+- [LLM 体验效果](#LLM-体验效果)
 - [LLM Lists](#LLM-Lists)
   - [baichuan以及扩展](#baichuan以及扩展)
   - [ChatGLM以及扩展](#ChatGLM以及扩展)
@@ -37,7 +37,7 @@
   - [LLM Optimization](#LLM-Optimization)
   - [LLM Evaluation](#LLM-Evaluation)
   - [LLM Deployment](#LLM-Deployment)
-- [LLM关键技术与应用](#LLM关键技术与应用)
+- [LLM 关键技术与应用](#LLM-关键技术与应用)
   - [Prompt Engineering](#Prompt-Engineering)
   - [LLM DataSets](#LLM-DataSets)
   - [LLM RLHF](#LLM-RLHF)
@@ -48,7 +48,7 @@
   - [LLM 文本检测](#LLM-文本检测)
 - [AGI Paper Lists](#AGI-Paper-Lists)
 
-## LLM体验效果
+## LLM 体验效果
 
 | Model_A| Model_B | Blog |
 | --- | --- | --- |                                                                                                                     
@@ -67,48 +67,15 @@
 
 ## LLM Lists
 
-**Here are the LLMs sorted alphabetically，except for baichuan, ChatGLM, and LLaMA**
-
 从GPT3到ChatGPT模型的发展路线图
 
 ![ChatGPT_family](https://i.postimg.cc/GtZmmjG2/chatgpt-3.jpg)
-
-| Model| Paper | Code |Blog |
-| --- | --- | --- | --- | 
-| Anima |  | [code](https://github.com/lyogavin/Anima) | [blog](https://zhuanlan.zhihu.com/p/638058537?utm_source=wechat_session&utm_medium=social&s_r=0)，[model](https://huggingface.co/lyogavin/Anima33B) | 
-| Bard |  |  | [报名地址](http://bard.google.com/)，[x blog](https://twitter.com/sundarpichai/status/1638180697352593408)，[theverge blog](https://www.theverge.com/23649897/google-Bard-chatbot-search-engine) | 
-| Baize | [Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data](https://arxiv.org/abs/2304.01196) | [code](https://github.com/project-baize/baize/blob/main/README.md) | [blog](https://mp.weixin.qq.com/s/zxElGfclNbBwTuDG4Qrxnw) ，[demo](https://huggingface.co/spaces/project-baize/baize-lora-7B)| 
-| baichuan-7b |  | [code](https://github.com/baichuan-inc/baichuan-7B)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary) | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ)，[Hugging Face](https://huggingface.co/baichuan-inc/baichuan-7B)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) | 
-| BLOOM | [BLOOM: A 176B-Parameter Open-Access Multilingual Language Model](https://arxiv.org/abs/2211.05100) | [code](https://github.com/huggingface/transformers-bloom-inference/tree/main) | [blog](https://mp.weixin.qq.com/s/_Vj-KNxS5SfuF_h7bfMb5Q)，[huggingface](https://huggingface.co/bigscience/bloom) | 
-| BiomedGPT | [BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks](https://arxiv.org/abs/2305.17100) |  |  | 
-| Claude |  |  | [产品地址](https://www.anthropic.com/product)，[申请地址](https://www.anthropic.com/earlyaccess)，[API说明 ](https://console.anthropic.com/docs/api)，[blog](https://mp.weixin.qq.com/s/Wx5q-rEwG4sROvnewGxWrw)]，[[Claude支持100k上下文](https://mp.weixin.qq.com/s/Yu551-z14lpiFGSOfXE2Tw)，[Claude2发布](https://hub.baai.ac.cn/view/27790) | 
-| Claude 2 |  | [Claude2 API](https://mp.weixin.qq.com/s/yBOJfaUw9ei0WY-64rbCJg) | [blog](https://mp.weixin.qq.com/s/_uIPPJHmiYaBFxtKXdwFbA) | 
-| ChatGLM |  | [code](https://github.com/THUDM/ChatGLM-6B.git) | [blog](https://chatglm.cn/blog) | 
-| ChatYuan |  |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485655&idx=1&sn=ad80d8a17d4aaab90b17a79b638c712d&chksm=ced54b33f9a2c225ce292b4e3d5725a668d0bfc9fe0be610c847b31b61714ecf75c06dac1cb5&token=447941009&lang=zh_CN#rd) | 
-| Copilot X |  |  | [blog](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/) | 
-| ColossalAI |  |  | [blog](https://mp.weixin.qq.com/s/NS4yySeYd7QUYb7CB9V0lA) | 
-| CPM-Bee |  | [code](https://github.com/OpenBMB/CPM-Bee) ，[HuggingFace](https://huggingface.co/openbmb/cpm-bee-10b)| [blog](https://mp.weixin.qq.com/s/BO4cDB9KRSODZw3TvZpUAA) | 
-| ChatDB | [ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory](https://arxiv.org/abs/2306.03901) | [code](https://github.com/huchenxucs/ChatDB) | [blog](https://mp.weixin.qq.com/s/o3j1vNLHlJ6qTea219A4Qw)，[主页](https://chatdatabase.github.io) | 
-| Dolly |  |  | [blog](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html)，[Databricks Inc地址](https://www.databricks.com) | 
-| Dolly2.0 |  |  | [英文blog](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)，[中文blog](https://hub.baai.ac.cn/view/25434) | 
-| DeepSpeed-Chat |  | [code](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat) | [blog](https://hub.baai.ac.cn/view/25414) | 
-| FrugalGPT | [FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance](https://arxiv.org/pdf/2305.05176.pdf) |  | [blog](https://www.reddit.com/r/singularity/comments/13dnfd7/frugalgpt_can_match_the_performance_of_the_best/) | 
-| GPT3.5 |  |  | [OpenAI playground](https://platform.openai.com/playground) | 
-| GPT4 |  |  | [OpenAI GPT4](https://openai.com/research/gpt-4)，[GPT4_System_Card中文翻译](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Official/GPT-4_System_Card_zh.md)，[GPT4_Technical_Report中文翻译](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Official/GPT4_Technical_Report_zh.md)，[The Ultimate GPT-4 Guide](https://doc.clickup.com/37456139/d/h/13q28b-324/e2a22b0c164b1f9) | 
-| JittorLLMs |  | [code](https://github.com/Jittor/JittorLLMs) |  | 
-| LLM as Controller |  |  | [blog](https://mp.weixin.qq.com/s/jeb7ugGC6zxsOsfE-w-I0A) | 
-| MetaGPT |  | [code](https://github.com/geekan/MetaGPT) |  | 
-| MiniGPT-4 | [paper](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/MiniGPT_4.pdf) | [code](https://github.com/Vision-CAIR/MiniGPT-4) | [主页](https://minigpt-4.github.io/)，[video](https://youtu.be/__tftoxpBAw)，[dataset](https://drive.google.com/file/d/1nJXhoEcy3KTExr17I7BXqY5Y9Lx_-n-9/view)，[Demo](https://6b89c70eb5e14dca33.gradio.live/)，[Demo1](https://b2517615b965687635.gradio.live/)，[Demo2](https://c8de8ff74b6a6c6a9b.gradio.live/)，[Demo3](https://0a111504e072685259.gradio.live/)，[Demo4](https://90bc0bac96e6457e8f.gradio.live/) | 
-| MOSS |  | [code](https://openlmlab.github.io/MOSS-RLHF/) | [blog](https://mp.weixin.qq.com/s/BjXtnEEVCQiPOy-_qCNM4g)，[测试链接](https://huggingface.co/spaces/togethercomputer/OpenChatKit)，[模型权重](https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B)，[数据集](https://laion.ai/blog/oig-dataset/) | 
-| OpenChatKit |  | [code](https://github.com/togethercomputer/OpenChatKit) | [blog](https://mp.weixin.qq.com/s/9Av3nhJLrcYAsBW9vVGjTw)，[技术报告](https://openlmlab.github.io/MOSS-RLHF/paper/SecretsOfRLHFPart1.pdf) | 
-| OpenAssistant | [OpenAssistant Conversations - Democratizing Large Language Model Alignment](https://drive.google.com/file/d/10iR5hKwFqAKhL3umx8muOWSRm7hs5FqX/view) | [code](https://github.com/LAION-AI/Open-Assistant) | [官网](https://open-assistant.io/chat)，[dataset](https://huggingface.co/datasets/OpenAssistant/oasst1)，[youtube](https://youtu.be/ddG2fM9i4Kk) | 
-| Platypus | [Platypus: Quick, Cheap, and Powerful Refinement of LLMs](https://arxiv.org/abs/2308.07317) |  | [blog](https://mp.weixin.qq.com/s/yzfgITUWaCf3Wcdc6lGCQA) | 
-| WebCPM | [WebCPM: Interactive Web Search for Chinese Long-form Question Answering](https://arxiv.org/abs/2305.06849) | [code](https://github.com/thunlp/WebCPM) |  [blog](https://mp.weixin.qq.com/s/m4zsF2HDFHSKc23Oq0O98w)| 
 
 ### baichuan以及扩展
 
 | Model| Paper | Code |Blog |
 | --- | --- | --- | --- | 
+| baichuan-7b |  | [code](https://github.com/baichuan-inc/baichuan-7B)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary) | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ)，[Hugging Face](https://huggingface.co/baichuan-inc/baichuan-7B)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) | 
 | baichuan-13b |  |  | [blog](https://mp.weixin.qq.com/s/Px4h2r3VIAFI5vfjXxROxg)，[百川大模型【Baichuan-13B】 多卡训练微调记录](https://mp.weixin.qq.com/s/EUZA6Lt-OcI170md9lXH1g) | 
 | firefly-baichuan-7b-qlora-sft |  | [code](https://github.com/baichuan-inc/baichuan-7B) | [blog](https://mp.weixin.qq.com/s/_eTkDGG5DmxyWeiQ6DIxBw)，[Hugging Face model](https://huggingface.co/YeungNLP/firefly-baichuan-7b-qlora-sft)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) | 
 | baichuan-13b-Chat |  | [code](https://github.com/percent4/document_qa_with_llm) | [blog](https://mp.weixin.qq.com/s/wStOyHPd8c7V0ug1Qebryw) | 
@@ -117,6 +84,7 @@
 
 | Model/Description| Paper | Code |Blog |
 | --- | --- | --- | --- | 
+| ChatGLM |  | [code](https://github.com/THUDM/ChatGLM-6B.git) | [blog](https://chatglm.cn/blog) | 
 | ChatGLM-6B源码阅读 |  |  | [blog](https://mp.weixin.qq.com/s/r7KEJmrpJZmY7KBP4veS6A) | 
 | ChatGLM模型底座细节分析 |  |  | [blog](https://mp.weixin.qq.com/s/oOdD3MYtE6-sNeAmPthqLg) | 
 | chatglm+langchain+互联网 |  | [code](https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering/) | [blog](https://mp.weixin.qq.com/s/lO6SrEuv4-vNbL8B3G-f8g) | 
@@ -129,43 +97,47 @@
 
 ### LLaMA以及扩展
 
-| Model| Paper | Code |Blog |
-| --- | --- | --- | --- | 
-| LLaMA | [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/) | [code](https://github.com/facebookresearch/llama) | [blog1](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485822&idx=1&sn=b365d93a0a08769aef77f34069da1422&chksm=ced54a9af9a2c38cd5779284b5e9ae573846153e7dc00961dc163664a657d6a3fa5c8c14c7d2&token=447941009&lang=zh_CN#rd)，[blog2](https://mp.weixin.qq.com/s/fGNuTcYE8QI9_JKS9LcQ7w)，[详聊LLaMA大模型的技术细节](https://mp.weixin.qq.com/s/B9Ue0ihUGAFjT_X__R2u8Q) | 
-| LLaMA 2 |  | [[在 Hugging Face 上玩转LLaMA 2](https://mp.weixin.qq.com/s/UnzhBJjZfPXsaSu8gNnosw)] ，[[在Colab笔记本中微调自己的Llama 2模型](https://mp.weixin.qq.com/s/pnDJaOUh_xdNdqSBl53Arw)]，[[三步上手 LLaMA2](https://mp.weixin.qq.com/s/lkRg8-rw57wDNr7FrjOSOQ)]，[[使用 Transformers 量化 Meta AI LLaMA2 中文版大模型](https://mp.weixin.qq.com/s/DEgFNAB4gwWDlQOj7-2CEg)] | [[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486800&idx=1&sn=9b629ca41b9f6b4feedad94363a17253&chksm=ced54eb4f9a2c7a2a5b20c182981b4323b18509f2ca8f482c2a8cdbb29bf570488bdcd280eb6&token=882149695&lang=zh_CN#rd)]，[[伯克利AI博士详解Llama 2的技术细节](https://mp.weixin.qq.com/s/Mee7sMq_bxLpIOOr91li9A)]，[[NLP社区对LLaMA2论文上半部分的讨论](https://mp.weixin.qq.com/s/SJNqjSCBX-k80_r3nmTiuA)]，[[NLP中文社区顶尖研究员们对LLaMA2论文下半部分的讨论](https://mp.weixin.qq.com/s/6k5ML3HtmvBTTCgHBZGycQ)]，[[3个最值得了解llama2开发库，助你快速搭建LLM应用](https://mp.weixin.qq.com/s/_3H6Y_NolUuxYxOo8Pl7fg)]，[[使用 Docker 快速上手中文版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/9cTNa_oya2Zj9YdDYodCvw)]，[[ Llama 2资料汇总](https://mp.weixin.qq.com/s/-01Dg9ZVfPYM4mZ4iKt8Cw) | 
-| Chinese-LlaMA2 |  | [code](https://github.com/michael-wzhu/Chinese-LlaMA2) |  | 
-| llama2.c |  | [code](https://github.com/karpathy/llama2.c) | [blog](https://mp.weixin.qq.com/s/VVR6N1duJM5vAU5cY9FrDQ) | 
-| LLaMA-2 & Alpaca-2 |  | [code](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2) | [blog](https://mp.weixin.qq.com/s/sJ_imBdHCD4NibVy58EO2w) | 
-| LLaMA评测 |  |  | [blog](https://mp.weixin.qq.com/s/kImwfWWtXMmEDVOhJZ4dJg) | 
-| Alpaca |  | [code](https://github.com/tatsu-lab/stanford_alpaca) | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485890&idx=1&sn=2d1414fc3751353c31b946b3e954a465&chksm=ced54a26f9a2c330082e8c0014c96a6d9bef62e3581875031f203268a11fad09645a75b482b0&token=447941009&lang=zh_CN#rd)，[官网](https://crfm.stanford.edu/2023/03/13/alpaca.html)，[model](https://crfm.stanford.edu/alpaca) | 
-| AlpaGasus | [AlpaGasus: Training A Better Alpaca with Fewer Data](https://arxiv.org/abs/2307.08701) | [code](https://lichang-chen.github.io/AlpaGasus/) | [blog](https://mp.weixin.qq.com/s/UroGj4rIa2nOw6DookpvCQ) | 
-| Alpaca-CoT |  | [code](https://github.com/PhoebusSi/Alpaca-CoT) | [官网](https://sota.jiqizhixin.com/project/alpaca-cot) | 
-| BiLLa |  | [code](https://github.com/Neutralzz/BiLLa) | [blog](https://mp.weixin.qq.com/s/8KDpDC6Fkb_61gFfkcT8TQ) | 
-| CaMA |  | [code](https://github.com/zjunlp/CaMA) |  | 
-| ChatLLaMA |  | [code](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama) |  | 
-| ColossalAI |  | [code](https://github.com/hpcaitech/ColossalAI) |  | 
-| ColossalChat |  | [code](https://github.com/hpcaitech/ColossalAI) | [blog](https://syncedreview.com/2023/03/29/colossalchat-an-open-source-solution-for-cloning-chatgpt-with-a-complete-rlhf-pipeline/) | 
-| CAMEL |  | [code](https://github.com/starmpcc/CAMEL) | [blog](https://starmpcc.github.io/CAMEL/) | 
-| 草本（原华驼） | [HuaTuo (华驼): Tuning LLaMA Model with Chinese Medical Knowledge](https://arxiv.org/pdf/2304.06975v1.pdf) | [code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) | [blog1](https://mp.weixin.qq.com/s/TYpc_63qDlR6MwscxCKKhA)，[blog2](https://mp.weixin.qq.com/s/iuQANmwCS7AXQRik7HwQPg) | 
-| DB-GPT |  | [code](https://github.com/csunny/DB-GPT) |  | 
-| DeepSpeed-Chat |  | [code](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat) | [blog](https://mp.weixin.qq.com/s/kVEBUF20u4SUsHelF39o8Q) | 
-| ExpertLLaMA |  | [code](https://github.com/OFA-Sys/ExpertLLaMA) |  | 
-| FreedomGPT |  |  | [官网地址](https://freedomgpt.com/) | 
-| FLAN |  |  | [blog](https://mp.weixin.qq.com/s/5jEJH6UBHrk_ILbrLsd6TQ) | 
-| GoGPT/GoGPT2 |  | [GoGPT code](https://github.com/yanqiangmiffy/GoGPT)，[GoGPT2 code](https://huggingface.co/golaxy/gogpt2-7b) |  | 
-| Koala |  |  | [中文blog](https://hub.baai.ac.cn/view/25284)，[英文blog](https://bair.berkeley.edu/blog/2023/04/03/koala/) | 
-| LLaMA-Adapter | [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention](https://arxiv.org/pdf/2303.16199.pdf) | [code](https://github.com/ZrrSkywalker/LLaMA-Adapter) |  | 
-| LaVIN | [Cheap and Quick: Efficient Vision-Language Instruction Tuning for Large Language Models](https://arxiv.org/pdf/2305.15023.pdf) | [code](https://github.com/luogen1996/LaVIN) | [blog](https://mp.weixin.qq.com/s/MRLYk1b7VJ_b6OmJ9mzkdw) | 
-| lit-llama |  | [code](https://github.com/Lightning-AI/lit-llama) |  | 
-| LlamaIndex |  |  | [blog](https://mp.weixin.qq.com/s/1zvXlcGfVdxU8_Pj5f2E1g) | 
-| llama.cpp |  |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485875&idx=1&sn=a4e09d31802c087f1f47bd292e380c19&chksm=ced54a57f9a2c341935b81aa27824dfa740beb7ce33289e0cb5190b5910040c0904371b7e8a0&token=447941009&lang=zh_CN#rd) | 
-| llama.cpp优化版 |  |  | [blog](https://hub.baai.ac.cn/view/25307) | 
-| LIMA |  |  | [blog](https://mp.weixin.qq.com/s?search_click_id=7213828026277652651-1688375605291-1083947599&__biz=MjM5ODExNDA2MA==&mid=2449961473&idx=2&sn=f080fa7b1b5657db9872724caee56519&chksm=b13c7462864bfd741f0f061b87187f2cde36b68020cfe3402717a6858563311cb642eb340989&rd2werd=1&key=ea1d916ce49bb536ce48f3aba8e329d1e1aa6fdcda4f73580b0a5adbd624721e6a974570fd6ef2823ecfa6c95e2dc09179b51e440e9179f79d0ba01f62cf795d6c697f95bf05a28904f4172b11e1ce873a2d7a0e85c74d509e916176aacb43657fd11a6de7611d65bd4ae82315835aa138a423887a219f2971c6a525679fd805&ascene=65&uin=MTkwNzA5OTA4Mw%3D%3D&devicetype=iMac+MacBookPro13%2C2+OSX+OSX+12.6.7+build(21G651)&version=13080109&nettype=WIFI&lang=zh_CN&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQ0Z339%2BFUk%2Bp0YpfMQjB%2BhxKDAgIE97dBBAEAAAAAANJyNCKr%2F3UAAAAOpnltbLcz9gKNyK89dVj0q5AacL9r2sPbvlDuJo6SwYSJ2wbfYGvc3EDxuk%2BMQS0vl8RLluMN%2Fuh9u2LxBZTHTiuQct62Bjib68qd1EvB8CgGKMV34B5%2BKHCutInPzdE9Uac6dxp0VYtd%2BJnEwljL8jf7mWZdwTkPdEZl1P0OEb3HFzczXelqDR3h7D2xEVmQuFHGIeVi7iPOHMT0AWhhGLdbrVhCKbPT3%2BX9FPOLjJSql2UD95dTmSzZKqdvOIMGpD5t%2F98jDuMUojr9HUMdvljQ1XkiJVnd%2FbqSsLS3S5t7E%2Ftjmjb9g7IxWkY%3D&acctmode=0&pass_ticket=mJ3t3nBN%2BXhKCYp9bzJSkTl%2B9PwobzvYen%2F5Kv4kpcj1Lig98d0DXbcAyqBW0vaB&wx_header=0) | 
-| LongLLaMA | [Focused Transformer: Contrastive Training for Context Scaling](https://arxiv.org/pdf/2307.03170.pdf) | [code](https://github.com/CStanKonrad/long_llama)，[Hugging Face](https://huggingface.co/syzymon/long_llama_3b) | [blog](https://mp.weixin.qq.com/s/K8ExTUUXDruZGwr-PA4oFQ) | 
-| OpenBuddy-LLaMA1-30B |  |  | [blog](https://mp.weixin.qq.com/s/k-ZWg0Vuud3Atn3aaXBaCQ) | 
-| PaLM |  |  | [blog](https://mp.weixin.qq.com/s/MT1xCsJp98BM-lkuOKJF-A) | 
-| StackLLaMA |  |  | [中文blog](https://hub.baai.ac.cn/view/25341)，[英文blog](https://huggingface.co/blog/stackllama) | 
-| Vicuna |  |  | [Vicuna官网地址](https://vicuna.lmsys.org/)，[blog](https://hub.baai.ac.cn/view/25328) | 
+| Base Model | Fine-Tune Model | Paper | Code | Blog |
+| --- | --- | --- | --- |--- | 
+| LLaMA | | [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/) | [code](https://github.com/facebookresearch/llama) | [blog1](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485822&idx=1&sn=b365d93a0a08769aef77f34069da1422&chksm=ced54a9af9a2c38cd5779284b5e9ae573846153e7dc00961dc163664a657d6a3fa5c8c14c7d2&token=447941009&lang=zh_CN#rd)，[blog2](https://mp.weixin.qq.com/s/fGNuTcYE8QI9_JKS9LcQ7w)，[详聊LLaMA大模型的技术细节](https://mp.weixin.qq.com/s/B9Ue0ihUGAFjT_X__R2u8Q) | 
+| LLaMA 2 |  | | [[在 Hugging Face 上玩转LLaMA 2](https://mp.weixin.qq.com/s/UnzhBJjZfPXsaSu8gNnosw)] ，[[在Colab笔记本中微调自己的Llama 2模型](https://mp.weixin.qq.com/s/pnDJaOUh_xdNdqSBl53Arw)]，[[三步上手 LLaMA2](https://mp.weixin.qq.com/s/lkRg8-rw57wDNr7FrjOSOQ)]，[[使用 Transformers 量化 Meta AI LLaMA2 中文版大模型](https://mp.weixin.qq.com/s/DEgFNAB4gwWDlQOj7-2CEg)] | [[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486800&idx=1&sn=9b629ca41b9f6b4feedad94363a17253&chksm=ced54eb4f9a2c7a2a5b20c182981b4323b18509f2ca8f482c2a8cdbb29bf570488bdcd280eb6&token=882149695&lang=zh_CN#rd)]，[[伯克利AI博士详解Llama 2的技术细节](https://mp.weixin.qq.com/s/Mee7sMq_bxLpIOOr91li9A)]，[[NLP社区对LLaMA2论文上半部分的讨论](https://mp.weixin.qq.com/s/SJNqjSCBX-k80_r3nmTiuA)]，[[NLP中文社区顶尖研究员们对LLaMA2论文下半部分的讨论](https://mp.weixin.qq.com/s/6k5ML3HtmvBTTCgHBZGycQ)]，[[3个最值得了解llama2开发库，助你快速搭建LLM应用](https://mp.weixin.qq.com/s/_3H6Y_NolUuxYxOo8Pl7fg)]，[[使用 Docker 快速上手中文版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/9cTNa_oya2Zj9YdDYodCvw)]，[[ Llama 2资料汇总](https://mp.weixin.qq.com/s/-01Dg9ZVfPYM4mZ4iKt8Cw) | 
+| Anima | guanaco-33B |  | [Anima Code](https://github.com/lyogavin/Anima)，[HuggingFace model](https://huggingface.co/lyogavin/Anima33B) | [Anima Blog](https://zhuanlan.zhihu.com/p/638058537?utm_source=wechat_session&utm_medium=social&s_r=0) | 
+| Chinese-LlaMA2 |  |  | [code](https://github.com/michael-wzhu/Chinese-LlaMA2) |  | 
+| llama2.c |  |  | [code](https://github.com/karpathy/llama2.c) | [blog](https://mp.weixin.qq.com/s/VVR6N1duJM5vAU5cY9FrDQ) | 
+| LLaMA-2 & Alpaca-2 |  |  | [code](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2) | [blog](https://mp.weixin.qq.com/s/sJ_imBdHCD4NibVy58EO2w) | 
+| LLaMA评测 |  |  |  | [blog](https://mp.weixin.qq.com/s/kImwfWWtXMmEDVOhJZ4dJg) | 
+| Alpaca |  |  || [code](https://github.com/tatsu-lab/stanford_alpaca) | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485890&idx=1&sn=2d1414fc3751353c31b946b3e954a465&chksm=ced54a26f9a2c330082e8c0014c96a6d9bef62e3581875031f203268a11fad09645a75b482b0&token=447941009&lang=zh_CN#rd)，[官网](https://crfm.stanford.edu/2023/03/13/alpaca.html)，[model](https://crfm.stanford.edu/alpaca) | 
+| AlpaGasus |  | [AlpaGasus: Training A Better Alpaca with Fewer Data](https://arxiv.org/abs/2307.08701) | [code](https://lichang-chen.github.io/AlpaGasus/) | [blog](https://mp.weixin.qq.com/s/UroGj4rIa2nOw6DookpvCQ) | 
+| Alpaca-CoT |  |  | [code](https://github.com/PhoebusSi/Alpaca-CoT) | [官网](https://sota.jiqizhixin.com/project/alpaca-cot) | 
+| Baize |   | [Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data](https://arxiv.org/abs/2304.01196) | [code](https://github.com/project-baize/baize/blob/main/README.md) | [blog](https://mp.weixin.qq.com/s/zxElGfclNbBwTuDG4Qrxnw) ，[demo](https://huggingface.co/spaces/project-baize/baize-lora-7B)| 
+| BiLLa |  |  | [code](https://github.com/Neutralzz/BiLLa) | [blog](https://mp.weixin.qq.com/s/8KDpDC6Fkb_61gFfkcT8TQ) | 
+| CaMA |  |  | [code](https://github.com/zjunlp/CaMA) |  | 
+| ChatLLaMA |  |  | [code](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama) |  | 
+| ColossalAI |  |  | [code](https://github.com/hpcaitech/ColossalAI) |  | 
+| ColossalChat |  |  | [code](https://github.com/hpcaitech/ColossalAI) | [blog](https://syncedreview.com/2023/03/29/colossalchat-an-open-source-solution-for-cloning-chatgpt-with-a-complete-rlhf-pipeline/) | 
+| CAMEL |  |  | [code](https://github.com/starmpcc/CAMEL) | [blog](https://starmpcc.github.io/CAMEL/) | 
+| 草本（原华驼） |   | [HuaTuo (华驼): Tuning LLaMA Model with Chinese Medical Knowledge](https://arxiv.org/pdf/2304.06975v1.pdf) | [code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) | [blog1](https://mp.weixin.qq.com/s/TYpc_63qDlR6MwscxCKKhA)，[blog2](https://mp.weixin.qq.com/s/iuQANmwCS7AXQRik7HwQPg) | 
+| DB-GPT |  |  | [code](https://github.com/csunny/DB-GPT) |  | 
+| DeepSpeed-Chat |  |  | [code](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat) | [blog](https://mp.weixin.qq.com/s/kVEBUF20u4SUsHelF39o8Q) | 
+| ExpertLLaMA |  |  | [code](https://github.com/OFA-Sys/ExpertLLaMA) |  | 
+| FreedomGPT |  |  |  | [官网地址](https://freedomgpt.com/) | 
+| FLAN |  |  |  | [blog](https://mp.weixin.qq.com/s/5jEJH6UBHrk_ILbrLsd6TQ) | 
+| GoGPT/GoGPT2 |  |  | [GoGPT code](https://github.com/yanqiangmiffy/GoGPT)，[GoGPT2 code](https://huggingface.co/golaxy/gogpt2-7b) |  | 
+| guanaco | LLaMA |  |  |  | 
+| Koala |  |  |  | [中文blog](https://hub.baai.ac.cn/view/25284)，[英文blog](https://bair.berkeley.edu/blog/2023/04/03/koala/) | 
+| LLaMA-Adapter |  | [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention](https://arxiv.org/pdf/2303.16199.pdf) | [code](https://github.com/ZrrSkywalker/LLaMA-Adapter) |  | 
+| LaVIN |  | [Cheap and Quick: Efficient Vision-Language Instruction Tuning for Large Language Models](https://arxiv.org/pdf/2305.15023.pdf) | [code](https://github.com/luogen1996/LaVIN) | [blog](https://mp.weixin.qq.com/s/MRLYk1b7VJ_b6OmJ9mzkdw) | 
+| lit-llama |  |  | [code](https://github.com/Lightning-AI/lit-llama) |  | 
+| LlamaIndex |  |  |  | [blog](https://mp.weixin.qq.com/s/1zvXlcGfVdxU8_Pj5f2E1g) | 
+| llama.cpp |  |  |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485875&idx=1&sn=a4e09d31802c087f1f47bd292e380c19&chksm=ced54a57f9a2c341935b81aa27824dfa740beb7ce33289e0cb5190b5910040c0904371b7e8a0&token=447941009&lang=zh_CN#rd) | 
+| llama.cpp优化版 |  |  |  | [blog](https://hub.baai.ac.cn/view/25307) | 
+| LIMA |  |  |  | [blog](https://mp.weixin.qq.com/s?search_click_id=7213828026277652651-1688375605291-1083947599&__biz=MjM5ODExNDA2MA==&mid=2449961473&idx=2&sn=f080fa7b1b5657db9872724caee56519&chksm=b13c7462864bfd741f0f061b87187f2cde36b68020cfe3402717a6858563311cb642eb340989&rd2werd=1&key=ea1d916ce49bb536ce48f3aba8e329d1e1aa6fdcda4f73580b0a5adbd624721e6a974570fd6ef2823ecfa6c95e2dc09179b51e440e9179f79d0ba01f62cf795d6c697f95bf05a28904f4172b11e1ce873a2d7a0e85c74d509e916176aacb43657fd11a6de7611d65bd4ae82315835aa138a423887a219f2971c6a525679fd805&ascene=65&uin=MTkwNzA5OTA4Mw%3D%3D&devicetype=iMac+MacBookPro13%2C2+OSX+OSX+12.6.7+build(21G651)&version=13080109&nettype=WIFI&lang=zh_CN&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQ0Z339%2BFUk%2Bp0YpfMQjB%2BhxKDAgIE97dBBAEAAAAAANJyNCKr%2F3UAAAAOpnltbLcz9gKNyK89dVj0q5AacL9r2sPbvlDuJo6SwYSJ2wbfYGvc3EDxuk%2BMQS0vl8RLluMN%2Fuh9u2LxBZTHTiuQct62Bjib68qd1EvB8CgGKMV34B5%2BKHCutInPzdE9Uac6dxp0VYtd%2BJnEwljL8jf7mWZdwTkPdEZl1P0OEb3HFzczXelqDR3h7D2xEVmQuFHGIeVi7iPOHMT0AWhhGLdbrVhCKbPT3%2BX9FPOLjJSql2UD95dTmSzZKqdvOIMGpD5t%2F98jDuMUojr9HUMdvljQ1XkiJVnd%2FbqSsLS3S5t7E%2Ftjmjb9g7IxWkY%3D&acctmode=0&pass_ticket=mJ3t3nBN%2BXhKCYp9bzJSkTl%2B9PwobzvYen%2F5Kv4kpcj1Lig98d0DXbcAyqBW0vaB&wx_header=0) | 
+| LongLLaMA | | [Focused Transformer: Contrastive Training for Context Scaling](https://arxiv.org/pdf/2307.03170.pdf) | [code](https://github.com/CStanKonrad/long_llama)，[Hugging Face](https://huggingface.co/syzymon/long_llama_3b) | [blog](https://mp.weixin.qq.com/s/K8ExTUUXDruZGwr-PA4oFQ) | 
+| OpenBuddy-LLaMA1-30B |  |  |  | [blog](https://mp.weixin.qq.com/s/k-ZWg0Vuud3Atn3aaXBaCQ) | 
+| PaLM |  |  |  | [blog](https://mp.weixin.qq.com/s/MT1xCsJp98BM-lkuOKJF-A) | 
+| Platypus | LLaMA2 | [Platypus: Quick, Cheap, and Powerful Refinement of LLMs](https://arxiv.org/abs/2308.07317) |  | [blog](https://mp.weixin.qq.com/s/yzfgITUWaCf3Wcdc6lGCQA) | 
+| StackLLaMA |  |  |  | [中文blog](https://hub.baai.ac.cn/view/25341)，[英文blog](https://huggingface.co/blog/stackllama) | 
+| Vicuna |  |  |  | [Vicuna官网地址](https://vicuna.lmsys.org/)，[blog](https://hub.baai.ac.cn/view/25328) | 
 
 ## Universal LLMs
 
@@ -175,11 +147,26 @@ Some examples of **Universal LLMs for Text** as follows：
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
 | --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
-| Bloom | 2022/11 | [Bloom](https://huggingface.co/bigscience/bloom) | [BLOOM: A 176B-Parameter Open-Access Multilingual Language Model](https://arxiv.org/abs/2211.05100) | 176 | [2048](https://huggingface.co/bigscience/bloom) |  [OpenRAIL-M v1](https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement) |                                                                                                                      |
+| Bard | 2023/03 |  | [Bard homepage](http://bard.google.com/)，[theverge blog](https://www.theverge.com/23649897/google-Bard-chatbot-search-engine) | | | | |
+| Bloom | 2022/11 | [Bloom](https://huggingface.co/bigscience/bloom) | [BLOOM: A 176B-Parameter Open-Access Multilingual Language Model](https://arxiv.org/abs/2211.05100) | 176 | [2048](https://huggingface.co/bigscience/bloom) |  [OpenRAIL-M v1](https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement) | [Bloom Code](https://github.com/huggingface/transformers-bloom-inference/tree/main)                                                                                                                     |
 | Cerebras-GPT | 2023/03 | [Cerebras-GPT](https://huggingface.co/cerebras)                                           | [Cerebras-GPT: A Family of Open, Compute-efficient, Large Language Models](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/) ([Paper](https://arxiv.org/abs/2304.03208)) | 0.111 - 13      | [2048](https://huggingface.co/cerebras/Cerebras-GPT-13B#model-details) | Apache 2.0         | [Cerebras-GPT-1.3B](https://github.com/slai-labs/get-beam/tree/main/examples/cerebras-gpt)                            |
-| Dolly        | 2023/04 | [dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b)                            | [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)             | 3, 7, 12     | [2048](https://github.com/databrickslabs/dolly#dolly) | MIT                |                                                                                                                       |
+| ChatYuan |  | [ChatYuan-large-v1](https://huggingface.co/ClueAI/ChatYuan-large-v1)  | [ChatYuan Blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485655&idx=1&sn=ad80d8a17d4aaab90b17a79b638c712d&chksm=ced54b33f9a2c225ce292b4e3d5725a668d0bfc9fe0be610c847b31b61714ecf75c06dac1cb5&token=447941009&lang=zh_CN#rd) | |  |  | [ChatYuan Code](https://github.com/clue-ai/ChatYuan) |
+| ChatDB |  |  | [ChatDB: Augmenting LLMs with Databases as Their Symbolic Memory](https://arxiv.org/abs/2306.03901)，[blog](https://mp.weixin.qq.com/s/o3j1vNLHlJ6qTea219A4Qw)，[主页](https://chatdatabase.github.io) |  |  |   | [ChatDB Code](https://github.com/huchenxucs/ChatDB) |
+| Claude |  |  | [产品地址](https://www.anthropic.com/product)，[申请地址](https://www.anthropic.com/earlyaccess)，[blog](https://mp.weixin.qq.com/s/Wx5q-rEwG4sROvnewGxWrw)，[Claude支持100k上下文](https://mp.weixin.qq.com/s/Yu551-z14lpiFGSOfXE2Tw) | 
+| Claude 2 |  |  | [Model Card and Evaluations for Claude Models](https://www-files.anthropic.com/production/images/Model-Card-Claude-2.pdf) |
+| ColossalAI |  |  | [ColossalAI SFT Blog](https://mp.weixin.qq.com/s/NS4yySeYd7QUYb7CB9V0lA) |  |  |  | [ColossalAI Code](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat) | 
+| CPM-Bee |  |  [CPM-Bee-10B](https://huggingface.co/openbmb/cpm-bee-10b)| [CPM-Bee Blog](https://mp.weixin.qq.com/s/BO4cDB9KRSODZw3TvZpUAA) |  |  |  | [CPM-Bee Code](https://github.com/OpenBMB/CPM-Bee) |
+| Dolly        | 2023/04 | [dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b)                            |  [Hello Dolly: Democratizing the magic of ChatGPT with open models](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html)，[Databricks Inc主页](https://www.databricks.com)            | 3, 7, 12     | [2048](https://github.com/databrickslabs/dolly#dolly) | MIT                |                                                                                                                       |
+| Dolly2.0 |  |  | [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)，[中文blog](https://hub.baai.ac.cn/view/25434) | 
+| DeepSpeed-Chat |  | [code](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat) | [blog](https://hub.baai.ac.cn/view/25414) | 
 | DLite | 2023/05 | [dlite-v2-1_5b](https://huggingface.co/aisquared/dlite-v2-1_5b) | [Announcing DLite V2: Lightweight, Open LLMs That Can Run Anywhere](https://medium.com/ai-squared/announcing-dlite-v2-lightweight-open-llms-that-can-run-anywhere-a852e5978c6e) | 0.124 - 1.5 | [1024](https://huggingface.co/aisquared/dlite-v2-1_5b/blob/main/config.json) | Apache 2.0         | [DLite-v2-1.5B](https://github.com/slai-labs/get-beam/tree/main/examples/dlite-v2)                                    |
 | FastChat-T5 | 2023/04 | [fastchat-t5-3b-v1.0](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0) | [We are excited to release FastChat-T5: our compact and commercial-friendly chatbot!](https://twitter.com/lmsysorg/status/1652037026705985537?s=20) | 3 | [512](https://huggingface.co/lmsys/fastchat-t5-3b-v1.0/blob/main/config.json) | Apache 2.0 |                                                                                                                       |
+| GPT3.5 |  |  | [OpenAI playground](https://platform.openai.com/playground) | 
+| MiniGPT-4 |  |  | [MiniGPT-4 Paper](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/MiniGPT_4.pdf)，[主页](https://minigpt-4.github.io/)，[video](https://youtu.be/__tftoxpBAw)，[dataset](https://drive.google.com/file/d/1nJXhoEcy3KTExr17I7BXqY5Y9Lx_-n-9/view)，[Demo](https://6b89c70eb5e14dca33.gradio.live/)，[Demo1](https://b2517615b965687635.gradio.live/)，[Demo2](https://c8de8ff74b6a6c6a9b.gradio.live/)，[Demo3](https://0a111504e072685259.gradio.live/)，[Demo4](https://90bc0bac96e6457e8f.gradio.live/) |  |  |  | [MiniGPT-4 Code](https://github.com/Vision-CAIR/MiniGPT-4) |
+| MOSS |  |  | [Secrets of RLHF in Large Language Models Part I: PPO](https://arxiv.org/abs/2307.04964)，[MOSS Blog](https://mp.weixin.qq.com/s/BjXtnEEVCQiPOy-_qCNM4g)，[数据集](https://laion.ai/blog/oig-dataset/) |  |  |  | [MOSS Code](https://openlmlab.github.io/MOSS-RLHF/) |
+| OpenAssistant |  |  | [OpenAssistant Conversations - Democratizing Large Language Model Alignment](https://drive.google.com/file/d/10iR5hKwFqAKhL3umx8muOWSRm7hs5FqX/view)，[官网](https://open-assistant.io/chat)，[dataset](https://huggingface.co/datasets/OpenAssistant/oasst1)，[youtube](https://youtu.be/ddG2fM9i4Kk) |  |  |  | [OpenAssistant Code](https://github.com/LAION-AI/Open-Assistant) |
+| OpenChatKit |  | | [OpenChatKit Blog](https://mp.weixin.qq.com/s/9Av3nhJLrcYAsBW9vVGjTw)，[OpenChatKit Chat](https://huggingface.co/spaces/togethercomputer/OpenChatKit)  |  |  |  | [OpenChatKit Code](https://github.com/togethercomputer/OpenChatKit) |
+| WebCPM |  |  | [WebCPM: Interactive Web Search for Chinese Long-form Question Answering](https://arxiv.org/abs/2305.06849)，[WebCPM Blog](https://mp.weixin.qq.com/s/m4zsF2HDFHSKc23Oq0O98w) |  |  |  | [WebCPM Code](https://github.com/thunlp/WebCPM) |
 
 **Complete Content**: please refer to [Model Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-Survey/README.md)
 
@@ -197,6 +184,7 @@ Some examples of **Universal LLMs for Code** as follows：
 | CodeGen2 | 2023/04 | [codegen2 1B-16B](https://github.com/salesforce/CodeGen2) | [CodeGen2: Lessons for Training LLMs on Programming and Natural Languages](https://arxiv.org/abs/2305.02309) | 1 - 16 | [2048](https://arxiv.org/abs/2305.02309) | [Apache 2.0](https://github.com/salesforce/CodeGen2/blob/main/LICENSE)|                                                                                           |
 | CodeGen2.5 | 2023/07 | [CodeGen2.5-7B-multi](https://huggingface.co/Salesforce/codegen25-7b-multi) | [CodeGen2.5: Small, but mighty](https://blog.salesforceairesearch.com/codegen25/) | 7 | [2048](https://huggingface.co/Salesforce/codegen25-7b-multi/blob/main/config.json) | [Apache 2.0](https://huggingface.co/Salesforce/codegen25-7b-multi/blob/main/README.md) | 
 | Code Llama  | 2023 | [Inference Code for CodeLlama models]([https://ai.meta.com/resources/models-and-libraries/llama-downloads/](https://github.com/facebookresearch/codellama)) | [Code Llama: Open Foundation Models for Code](https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/)     | 7 - 34       | [4096](https://scontent-zrh1-1.xx.fbcdn.net/v/t39.2365-6/369856151_1754812304950972_1159666448927483931_n.pdf?_nc_cat=107&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=wURKmnWKaloAX-ib5XW&_nc_ht=scontent-zrh1-1.xx&oh=00_AfAN1GB2K_XwIz54PqXTr-dhilI3CfCwdQoaLMyaYEEECg&oe=64F0A68F)  | [Custom](https://github.com/facebookresearch/llama/blob/main/LICENSE) Free if you have under 700M users and you cannot use LLaMA outputs to train other LLMs besides LLaMA and its derivatives   | [HuggingChat](https://huggingface.co/blog/codellama) | 
+| Copilot X |  |  | [Copilot X Blog](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/) |  |  |  | [Copilot X Code](https://github.com/features/copilot/) |
 
 **Complete Content**: please refer to [Model Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-Survey/README.md)
 
@@ -244,6 +232,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 | --- | --- | --- | --- | --- |----------------------------------------------------------------------------------------| --- |-------------------------------------------------------------------------------------------|
 | BLIP-2 |  |  | [paper](https://arxiv.org/abs/2301.12597)，[demo](https://huggingface.co/spaces/Salesforce/BLIP2)，[doc](https://huggingface.co/docs/transformers/main/en/model_doc/blip-2) |  |  | | [code](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)，[fine-tuing](https://github.com/salesforce/LAVIS)，[hugging face spaces](https://hf.co/spaces/Salesforce/BLIP2) |
 | CodeGen2 | 2023/04 | [codegen2 1B-16B](https://github.com/salesforce/CodeGen2) | [CodeGen2: Lessons for Training LLMs on Programming and Natural Languages](https://arxiv.org/abs/2305.02309) | 1 - 16 | [2048](https://arxiv.org/abs/2305.02309) | [Apache 2.0](https://github.com/salesforce/CodeGen2/blob/main/LICENSE)| 
+| GPT4 |  |  | [OpenAI GPT4](https://openai.com/research/gpt-4)，[GPT4_System_Card中文翻译](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Official/GPT-4_System_Card_zh.md)，[GPT4_Technical_Report中文翻译](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Official/GPT4_Technical_Report_zh.md)，[The Ultimate GPT-4 Guide](https://doc.clickup.com/37456139/d/h/13q28b-324/e2a22b0c164b1f9) | 
 | LLaVA |  |  | [Visual Instruction Tuning](https://arxiv.org/pdf/2304.08485.pdf)，[introduce](https://llava-vl.github.io/) |  |  |  | |
 | UniDiffuser |  |  | [One Transformer Fits All Distributions in Multi-Modal Diffusion at Scale](https://ml.cs.tsinghua.edu.cn/diffusion/unidiffuser.pdf) |  |  |  | [UniDiffuser Code](https://github.com/thu-ml/unidiffuser) |
 | Video-LLaMA |  |  | [Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding](https://arxiv.org/abs/2306.02858) |  |  |  | |
@@ -275,7 +264,8 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
 | --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
 | AD-AutoGPT |  |  | [AD-AutoGPT: An Autonomous GPT for Alzheimer's Disease Infodemiology](https://arxiv.org/abs/2306.10095) |  |  |  |  |     
-| BianQue |  |  |  |  |  |  | [BianQue Code](https://github.com/scutcyr/BianQue) |   
+| BianQue |  |  |  |  |  |  | [BianQue Code](https://github.com/scutcyr/BianQue) |  
+| BiomedGPT |  |  | [BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks](https://arxiv.org/abs/2305.17100) |  |  |  |  |
 | ChatMed |  |  |  |  |  |  | [ChatMed Code](https://github.com/michael-wzhu/ChatMed) |   
 | DoctorGLM |  |  |  |  |  |  | [DoctorGLM Code](https://github.com/xionghonglin/DoctorGLM) |   
 | Huatuo-Llama-Med-Chinese |  |  |  |  |  |  | [Huatuo-Llama-Med-Chinese Code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) |   
@@ -427,7 +417,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 | LLM 低成本 GPU 部署方案 lmdeploy 开源！ |  | [code](https://github.com/InternLM/lmdeploy)  | [blog](https://mp.weixin.qq.com/s/cndjXFr3vJPdN-7aTNqCnQ) | 
 | 使用 BentoML 部署 🤗 Hugging Face 上的模型：DeepFloyd IF 实战 |  | [code](https://github.com/bentoml) |[中文blog](https://mp.weixin.qq.com/s/GySP9vpzf3cj6vtQAsRRvw)，[英文blog](https://hf.co/blog/deploy-deepfloydif-using-bentoml) | 
 
-## LLM关键技术与应用
+## LLM 关键技术与应用
 
 ### Prompt Engineering
 
@@ -505,7 +495,12 @@ Some examples of **DataSets** as follows：
 | AutoGPT |  |  |  |  
 | BabyAGI |  |  |  |  
 | ChatRPA |  |  |  |  
+| Generative Agents |  |  |  |  
 | GPT-Engineer |  |  |  |  
+| HuggingGPT |  |  |  |  
+| MetaGPT |  | [code](https://github.com/geekan/MetaGPT) |  | 
+| NexusGPT |  |  |  |  
+| Toolformer |  |  |  |  
 
 ### LLM 文本检测
 

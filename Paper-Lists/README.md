@@ -298,7 +298,7 @@
 | LLM量化之后，能力退化了多少 | [blog](https://mp.weixin.qq.com/s/ri4SS_NCKn4boGZfJtUWUQ) | 
 | 邱锡鹏团队提出新优化器LOMO｜650亿参数，8块GPU全参数微调 | [blog](https://mp.weixin.qq.com/s/339iXf2bimusfq6zQmFpWw)，[paper](https://arxiv.org/abs/2306.09782) | 
 | 继思维链、思维树后又一思维骨架：让大模型能做并行解码 | [blog](https://mp.weixin.qq.com/s/cyyKEtGe6QBmP8aAU9fmhQ) | 
-
+| FrugalGPT | [paper](https://arxiv.org/pdf/2305.05176.pdf)，[blog](https://www.reddit.com/r/singularity/comments/13dnfd7/frugalgpt_can_match_the_performance_of_the_best/) | 
 ### LLM评估
 
 | Description| Blog |
