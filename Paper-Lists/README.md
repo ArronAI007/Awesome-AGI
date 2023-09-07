@@ -424,7 +424,11 @@ Some examples of **DataSets** as follows：
 | OpenAI重磅发布官方「ChatGPT检测器」 |  |  | [blog](https://mp.weixin.qq.com/s/EcZE7TgHspf22rPRWhAybw) |  
 | 斯坦福最新研究：不要过度依赖GPT生成内容，其检测器可能存在不利于非母语英语写作者的偏见 | [paper](https://arxiv.org/abs/2304.02819) |  |  |  
 
+### LLaMA
 
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| LLaMA评测 |  |  | [blog](https://mp.weixin.qq.com/s/kImwfWWtXMmEDVOhJZ4dJg) | 
 
 
 
