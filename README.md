@@ -100,6 +100,7 @@
 | ChatLLaMA | LLaMA | RLHF |  |  |  |  | [ChatLLaMA Code](https://github.com/nebuly-ai/nebuly/tree/main/optimization/chatllama) |
 | Chinese-LlaMA2 | Llama-2 | SFT |  |  |  |  | [Chinese-LlaMA2 Code](https://github.com/michael-wzhu/Chinese-LlaMA2) |
 | Chinese-Llama-2 | Llama-2 | LoRA/FPFT |  |  |  |  | [Chinese-Llama-2 Code](https://github.com/longyuewangdcu/Chinese-Llama-2) |
+| Chinese-Vicuna | LLaMA | LoRA |  |  |  |  | [Chinese-Vicuna Code](https://github.com/Facico/Chinese-Vicuna) |
 | ColossalChat | LLaMA | RLHF |  | [blog](https://syncedreview.com/2023/03/29/colossalchat-an-open-source-solution-for-cloning-chatgpt-with-a-complete-rlhf-pipeline/) |  |  | [ColossalChat Code](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat) |
 | CAMEL | LLaMA |  |  | [blog](https://starmpcc.github.io/CAMEL/) |  |  | [CAMEL Code](https://github.com/starmpcc/CAMEL) |
 | 草本（原华驼） |  LLaMA | SFT |  | [HuaTuo (华驼): Tuning LLaMA Model with Chinese Medical Knowledge](https://arxiv.org/pdf/2304.06975v1.pdf)，[blog1](https://mp.weixin.qq.com/s/TYpc_63qDlR6MwscxCKKhA)，[blog2](https://mp.weixin.qq.com/s/iuQANmwCS7AXQRik7HwQPg) |  |  | [草本（原华驼） Code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) |
@@ -112,17 +113,18 @@
 | LaVIN |  |  |  | [Cheap and Quick: Efficient Vision-Language Instruction Tuning for Large Language Models](https://arxiv.org/pdf/2305.15023.pdf)，[blog](https://mp.weixin.qq.com/s/MRLYk1b7VJ_b6OmJ9mzkdw) |  |  | [LaVIN Code](https://github.com/luogen1996/LaVIN) |
 | lit-llama |  |  |  |  |  |  | [lit-llama Code](https://github.com/Lightning-AI/lit-llama) |
 | LlamaIndex |  |  |  | [blog](https://mp.weixin.qq.com/s/1zvXlcGfVdxU8_Pj5f2E1g) |  |  |  |
-| llama.cpp |  |  |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485875&idx=1&sn=a4e09d31802c087f1f47bd292e380c19&chksm=ced54a57f9a2c341935b81aa27824dfa740beb7ce33289e0cb5190b5910040c0904371b7e8a0&token=447941009&lang=zh_CN#rd) |  |  |  |
-| llama.cpp优化版 |  |  |  | [blog](https://hub.baai.ac.cn/view/25307) |  |  |  |
-| llama2.c |  |  |  | [blog](https://mp.weixin.qq.com/s/VVR6N1duJM5vAU5cY9FrDQ) |  |  | [llama2.c Code](https://github.com/karpathy/llama2.c) |
+| llama.cpp | LLaMA |  |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485875&idx=1&sn=a4e09d31802c087f1f47bd292e380c19&chksm=ced54a57f9a2c341935b81aa27824dfa740beb7ce33289e0cb5190b5910040c0904371b7e8a0&token=447941009&lang=zh_CN#rd) |  |  |  |
+| llama.cpp优化版 | llama.cpp |  |  | [blog](https://hub.baai.ac.cn/view/25307) |  |  |  |
+| llama2.c | Llama-2 |  |  | [blog](https://mp.weixin.qq.com/s/VVR6N1duJM5vAU5cY9FrDQ) |  |  | [llama2.c Code](https://github.com/karpathy/llama2.c) |
 | LLaMA-2 & Alpaca-2 |  |  |  | [blog](https://mp.weixin.qq.com/s/sJ_imBdHCD4NibVy58EO2w) |  |  | [LLaMA-2 & Alpaca-2 Code](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2) |
 | LIMA |  |  |  | [blog](https://mp.weixin.qq.com/s?search_click_id=7213828026277652651-1688375605291-1083947599&__biz=MjM5ODExNDA2MA==&mid=2449961473&idx=2&sn=f080fa7b1b5657db9872724caee56519&chksm=b13c7462864bfd741f0f061b87187f2cde36b68020cfe3402717a6858563311cb642eb340989&rd2werd=1&key=ea1d916ce49bb536ce48f3aba8e329d1e1aa6fdcda4f73580b0a5adbd624721e6a974570fd6ef2823ecfa6c95e2dc09179b51e440e9179f79d0ba01f62cf795d6c697f95bf05a28904f4172b11e1ce873a2d7a0e85c74d509e916176aacb43657fd11a6de7611d65bd4ae82315835aa138a423887a219f2971c6a525679fd805&ascene=65&uin=MTkwNzA5OTA4Mw%3D%3D&devicetype=iMac+MacBookPro13%2C2+OSX+OSX+12.6.7+build(21G651)&version=13080109&nettype=WIFI&lang=zh_CN&countrycode=CN&fontScale=100&exportkey=n_ChQIAhIQ0Z339%2BFUk%2Bp0YpfMQjB%2BhxKDAgIE97dBBAEAAAAAANJyNCKr%2F3UAAAAOpnltbLcz9gKNyK89dVj0q5AacL9r2sPbvlDuJo6SwYSJ2wbfYGvc3EDxuk%2BMQS0vl8RLluMN%2Fuh9u2LxBZTHTiuQct62Bjib68qd1EvB8CgGKMV34B5%2BKHCutInPzdE9Uac6dxp0VYtd%2BJnEwljL8jf7mWZdwTkPdEZl1P0OEb3HFzczXelqDR3h7D2xEVmQuFHGIeVi7iPOHMT0AWhhGLdbrVhCKbPT3%2BX9FPOLjJSql2UD95dTmSzZKqdvOIMGpD5t%2F98jDuMUojr9HUMdvljQ1XkiJVnd%2FbqSsLS3S5t7E%2Ftjmjb9g7IxWkY%3D&acctmode=0&pass_ticket=mJ3t3nBN%2BXhKCYp9bzJSkTl%2B9PwobzvYen%2F5Kv4kpcj1Lig98d0DXbcAyqBW0vaB&wx_header=0) |  |  |  |
 | LongLLaMA |  |  | [LongLLaMA-3B](https://huggingface.co/syzymon/long_llama_3b) | [Focused Transformer: Contrastive Training for Context Scaling](https://arxiv.org/pdf/2307.03170.pdf)，[blog](https://mp.weixin.qq.com/s/K8ExTUUXDruZGwr-PA4oFQ) |  |  | [LongLLaMA Code](https://github.com/CStanKonrad/long_llama) |
 | OpenBuddy-LLaMA1-30B |  |  |  | [blog](https://mp.weixin.qq.com/s/k-ZWg0Vuud3Atn3aaXBaCQ) |  |  |  |
 | PaLM |  |  |  | [blog](https://mp.weixin.qq.com/s/MT1xCsJp98BM-lkuOKJF-A) |  |  |  |
 | Platypus | LLaMA2 |  |  | [Platypus: Quick, Cheap, and Powerful Refinement of LLMs](https://arxiv.org/abs/2308.07317)，[blog](https://mp.weixin.qq.com/s/yzfgITUWaCf3Wcdc6lGCQA) |  |  |  |
-| StackLLaMA |  |  |  | [中文blog](https://hub.baai.ac.cn/view/25341)，[英文blog](https://huggingface.co/blog/stackllama) |  |  |  |
-| Vicuna |  |  |  | [Vicuna官网地址](https://vicuna.lmsys.org/)，[blog](https://hub.baai.ac.cn/view/25328) |  |  |  |
+| StackLLaMA | LLaMA | SFT/RM/RLHF |  | [中文blog](https://hub.baai.ac.cn/view/25341)，[英文blog](https://huggingface.co/blog/stackllama) |  |  |  |
+| Vicuna | Alpaca |  |  | [Vicuna官网地址](https://vicuna.lmsys.org/)，[blog](https://hub.baai.ac.cn/view/25328) | 7，13 | 2k | [Vicuna Code](https://github.com/lm-sys/FastChat) |
+| Vicuna v1.5 | Llama 2 |  |  | [Vicuna官网地址](https://vicuna.lmsys.org/)，[blog](https://hub.baai.ac.cn/view/25328) | 7，13 | 4k，16k | [Vicuna v1.5 Code](https://github.com/lm-sys/FastChat) |
 
 ## Universal LLMs
 
