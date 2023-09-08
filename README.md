@@ -84,28 +84,27 @@
 
 ### LLaMA and extensions
 
-| Target Model | Source Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Code                                                                                                                |
+| Target Model | Source Model | Optimization | Checkpoints | Paper/Blog | Params (B) | Context Length | Code                                                                                                                |
 | --- | --- | --- | --- |--- | --- | --- |--- | 
-| LLaMA | |  |  | [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)，[blog1](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485822&idx=1&sn=b365d93a0a08769aef77f34069da1422&chksm=ced54a9af9a2c38cd5779284b5e9ae573846153e7dc00961dc163664a657d6a3fa5c8c14c7d2&token=447941009&lang=zh_CN#rd)，[blog2](https://mp.weixin.qq.com/s/fGNuTcYE8QI9_JKS9LcQ7w)，[详聊LLaMA大模型的技术细节](https://mp.weixin.qq.com/s/B9Ue0ihUGAFjT_X__R2u8Q) | 7，13，33，65 |  | [LLaMA Code](https://github.com/facebookresearch/llama) |
+| LLaMA | |  |  | [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)，[blog1](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485822&idx=1&sn=b365d93a0a08769aef77f34069da1422&chksm=ced54a9af9a2c38cd5779284b5e9ae573846153e7dc00961dc163664a657d6a3fa5c8c14c7d2&token=447941009&lang=zh_CN#rd)，[blog2](https://mp.weixin.qq.com/s/fGNuTcYE8QI9_JKS9LcQ7w)，[详聊LLaMA大模型的技术细节](https://mp.weixin.qq.com/s/B9Ue0ihUGAFjT_X__R2u8Q) | 7，13，33，65 | 512 | [LLaMA Code](https://github.com/facebookresearch/llama) |
 | LLaMA 2 |  | | [[在 Hugging Face 上玩转LLaMA 2](https://mp.weixin.qq.com/s/UnzhBJjZfPXsaSu8gNnosw)] ，[[在Colab笔记本中微调自己的Llama 2模型](https://mp.weixin.qq.com/s/pnDJaOUh_xdNdqSBl53Arw)]，[[三步上手 LLaMA2](https://mp.weixin.qq.com/s/lkRg8-rw57wDNr7FrjOSOQ)]，[[使用 Transformers 量化 Meta AI LLaMA2 中文版大模型](https://mp.weixin.qq.com/s/DEgFNAB4gwWDlQOj7-2CEg)] | [[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486800&idx=1&sn=9b629ca41b9f6b4feedad94363a17253&chksm=ced54eb4f9a2c7a2a5b20c182981b4323b18509f2ca8f482c2a8cdbb29bf570488bdcd280eb6&token=882149695&lang=zh_CN#rd)]，[[伯克利AI博士详解Llama 2的技术细节](https://mp.weixin.qq.com/s/Mee7sMq_bxLpIOOr91li9A)]，[[NLP社区对LLaMA2论文上半部分的讨论](https://mp.weixin.qq.com/s/SJNqjSCBX-k80_r3nmTiuA)]，[[NLP中文社区顶尖研究员们对LLaMA2论文下半部分的讨论](https://mp.weixin.qq.com/s/6k5ML3HtmvBTTCgHBZGycQ)]，[[3个最值得了解llama2开发库，助你快速搭建LLM应用](https://mp.weixin.qq.com/s/_3H6Y_NolUuxYxOo8Pl7fg)]，[[使用 Docker 快速上手中文版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/9cTNa_oya2Zj9YdDYodCvw)]，[[ Llama 2资料汇总](https://mp.weixin.qq.com/s/-01Dg9ZVfPYM4mZ4iKt8Cw) |  |  |  |
-| Alpaca |  |  |  | [Alpaca blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485890&idx=1&sn=2d1414fc3751353c31b946b3e954a465&chksm=ced54a26f9a2c330082e8c0014c96a6d9bef62e3581875031f203268a11fad09645a75b482b0&token=447941009&lang=zh_CN#rd)，[官网](https://crfm.stanford.edu/2023/03/13/alpaca.html)，[model](https://crfm.stanford.edu/alpaca) |  |  | [Alpaca Code](https://github.com/tatsu-lab/stanford_alpaca) |
-| AlpaGasus |  |  |  | [AlpaGasus: Training A Better Alpaca with Fewer Data](https://arxiv.org/abs/2307.08701)，[blog](https://mp.weixin.qq.com/s/UroGj4rIa2nOw6DookpvCQ) |  |  | [AlpaGasus Code](https://lichang-chen.github.io/AlpaGasus/) |  |
-| Alpaca-CoT |  |  |  | [官网](https://sota.jiqizhixin.com/project/alpaca-cot) |  |  |  [Alpaca-CoT Code](https://github.com/PhoebusSi/Alpaca-CoT)|
+| Alpaca | LLaMA 7B |  |  | [Alpaca blog](https://crfm.stanford.edu/2023/03/13/alpaca.html)，[Alpaca homepage](https://crfm.stanford.edu/alpaca) | 7，13 | 512 | [Alpaca Code](https://github.com/tatsu-lab/stanford_alpaca) |
+| alpaca.cpp | Alpaca/llama.cpp |  |  |  |  |  | [alpaca.cpp Code](https://github.com/antimatter15/alpaca.cpp) |
+| Alpaca-Lora | LLaMA 7B |  |  |  | 7 |  | [Alpaca-Lora Code](https://github.com/tloen/alpaca-lora) |
+| AlpaGasus | Alpaca |  |  | [AlpaGasus: Training A Better Alpaca with Fewer Data](https://arxiv.org/abs/2307.08701)，[blog](https://mp.weixin.qq.com/s/UroGj4rIa2nOw6DookpvCQ) |  |  | [AlpaGasus Code](https://lichang-chen.github.io/AlpaGasus/) |
+| Alpaca-CoT | Alpaca |  |  | [官网](https://sota.jiqizhixin.com/project/alpaca-cot) |  |  |  [Alpaca-CoT Code](https://github.com/PhoebusSi/Alpaca-CoT)|
 | Anima | guanaco-33B |  | [Anima-33B](https://huggingface.co/lyogavin/Anima33B) | [Anima Blog](https://zhuanlan.zhihu.com/p/638058537?utm_source=wechat_session&utm_medium=social&s_r=0) |  |  | [Anima Code](https://github.com/lyogavin/Anima) |
-| Baize |  |  |  | [Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data](https://arxiv.org/abs/2304.01196)，[blog](https://mp.weixin.qq.com/s/zxElGfclNbBwTuDG4Qrxnw) ，[demo](https://huggingface.co/spaces/project-baize/baize-lora-7B) |  | | [Baize Code](https://github.com/project-baize/baize/blob/main/README.md) |
-| BiLLa |  |  |  | [blog](https://mp.weixin.qq.com/s/8KDpDC6Fkb_61gFfkcT8TQ) |  |  | [BiLLa Code](https://github.com/Neutralzz/BiLLa) |
-| CaMA |  |  |  |  |  |  | [CaMA Code](https://github.com/zjunlp/CaMA) |
-| ChatLLaMA |  |  |  |  |  |  | [ChatLLaMA Code](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama) |
-| Chinese-LlaMA2 |  |  |  |  |  |  | [Chinese-LlaMA2 Code](https://github.com/michael-wzhu/Chinese-LlaMA2) |
-| ColossalAI |  |  |  |  |  |  | [ColossalAI Code](https://github.com/hpcaitech/ColossalAI) |
-| ColossalChat |  |  |  | [blog](https://syncedreview.com/2023/03/29/colossalchat-an-open-source-solution-for-cloning-chatgpt-with-a-complete-rlhf-pipeline/) |  |  | [ColossalChat Code](https://github.com/hpcaitech/ColossalAI) |
-| CAMEL |  |  |  | [blog](https://starmpcc.github.io/CAMEL/) |  |  | [CAMEL Code](https://github.com/starmpcc/CAMEL) |
-| 草本（原华驼） |   |  |  | [HuaTuo (华驼): Tuning LLaMA Model with Chinese Medical Knowledge](https://arxiv.org/pdf/2304.06975v1.pdf)，[blog1](https://mp.weixin.qq.com/s/TYpc_63qDlR6MwscxCKKhA)，[blog2](https://mp.weixin.qq.com/s/iuQANmwCS7AXQRik7HwQPg) |  |  | [草本（原华驼） Code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) |
-| DB-GPT |  |  |  |  |  |  | [DB-GPT Code](https://github.com/csunny/DB-GPT) |
-| DeepSpeed-Chat |  |  |  | [blog](https://mp.weixin.qq.com/s/kVEBUF20u4SUsHelF39o8Q) |  |  | [DeepSpeed-Chat Code](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat) |
-| ExpertLLaMA |  |  |  |  |  |  | [ExpertLLaMA Code](https://github.com/OFA-Sys/ExpertLLaMA) |
-| FreedomGPT |  |  |  | [官网地址](https://freedomgpt.com/) |  |  |  |
-| FLAN |  |  |  | [blog](https://mp.weixin.qq.com/s/5jEJH6UBHrk_ILbrLsd6TQ) |  |  |  |
+| Baize | LLaMA |  | [baize-lora-7B](https://huggingface.co/spaces/project-baize/baize-lora-7B) | [Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data](https://arxiv.org/abs/2304.01196)，[blog](https://mp.weixin.qq.com/s/zxElGfclNbBwTuDG4Qrxnw) | 7B | 512 | [Baize Code](https://github.com/project-baize/baize-chatbot) |
+| BiLLa | LLaMA |  |  | [BiLLa: A Bilingual LLaMA with Enhanced Reasoning Ability](https://mp.weixin.qq.com/s/8KDpDC6Fkb_61gFfkcT8TQ) | 7B |  | [BiLLa Code](https://github.com/Neutralzz/BiLLa) |
+| CaMA | LLaMA |  |  |  |  |  | [CaMA Code](https://github.com/zjunlp/CaMA) |
+| ChatLLaMA | LLaMA | RLHF |  |  |  |  | [ChatLLaMA Code](https://github.com/nebuly-ai/nebuly/tree/main/optimization/chatllama) |
+| Chinese-LlaMA2 | Llama-2 | SFT |  |  |  |  | [Chinese-LlaMA2 Code](https://github.com/michael-wzhu/Chinese-LlaMA2) |
+| Chinese-Llama-2 | Llama-2 | LoRA/FPFT |  |  |  |  | [Chinese-Llama-2 Code](https://github.com/longyuewangdcu/Chinese-Llama-2) |
+| ColossalChat | LLaMA | RLHF |  | [blog](https://syncedreview.com/2023/03/29/colossalchat-an-open-source-solution-for-cloning-chatgpt-with-a-complete-rlhf-pipeline/) |  |  | [ColossalChat Code](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat) |
+| CAMEL | LLaMA |  |  | [blog](https://starmpcc.github.io/CAMEL/) |  |  | [CAMEL Code](https://github.com/starmpcc/CAMEL) |
+| 草本（原华驼） |  LLaMA | SFT |  | [HuaTuo (华驼): Tuning LLaMA Model with Chinese Medical Knowledge](https://arxiv.org/pdf/2304.06975v1.pdf)，[blog1](https://mp.weixin.qq.com/s/TYpc_63qDlR6MwscxCKKhA)，[blog2](https://mp.weixin.qq.com/s/iuQANmwCS7AXQRik7HwQPg) |  |  | [草本（原华驼） Code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) |
+| ExpertLLaMA | LLaMA |  |  | [ExpertPrompting: Instructing Large Language Models to be Distinguished Experts](https://arxiv.org/abs/2305.14688)，[ExpertLLaMA demo](https://huggingface.co/spaces/OFA-Sys/expertllama) | 7B |  | [ExpertLLaMA Code](https://github.com/OFA-Sys/ExpertLLaMA) |
+| FreedomGPT | LLaMA |  |  | [FreedomGPT homepage](https://freedomgpt.com/) |  |  | [FreedomGPT Code](https://github.com/ohmplatform/FreedomGPT) |
 | GoGPT/GoGPT2 |  |  | [GoGPT2-7B](https://huggingface.co/golaxy/gogpt2-7b) |  |  |  | [GoGPT code](https://github.com/yanqiangmiffy/GoGPT) |
 | guanaco | LLaMA |  |  |  |  |  |  |
 | Koala |  |  |  | [中文blog](https://hub.baai.ac.cn/view/25284)，[英文blog](https://bair.berkeley.edu/blog/2023/04/03/koala/) |  |  |  |
