@@ -3,7 +3,15 @@
 | Name | Release Date | Paper/Blog | Dataset | Tokens (T) | License |
 | --- | --- | --- | --- | --- | ---- | 
 | starcoderdata | 2023/05 | [StarCoder: A State-of-the-Art LLM for Code](https://huggingface.co/blog/starcoder) | [starcoderdata](https://huggingface.co/datasets/bigcode/starcoderdata) |  0.25 | Apache 2.0 |
-| RedPajama | 2023/04 | [RedPajama, a project to create leading open-source models, starts by reproducing LLaMA training dataset of over 1.2 trillion tokens](https://www.together.xyz/blog/redpajama) | [RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) | 1.2 | Apache 2.0 | 
+| RedPajama | 2023/04 | [RedPajama, a project to create leading open-source models, starts by reproducing LLaMA training dataset of over 1.2 trillion tokens](https://www.together.xyz/blog/redpajama) | [RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) |  |  | 
+| ShareGPT |  |  | [ShareGPT](https://sharegpt.com/) |  |  | 
+| HC3 |  |  | [HC3](https://arxiv.org/abs/2301.07597) |  |  | 
+| OIG |  |  | [OIG](https://laion.ai/blog/oig-dataset/) |  |  | 
+| Stanford Alpaca |  |  | [Stanford Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) |  |  | 
+| Anthropic HH |  |  | [Anthropic HH](https://huggingface.co/datasets/Anthropic/hh-rlhf) |  |  | 
+| OpenAI WebGPT |  |  | [OpenAI WebGPT](https://huggingface.co/datasets/openai/webgpt_comparisons) |  |  | 
+| OpenAI Summarization |  |  | [OpenAI Summarization](https://huggingface.co/datasets/openai/summarize_from_feedback) |  |  | 
+| koala-test-set |  |  | [koala-test-set](https://github.com/arnav-gudibande/koala-test-set) |  |  | 
 
 ## Open LLM datasets for instruction-tuning
 

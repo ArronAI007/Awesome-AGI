@@ -60,34 +60,32 @@
 
 ### baichuan and extensions
 
-| Model| Paper | Code |Blog |
-| --- | --- | --- | --- | 
-| baichuan-7b |  | [code](https://github.com/baichuan-inc/baichuan-7B)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary) | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ)，[Hugging Face](https://huggingface.co/baichuan-inc/baichuan-7B)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) | 
+| Model| Paper | Code | Blog | Tokens | Tokenizer | Vocabulary | Position Embedding | Layer Normalization | Activation Function | Attention |
+| --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- |  
+| baichuan-7b |  | [code](https://github.com/baichuan-inc/baichuan-7B)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary) | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ)，[Hugging Face](https://huggingface.co/baichuan-inc/baichuan-7B)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) | 1.2T | | | | Pre RMS Norm |  SwiGLU |
 | baichuan-13b |  |  | [blog](https://mp.weixin.qq.com/s/Px4h2r3VIAFI5vfjXxROxg)，[百川大模型【Baichuan-13B】 多卡训练微调记录](https://mp.weixin.qq.com/s/EUZA6Lt-OcI170md9lXH1g) | 
 | firefly-baichuan-7b-qlora-sft |  | [code](https://github.com/baichuan-inc/baichuan-7B) | [blog](https://mp.weixin.qq.com/s/_eTkDGG5DmxyWeiQ6DIxBw)，[Hugging Face model](https://huggingface.co/YeungNLP/firefly-baichuan-7b-qlora-sft)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) | 
-| baichuan-13b-Chat |  | [code](https://github.com/percent4/document_qa_with_llm) | [blog](https://mp.weixin.qq.com/s/wStOyHPd8c7V0ug1Qebryw) | 
+| baichuan-13b-Chat |  | [code](https://github.com/percent4/document_qa_with_llm) | [blog](https://mp.weixin.qq.com/s/wStOyHPd8c7V0ug1Qebryw) |  
 
 ### ChatGLM and extensions
 
-| Model/Description| Paper | Code |Blog |
-| --- | --- | --- | --- | 
-| ChatGLM |  | [code](https://github.com/THUDM/ChatGLM-6B.git) | [blog](https://chatglm.cn/blog) | 
-| ChatGLM-6B源码阅读 |  |  | [blog](https://mp.weixin.qq.com/s/r7KEJmrpJZmY7KBP4veS6A) | 
-| ChatGLM模型底座细节分析 |  |  | [blog](https://mp.weixin.qq.com/s/oOdD3MYtE6-sNeAmPthqLg) | 
+| Model/Description| Paper | Code | Blog | Tokens |  Tokenizer | Vocabulary | Position Embedding | Layer Normalization | Activation Function | Attention |
+| --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- | 
+| ChatGLM-6B |  | [code](https://github.com/THUDM/ChatGLM-6B.git) | [blog](https://chatglm.cn/blog)，[ChatGLM-6B源码阅读](https://mp.weixin.qq.com/s/r7KEJmrpJZmY7KBP4veS6A)，[ChatGLM模型底座细节分析](https://mp.weixin.qq.com/s/oOdD3MYtE6-sNeAmPthqLg) | 1T | SentencePiece | 130528 | | Post Deep Norm | GeLU |
 | chatglm+langchain+互联网 |  | [code](https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering/) | [blog](https://mp.weixin.qq.com/s/lO6SrEuv4-vNbL8B3G-f8g) | 
 | ChatGLM_multi_gpu_zero_Tuning |  | [code](https://github.com/CSHaitao/ChatGLM_mutli_gpu_tuning) |  | 
 | ChatGLM+Fastapi |  |  | [blog](https://mp.weixin.qq.com/s/5J4UA4ePVZGXJGZsBXeN8Q) | 
-| ChatGLM2-6B-32K |  |  | [blog](https://mp.weixin.qq.com/s/Fkm_D26z1jrqA44B82v7Ww) | 
+| ChatGLM2-6B-32K |  |  | [blog](https://mp.weixin.qq.com/s/Fkm_D26z1jrqA44B82v7Ww) | 1.4T | 65024 | | | Post RMS Norm | SwiGLU | GQA |
 | ChatGLM-6b+langchain |  | [code](https://github.com/yanqiangmiffy/Chinese-LangChain) | [blog](https://mp.weixin.qq.com/s/xAsZZ_LOkr9Nj-JafSbXnA) | 
 | one-shot微调chatglm-6b实践信息抽取 |  |  | [blog](https://mp.weixin.qq.com/s/l7lCbdJ9XGzLPTb3zKDAzQ) | 
-| Falcon |  |  | [blog1](https://mp.weixin.qq.com/s/jbRRjG2ferhFPWsMtCaJyg)，[blog2](https://mp.weixin.qq.com/s/Vy_xWBuZU0AaaPMCIhKIyw) | 
+| Falcon |  |  | [blog1](https://mp.weixin.qq.com/s/jbRRjG2ferhFPWsMtCaJyg)，[blog2](https://mp.weixin.qq.com/s/Vy_xWBuZU0AaaPMCIhKIyw) | 1.5T | 65024 | | | Pre LN | GeLU | MQA |
 
 ### LLaMA and extensions
 
-| Target Model | Source Model | Optimization | Checkpoints | Paper/Blog | Params (B) | Context Length | Code | DataSet |
-| --- | --- | --- | --- |--- | --- | --- |--- | --- | 
-| LLaMA | |  |  | [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)，[blog1](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485822&idx=1&sn=b365d93a0a08769aef77f34069da1422&chksm=ced54a9af9a2c38cd5779284b5e9ae573846153e7dc00961dc163664a657d6a3fa5c8c14c7d2&token=447941009&lang=zh_CN#rd)，[blog2](https://mp.weixin.qq.com/s/fGNuTcYE8QI9_JKS9LcQ7w)，[详聊LLaMA大模型的技术细节](https://mp.weixin.qq.com/s/B9Ue0ihUGAFjT_X__R2u8Q) | 7，13，33，65 | 512 | [LLaMA Code](https://github.com/facebookresearch/llama) | |
-| LLaMA 2 |  | | [[在 Hugging Face 上玩转LLaMA 2](https://mp.weixin.qq.com/s/UnzhBJjZfPXsaSu8gNnosw)] ，[[在Colab笔记本中微调自己的Llama 2模型](https://mp.weixin.qq.com/s/pnDJaOUh_xdNdqSBl53Arw)]，[[三步上手 LLaMA2](https://mp.weixin.qq.com/s/lkRg8-rw57wDNr7FrjOSOQ)]，[[使用 Transformers 量化 Meta AI LLaMA2 中文版大模型](https://mp.weixin.qq.com/s/DEgFNAB4gwWDlQOj7-2CEg)] | [[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486800&idx=1&sn=9b629ca41b9f6b4feedad94363a17253&chksm=ced54eb4f9a2c7a2a5b20c182981b4323b18509f2ca8f482c2a8cdbb29bf570488bdcd280eb6&token=882149695&lang=zh_CN#rd)]，[[伯克利AI博士详解Llama 2的技术细节](https://mp.weixin.qq.com/s/Mee7sMq_bxLpIOOr91li9A)]，[[NLP社区对LLaMA2论文上半部分的讨论](https://mp.weixin.qq.com/s/SJNqjSCBX-k80_r3nmTiuA)]，[[NLP中文社区顶尖研究员们对LLaMA2论文下半部分的讨论](https://mp.weixin.qq.com/s/6k5ML3HtmvBTTCgHBZGycQ)]，[[3个最值得了解llama2开发库，助你快速搭建LLM应用](https://mp.weixin.qq.com/s/_3H6Y_NolUuxYxOo8Pl7fg)]，[[使用 Docker 快速上手中文版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/9cTNa_oya2Zj9YdDYodCvw)]，[[ Llama 2资料汇总](https://mp.weixin.qq.com/s/-01Dg9ZVfPYM4mZ4iKt8Cw) |  |  |  |
+| Target Model | Source Model | Optimization | Checkpoints | Paper/Blog | Params (B) | Context Length | Code | Tokens | Tokenizer | Vocabulary | Position Embedding | Layer Normalization | Activation Function | Attention |
+| --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- | 
+| LLaMA | |  |  | [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)，[blog1](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485822&idx=1&sn=b365d93a0a08769aef77f34069da1422&chksm=ced54a9af9a2c38cd5779284b5e9ae573846153e7dc00961dc163664a657d6a3fa5c8c14c7d2&token=447941009&lang=zh_CN#rd)，[blog2](https://mp.weixin.qq.com/s/fGNuTcYE8QI9_JKS9LcQ7w)，[详聊LLaMA大模型的技术细节](https://mp.weixin.qq.com/s/B9Ue0ihUGAFjT_X__R2u8Q) | 7，13，33，65 | 512 | [LLaMA Code](https://github.com/facebookresearch/llama) | 1T/1.4T | BPE | 32000 | RoPE | Pre RMS Norm | SwiGLU |
+| LLaMA 2 |  | | [[在 Hugging Face 上玩转LLaMA 2](https://mp.weixin.qq.com/s/UnzhBJjZfPXsaSu8gNnosw)] ，[[在Colab笔记本中微调自己的Llama 2模型](https://mp.weixin.qq.com/s/pnDJaOUh_xdNdqSBl53Arw)]，[[三步上手 LLaMA2](https://mp.weixin.qq.com/s/lkRg8-rw57wDNr7FrjOSOQ)]，[[使用 Transformers 量化 Meta AI LLaMA2 中文版大模型](https://mp.weixin.qq.com/s/DEgFNAB4gwWDlQOj7-2CEg)] | [[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486800&idx=1&sn=9b629ca41b9f6b4feedad94363a17253&chksm=ced54eb4f9a2c7a2a5b20c182981b4323b18509f2ca8f482c2a8cdbb29bf570488bdcd280eb6&token=882149695&lang=zh_CN#rd)]，[[伯克利AI博士详解Llama 2的技术细节](https://mp.weixin.qq.com/s/Mee7sMq_bxLpIOOr91li9A)]，[[NLP社区对LLaMA2论文上半部分的讨论](https://mp.weixin.qq.com/s/SJNqjSCBX-k80_r3nmTiuA)]，[[NLP中文社区顶尖研究员们对LLaMA2论文下半部分的讨论](https://mp.weixin.qq.com/s/6k5ML3HtmvBTTCgHBZGycQ)]，[[3个最值得了解llama2开发库，助你快速搭建LLM应用](https://mp.weixin.qq.com/s/_3H6Y_NolUuxYxOo8Pl7fg)]，[[使用 Docker 快速上手中文版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/9cTNa_oya2Zj9YdDYodCvw)]，[[ Llama 2资料汇总](https://mp.weixin.qq.com/s/-01Dg9ZVfPYM4mZ4iKt8Cw) |  |  |  | 2T |  |  |  |  |SwiGLU | GQA |
 | Alpaca | LLaMA 7B |  |  | [Alpaca blog](https://crfm.stanford.edu/2023/03/13/alpaca.html)，[Alpaca homepage](https://crfm.stanford.edu/alpaca) | 7，13 | 512 | [Alpaca Code](https://github.com/tatsu-lab/stanford_alpaca) |
 | Alpaca-Lora | LLaMA 7B |  |  |  | 7 |  | [Alpaca-Lora Code](https://github.com/tloen/alpaca-lora) |
 | AlpaGasus | Alpaca |  |  | [AlpaGasus: Training A Better Alpaca with Fewer Data](https://arxiv.org/abs/2307.08701)，[blog](https://mp.weixin.qq.com/s/UroGj4rIa2nOw6DookpvCQ) |  |  | [AlpaGasus Code](https://lichang-chen.github.io/AlpaGasus/) |
