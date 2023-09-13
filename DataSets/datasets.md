@@ -26,3 +26,28 @@
 | Name | Release Date |  Paper/Blog | Dataset | Samples (K) | License |
 | --- | --- | --- | --- | --- | ---- |
 | OpenAssistant Conversations Dataset | 2023/04 | [OpenAssistant Conversations - Democratizing Large Language Model Alignment](https://drive.google.com/file/d/10iR5hKwFqAKhL3umx8muOWSRm7hs5FqX/view) | [oasst1](https://huggingface.co/datasets/OpenAssistant/oasst1) | 161 | Apache 2.0 |
+
+
+## Open LLM datasets for evaluation
+
+| Name | Release Date |  Paper/Blog | Dataset | Samples (K) | License |
+| --- | --- | --- | --- | --- | ---- |
+| C-Eval | --- | --- | [C-Eval](https://cevalbenchmark.com/index.html) | --- | ---- |
+| Gaokao | --- | --- | [Gaokao](https://github.com/OpenLMLab/GAOKAO-Bench) | --- | ---- |
+| AGIEval | --- | --- | [AGIEval](https://github.com/microsoft/AGIEval) | --- | ---- |
+| MMLU | --- | --- | [MMLU](https://arxiv.org/abs/2009.03300) | --- | ---- |
+| --- | --- | --- | --- | --- | ---- |
+| --- | --- | --- | --- | --- | ---- |
+| --- | --- | --- | --- | --- | ---- |
+| --- | --- | --- | --- | --- | ---- |
+| --- | --- | --- | --- | --- | ---- |
+| --- | --- | --- | --- | --- | ---- |
+
+
+
+
+
+
+
+
+

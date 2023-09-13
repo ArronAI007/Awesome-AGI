@@ -60,12 +60,15 @@
 
 ### baichuan and extensions
 
-| Model| Paper | Code | Blog | Tokens | Tokenizer | Vocabulary | Position Embedding | Layer Normalization | Activation Function | Attention |
-| --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- |  
-| baichuan-7b |  | [code](https://github.com/baichuan-inc/baichuan-7B)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary) | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ)，[Hugging Face](https://huggingface.co/baichuan-inc/baichuan-7B)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) | 1.2T | | | | Pre RMS Norm |  SwiGLU |
+| Target Model | Source Model | Optimization | Checkpoints | Paper/Blog | Params (B) | Context Length | Code | Tokens | Tokenizer | Vocabulary | Position Embedding | Layer Normalization | Activation Function | Attention |
+| --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- | 
+| baichuan-7b |  | [Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary) | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) |  | 7，13，53（用于搜索） | 4096 | [baichuan-7b Code](https://github.com/baichuan-inc/baichuan-7B)，[baichuan-7b Chat](https://huggingface.co/baichuan-inc/baichuan-7B) |1.2T | BPE | 64000 | | Pre RMS Norm |  SwiGLU |
 | baichuan-13b |  |  | [blog](https://mp.weixin.qq.com/s/Px4h2r3VIAFI5vfjXxROxg)，[百川大模型【Baichuan-13B】 多卡训练微调记录](https://mp.weixin.qq.com/s/EUZA6Lt-OcI170md9lXH1g) | 
-| firefly-baichuan-7b-qlora-sft |  | [code](https://github.com/baichuan-inc/baichuan-7B) | [blog](https://mp.weixin.qq.com/s/_eTkDGG5DmxyWeiQ6DIxBw)，[Hugging Face model](https://huggingface.co/YeungNLP/firefly-baichuan-7b-qlora-sft)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) | 
+| fireballoon/baichuan-vicuna-chinese-7b | baichuan-7b |  |  | | |  | |  |  |  |  |  |  |  | 
+| fireballoon/baichuan-vicuna-7b | baichuan-7b |  |  | | |  | |  |  |  |  |  |  |  | 
+| firefly-baichuan-7b-qlora-sft | baichuan-7b | [code](https://github.com/baichuan-inc/baichuan-7B) | [blog](https://mp.weixin.qq.com/s/_eTkDGG5DmxyWeiQ6DIxBw)，[Hugging Face model](https://huggingface.co/YeungNLP/firefly-baichuan-7b-qlora-sft)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) | 
 | baichuan-13b-Chat |  | [code](https://github.com/percent4/document_qa_with_llm) | [blog](https://mp.weixin.qq.com/s/wStOyHPd8c7V0ug1Qebryw) |  
+| Baichuan2 |  |  |  | [Baichuan2技术报告](https://cdn.baichuan-ai.com/paper/Baichuan2-technical-report.pdf)，[SuperCLUE评测效果](https://mp.weixin.qq.com/s/SV7COWNu9uGnpOBzVYCyog) | 7，13 |  | [Baichuan2 Code](https://github.com/baichuan-inc/Baichuan2) | 2.6T |  |  |  |  |  |  | 
 
 ### ChatGLM and extensions
 
@@ -75,10 +78,10 @@
 | chatglm+langchain+互联网 |  | [code](https://github.com/LemonQu-GIT/ChatGLM-6B-Engineering/) | [blog](https://mp.weixin.qq.com/s/lO6SrEuv4-vNbL8B3G-f8g) | 
 | ChatGLM_multi_gpu_zero_Tuning |  | [code](https://github.com/CSHaitao/ChatGLM_mutli_gpu_tuning) |  | 
 | ChatGLM+Fastapi |  |  | [blog](https://mp.weixin.qq.com/s/5J4UA4ePVZGXJGZsBXeN8Q) | 
-| ChatGLM2-6B-32K |  |  | [blog](https://mp.weixin.qq.com/s/Fkm_D26z1jrqA44B82v7Ww) | 1.4T | 65024 | | | Post RMS Norm | SwiGLU | GQA |
+| ChatGLM2-6B-32K |  |  | [blog](https://mp.weixin.qq.com/s/Fkm_D26z1jrqA44B82v7Ww) | 1.4T |  | 65024 | | Post RMS Norm | SwiGLU | GQA |
 | ChatGLM-6b+langchain |  | [code](https://github.com/yanqiangmiffy/Chinese-LangChain) | [blog](https://mp.weixin.qq.com/s/xAsZZ_LOkr9Nj-JafSbXnA) | 
 | one-shot微调chatglm-6b实践信息抽取 |  |  | [blog](https://mp.weixin.qq.com/s/l7lCbdJ9XGzLPTb3zKDAzQ) | 
-| Falcon |  |  | [blog1](https://mp.weixin.qq.com/s/jbRRjG2ferhFPWsMtCaJyg)，[blog2](https://mp.weixin.qq.com/s/Vy_xWBuZU0AaaPMCIhKIyw) | 1.5T | 65024 | | | Pre LN | GeLU | MQA |
+| Falcon |  |  | [blog1](https://mp.weixin.qq.com/s/jbRRjG2ferhFPWsMtCaJyg)，[blog2](https://mp.weixin.qq.com/s/Vy_xWBuZU0AaaPMCIhKIyw) | 1.5T |  | 65024 | | Pre LN | GeLU | MQA |
 
 ### LLaMA and extensions
 
