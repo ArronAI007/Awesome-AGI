@@ -42,6 +42,7 @@
 | 360智脑 | 讯飞星火 | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486609&idx=2&sn=7fedb8ab37588d43968fdec2d7e5fcdd&chksm=ced54f75f9a2c663b9a2671f2548e2940730735605356cc0ffe72bc737470136a40032c80bfe&token=1282379489&lang=zh_CN#rd)|
 | 阿里通义千问 | 讯飞星火 | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486534&idx=1&sn=6f36d41b618790cba62e63eb25bb033b&chksm=ced54fa2f9a2c6b4a901528f87a7e74628dfd79d835f4cdea1ee4dea442f339adfd2736b2305&token=1282379489&lang=zh_CN#rd)|
 | Bard | Bing_VS_ChatGPT | [对比效果](https://www.theverge.com/2023/3/24/23653377/ai-chatbots-comparison-bard-bing-chatgpt-gpt-4)|
+| baichuan-53B | ChatGLM-6B | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247487325&idx=1&sn=561cb8b09c37ccfe0ed1f73de04b1db6&chksm=ced54cb9f9a2c5af30ac3d134086c955ac240f452cad0ab2b3708bc3cc09ef5b662b831c7d62&token=293446899&lang=zh_CN#rd)|
 | 文心一言 | Bard | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486260&idx=1&sn=a41224fee7ed4cb4a48eb40a420d7479&chksm=ced548d0f9a2c1c6f4930f30447468f9f01bb2af6031368e302b13a6354fc4bca6636e3b297e&token=666852558&lang=zh_CN#rd)|
 | 文心一言 | Baize-7B | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486317&idx=1&sn=ea3cc745d2991b8c657325392ce68f71&chksm=ced54889f9a2c19f3c2f85d8d7af7fff366027f79d1f4a5b2c650fea1b5dee9efde0b7c992ca&token=1173964254&lang=zh_CN#rd)|
 | 文心一言 | OpenAssistant | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486413&idx=2&sn=3816e5a4bccceee5e2af868166b18897&chksm=ced54829f9a2c13fb787b7a7e3c2aa0799eb7ff6d124f6847349346146900e05684ceb8cc7f7&token=1282379489&lang=zh_CN#rd)|
@@ -60,15 +61,16 @@
 
 ### baichuan and extensions
 
-| Target Model | Source Model | Optimization | Checkpoints | Paper/Blog | Params (B) | Context Length | Code | Tokens | Tokenizer | Vocabulary | Position Embedding | Layer Normalization | Activation Function | Attention |
+| Target Model | Source Model | Optimization | Checkpoints | Paper/Blog | Params (B) | Context Length | Code | Tokens | Tokenizer | Vocab size | Position Embedding | Layer Normalization | Activation Function | Attention |
 | --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- | 
-| baichuan-7b |  | [Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary) |  | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) | 7，13，53（用于搜索） | 4096 | [baichuan-7b Code](https://github.com/baichuan-inc/baichuan-7B)，[baichuan-7b Chat](https://huggingface.co/baichuan-inc/baichuan-7B) |1.2T | BPE | 64000 | | Pre RMS Norm |  SwiGLU |
-| baichuan-13b |  |  |  | [baichuan-13b blog](https://mp.weixin.qq.com/s/Px4h2r3VIAFI5vfjXxROxg)，[百川大模型【Baichuan-13B】 多卡训练微调记录](https://mp.weixin.qq.com/s/EUZA6Lt-OcI170md9lXH1g) |
+| baichuan-7b |  |  | [Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary)，[hugging face](https://huggingface.co/baichuan-inc/baichuan-7B) | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ) | [7](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-Lists/model-params.md) | 4096 | [baichuan-7b Code](https://github.com/baichuan-inc/baichuan-7B)，[baichuan-7b Demo](https://huggingface.co/baichuan-inc/baichuan-7B) |1.2T | BPE | 64000 | RoPE | Pre RMS Norm |  SwiGLU | Flash-attention |
+| baichuan-13b |  |  | [hugging face Base](https://huggingface.co/baichuan-inc/Baichuan-13B-Base)，[hugging face Chat](https://huggingface.co/baichuan-inc/Baichuan-13B-Chat)，[modelscope Base](https://modelscope.cn/models/baichuan-inc/Baichuan-13B-Base)，[modelscope Chat](https://modelscope.cn/models/baichuan-inc/Baichuan-13B-Chat) | [baichuan-13b blog](https://mp.weixin.qq.com/s/Px4h2r3VIAFI5vfjXxROxg)，[百川大模型【Baichuan-13B】 多卡训练微调记录](https://mp.weixin.qq.com/s/EUZA6Lt-OcI170md9lXH1g) | [13](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-Lists/model-params.md) | 4096 | [baichuan-13b Code](https://github.com/baichuan-inc/Baichuan-13B) | 1.4T |  | 64000 | ALiBi |  |  |
+| baichuan-53b | --- | --- | --- |--- | 53（用于搜索） | --- | [baichuan Demo](https://chat.baichuan-ai.com/home) | --- | --- | --- | --- | --- | --- | --- | 
 | fireballoon/baichuan-vicuna-chinese-7b | baichuan-7b |  |  | | |  | |  |  |  |  |  |  |  | 
 | fireballoon/baichuan-vicuna-7b | baichuan-7b |  |  | | |  | |  |  |  |  |  |  |  | 
 | firefly-baichuan-7b-qlora-sft | baichuan-7b |  |  | [blog](https://mp.weixin.qq.com/s/_eTkDGG5DmxyWeiQ6DIxBw)，[Hugging Face model](https://huggingface.co/YeungNLP/firefly-baichuan-7b-qlora-sft)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) |  |  | [code](https://github.com/baichuan-inc/baichuan-7B) |
 | baichuan-13b-Chat |  |  |  | [blog](https://mp.weixin.qq.com/s/wStOyHPd8c7V0ug1Qebryw) |  |  | [code](https://github.com/percent4/document_qa_with_llm) |
-| Baichuan2 |  |  |  | [Baichuan2技术报告](https://cdn.baichuan-ai.com/paper/Baichuan2-technical-report.pdf)，[SuperCLUE评测效果](https://mp.weixin.qq.com/s/SV7COWNu9uGnpOBzVYCyog) | 7，13 |  | [Baichuan2 Code](https://github.com/baichuan-inc/Baichuan2) | 2.6T |  |  |  |  |  |  | 
+| Baichuan2 |  |  | [Baichuan2](https://huggingface.co/baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints) | [Baichuan2技术报告](https://cdn.baichuan-ai.com/paper/Baichuan2-technical-report.pdf)，[SuperCLUE评测效果](https://mp.weixin.qq.com/s/SV7COWNu9uGnpOBzVYCyog) | 7，13 |  | [Baichuan2 Code](https://github.com/baichuan-inc/Baichuan2) | 2.6T |  |  |  |  |  |  | 
 
 ### ChatGLM and extensions
 
