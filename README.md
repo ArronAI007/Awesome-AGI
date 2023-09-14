@@ -62,12 +62,12 @@
 
 | Target Model | Source Model | Optimization | Checkpoints | Paper/Blog | Params (B) | Context Length | Code | Tokens | Tokenizer | Vocabulary | Position Embedding | Layer Normalization | Activation Function | Attention |
 | --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- | 
-| baichuan-7b |  | [Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary) | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) |  | 7，13，53（用于搜索） | 4096 | [baichuan-7b Code](https://github.com/baichuan-inc/baichuan-7B)，[baichuan-7b Chat](https://huggingface.co/baichuan-inc/baichuan-7B) |1.2T | BPE | 64000 | | Pre RMS Norm |  SwiGLU |
-| baichuan-13b |  |  | [blog](https://mp.weixin.qq.com/s/Px4h2r3VIAFI5vfjXxROxg)，[百川大模型【Baichuan-13B】 多卡训练微调记录](https://mp.weixin.qq.com/s/EUZA6Lt-OcI170md9lXH1g) | 
+| baichuan-7b |  | [Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary) |  | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) | 7，13，53（用于搜索） | 4096 | [baichuan-7b Code](https://github.com/baichuan-inc/baichuan-7B)，[baichuan-7b Chat](https://huggingface.co/baichuan-inc/baichuan-7B) |1.2T | BPE | 64000 | | Pre RMS Norm |  SwiGLU |
+| baichuan-13b |  |  |  | [baichuan-13b blog](https://mp.weixin.qq.com/s/Px4h2r3VIAFI5vfjXxROxg)，[百川大模型【Baichuan-13B】 多卡训练微调记录](https://mp.weixin.qq.com/s/EUZA6Lt-OcI170md9lXH1g) |
 | fireballoon/baichuan-vicuna-chinese-7b | baichuan-7b |  |  | | |  | |  |  |  |  |  |  |  | 
 | fireballoon/baichuan-vicuna-7b | baichuan-7b |  |  | | |  | |  |  |  |  |  |  |  | 
-| firefly-baichuan-7b-qlora-sft | baichuan-7b | [code](https://github.com/baichuan-inc/baichuan-7B) | [blog](https://mp.weixin.qq.com/s/_eTkDGG5DmxyWeiQ6DIxBw)，[Hugging Face model](https://huggingface.co/YeungNLP/firefly-baichuan-7b-qlora-sft)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) | 
-| baichuan-13b-Chat |  | [code](https://github.com/percent4/document_qa_with_llm) | [blog](https://mp.weixin.qq.com/s/wStOyHPd8c7V0ug1Qebryw) |  
+| firefly-baichuan-7b-qlora-sft | baichuan-7b |  |  | [blog](https://mp.weixin.qq.com/s/_eTkDGG5DmxyWeiQ6DIxBw)，[Hugging Face model](https://huggingface.co/YeungNLP/firefly-baichuan-7b-qlora-sft)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) |  |  | [code](https://github.com/baichuan-inc/baichuan-7B) |
+| baichuan-13b-Chat |  |  |  | [blog](https://mp.weixin.qq.com/s/wStOyHPd8c7V0ug1Qebryw) |  |  | [code](https://github.com/percent4/document_qa_with_llm) |
 | Baichuan2 |  |  |  | [Baichuan2技术报告](https://cdn.baichuan-ai.com/paper/Baichuan2-technical-report.pdf)，[SuperCLUE评测效果](https://mp.weixin.qq.com/s/SV7COWNu9uGnpOBzVYCyog) | 7，13 |  | [Baichuan2 Code](https://github.com/baichuan-inc/Baichuan2) | 2.6T |  |  |  |  |  |  | 
 
 ### ChatGLM and extensions
