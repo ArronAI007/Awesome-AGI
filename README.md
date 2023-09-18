@@ -59,13 +59,21 @@
 
 ## LLM DataSet
 
+DataSet目录会介绍更多关于大模型数据集方面的事情，比如开源的数据集下载地址或者一些大模型pre-trained、SFT以及RLHF的数据处理，请参考[DataSet](https://github.com/ArronAI007/Awesome-AGI/tree/main/DataSet/README.md)
+
 ## LLM LangChain
 
+LangChain目录会介绍关于LangChain的相关笔记和课程，请参考[LangChain](https://github.com/ArronAI007/Awesome-AGI/tree/main/LangChain/README.md)
+
 ## LLM Model List
+
+Model List目录会对介绍baichuan、ChatGLM和LLaMA模型及其扩展模型，并且会对目前主流的LLM按照功能和应用领域进行分类整理，请参考[Model List](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-List/README.md)
 
 ## LLM Open Tool
 
 ### LLM Fine Tune
+
+Fine Tune目录会介绍更多关于LLM微调的脚步以及开源工具或者平台的使用案例，请参考[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)
 
 ### LLM Deployment
 
@@ -74,7 +82,10 @@
 | BentoML |  | [BentoML Code](https://github.com/bentoml/BentoML) |  |  
 | CLIP-API-service |  |  |  |  
 | CTranslate2 |  |  |  |  
-| DeepSpeed-MII |  |  |  |  
+| DeepSpeed-MII |  |  |  | 
+| FastLLM |  |  |  |   
+| Huggingface |  |  |  |   
+| JittorLLM |  |  |  |   
 | LightLLM |  |  |  |  
 | LMDeploy |  |  |  |  
 | MLC LLM |  |  |  |  
