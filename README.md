@@ -17,11 +17,10 @@
   - [datasets for pre-training](#datasets-for-pre-training)
   - [datasets for instruction-tuning](#datasets-for-instruction-tuning)
   - [datasets for alignment-tuning](#datasets-for-alignment-tuning)
-- [Prompt Engineering](#Prompt-Engineering)
-- [Open Tool](#Open-Tool)
+- [LLM Concepts](#LLM-Concepts)
+  - [Prompt Engineering](#Prompt-Engineering)
   - [Fine Tune](#Fine-Tune)
   - [Deployment](#Deployment)
-- [LLM Concepts](#LLM-Concepts)
   - [RLHF](#RLHF)
   - [扩词表](#扩词表)
 - [LangChain](#LangChain)
@@ -90,19 +89,29 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 | --- | --- | --- | --- | --- | ---- | 
 | OpenAssistant Conversations Dataset | 2023/04 | [OpenAssistant Conversations - Democratizing Large Language Model Alignment](https://drive.google.com/file/d/10iR5hKwFqAKhL3umx8muOWSRm7hs5FqX/view) | [oasst1](https://huggingface.co/datasets/OpenAssistant/oasst1) | 161 | Apache 2.0 |
 
----
-
 **更多请参考**【[DataSet](https://github.com/ArronAI007/Awesome-AGI/tree/main/DataSet/README.md)】
 
-## Prompt Engineering
+---
+
+## LLM Concepts
+
+### Prompt Engineering
 
 整理关于LLM Prompt的脚本以及开源工具或者平台的使用案例，更多请参考【[Prompt Engineering](https://github.com/ArronAI007/Awesome-AGI/tree/main/Prompt-Engineering/README.md)】
-
-## Open Tool
 
 ### Fine Tune
 
 整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)】
+
+
+
+### RLHF
+
+### 扩词表
+
+【LLM大模型之基于SentencePiece扩充LLaMa中文词表实践】【[blog](https://mp.weixin.qq.com/s/N1mJ0gfDgNzztO55D-QNVg)】
+
+---
 
 ### Deployment
 
@@ -121,16 +130,6 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 | OneDiffusion |  |  |  |  
 | OpenLLM |  |  |  |  
 | Ray Serve |  |  |  |  
-
----
-
-## LLM Concepts
-
-### RLHF
-
-### 扩词表
-
-【LLM大模型之基于SentencePiece扩充LLaMa中文词表实践】【[blog](https://mp.weixin.qq.com/s/N1mJ0gfDgNzztO55D-QNVg)】
 
 ---
 
