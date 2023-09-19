@@ -6,12 +6,12 @@ Model Survey mainly includes Universal LLMs and Domain LLMs, In terms of Univers
 
 ![ChatGPT_family](https://i.postimg.cc/GtZmmjG2/chatgpt-3.jpg)
 
-## baichuan and extensions
+## baichuan Alternatives
 
 | Target Model | Release Date | Source Model | Optimization | Checkpoints | Paper/Blog | Params (B) | Context Length | Code | Tokens | Tokenizer | Vocab size | Position Embedding | Layer Normalization | Activation Function | Attention |
 | --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- | --- | 
-| baichuan-7b | 2023/6/15 |  |  | [Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary)，[hugging face](https://huggingface.co/baichuan-inc/baichuan-7B) | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ) | [7](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-Lists/model-params.md) | 4096 | [baichuan-7b Code](https://github.com/baichuan-inc/baichuan-7B)，[baichuan-7b Demo](https://huggingface.co/baichuan-inc/baichuan-7B) |1.2T | BPE | 64000 | RoPE | Pre RMS Norm |  SwiGLU | Flash-attention |
-| baichuan-13b | 2023/7/11 |  |  | [hugging face Base](https://huggingface.co/baichuan-inc/Baichuan-13B-Base)，[hugging face Chat](https://huggingface.co/baichuan-inc/Baichuan-13B-Chat)，[modelscope Base](https://modelscope.cn/models/baichuan-inc/Baichuan-13B-Base)，[modelscope Chat](https://modelscope.cn/models/baichuan-inc/Baichuan-13B-Chat) | [baichuan-13b blog](https://mp.weixin.qq.com/s/Px4h2r3VIAFI5vfjXxROxg)，[百川大模型【Baichuan-13B】 多卡训练微调记录](https://mp.weixin.qq.com/s/EUZA6Lt-OcI170md9lXH1g) | [13](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-Lists/model-params.md) | 4096 | [baichuan-13b Code](https://github.com/baichuan-inc/Baichuan-13B) | 1.4T |  | 64000 | ALiBi | RMSNorm |  | Flash-attention |
+| baichuan-7b | 2023/6/15 |  |  | [Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary)，[hugging face](https://huggingface.co/baichuan-inc/baichuan-7B) | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ) | [7](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-List/model-params.md) | 4096 | [baichuan-7b Code](https://github.com/baichuan-inc/baichuan-7B)，[baichuan-7b Demo](https://huggingface.co/baichuan-inc/baichuan-7B) |1.2T | BPE | 64000 | RoPE | Pre RMS Norm |  SwiGLU | Flash-attention |
+| baichuan-13b | 2023/7/11 |  |  | [hugging face Base](https://huggingface.co/baichuan-inc/Baichuan-13B-Base)，[hugging face Chat](https://huggingface.co/baichuan-inc/Baichuan-13B-Chat)，[modelscope Base](https://modelscope.cn/models/baichuan-inc/Baichuan-13B-Base)，[modelscope Chat](https://modelscope.cn/models/baichuan-inc/Baichuan-13B-Chat) | [baichuan-13b blog](https://mp.weixin.qq.com/s/Px4h2r3VIAFI5vfjXxROxg)，[百川大模型【Baichuan-13B】 多卡训练微调记录](https://mp.weixin.qq.com/s/EUZA6Lt-OcI170md9lXH1g) | [13](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-List/model-params.md) | 4096 | [baichuan-13b Code](https://github.com/baichuan-inc/Baichuan-13B) | 1.4T |  | 64000 | ALiBi | RMSNorm |  | Flash-attention |
 | baichuan-53b | 2023/8/8 |  | --- | --- |--- | 53（用于搜索） | --- | [baichuan Demo](https://chat.baichuan-ai.com/home) | --- | --- | --- | --- | --- | --- | --- | 
 | fireballoon/baichuan-vicuna-chinese-7b |  | baichuan-7b |  |  | | |  | |  |  |  |  |  |  |  | 
 | fireballoon/baichuan-vicuna-7b |  | baichuan-7b |  |  | | |  | |  |  |  |  |  |  |  | 
@@ -20,7 +20,7 @@ Model Survey mainly includes Universal LLMs and Domain LLMs, In terms of Univers
 | Baichuan2 |  |  |  | [Baichuan2](https://huggingface.co/baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints) | [Baichuan2技术报告](https://cdn.baichuan-ai.com/paper/Baichuan2-technical-report.pdf)，[SuperCLUE评测效果](https://mp.weixin.qq.com/s/SV7COWNu9uGnpOBzVYCyog) | 7，13 |  | [Baichuan2 Code](https://github.com/baichuan-inc/Baichuan2) | 2.6T |  |  |  |  |  |  | 
 | firefly-baichuan-13b | --- | baichuan-13b-base | QLoRA |--- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- | --- | 
 
-## ChatGLM and extensions
+## ChatGLM Alternatives
 
 | Model/Description| Paper | Code | Blog | Tokens |  Tokenizer | Vocabulary | Position Embedding | Layer Normalization | Activation Function | Attention |
 | --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- | 
@@ -33,7 +33,7 @@ Model Survey mainly includes Universal LLMs and Domain LLMs, In terms of Univers
 | one-shot微调chatglm-6b实践信息抽取 |  |  | [blog](https://mp.weixin.qq.com/s/l7lCbdJ9XGzLPTb3zKDAzQ) | 
 | Falcon |  |  | [blog1](https://mp.weixin.qq.com/s/jbRRjG2ferhFPWsMtCaJyg)，[blog2](https://mp.weixin.qq.com/s/Vy_xWBuZU0AaaPMCIhKIyw) | 1.5T |  | 65024 | | Pre LN | GeLU | MQA |
 
-## LLaMA and extensions
+## LLaMA Alternatives
 
 | Target Model | Source Model | Optimization | Checkpoints | Paper/Blog | Params (B) | Context Length | Code | Tokens | Tokenizer | Vocabulary | Position Embedding | Layer Normalization | Activation Function | Attention |
 | --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- | 

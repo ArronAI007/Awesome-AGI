@@ -12,17 +12,20 @@
 
 ## Table of Context
 - [LLM 体验效果](#LLM-体验效果)
-- [LLM Agent](#LLM-Agent)
-- [LLM DataSet](#LLM-DataSet)
-  - [LLM datasets for pre-training](#LLM-datasets-for-pre-training)
-  - [LLM datasets for instruction-tuning](#LLM-datasets-for-instruction-tuning)
-  - [LLM datasets for alignment-tuning](#LLM-datasets-for-alignment-tuning)
-- [LLM LangChain](#LLM-LangChain)
-- [LLM Model List](#LLM-Model-List)
-- [LLM Open Tool](#LLM-Open-Tool)
-  - [LLM Fine Tune](#LLM-Fine-Tune)
-  - [LLM Deployment](#LLM-Deployment)
-- [LLM Prompt Engineering](#LLM-Prompt-Engineering)
+- [Model List](#Model-List)
+- [DataSet](#DataSet)
+  - [datasets for pre-training](#datasets-for-pre-training)
+  - [datasets for instruction-tuning](#datasets-for-instruction-tuning)
+  - [datasets for alignment-tuning](#datasets-for-alignment-tuning)
+- [Prompt Engineering](#Prompt-Engineering)
+- [Open Tool](#Open-Tool)
+  - [Fine Tune](#Fine-Tune)
+  - [Deployment](#Deployment)
+- [LLM Concepts](#LLM-Concepts)
+  - [RLHF](#RLHF)
+  - [扩词表](#扩词表)
+- [LangChain](#LangChain)
+- [Agent](#Agent)
 
 ## LLM 体验效果
 
@@ -42,27 +45,19 @@
 | GPT4 | ChatGPT | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485952&idx=2&sn=e54a62e358bf7aee3c007d59600fd452&chksm=ced549e4f9a2c0f2868eb8877c14fbe287a469e63b09774cefcb9edc4c0601016f6d36561973&token=666852558&lang=zh_CN#rd)|
 | GPT4 | Claude2 | [对比效果1](https://mp.weixin.qq.com/s/dj2_WlWVpGwYsa8kO-GRFQ)，[对比效果2](https://mp.weixin.qq.com/s/Xo3XXQ5zYPmDxBYivhBYqA)|
 
-## LLM Agent
+---
 
-| Description| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| AgentGPT |  | [AgentGPT Code](https://github.com/reworkd/AgentGPT) | [AgentGPT Chat](https://agentgpt.reworkd.ai/zh)，[AgentGPT docs](https://docs.reworkd.ai/introduction) |  
-| AI Legion |  | [AI Legion Chat](https://github.com/eumemic/ai-legion) |  |  
-| AutoGPT |  | [AutoGPT Code](https://github.com/Significant-Gravitas/Auto-GPT) | [AutoGPT docs](https://docs.agpt.co/setup/) ，[AutoGPT blog](https://generativeai.pub/complete-guide-to-setup-autogpt-revolutionize-your-task-automation-with-gpt-4-39eda5a85821?gi=ea5c40bac6fd) |  
-| BabyAGI |  | [BabyAGI Code](https://github.com/yoheinakajima/babyagi) | [BabyAGI docs](https://babyagi.org/) |  
-| CAMEL |  | [CAMEL Code](https://github.com/camel-ai/camel) | [CAMEL Chat](http://agents.camel-ai.org/)，[CAMEL docs](https://www.camel-ai.org/) |  
-| Do Anything Machine |  |  | [Do Anything Machine Chat](https://www.doanythingmachine.com/) |  
-| Generative Agents | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | [GPTRPG Code](https://github.com/dzoba/gptrpg) |  | 
-| Godmode |  |  | [Godmode Chat](https://godmode.space/) |  
-| GPT-Engineer |  | [GPT-Engineer Code](https://github.com/AntonOsika/gpt-engineer) |  |   
-| HuggingGPT |  | [HuggingGPT Code](https://github.com/microsoft/JARVIS) | [HuggingGPT Chat](https://huggingface.co/spaces/microsoft/HuggingGPT) |  
-| MetaGPT |  | [MetaGPT Code](https://github.com/geekan/MetaGPT) |  | 
-| NexusGPT |  |  | [NexusGPT Chat](https://nexus.snikpic.io/) |  
-| Toolformer | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/pdf/2302.04761.pdf) |  | [Toolformer blog](https://www.sensorexpert.com.cn/article/194585.html) |  
+## Model List
 
-## LLM DataSet
+整理主流大模型baichuan、ChatGLM和LLaMA及其扩展模型的一些细节，并且会对目前主流的LLM按照功能和应用领域进行分类整理，更多请参考【[Model List](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-List/README.md)】。
 
-### LLM datasets for pre-training
+dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可以参考：【[ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained)】
+
+---
+
+## DataSet
+
+### datasets for pre-training
 
 | Name | Release Date | Paper/Blog | Dataset | Tokens (T) | License |
 | --- | --- | --- | --- | --- | ---- | 
@@ -79,7 +74,7 @@
 
 ---
 
-### LLM datasets for instruction-tuning
+### datasets for instruction-tuning
 
 | Name | Release Date | Paper/Blog | Dataset | Tokens (T) | License |
 | --- | --- | --- | --- | --- | ---- | 
@@ -89,7 +84,7 @@
 
 ---
 
-### LLM datasets for alignment-tuning
+### datasets for alignment-tuning
 
 | Name | Release Date | Paper/Blog | Dataset | Tokens (T) | License |
 | --- | --- | --- | --- | --- | ---- | 
@@ -99,21 +94,17 @@
 
 **更多请参考**【[DataSet](https://github.com/ArronAI007/Awesome-AGI/tree/main/DataSet/README.md)】
 
-## LLM LangChain
+## Prompt Engineering
 
-整理关于LangChain的相关笔记和课程，更多请参考[LangChain](https://github.com/ArronAI007/Awesome-AGI/tree/main/LangChain/README.md)
+整理关于LLM Prompt的脚本以及开源工具或者平台的使用案例，更多请参考【[Prompt Engineering](https://github.com/ArronAI007/Awesome-AGI/tree/main/Prompt-Engineering/README.md)】
 
-## LLM Model List
+## Open Tool
 
-整理了主流大模型baichuan、ChatGLM和LLaMA及其扩展模型的一些细节，并且会对目前主流的LLM按照功能和应用领域进行分类整理，更多请参考[Model List](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-List/README.md)
+### Fine Tune
 
-## LLM Open Tool
+整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)】
 
-### LLM Fine Tune
-
-整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)
-
-### LLM Deployment
+### Deployment
 
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
@@ -131,9 +122,43 @@
 | OpenLLM |  |  |  |  
 | Ray Serve |  |  |  |  
 
-## LLM Prompt Engineering
+---
 
-整理关于LLM Prompt的脚本以及开源工具或者平台的使用案例，更多请参考[Prompt Engineering](https://github.com/ArronAI007/Awesome-AGI/tree/main/Prompt-Engineering/README.md)
+## LLM Concepts
+
+### RLHF
+
+### 扩词表
+
+【LLM大模型之基于SentencePiece扩充LLaMa中文词表实践】【[blog](https://mp.weixin.qq.com/s/N1mJ0gfDgNzztO55D-QNVg)】
+
+---
+
+## LangChain
+
+整理关于LangChain的相关笔记和课程，更多请参考【[LangChain](https://github.com/ArronAI007/Awesome-AGI/tree/main/LangChain/README.md)】
+
+---
+
+## Agent
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| AgentGPT |  | [AgentGPT Code](https://github.com/reworkd/AgentGPT) | [AgentGPT Chat](https://agentgpt.reworkd.ai/zh)，[AgentGPT docs](https://docs.reworkd.ai/introduction) |  
+| AI Legion |  | [AI Legion Chat](https://github.com/eumemic/ai-legion) |  |  
+| AutoGPT |  | [AutoGPT Code](https://github.com/Significant-Gravitas/Auto-GPT) | [AutoGPT docs](https://docs.agpt.co/setup/) ，[AutoGPT blog](https://generativeai.pub/complete-guide-to-setup-autogpt-revolutionize-your-task-automation-with-gpt-4-39eda5a85821?gi=ea5c40bac6fd) |  
+| BabyAGI |  | [BabyAGI Code](https://github.com/yoheinakajima/babyagi) | [BabyAGI docs](https://babyagi.org/) |  
+| CAMEL |  | [CAMEL Code](https://github.com/camel-ai/camel) | [CAMEL Chat](http://agents.camel-ai.org/)，[CAMEL docs](https://www.camel-ai.org/) |  
+| Do Anything Machine |  |  | [Do Anything Machine Chat](https://www.doanythingmachine.com/) |  
+| Generative Agents | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | [GPTRPG Code](https://github.com/dzoba/gptrpg) |  | 
+| Godmode |  |  | [Godmode Chat](https://godmode.space/) |  
+| GPT-Engineer |  | [GPT-Engineer Code](https://github.com/AntonOsika/gpt-engineer) |  |   
+| HuggingGPT |  | [HuggingGPT Code](https://github.com/microsoft/JARVIS) | [HuggingGPT Chat](https://huggingface.co/spaces/microsoft/HuggingGPT) |  
+| MetaGPT |  | [MetaGPT Code](https://github.com/geekan/MetaGPT) |  | 
+| NexusGPT |  |  | [NexusGPT Chat](https://nexus.snikpic.io/) |  
+| Toolformer | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/pdf/2302.04761.pdf) |  | [Toolformer blog](https://www.sensorexpert.com.cn/article/194585.html) |  
+
+---
 
 ## 欢迎共创
 
