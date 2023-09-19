@@ -19,10 +19,11 @@
   - [datasets for alignment-tuning](#datasets-for-alignment-tuning)
 - [LLM Concepts](#LLM-Concepts)
   - [Prompt Engineering](#Prompt-Engineering)
-  - [Fine Tune](#Fine-Tune)
-  - [Deployment](#Deployment)
+  - [CoT](#CoT)
   - [RLHF](#RLHF)
   - [扩词表](#扩词表)
+  - [Fine Tune](#Fine-Tune)
+  - [Deployment](#Deployment)
 - [LangChain](#LangChain)
 - [Agent](#Agent)
 
@@ -99,11 +100,7 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 
 整理关于LLM Prompt的脚本以及开源工具或者平台的使用案例，更多请参考【[Prompt Engineering](https://github.com/ArronAI007/Awesome-AGI/tree/main/Prompt-Engineering/README.md)】
 
-### Fine Tune
-
-整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)】
-
-
+### CoT
 
 ### RLHF
 
@@ -112,6 +109,10 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 【LLM大模型之基于SentencePiece扩充LLaMa中文词表实践】【[blog](https://mp.weixin.qq.com/s/N1mJ0gfDgNzztO55D-QNVg)】
 
 ---
+
+### Fine Tune
+
+整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)】
 
 ### Deployment
 
@@ -130,6 +131,8 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 | OneDiffusion |  |  |  |  
 | OpenLLM |  |  |  |  
 | Ray Serve |  |  |  |  
+
+【LLM大语言模型之Generate/Inference（生成/推理）中参数与解码策略原理及其代码实现】【[blog](https://mp.weixin.qq.com/s/BbWjr8mr3Iu_JLCK0x2rcA)】
 
 ---
 
