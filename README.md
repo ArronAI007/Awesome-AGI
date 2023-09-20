@@ -115,6 +115,8 @@ Some examples of **Prompt Engineering** as follows：
 
 更多请参考【[Prompt Engineering](https://github.com/ArronAI007/Awesome-AGI/tree/main/Prompt-Engineering/README.md)】
 
+---
+
 ### CoT
 
 ### RLHF
@@ -149,6 +151,8 @@ Some examples of **Prompt Engineering** as follows：
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
 | 腾讯AILab等《大型语言模型中的幻觉》，全面阐述检测、解释和减轻幻觉 | [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://www.zhuanzhi.ai/paper/61ebe9c5007cf1373b900452ad52f0ae) | [code](https://github.com/HillZhang1999/llm-hallucination-survey) | [blog](https://mp.weixin.qq.com/s/GrN0FO_HrEk4GMYdJWJCMQ) |  
+
+---
 
 ### LLM 可控性与安全
 
@@ -185,6 +189,9 @@ Some examples of **Prompt Engineering** as follows：
 | 一个专为**教育**者打造的全新 AI 检测模型 |  |  | [blog](https://gptzero.substack.com/p/gptzerox) |  
 | OpenAI重磅发布官方「ChatGPT检测器」 |  |  | [blog](https://mp.weixin.qq.com/s/EcZE7TgHspf22rPRWhAybw) |  
 | 斯坦福最新研究：不要过度依赖GPT生成内容，其检测器可能存在不利于非母语英语写作者的偏见 | [paper](https://arxiv.org/abs/2304.02819) |  |  |  
+| TUM发布最新《检测ChatGPT生成文本现状》综述 | [paper](https://arxiv.org/abs/2309.07689) |  |  |  
+
+---
 
 ### Fine Tune
 
