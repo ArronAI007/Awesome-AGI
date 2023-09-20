@@ -103,6 +103,16 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 
 ### Prompt Engineering
 
+| FrameWork | Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| AoT | [Algorithm of Thoughts: Enhancing Exploration of Ideas in Large Language Models](https://arxiv.org/abs/2308.10379) |  |  |  
+| CoT | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) |  |  |  
+| CoTSC | [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171) |  |  |  
+| GoT | [Graph of Thoughts: Solving Elaborate Problems with Large Language Models](https://arxiv.org/abs/2308.09687) |  |  |  
+| PoT | [Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks](https://arxiv.org/abs/2211.12588) |  |  |  
+| SoT | [Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding](https://arxiv.org/abs/2307.15337) |  |  |  
+| ToT | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) |  |  |  
+
 Some examples of **Prompt Engineering** as follows：
 
 | Description| Paper | Code | Blog |
@@ -114,22 +124,6 @@ Some examples of **Prompt Engineering** as follows：
 | 指令学习综述｜ChatGPT背后的指令学习是什么 | [Is Prompt All You Need? No. A Comprehensive and Broader View of Instruction Learning](https://arxiv.org/pdf/2303.10475v2.pdf) | | [blog](https://mp.weixin.qq.com/s/BK30JkIlshwkdHRjaRCD2g) | 
 
 更多请参考【[Prompt Engineering](https://github.com/ArronAI007/Awesome-AGI/tree/main/Prompt-Engineering/README.md)】
-
----
-
-### CoT
-
-| Description| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| AoT | [Algorithm of Thoughts: Enhancing Exploration of Ideas in Large Language Models](https://arxiv.org/abs/2308.10379) | --- | --- |  
-| CoT | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) | --- | --- |  
-| CoTSC | [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171) | --- | --- |  
-| GoT | [Graph of Thoughts: Solving Elaborate Problems with Large Language Models](https://arxiv.org/abs/2308.09687) | --- | --- |  
-| PoT | [Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks](https://arxiv.org/abs/2211.12588) | --- | --- |  
-| SoT | [Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding](https://arxiv.org/abs/2307.15337) | --- | --- |  
-| ToT | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) |  |  |  
-
-【一文总结提示工程框架，除了CoT还有ToT、GoT、AoT、SoT、PoT】[[blog](https://mp.weixin.qq.com/s/8H0XRns7jmS4OdbFQ2aZKA)]
 
 ---
 
