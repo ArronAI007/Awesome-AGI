@@ -50,6 +50,23 @@
 
 
 
+### LLM DataSets
+
+Some examples of **DataSets** as follows：
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| 一篇关于LLM指令微调的综述 | [paper](https://arxiv.org/pdf/2308.10792.pdf) |  | [blog](https://mp.weixin.qq.com/s/7pqBvgF1BWDFxP5hajmBNw) |  
+| 智源研究院发布国内首个大规模、可商用中文开源指令数据集COIG：最大规模中文多任务指令集，上新千个中文数据集 | [paper](https://arxiv.org/pdf/2304.07987.pdf) |  | [blog](https://mp.weixin.qq.com/s/PvJa8dPHk6aGEv1G1B3PUw)，[COIG-PC数据下载地址](https://huggingface.co/datasets/BAAI/COIG-PC)，[COIG数据下载地址](https://huggingface.co/datasets/BAAI/COIG) |  
+| 总结当前开源可用的Instruct/Prompt Tuning数据 |  |  | [blog](https://mp.weixin.qq.com/s/vDbTJo3F7sy3-NY8xxg8jw) |  
+| GPT-4平替版：MiniGPT-4，支持图像理解和对话，现已开源 |  |  | [dataset](https://drive.google.com/file/d/1nJXhoEcy3KTExr17I7BXqY5Y9Lx_-n-9/view) |  
+| 多模态C4：一个开放的、10亿规模的、与文本交错的图像语料库 | [paper](https://arxiv.org/abs/2304.06939) | [code](https://github.com/allenai/mmc4) |  |  
+| Mind2Web: 首个全面衡量大模型上网能力的数据集 |  |  | [blog](https://mp.weixin.qq.com/s/vge4CJbBfLXFIYYyNC12Hw) |  
+| 该数据集是一个由人工生成、人工注释的助理式对话语料库，覆盖了广泛的主题和写作风格，由 161443 条消息组成，分布在 66497 个会话树中，使用 35 种不同的语言。该语料库是全球众包工作的产物，涉及超过 13500 名志愿者。为了证明 OpenAssistant Conversations 数据集的有效性，该研究还提出了一个基于聊天的助手 OpenAssistant，其可以理解任务、与第三方系统交互、动态检索信息。 | [paper](https://drive.google.com/file/d/10iR5hKwFqAKhL3umx8muOWSRm7hs5FqX/view ) | [code](https://github.com/LAION-AI/Open-Assistant) | [dataset](https://huggingface.co/datasets/OpenAssistant/oasst1) |  
+| 为了让Panda LLM在中文数据集上获得强大的性能，作者使用了强大的指令微调instruction-tuning技术，将LLaMA基础模型在五个开源的中文数据集进行混合训练，其中包括来自各种语言领域的1530万个样本，例如维基百科语料，新闻语料，百科问答语料，社区问答语料，和翻译语料。 |  |  | [blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ) |  
+| RedPajama开源项目｜复制超过1.2万亿个令牌的LLaMA训练数据集 |  | [code](https://github.com/togethercomputer/RedPajama-Data) | [原始blog](https://www.together.xyz/blog/redpajama)，[中文blog](https://hub.baai.ac.cn/view/25485)，[dataset](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T) |  
+
+**Complete Content**: please refer to [DataSets](https://github.com/ArronAI007/Awesome-AGI/tree/main/DataSets/README.md)
 
 
 

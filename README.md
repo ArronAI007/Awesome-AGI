@@ -21,7 +21,12 @@
   - [Prompt Engineering](#Prompt-Engineering)
   - [CoT](#CoT)
   - [RLHF](#RLHF)
-  - [扩词表](#扩词表)
+  - [LLM 扩词表](#LLM-扩词表)
+  - [LLM 长文本](#LLM-长文本)
+  - [LLM 幻觉](#LLM-幻觉)
+  - [LLM 可控性与安全](#LLM-可控性与安全)
+  - [LLM 问答](#LLM-问答)
+  - [LLM 文本检测](#LLM-文本检测)
   - [Fine Tune](#Fine-Tune)
   - [Deployment](#Deployment)
 - [LangChain](#LangChain)
@@ -98,17 +103,88 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 
 ### Prompt Engineering
 
-整理关于LLM Prompt的脚本以及开源工具或者平台的使用案例，更多请参考【[Prompt Engineering](https://github.com/ArronAI007/Awesome-AGI/tree/main/Prompt-Engineering/README.md)】
+Some examples of **Prompt Engineering** as follows：
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| OpenAI 应用人工智能研究负责人Lilian Weng新博文：关于提示工程的介绍 | |  | [blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) | 
+| Prompt Engineering全面自动化 | | | [blog](https://mp.weixin.qq.com/s/aj8Ls463jpF92ssn6Acwzg) | 
+| ChatGPT提示示例集合 | [huggingface](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts) | [ChatGPT提示示例集合](https://github.com/f/awesome-chatgpt-prompts/) | [主页](https://prompts.chat) | 
+| ChatGPT Prompt工程：设计、实践与思考 | | | [blog](https://mp.weixin.qq.com/s/a8hjzZ_Rzl6pOU1PRAARJQ) | 
+| 指令学习综述｜ChatGPT背后的指令学习是什么 | [Is Prompt All You Need? No. A Comprehensive and Broader View of Instruction Learning](https://arxiv.org/pdf/2303.10475v2.pdf) | | [blog](https://mp.weixin.qq.com/s/BK30JkIlshwkdHRjaRCD2g) | 
+
+更多请参考【[Prompt Engineering](https://github.com/ArronAI007/Awesome-AGI/tree/main/Prompt-Engineering/README.md)】
 
 ### CoT
 
 ### RLHF
 
-### 扩词表
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| 复现RLHF：通过开源项目 trl 搭建一个通过强化学习算法（PPO）来更新语言模型（GPT-2） |  | [code](https://github.com/HarderThenHarder/transformers_tasks/tree/main/RLHF) | [blog](https://mp.weixin.qq.com/s/1v4Uuc1YAZ9MRr1UWMH9xw) |  
+| 详解大模型RLHF过程（配代码解读） |  |  | [blog](https://mp.weixin.qq.com/s/2M3igy7Ctk2LAdNQLSO5tg) |  
+| 想训练ChatGPT？得先弄明白Reward Model怎么训（附源码） |  |  | [blog](https://mp.weixin.qq.com/s/1v4Uuc1YAZ9MRr1UWMH9xw) |  
+
+---
+
+### LLM 扩词表
 
 【LLM大模型之基于SentencePiece扩充LLaMa中文词表实践】【[blog](https://mp.weixin.qq.com/s/N1mJ0gfDgNzztO55D-QNVg)】
 
 ---
+
+### LLM 长文本
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| Transformer升级之路：一种全局长度外推的新思路 |  |  | [blog](https://mp.weixin.qq.com/s/YJ647EUfzWaJsGoMdgsguA) |  
+| ChatGPT能写长篇小说了，ETH提出RecurrentGPT实现交互式超长文本生成 | [paper](https://arxiv.org/abs/2305.13304) | [code](https://github.com/aiwaves-cn/RecurrentGPT) | [blog](https://mp.weixin.qq.com/s/5UVTwSWgoz7uhozMeps3EQ)，[demo1](https://www.aiwaves.org/recurrentgpt (长篇小说写作))，[demo2](https://www.aiwaves.org/interactivefiction (交互式小说)) |  
+| 语言大模型100K上下文窗口的秘诀 |  |  | [blog](https://mp.weixin.qq.com/s/_i0eQgYNSLJydv3qOTqr-Q) |  
+| RoPE可能是LLM时代的Resnet |  |  | [blog](https://mp.weixin.qq.com/s/BVm1XC7r1yzOiWIrEbWg3A) |  
+
+---
+
+### LLM 幻觉
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| 腾讯AILab等《大型语言模型中的幻觉》，全面阐述检测、解释和减轻幻觉 | [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://www.zhuanzhi.ai/paper/61ebe9c5007cf1373b900452ad52f0ae) | [code](https://github.com/HillZhang1999/llm-hallucination-survey) | [blog](https://mp.weixin.qq.com/s/GrN0FO_HrEk4GMYdJWJCMQ) |  
+
+### LLM 可控性与安全
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| 微软提出Control-GPT：用GPT-4实现可控文本到图像生成！ | [paper](https://arxiv.org/abs/2305.18583) |  |  [blog](https://mp.weixin.qq.com/s/U3eWeGOEt9nhW-Xwbuah9w)|  
+| AIGC如何安全可控?中山大学等最新《AIGC中对隐私和安全的挑战及其补救措施：探索隐私计算、区块链潜在应用》全面阐述 | [paper](https://www.zhuanzhi.ai/paper/0dd95e1d5aae9eb2e60aabf36a107482) |  | [blog](https://mp.weixin.qq.com/s/V8QjMQSO2tX6PFx_LfLIEA) |  
+| ControlVideo: 可控的Training-free的文本生成视频 | [paper](https://arxiv.org/pdf/2305.13077.pdf) | [code](https://github.com/YBYBZhang/ControlVideo) | [blog](https://mp.weixin.qq.com/s/CAH6u-MT3cFM359d5_Xpxg) |  
+| 大模型切脑后变身PoisonGPT，虚假信息案例 |  | [code](https://colab.research.google.com/drive/16RPph6SobDLhisNzA5azcP-0uMGGq10R?usp=sharing&ref=blog.mithrilsecurity.io) | [blog](https://hub.baai.ac.cn/view/27736) |  
+| ChatGPT羊驼家族全沦陷！CMU博士击破LLM护栏，人类毁灭计划脱口而出 | [paper](https://arxiv.org/abs/2307.15043) | [code](https://github.com/llm-attacks/llm-attacks) | [blog](https://mp.weixin.qq.com/s/298nwP98UdRNybV2Fuo6Wg) |  
+
+---
+
+### LLM 问答
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| 基于大语言模型的智能问答系统应该包含哪些环节？ |  | [OpenAI 的审核函数接口 Moderation API](https://platform.openai.com/docs/guides/moderation)  | [blog](https://mp.weixin.qq.com/s/pXEyFHEv1pcqwMNhveneew) |  
+| 搭建本地的chatpdf（原理，文档处理，语义搜索等） |  |  | [blog](https://mp.weixin.qq.com/s/aW7r4i54coW26RMsTdAQ5g) |  
+| 如何避免大语言模型绕过知识库乱答的情况？LlamaIndex 原理与应用简介 |  |  | [官方blog](https://betterprogramming.pub/llamaindex-how-to-use-index-correctly-6f928b8944c6)，[中文blog](https://mp.weixin.qq.com/s/D6_pUv7hHZHRrKSXqo0u2w) |  
+| 使用 Langchain 和 Azure OpenAI 构建一个聊天机器人来查询您的文档 |  |  | [blog](https://mp.weixin.qq.com/s/LeUuq6O5uIJPmrrYYtTaqA) |  
+| 一文搞懂LangChain是什么 |  |  | [blog](https://mp.weixin.qq.com/s/vLlS17AYe4lM95KrG5sFyQ) |  
+
+---
+
+### LLM 文本检测
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| 美国麻省大学&谷歌研究院：改写文本可以避开AI生成文本的检测器，但检索则是一种有效的防御 | [paper](https://papers.labml.ai/api/v1/redirect/pdf?paper_key=2cfe8cecc9f211edb95839eec3084ddd) | [code](https://github.com/martiansideofthemoon/ai-detection-paraphrases) |  |  
+| 人工智能生成的文本能被可靠地检测出来吗？ | [paper](https://arxiv.org/pdf/2303.11156.pdf) |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486128&idx=3&sn=e5ea32b7d7cb4c8c41f29a9ea15ac3ac&chksm=ced54954f9a2c0425a65761f1766550f6b90857da0106f6fd55f3c6773fbdbd1fc45bbb9369a&token=447941009&lang=zh_CN#rd) |  
+| DetectGPT（斯坦福大学）：利用概率曲率检测文本是否大模型生成 | [paper](https://arxiv.org/abs/2301.11305) | [code&data](https://ericmitchell.ai/detectgpt/) | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485713&idx=2&sn=805caf25603cf15dbf71949f85b9d041&chksm=ced54af5f9a2c3e3e0dffd728592fd7ab8f738869e94240daba4fad9f6ac90a2f76a6b458e3f&token=447941009&lang=zh_CN#rd) |  
+| Detecting LLM-Generated-Text综述 | [paper](https://github.com/datamllab/The-Science-of-LLM-generated-Text-Detection) |  | [blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485747&idx=1&sn=5e5029a70c54c08f6f8c40631962b1e1&chksm=ced54ad7f9a2c3c184ccb123199510bb09470e054fb5cb887e70bac204927b65e296f8921db1&token=447941009&lang=zh_CN#rd) |  
+| 一个专为**教育**者打造的全新 AI 检测模型 |  |  | [blog](https://gptzero.substack.com/p/gptzerox) |  
+| OpenAI重磅发布官方「ChatGPT检测器」 |  |  | [blog](https://mp.weixin.qq.com/s/EcZE7TgHspf22rPRWhAybw) |  
+| 斯坦福最新研究：不要过度依赖GPT生成内容，其检测器可能存在不利于非母语英语写作者的偏见 | [paper](https://arxiv.org/abs/2304.02819) |  |  |  
 
 ### Fine Tune
 
