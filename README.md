@@ -19,7 +19,6 @@
   - [datasets for alignment-tuning](#datasets-for-alignment-tuning)
 - [LLM Concepts](#LLM-Concepts)
   - [Prompt Engineering](#Prompt-Engineering)
-  - [CoT](#CoT)
   - [RLHF](#RLHF)
   - [LLM 扩词表](#LLM-扩词表)
   - [LLM 长文本](#LLM-长文本)
@@ -82,10 +81,22 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 ### datasets for instruction-tuning
 
 | Name | Release Date | Paper/Blog | Dataset | Tokens (T) | License |
-| --- | --- | --- | --- | --- | ---- | 
+| --- | --- | --- | --- | --- | --- | 
+| Baize |  |  |  |  |  | 
+| Dolly |  |  |  |  |  | 
 | databricks-dolly-15k | 2023/04 | [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm) |  [databricks-dolly-15k](https://huggingface.co/datasets/databricks/databricks-dolly-15k) | 15 |  CC BY-SA-3.0 |
+| Evol-Instruct |  |  |  |  |  | 
+| Flan 2021 |  |  |  |  |  | 
+| LIMA |  |  |  |  |  | 
 | MPT-7B-Instruct | 2023/05 | [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b) | [dolly_hhrlhf](https://huggingface.co/datasets/mosaicml/dolly_hhrlhf) | 59 | CC BY-SA-3.0 |
+| Natural Instructions |  |  |  |  |  | 
 | OIG (Open Instruction Generalist)   | 2023/03 | [THE OIG DATASET](https://laion.ai/blog/oig-dataset/) | [OIG](https://huggingface.co/datasets/laion/OIG) | 44,000 | Apache 2.0 |
+| OpenAssistant Conversations |  |  |  |  |  | 
+| P3 (Public Pool of Prompts) |  |  |  |  |  | 
+| Self-Instruct |  |  |  |  |  | 
+| Super-Natural Instructions |  |  |  |  |  | 
+| Unnatural Instructions |  |  |  |  |  | 
+| xP3 |  |  |  |  |  | 
 
 ---
 

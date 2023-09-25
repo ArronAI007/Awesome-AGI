@@ -11,7 +11,7 @@
 | RedPajama | 2023/04 | [RedPajama, a project to create leading open-source models, starts by reproducing LLaMA training dataset of over 1.2 trillion tokens](https://www.together.xyz/blog/redpajama) | [RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) |  |  | 
 | ShareGPT |  |  | [ShareGPT](https://sharegpt.com/) |  |  | 
 | starcoderdata | 2023/05 | [StarCoder: A State-of-the-Art LLM for Code](https://huggingface.co/blog/starcoder) | [starcoderdata](https://huggingface.co/datasets/bigcode/starcoderdata) |  0.25 | Apache 2.0 |
-| Stanford Alpaca |  |  | [Stanford Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) |  |  | 
+| Stanford Alpaca |  | [Stanford Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) | [Alpaca Dataset](https://github.com/gururise/AlpacaDataCleaned) |  |  | 
 
 ---
 
@@ -33,7 +33,7 @@
 
 ---
 
-## LLM Benchmark
+## LLM Evaluation Benchmark
 
 | Name | Release Date |  Paper/Blog | Dataset | Samples (K) | License |
 | --- | --- | --- | --- | --- | ---- |
@@ -66,7 +66,7 @@ Some examples of **DataSets** as follows：
 | 为了让Panda LLM在中文数据集上获得强大的性能，作者使用了强大的指令微调instruction-tuning技术，将LLaMA基础模型在五个开源的中文数据集进行混合训练，其中包括来自各种语言领域的1530万个样本，例如维基百科语料，新闻语料，百科问答语料，社区问答语料，和翻译语料。 |  |  | [blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ) |  
 | RedPajama开源项目｜复制超过1.2万亿个令牌的LLaMA训练数据集 |  | [code](https://github.com/togethercomputer/RedPajama-Data) | [原始blog](https://www.together.xyz/blog/redpajama)，[中文blog](https://hub.baai.ac.cn/view/25485)，[dataset](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T) |  
 
-**Complete Content**: please refer to [DataSets](https://github.com/ArronAI007/Awesome-AGI/tree/main/DataSets/README.md)
+
 
 
 
