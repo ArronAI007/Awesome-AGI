@@ -167,6 +167,8 @@ Some examples of **Prompt Engineering** as follows：
 
 ### LLM 幻觉
 
+解决幻觉常用的两种方法：1）不断增加模型的数据规模、提升数据质量；2）通过调用搜索等外部工具让模型能够获取实时信息。
+
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
 | 腾讯AILab等《大型语言模型中的幻觉》，全面阐述检测、解释和减轻幻觉 | [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://www.zhuanzhi.ai/paper/61ebe9c5007cf1373b900452ad52f0ae) | [code](https://github.com/HillZhang1999/llm-hallucination-survey) | [blog](https://mp.weixin.qq.com/s/GrN0FO_HrEk4GMYdJWJCMQ) |  
