@@ -28,8 +28,9 @@
   - [LLM 文本检测](#LLM-文本检测)
   - [Fine Tune](#Fine-Tune)
   - [Deployment](#Deployment)
-- [LangChain](#LangChain)
 - [Agent](#Agent)
+  - [LangChain](#LangChain)
+- [VectorDB](#VectorDB)
 
 ## LLM 体验效果
 
@@ -128,6 +129,7 @@ Some examples of **Prompt Engineering** as follows：
 
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
+| 提示词管理工具agenta |  |  | [agenta主页](https://agenta.ai/) |  
 | OpenAI 应用人工智能研究负责人Lilian Weng新博文：关于提示工程的介绍 | |  | [blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) | 
 | Prompt Engineering全面自动化 | | | [blog](https://mp.weixin.qq.com/s/aj8Ls463jpF92ssn6Acwzg) | 
 | ChatGPT提示示例集合 | [huggingface](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts) | [ChatGPT提示示例集合](https://github.com/f/awesome-chatgpt-prompts/) | [主页](https://prompts.chat) | 
@@ -240,12 +242,6 @@ Some examples of **Prompt Engineering** as follows：
 
 ---
 
-## LangChain
-
-整理关于LangChain的相关笔记和课程，更多请参考【[LangChain](https://github.com/ArronAI007/Awesome-AGI/tree/main/LangChain/README.md)】
-
----
-
 ## Agent
 
 | Model| Paper | Code | Blog |
@@ -254,6 +250,7 @@ Some examples of **Prompt Engineering** as follows：
 | AgentGPT |  | [AgentGPT Code](https://github.com/reworkd/AgentGPT) | [AgentGPT Chat](https://agentgpt.reworkd.ai/zh)，[AgentGPT docs](https://docs.reworkd.ai/introduction) | 
 | AgentVerse |  |  |  |   
 | AI Legion |  | [AI Legion Chat](https://github.com/eumemic/ai-legion) |  |  
+| AutoGen |  |  | [AutoGen blog](https://mp.weixin.qq.com/s/M7xHAA4HSH-cJG3kbvgvNg) |  
 | AutoGPT |  | [AutoGPT Code](https://github.com/Significant-Gravitas/Auto-GPT) | [AutoGPT docs](https://docs.agpt.co/setup/) ，[AutoGPT blog](https://generativeai.pub/complete-guide-to-setup-autogpt-revolutionize-your-task-automation-with-gpt-4-39eda5a85821?gi=ea5c40bac6fd) |  
 | BabyAGI |  | [BabyAGI Code](https://github.com/yoheinakajima/babyagi) | [BabyAGI docs](https://babyagi.org/) |  
 | Camel |  | [CAMEL Code](https://github.com/camel-ai/camel) | [CAMEL Chat](http://agents.camel-ai.org/)，[CAMEL docs](https://www.camel-ai.org/) |  
@@ -268,7 +265,19 @@ Some examples of **Prompt Engineering** as follows：
 | Toolformer | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/pdf/2302.04761.pdf) |  | [Toolformer blog](https://www.sensorexpert.com.cn/article/194585.html) |  
 | Xlang |  |  |  |  
 
+### LangChain
+
+整理关于LangChain的相关笔记和课程，更多请参考【[LangChain](https://github.com/ArronAI007/Awesome-AGI/tree/main/LangChain/README.md)】
+
 ---
+
+## VectorDB
+
+| Model| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| Milvus |  |  |  |  
+| Pinecone |  |  |  |  
+| Weaviate |  |  |  |  
 
 ## 欢迎共创
 
