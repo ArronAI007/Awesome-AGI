@@ -263,6 +263,7 @@ Some examples of **Prompt Engineering** as follows：
 | MetaGPT |  | [MetaGPT Code](https://github.com/geekan/MetaGPT) |  | 
 | NexusGPT |  |  | [NexusGPT Chat](https://nexus.snikpic.io/) |  
 | Toolformer | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/pdf/2302.04761.pdf) |  | [Toolformer blog](https://www.sensorexpert.com.cn/article/194585.html) |  
+| XAgent |  | [XAgent Code](https://github.com/OpenBMB/XAgent) | [XAgent官网](https://x-agent.net/)，[XAgent Blog](https://blog.x-agent.net) |  
 | Xlang |  |  |  |  
 
 ### LangChain
