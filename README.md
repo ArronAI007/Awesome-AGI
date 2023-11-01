@@ -26,6 +26,7 @@
   - [LLM 可控性与安全](#LLM-可控性与安全)
   - [LLM 问答](#LLM-问答)
   - [LLM 文本检测](#LLM-文本检测)
+  - [LLM RAG](#LLM-RAG)
   - [Fine Tune](#Fine-Tune)
   - [Deployment](#Deployment)
 - [Agent](#Agent)
@@ -90,6 +91,7 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 | Flan 2021 |  |  |  |  |  | 
 | LIMA |  |  |  |  |  | 
 | MPT-7B-Instruct | 2023/05 | [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b) | [dolly_hhrlhf](https://huggingface.co/datasets/mosaicml/dolly_hhrlhf) | 59 | CC BY-SA-3.0 |
+| MetaMathQA | 2023/09 | [MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models](https://arxiv.org/abs/2309.12284)，[MetaMathQA blog](https://mp.weixin.qq.com/s/uUauSxSTScmBhWaiXJ6jsA) | [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) | --- | --- | 
 | Natural Instructions |  |  |  |  |  | 
 | OIG (Open Instruction Generalist)   | 2023/03 | [THE OIG DATASET](https://laion.ai/blog/oig-dataset/) | [OIG](https://huggingface.co/datasets/laion/OIG) | 44,000 | Apache 2.0 |
 | OpenAssistant Conversations |  |  |  |  |  | 
@@ -120,6 +122,7 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 | AoT | [Algorithm of Thoughts: Enhancing Exploration of Ideas in Large Language Models](https://arxiv.org/abs/2308.10379) |  |  |  
 | CoT | [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903) |  |  |  
 | CoTSC | [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171) |  |  |  
+| Cue-CoT | [Cue-CoT: Chain-of-thought Prompting for Responding to In-depth Dialogue Questions with LLMs](https://arxiv.org/abs/2305.11792) | [Cue-CoT Code](https://github.com/ruleGreen/Cue-CoT) | [Cue-CoT blog](https://mp.weixin.qq.com/s/zJHZTuNPNc0jyj5OvvL3-g) |  
 | GoT | [Graph of Thoughts: Solving Elaborate Problems with Large Language Models](https://arxiv.org/abs/2308.09687) |  |  |  
 | PoT | [Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks](https://arxiv.org/abs/2211.12588) |  |  |  
 | SoT | [Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding](https://arxiv.org/abs/2307.15337) |  |  |  
@@ -216,6 +219,16 @@ Some examples of **Prompt Engineering** as follows：
 
 ---
 
+### LLM RAG
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| RAG从入门到精通-RAG简介 |  |  | [blog](https://mp.weixin.qq.com/s/bu5hRn99hAEW1QDbswo-mA) |  
+| 使用Llama index构建多代理 RAG |  |  | [blog](https://mp.weixin.qq.com/s/Hn2f2TcJrAn28IECcTE7Dg) |  
+| --- | --- | --- | --- |  
+| --- | --- | --- | --- |  
+| --- | --- | --- | --- |  
+
 ### Fine Tune
 
 整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)】
@@ -246,7 +259,7 @@ Some examples of **Prompt Engineering** as follows：
 
 | Model| Paper | Code | Blog |
 | --- | --- | --- | --- |  
-| Agent | [Agents: An Open-source Framework for Autonomous Language Agents](https://arxiv.org/pdf/2309.07870.pdf) | [Agent Code](https://github.com/aiwaves-cn/agents) | [Agent 官网](http://www.aiwaves-agents.com/)，[blog](https://mp.weixin.qq.com/s/OEud_eW7kAMYW2PagdoIcg) |  
+| Agents | [Agents: An Open-source Framework for Autonomous Language Agents](https://arxiv.org/pdf/2309.07870.pdf) | [Agent Code](https://github.com/aiwaves-cn/agents) | [Agent 官网](http://www.aiwaves-agents.com/)，[blog](https://mp.weixin.qq.com/s/OEud_eW7kAMYW2PagdoIcg) |  
 | AgentGPT |  | [AgentGPT Code](https://github.com/reworkd/AgentGPT) | [AgentGPT Chat](https://agentgpt.reworkd.ai/zh)，[AgentGPT docs](https://docs.reworkd.ai/introduction) | 
 | AgentVerse |  |  |  |   
 | AI Legion |  | [AI Legion Chat](https://github.com/eumemic/ai-legion) |  |  
@@ -262,6 +275,8 @@ Some examples of **Prompt Engineering** as follows：
 | HuggingGPT |  | [HuggingGPT Code](https://github.com/microsoft/JARVIS) | [HuggingGPT Chat](https://huggingface.co/spaces/microsoft/HuggingGPT) |  
 | MetaGPT |  | [MetaGPT Code](https://github.com/geekan/MetaGPT) |  | 
 | NexusGPT |  |  | [NexusGPT Chat](https://nexus.snikpic.io/) |  
+| RecurrentGPT |  |  |  |  
+| RestGPT | [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](https://arxiv.org/abs/2306.06624) | [RestGPT Code](https://github.com/Yifan-Song793/RestGPT) | [RestGPT blog](https://mp.weixin.qq.com/s/cdkezgE31ozGPiLZBU9Cxw) |  
 | Toolformer | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/pdf/2302.04761.pdf) |  | [Toolformer blog](https://www.sensorexpert.com.cn/article/194585.html) |  
 | XAgent |  | [XAgent Code](https://github.com/OpenBMB/XAgent) | [XAgent官网](https://x-agent.net/)，[XAgent Blog](https://blog.x-agent.net) |  
 | Xlang |  |  |  |  

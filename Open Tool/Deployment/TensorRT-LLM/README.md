@@ -1,15 +1,6 @@
-# AGI_Deploy_Tools
-Collect some common AGI Deploy frameworks
+# TensorFT-LLM
 
 | Tool | Description | Code |
 | --- | --- |--- |
-| TheBloke/baichuan-7B-GPTQ | 对Baichuan-7B的GPTQ 4bit量化 | [TheBloke/baichuan-7B-GPTQ](https://huggingface.co/TheBloke/baichuan-7B-GPTQ) |
-| --- | --- |--- |
-| --- | --- |--- |
-| --- | --- |--- |
-| --- | --- |--- |
-| --- | --- |--- |
-
-
-
+| TensorFT-LLM | 英伟达(NVIDIA)发布的推理加速引擎 | [TensorFT-LLM](https://github.com/NVIDIA/TensorRT-LLM) |
 
