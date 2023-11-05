@@ -17,6 +17,10 @@
   - [datasets for pre-training](#datasets-for-pre-training)
   - [datasets for instruction-tuning](#datasets-for-instruction-tuning)
   - [datasets for alignment-tuning](#datasets-for-alignment-tuning)
+- [LLM Pipeline](#LLM-Pipeline)
+  - [Pre-train](#Pre-train)
+  - [Fine Tune](#Fine-Tune)
+  - [Deployment](#Deployment)
 - [LLM Concepts](#LLM-Concepts)
   - [Prompt Engineering](#Prompt-Engineering)
   - [RLHF](#RLHF)
@@ -27,8 +31,6 @@
   - [LLM 问答](#LLM-问答)
   - [LLM 文本检测](#LLM-文本检测)
   - [LLM RAG](#LLM-RAG)
-  - [Fine Tune](#Fine-Tune)
-  - [Deployment](#Deployment)
 - [Agent](#Agent)
   - [LangChain](#LangChain)
 - [VectorDB](#VectorDB)
@@ -112,6 +114,36 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 **更多请参考**【[DataSet](https://github.com/ArronAI007/Awesome-AGI/tree/main/DataSet/README.md)】
 
 ---
+
+## LLM Pipeline
+
+### Pre-train
+
+
+
+### Fine Tune
+
+整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)】
+
+### Deployment
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| BentoML |  | [BentoML Code](https://github.com/bentoml/BentoML) |  |  
+| CLIP-API-service |  |  |  |  
+| CTranslate2 |  |  |  |  
+| DeepSpeed-MII |  |  |  | 
+| FastLLM |  |  |  |   
+| Huggingface |  |  |  |   
+| JittorLLM |  |  |  |   
+| LightLLM |  |  |  |  
+| LMDeploy |  |  |  |  
+| MLC LLM |  |  |  |  
+| OneDiffusion |  |  |  |  
+| OpenLLM |  |  |  |  
+| Ray Serve |  |  |  |  
+
+【LLM大语言模型之Generate/Inference（生成/推理）中参数与解码策略原理及其代码实现】【[blog](https://mp.weixin.qq.com/s/BbWjr8mr3Iu_JLCK0x2rcA)】
 
 ## LLM Concepts
 
@@ -229,30 +261,6 @@ Some examples of **Prompt Engineering** as follows：
 | --- | --- | --- | --- |  
 | --- | --- | --- | --- |  
 
-### Fine Tune
-
-整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)】
-
-### Deployment
-
-| Description| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| BentoML |  | [BentoML Code](https://github.com/bentoml/BentoML) |  |  
-| CLIP-API-service |  |  |  |  
-| CTranslate2 |  |  |  |  
-| DeepSpeed-MII |  |  |  | 
-| FastLLM |  |  |  |   
-| Huggingface |  |  |  |   
-| JittorLLM |  |  |  |   
-| LightLLM |  |  |  |  
-| LMDeploy |  |  |  |  
-| MLC LLM |  |  |  |  
-| OneDiffusion |  |  |  |  
-| OpenLLM |  |  |  |  
-| Ray Serve |  |  |  |  
-
-【LLM大语言模型之Generate/Inference（生成/推理）中参数与解码策略原理及其代码实现】【[blog](https://mp.weixin.qq.com/s/BbWjr8mr3Iu_JLCK0x2rcA)】
-
 ---
 
 ## Agent
@@ -276,7 +284,8 @@ Some examples of **Prompt Engineering** as follows：
 | MetaGPT |  | [MetaGPT Code](https://github.com/geekan/MetaGPT) |  | 
 | NexusGPT |  |  | [NexusGPT Chat](https://nexus.snikpic.io/) |  
 | RecurrentGPT |  |  |  |  
-| RestGPT | [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](https://arxiv.org/abs/2306.06624) | [RestGPT Code](https://github.com/Yifan-Song793/RestGPT) | [RestGPT blog](https://mp.weixin.qq.com/s/cdkezgE31ozGPiLZBU9Cxw) |  
+| RestGPT | [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](https://arxiv.org/abs/2306.06624) | [RestGPT Code](https://github.com/Yifan-Song793/RestGPT) | [RestGPT blog](https://mp.weixin.qq.com/s/cdkezgE31ozGPiLZBU9Cxw) | 
+| RoboGen | [RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation](https://arxiv.org/abs/2311.01455) | [RoboGen Code](https://github.com/Genesis-Embodied-AI) | [项目主页](https://robogen-ai.github.io/)，[blog](https://mp.weixin.qq.com/s/2bQTuwE-k6ukp--XHXIzMg) |   
 | Toolformer | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/pdf/2302.04761.pdf) |  | [Toolformer blog](https://www.sensorexpert.com.cn/article/194585.html) |  
 | XAgent |  | [XAgent Code](https://github.com/OpenBMB/XAgent) | [XAgent官网](https://x-agent.net/)，[XAgent Blog](https://blog.x-agent.net) |  
 | Xlang |  |  |  |  
