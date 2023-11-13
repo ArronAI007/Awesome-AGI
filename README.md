@@ -209,6 +209,7 @@ Some examples of **Prompt Engineering** as follows：
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
 | 腾讯AILab等《大型语言模型中的幻觉》，全面阐述检测、解释和减轻幻觉 | [Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models](https://www.zhuanzhi.ai/paper/61ebe9c5007cf1373b900452ad52f0ae) | [code](https://github.com/HillZhang1999/llm-hallucination-survey) | [blog](https://mp.weixin.qq.com/s/GrN0FO_HrEk4GMYdJWJCMQ) |  
+| LLM幻觉的解决方案及其应用 | [Cognitive Mirage: A Review of Hallucinations in Large Language Models](https://arxiv.org/abs/2309.06794v1) | [code](Cognitive Mirage: A Review of Hallucinations in Large Language Models) | [blog](https://mp.weixin.qq.com/s/9yQeGk1mRgc9ityn5imxxw) |  
 
 ---
 

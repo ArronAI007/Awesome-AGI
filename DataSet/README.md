@@ -3,7 +3,7 @@
 | Name | Release Date | Paper/Blog | Dataset | Tokens (T) | License |
 | --- | --- | --- | --- | --- | ---- | 
 | Anthropic HH |  |  | [Anthropic HH](https://huggingface.co/datasets/Anthropic/hh-rlhf) |  |  | 
-| HC3 |  |  | [HC3](https://arxiv.org/abs/2301.07597) |  |  | 
+| HC3 |  | [How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection](https://arxiv.org/abs/2301.07597) | [HC3 数据集](https://huggingface.co/Hello-SimpleAI) |  |  | 
 | koala-test-set |  |  | [koala-test-set](https://github.com/arnav-gudibande/koala-test-set) |  |  | 
 | MTP（massive text pairs） | 2023/09 | [智源发布超3亿对面向中英文语义向量模型训练数据集](https://mp.weixin.qq.com/s/50U3blK0ROZSoNFl75TWHw) | [BAAI-MTP](https://data.baai.ac.cn/details/BAAI-MTP) | 1.3 |  | 
 | OpenAI WebGPT |  |  | [OpenAI WebGPT](https://huggingface.co/datasets/openai/webgpt_comparisons) |  |  | 
