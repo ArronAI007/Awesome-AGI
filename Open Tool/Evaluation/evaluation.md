@@ -7,5 +7,5 @@
 - [TextSynth Server Benchmarks](https://bellard.org/ts_server/)
 - [Open LLM Leaderboard by Hugging Face](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 - [FacTool](https://github.com/GAIR-NLP/factool)
-
+- [LawBench](https://github.com/open-compass/LawBench)
 

@@ -18,10 +18,13 @@
  ## Open LLM datasets for instruction-tuning
 
 | Name | Release Date | Paper/Blog | Dataset | Tokens (T) | License |
-| --- | --- | --- | --- | --- | ---- | 
+| --- | --- | --- | --- | --- | --- | 
 | databricks-dolly-15k | 2023/04 | [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm) |  [databricks-dolly-15k](https://huggingface.co/datasets/databricks/databricks-dolly-15k) | 15 |  CC BY-SA-3.0 |
 | MPT-7B-Instruct | 2023/05 | [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b) | [dolly_hhrlhf](https://huggingface.co/datasets/mosaicml/dolly_hhrlhf) | 59 | CC BY-SA-3.0 |
 | OIG (Open Instruction Generalist)   | 2023/03 | [THE OIG DATASET](https://laion.ai/blog/oig-dataset/) | [OIG](https://huggingface.co/datasets/laion/OIG) | 44,000 | Apache 2.0 |
+| UltraFeedback：大规模、多样化、细粒度的偏好数据集
+ |  |  | [UltraFeedback Code](https://github.com/OpenBMB/UltraFeedback) |  |  | 
+|  UltraChat：高质量对话数据集，包含 150 余万条多轮指令数据|  |  | [UltraChat Code](https://github.com/thunlp/UltraChat) |  |  | 
 
 ---
 
@@ -41,7 +44,7 @@
 | Gaokao | --- | --- | [Gaokao](https://github.com/OpenLMLab/GAOKAO-Bench) | --- | ---- |
 | AGIEval | --- | --- | [AGIEval](https://github.com/microsoft/AGIEval) | --- | ---- |
 | MMLU | --- | --- | [MMLU](https://arxiv.org/abs/2009.03300) | --- | ---- |
-| --- | --- | --- | --- | --- | ---- |
+| LawBench | --- | [LawBench: Benchmarking Legal Knowledge of Large Language Models](https://arxiv.org/pdf/2309.16289.pdf) | [LawBench Code](https://github.com/open-compass/LawBench) | --- | ---- |
 | --- | --- | --- | --- | --- | ---- |
 | --- | --- | --- | --- | --- | ---- |
 | --- | --- | --- | --- | --- | ---- |
