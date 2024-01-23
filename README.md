@@ -200,7 +200,8 @@ Some examples of **Prompt Engineering** as follows：
 | 语言大模型100K上下文窗口的秘诀 |  |  | [blog](https://mp.weixin.qq.com/s/_i0eQgYNSLJydv3qOTqr-Q) |  
 | RoPE可能是LLM时代的Resnet |  |  | [blog](https://mp.weixin.qq.com/s/BVm1XC7r1yzOiWIrEbWg3A) |  
 | 图解RoPE旋转位置编码及其特性 |  |  | [blog](https://mp.weixin.qq.com/s/-1xVXjoM0imXMC7DKqo-Gw) |  
-| 详解基于调整RoPE旋转角度的大模型长度外推方法 |  |  | [blog](https://mp.weixin.qq.com/s/RtI95hu-ZLxGkdGuNIkERQ) |  
+| 详解基于调整RoPE旋转角度的大模型长度外推方法 |  |  | [blog](https://mp.weixin.qq.com/s/RtI95hu-ZLxGkdGuNIkERQ) | 
+| 无需微调的自扩展大模型上下文窗口 | [LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning](https://simg.baai.ac.cn/paperfile/a34ae7f4-f0ce-4f8f-b8f2-e8e4d84bbee5.pdf) | --- | --- |   
 
 ---
 
@@ -278,6 +279,8 @@ Some examples of **Prompt Engineering** as follows：
 | AutoGPT |  | [AutoGPT Code](https://github.com/Significant-Gravitas/Auto-GPT) | [AutoGPT docs](https://docs.agpt.co/setup/) ，[AutoGPT blog](https://generativeai.pub/complete-guide-to-setup-autogpt-revolutionize-your-task-automation-with-gpt-4-39eda5a85821?gi=ea5c40bac6fd) |  
 | BabyAGI |  | [BabyAGI Code](https://github.com/yoheinakajima/babyagi) | [BabyAGI docs](https://babyagi.org/) |  
 | Camel |  | [CAMEL Code](https://github.com/camel-ai/camel) | [CAMEL Chat](http://agents.camel-ai.org/)，[CAMEL docs](https://www.camel-ai.org/) |  
+| crewAI |  | [crewAI Code](https://github.com/joaomdmoura/crewAI) | [crewAI Blog](https://mp.weixin.qq.com/s/FBhrVwBlSMtfK1KTwo1yXg) |  
+| CogAgent | --- | --- | --- |  
 | Do Anything Machine |  |  | [Do Anything Machine Chat](https://www.doanythingmachine.com/) |  
 | Generative Agents | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | [GPTRPG Code](https://github.com/dzoba/gptrpg) |  | 
 | Gentopia |  |  |  |  
