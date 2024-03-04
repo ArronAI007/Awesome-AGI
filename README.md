@@ -100,10 +100,10 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 ### LLM 分布式并行框架
 
 | Description| Paper | Code | Blog |
-| ColossalAI | --- | [ColossalAI Code](https://github.com/hpcaitech/ColossalAI) | --- |  
-| DeepSpeed | --- | --- | --- |  
-| Megatron-LM | --- | --- | --- |  
 | --- | --- | --- | --- |  
+| ColossalAI |  | [ColossalAI Code](https://github.com/hpcaitech/ColossalAI) |  |  
+| DeepSpeed |  |  |  |  
+| Megatron-LM |  |  |  |  
 
 ---
 
@@ -115,9 +115,6 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 | --- | --- | --- | --- |  
 | RAG从入门到精通-RAG简介 |  |  | [blog](https://mp.weixin.qq.com/s/bu5hRn99hAEW1QDbswo-mA) |  
 | 使用Llama index构建多代理 RAG |  |  | [blog](https://mp.weixin.qq.com/s/Hn2f2TcJrAn28IECcTE7Dg) |  
-| --- | --- | --- | --- |  
-| --- | --- | --- | --- |  
-| --- | --- | --- | --- |  
 
 ---
 
