@@ -99,6 +99,12 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 
 ### LLM 分布式并行框架
 
+| Description| Paper | Code | Blog |
+| ColossalAI | --- | [ColossalAI Code](https://github.com/hpcaitech/ColossalAI) | --- |  
+| DeepSpeed | --- | --- | --- |  
+| Megatron-LM | --- | --- | --- |  
+| --- | --- | --- | --- |  
+
 ---
 
 ## LLM 应用

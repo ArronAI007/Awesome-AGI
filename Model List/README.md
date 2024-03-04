@@ -173,7 +173,8 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 | VisCPM |  |  |  | [VisCPM Blog](https://mp.weixin.qq.com/s/Fgfbs1vV7RF6kpyk4bfIYw) |  |  |  | [VisCPM Code](https://github.com/OpenBMB/VisCPM) |
 | X-LLM |  |  |  | [X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages](https://arxiv.org/abs/2305.04160)，[项目主页](https://x-llm.github.io/) |  |  |  | |
 | Pika | --- | --- | --- | --- | ---| --- | ---|
-| Sora | --- | --- | --- | --- | ---| --- | ---|
+| Sora | --- | --- | --- | [Sora](https://openai.com/sora) | ---| --- | ---|
+| SoraWebui | --- | --- | --- | [SoraWebui](https://sorawebui.com/) | ---| --- | [SoraWebui Code](https://github.com/SoraWebui/SoraWebui) |
 
 ---
 
