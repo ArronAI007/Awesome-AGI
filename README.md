@@ -4,23 +4,26 @@
 
 ## 技术交流
 
-欢迎加入AIGC技术交流群，与AI领域专家和各行各业的AIGC爱好者一起交流技术理论与行业信息！不管你是学术界还是工业界实践者或爱好者，都欢迎加入群体！
+欢迎加入AIGC技术交流群，与AI领域专家和各行各业的AIGC爱好者一起交流技术理论与行业信息！不管你是学术界还是工业界实践者或爱好者，都欢迎加入！
 
-| 交流群二维码                    | 拉你入群(备注AIGC-github)  |
+| 交流群二维码                    | 拉你入群(备注AIGC-github) |
 | ------------------------------- | :------------------------: |
-| ![Arron](https://i.postimg.cc/PqFvY1kW/AIGC-group.jpg) | ![Arron](https://i.postimg.cc/QMqj1DGc/Arron.jpg) |
+| ![Arron](https://i.postimg.cc/q78pyj8t/Wechat-IMG259.jpg) | ![Arron](https://i.postimg.cc/QMqj1DGc/Arron.jpg) |
 
 ## Table of Context
 - [LLM 体验效果](#LLM-体验效果)
 - [Model List](#Model-List)
-- [DataSet](#DataSet)
-  - [datasets for pre-training](#datasets-for-pre-training)
-  - [datasets for instruction-tuning](#datasets-for-instruction-tuning)
-  - [datasets for alignment-tuning](#datasets-for-alignment-tuning)
 - [LLM Pipeline](#LLM-Pipeline)
-  - [Pre-train](#Pre-train)
-  - [Fine Tune](#Fine-Tune)
-  - [Deployment](#Deployment)
+  - [LLM 预训练](#LLM-预训练)
+  - [LLM 微调](#LLM-微调)
+  - [LLM 部署](#LLM-部署)
+  - [LLM 分布式并行框架](#LLM-分布式并行框架)
+- [LLM 应用](#LLM-应用)
+  - [RAG](#RAG)
+  - [Agent](#Agent)
+  - [应用框架](#应用框架)
+    - [LangChain](#LangChain)
+    - [LlamaIndex](#LlamaIndex)
 - [LLM Concepts](#LLM-Concepts)
   - [Prompt Engineering](#Prompt-Engineering)
   - [RLHF](#RLHF)
@@ -28,12 +31,7 @@
   - [LLM 长文本](#LLM-长文本)
   - [LLM 幻觉](#LLM-幻觉)
   - [LLM 可控性与安全](#LLM-可控性与安全)
-  - [LLM 问答](#LLM-问答)
   - [LLM 文本检测](#LLM-文本检测)
-  - [LLM RAG](#LLM-RAG)
-- [Agent](#Agent)
-  - [LangChain](#LangChain)
-- [VectorDB](#VectorDB)
 
 ## LLM 体验效果
 
@@ -57,75 +55,23 @@
 
 ## Model List
 
-整理主流大模型baichuan、ChatGLM和LLaMA及其扩展模型的一些细节，并且会对目前主流的LLM按照功能和应用领域进行分类整理，更多请参考【[Model List](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-List/README.md)】。
+这里整理了主流大模型baichuan、ChatGLM和LLaMA及其扩展模型的一些细节，并且会对目前主流的LLM按照功能和应用领域进行分类整理，更多请参考【[Model List](https://github.com/ArronAI007/Awesome-AGI/blob/main/Model%20List/README.md)】。
 
 dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可以参考：【[ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained)】
 
 ---
 
-## DataSet
-
-### datasets for pre-training
-
-| Name | Release Date | Paper/Blog | Dataset | Tokens (T) | License |
-| --- | --- | --- | --- | --- | ---- | 
-| Anthropic HH |  |  | [Anthropic HH](https://huggingface.co/datasets/Anthropic/hh-rlhf) |  |  | 
-| HC3 |  |  | [HC3](https://arxiv.org/abs/2301.07597) |  |  | 
-| koala-test-set |  |  | [koala-test-set](https://github.com/arnav-gudibande/koala-test-set) |  |  | 
-| MTP（massive text pairs） | 2023/09 | [智源发布超3亿对面向中英文语义向量模型训练数据集](https://mp.weixin.qq.com/s/50U3blK0ROZSoNFl75TWHw) | [BAAI-MTP](https://data.baai.ac.cn/details/BAAI-MTP) | 1.3 |  | 
-| OpenAI WebGPT |  |  | [OpenAI WebGPT](https://huggingface.co/datasets/openai/webgpt_comparisons) |  |  | 
-| OpenAI Summarization |  |  | [OpenAI Summarization](https://huggingface.co/datasets/openai/summarize_from_feedback) |  |  | 
-| RedPajama | 2023/04 | [RedPajama, a project to create leading open-source models, starts by reproducing LLaMA training dataset of over 1.2 trillion tokens](https://www.together.xyz/blog/redpajama) | [RedPajama-Data](https://github.com/togethercomputer/RedPajama-Data) |  |  | 
-| ShareGPT |  |  | [ShareGPT](https://sharegpt.com/) |  |  | 
-| starcoderdata | 2023/05 | [StarCoder: A State-of-the-Art LLM for Code](https://huggingface.co/blog/starcoder) | [starcoderdata](https://huggingface.co/datasets/bigcode/starcoderdata) |  0.25 | Apache 2.0 |
-| Stanford Alpaca |  |  | [Stanford Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html) |  |  | 
-
----
-
-### datasets for instruction-tuning
-
-| Name | Release Date | Paper/Blog | Dataset | Tokens (T) | License |
-| --- | --- | --- | --- | --- | --- | 
-| Baize |  |  |  |  |  | 
-| Dolly |  |  |  |  |  | 
-| databricks-dolly-15k | 2023/04 | [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm) |  [databricks-dolly-15k](https://huggingface.co/datasets/databricks/databricks-dolly-15k) | 15 |  CC BY-SA-3.0 |
-| Evol-Instruct |  |  |  |  |  | 
-| Flan 2021 |  |  |  |  |  | 
-| LIMA |  |  |  |  |  | 
-| MPT-7B-Instruct | 2023/05 | [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b) | [dolly_hhrlhf](https://huggingface.co/datasets/mosaicml/dolly_hhrlhf) | 59 | CC BY-SA-3.0 |
-| MetaMathQA | 2023/09 | [MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models](https://arxiv.org/abs/2309.12284)，[MetaMathQA blog](https://mp.weixin.qq.com/s/uUauSxSTScmBhWaiXJ6jsA) | [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) | --- | --- | 
-| Natural Instructions |  |  |  |  |  | 
-| OIG (Open Instruction Generalist)   | 2023/03 | [THE OIG DATASET](https://laion.ai/blog/oig-dataset/) | [OIG](https://huggingface.co/datasets/laion/OIG) | 44,000 | Apache 2.0 |
-| OpenAssistant Conversations |  |  |  |  |  | 
-| P3 (Public Pool of Prompts) |  |  |  |  |  | 
-| Self-Instruct |  |  |  |  |  | 
-| Super-Natural Instructions |  |  |  |  |  | 
-| Unnatural Instructions |  |  |  |  |  | 
-| xP3 |  |  |  |  |  | 
-
----
-
-### datasets for alignment-tuning
-
-| Name | Release Date | Paper/Blog | Dataset | Tokens (T) | License |
-| --- | --- | --- | --- | --- | ---- | 
-| OpenAssistant Conversations Dataset | 2023/04 | [OpenAssistant Conversations - Democratizing Large Language Model Alignment](https://drive.google.com/file/d/10iR5hKwFqAKhL3umx8muOWSRm7hs5FqX/view) | [oasst1](https://huggingface.co/datasets/OpenAssistant/oasst1) | 161 | Apache 2.0 |
-
-**更多请参考**【[DataSet](https://github.com/ArronAI007/Awesome-AGI/tree/main/DataSet/README.md)】
-
----
-
 ## LLM Pipeline
 
-### Pre-train
+### LLM 预训练
 
+这里整理了LLM预训练、微调使用的部分数据集，更多请参考【[DataSet](https://github.com/ArronAI007/Awesome-AGI/blob/main/DataSet/README.md)】
 
+### LLM 微调
 
-### Fine Tune
+这里整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)】
 
-整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)】
-
-### Deployment
+### LLM 部署
 
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
@@ -144,6 +90,73 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 | Ray Serve |  |  |  |  
 
 【LLM大语言模型之Generate/Inference（生成/推理）中参数与解码策略原理及其代码实现】【[blog](https://mp.weixin.qq.com/s/BbWjr8mr3Iu_JLCK0x2rcA)】
+
+### LLM 分布式并行框架
+
+## LLM 应用
+
+### RAG
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| RAG从入门到精通-RAG简介 |  |  | [blog](https://mp.weixin.qq.com/s/bu5hRn99hAEW1QDbswo-mA) |  
+| 使用Llama index构建多代理 RAG |  |  | [blog](https://mp.weixin.qq.com/s/Hn2f2TcJrAn28IECcTE7Dg) |  
+| --- | --- | --- | --- |  
+| --- | --- | --- | --- |  
+| --- | --- | --- | --- |  
+
+---
+
+### LLM 问答
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| 基于大语言模型的智能问答系统应该包含哪些环节？ |  | [OpenAI 的审核函数接口 Moderation API](https://platform.openai.com/docs/guides/moderation)  | [blog](https://mp.weixin.qq.com/s/pXEyFHEv1pcqwMNhveneew) |  
+| 搭建本地的chatpdf（原理，文档处理，语义搜索等） |  |  | [blog](https://mp.weixin.qq.com/s/aW7r4i54coW26RMsTdAQ5g) |  
+| 如何避免大语言模型绕过知识库乱答的情况？LlamaIndex 原理与应用简介 |  |  | [官方blog](https://betterprogramming.pub/llamaindex-how-to-use-index-correctly-6f928b8944c6)，[中文blog](https://mp.weixin.qq.com/s/D6_pUv7hHZHRrKSXqo0u2w) |  
+| 使用 Langchain 和 Azure OpenAI 构建一个聊天机器人来查询您的文档 |  |  | [blog](https://mp.weixin.qq.com/s/LeUuq6O5uIJPmrrYYtTaqA) |  
+| 一文搞懂LangChain是什么 |  |  | [blog](https://mp.weixin.qq.com/s/vLlS17AYe4lM95KrG5sFyQ) |  
+
+---
+
+### Agent
+
+| Model| Paper | Code | Blog |
+| --- | --- | --- | --- |  
+| Agents | [Agents: An Open-source Framework for Autonomous Language Agents](https://arxiv.org/pdf/2309.07870.pdf) | [Agent Code](https://github.com/aiwaves-cn/agents) | [Agent 官网](http://www.aiwaves-agents.com/)，[blog](https://mp.weixin.qq.com/s/OEud_eW7kAMYW2PagdoIcg) |  
+| AgentGPT |  | [AgentGPT Code](https://github.com/reworkd/AgentGPT) | [AgentGPT Chat](https://agentgpt.reworkd.ai/zh)，[AgentGPT docs](https://docs.reworkd.ai/introduction) | 
+| AgentVerse |  |  |  |   
+| AI Legion |  | [AI Legion Chat](https://github.com/eumemic/ai-legion) |  |  
+| AutoGen |  |  | [AutoGen blog](https://mp.weixin.qq.com/s/M7xHAA4HSH-cJG3kbvgvNg) |  
+| AutoGPT |  | [AutoGPT Code](https://github.com/Significant-Gravitas/Auto-GPT) | [AutoGPT docs](https://docs.agpt.co/setup/) ，[AutoGPT blog](https://generativeai.pub/complete-guide-to-setup-autogpt-revolutionize-your-task-automation-with-gpt-4-39eda5a85821?gi=ea5c40bac6fd) |  
+| BabyAGI |  | [BabyAGI Code](https://github.com/yoheinakajima/babyagi) | [BabyAGI docs](https://babyagi.org/) |  
+| Camel |  | [CAMEL Code](https://github.com/camel-ai/camel) | [CAMEL Chat](http://agents.camel-ai.org/)，[CAMEL docs](https://www.camel-ai.org/) |  
+| crewAI |  | [crewAI Code](https://github.com/joaomdmoura/crewAI) | [crewAI Blog](https://mp.weixin.qq.com/s/FBhrVwBlSMtfK1KTwo1yXg) |  
+| CogAgent | --- | --- | --- |  
+| Do Anything Machine |  |  | [Do Anything Machine Chat](https://www.doanythingmachine.com/) |  
+| Generative Agents | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | [GPTRPG Code](https://github.com/dzoba/gptrpg) |  | 
+| Gentopia |  |  |  |  
+| Godmode |  |  | [Godmode Chat](https://godmode.space/) |  
+| GPT-Engineer |  | [GPT-Engineer Code](https://github.com/AntonOsika/gpt-engineer) |  |   
+| HuggingGPT |  | [HuggingGPT Code](https://github.com/microsoft/JARVIS) | [HuggingGPT Chat](https://huggingface.co/spaces/microsoft/HuggingGPT) |  
+| MetaGPT |  | [MetaGPT Code](https://github.com/geekan/MetaGPT) |  | 
+| NexusGPT |  |  | [NexusGPT Chat](https://nexus.snikpic.io/) |  
+| RecurrentGPT |  |  |  |  
+| RestGPT | [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](https://arxiv.org/abs/2306.06624) | [RestGPT Code](https://github.com/Yifan-Song793/RestGPT) | [RestGPT blog](https://mp.weixin.qq.com/s/cdkezgE31ozGPiLZBU9Cxw) | 
+| RoboGen | [RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation](https://arxiv.org/abs/2311.01455) | [RoboGen Code](https://github.com/Genesis-Embodied-AI) | [项目主页](https://robogen-ai.github.io/)，[blog](https://mp.weixin.qq.com/s/2bQTuwE-k6ukp--XHXIzMg) |   
+| Toolformer | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/pdf/2302.04761.pdf) |  | [Toolformer blog](https://www.sensorexpert.com.cn/article/194585.html) |  
+| XAgent |  | [XAgent Code](https://github.com/OpenBMB/XAgent) | [XAgent官网](https://x-agent.net/)，[XAgent Blog](https://blog.x-agent.net) |  
+| Xlang |  |  |  |  
+
+### 应用框架
+
+#### LangChain
+
+整理关于LangChain的相关笔记和课程，更多请参考【[LangChain](https://github.com/ArronAI007/Awesome-AGI/tree/main/LangChain/README.md)】
+
+#### LlamaIndex
+
+整理关于LlamaIndex的相关笔记和课程，更多请参考【[LlamaIndex](https://github.com/ArronAI007/Awesome-AGI/blob/main/LlamaIndex/README.md)】
 
 ## LLM Concepts
 
@@ -228,18 +241,6 @@ Some examples of **Prompt Engineering** as follows：
 
 ---
 
-### LLM 问答
-
-| Description| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| 基于大语言模型的智能问答系统应该包含哪些环节？ |  | [OpenAI 的审核函数接口 Moderation API](https://platform.openai.com/docs/guides/moderation)  | [blog](https://mp.weixin.qq.com/s/pXEyFHEv1pcqwMNhveneew) |  
-| 搭建本地的chatpdf（原理，文档处理，语义搜索等） |  |  | [blog](https://mp.weixin.qq.com/s/aW7r4i54coW26RMsTdAQ5g) |  
-| 如何避免大语言模型绕过知识库乱答的情况？LlamaIndex 原理与应用简介 |  |  | [官方blog](https://betterprogramming.pub/llamaindex-how-to-use-index-correctly-6f928b8944c6)，[中文blog](https://mp.weixin.qq.com/s/D6_pUv7hHZHRrKSXqo0u2w) |  
-| 使用 Langchain 和 Azure OpenAI 构建一个聊天机器人来查询您的文档 |  |  | [blog](https://mp.weixin.qq.com/s/LeUuq6O5uIJPmrrYYtTaqA) |  
-| 一文搞懂LangChain是什么 |  |  | [blog](https://mp.weixin.qq.com/s/vLlS17AYe4lM95KrG5sFyQ) |  
-
----
-
 ### LLM 文本检测
 
 | Description| Paper | Code | Blog |
@@ -254,61 +255,6 @@ Some examples of **Prompt Engineering** as follows：
 | TUM发布最新《检测ChatGPT生成文本现状》综述 | [paper](https://arxiv.org/abs/2309.07689) |  |  |  
 
 ---
-
-### LLM RAG
-
-| Description| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| RAG从入门到精通-RAG简介 |  |  | [blog](https://mp.weixin.qq.com/s/bu5hRn99hAEW1QDbswo-mA) |  
-| 使用Llama index构建多代理 RAG |  |  | [blog](https://mp.weixin.qq.com/s/Hn2f2TcJrAn28IECcTE7Dg) |  
-| --- | --- | --- | --- |  
-| --- | --- | --- | --- |  
-| --- | --- | --- | --- |  
-
----
-
-## Agent
-
-| Model| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| Agents | [Agents: An Open-source Framework for Autonomous Language Agents](https://arxiv.org/pdf/2309.07870.pdf) | [Agent Code](https://github.com/aiwaves-cn/agents) | [Agent 官网](http://www.aiwaves-agents.com/)，[blog](https://mp.weixin.qq.com/s/OEud_eW7kAMYW2PagdoIcg) |  
-| AgentGPT |  | [AgentGPT Code](https://github.com/reworkd/AgentGPT) | [AgentGPT Chat](https://agentgpt.reworkd.ai/zh)，[AgentGPT docs](https://docs.reworkd.ai/introduction) | 
-| AgentVerse |  |  |  |   
-| AI Legion |  | [AI Legion Chat](https://github.com/eumemic/ai-legion) |  |  
-| AutoGen |  |  | [AutoGen blog](https://mp.weixin.qq.com/s/M7xHAA4HSH-cJG3kbvgvNg) |  
-| AutoGPT |  | [AutoGPT Code](https://github.com/Significant-Gravitas/Auto-GPT) | [AutoGPT docs](https://docs.agpt.co/setup/) ，[AutoGPT blog](https://generativeai.pub/complete-guide-to-setup-autogpt-revolutionize-your-task-automation-with-gpt-4-39eda5a85821?gi=ea5c40bac6fd) |  
-| BabyAGI |  | [BabyAGI Code](https://github.com/yoheinakajima/babyagi) | [BabyAGI docs](https://babyagi.org/) |  
-| Camel |  | [CAMEL Code](https://github.com/camel-ai/camel) | [CAMEL Chat](http://agents.camel-ai.org/)，[CAMEL docs](https://www.camel-ai.org/) |  
-| crewAI |  | [crewAI Code](https://github.com/joaomdmoura/crewAI) | [crewAI Blog](https://mp.weixin.qq.com/s/FBhrVwBlSMtfK1KTwo1yXg) |  
-| CogAgent | --- | --- | --- |  
-| Do Anything Machine |  |  | [Do Anything Machine Chat](https://www.doanythingmachine.com/) |  
-| Generative Agents | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | [GPTRPG Code](https://github.com/dzoba/gptrpg) |  | 
-| Gentopia |  |  |  |  
-| Godmode |  |  | [Godmode Chat](https://godmode.space/) |  
-| GPT-Engineer |  | [GPT-Engineer Code](https://github.com/AntonOsika/gpt-engineer) |  |   
-| HuggingGPT |  | [HuggingGPT Code](https://github.com/microsoft/JARVIS) | [HuggingGPT Chat](https://huggingface.co/spaces/microsoft/HuggingGPT) |  
-| MetaGPT |  | [MetaGPT Code](https://github.com/geekan/MetaGPT) |  | 
-| NexusGPT |  |  | [NexusGPT Chat](https://nexus.snikpic.io/) |  
-| RecurrentGPT |  |  |  |  
-| RestGPT | [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](https://arxiv.org/abs/2306.06624) | [RestGPT Code](https://github.com/Yifan-Song793/RestGPT) | [RestGPT blog](https://mp.weixin.qq.com/s/cdkezgE31ozGPiLZBU9Cxw) | 
-| RoboGen | [RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation](https://arxiv.org/abs/2311.01455) | [RoboGen Code](https://github.com/Genesis-Embodied-AI) | [项目主页](https://robogen-ai.github.io/)，[blog](https://mp.weixin.qq.com/s/2bQTuwE-k6ukp--XHXIzMg) |   
-| Toolformer | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/pdf/2302.04761.pdf) |  | [Toolformer blog](https://www.sensorexpert.com.cn/article/194585.html) |  
-| XAgent |  | [XAgent Code](https://github.com/OpenBMB/XAgent) | [XAgent官网](https://x-agent.net/)，[XAgent Blog](https://blog.x-agent.net) |  
-| Xlang |  |  |  |  
-
-### LangChain
-
-整理关于LangChain的相关笔记和课程，更多请参考【[LangChain](https://github.com/ArronAI007/Awesome-AGI/tree/main/LangChain/README.md)】
-
----
-
-## VectorDB
-
-| Model| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| Milvus |  |  |  |  
-| Pinecone |  |  |  |  
-| Weaviate |  |  |  |  
 
 ## 欢迎共创
 

@@ -19,12 +19,25 @@
 
 | Name | Release Date | Paper/Blog | Dataset | Tokens (T) | License |
 | --- | --- | --- | --- | --- | --- | 
+| Baize |  |  |  |  |  | 
+| Dolly |  |  |  |  |  | 
 | databricks-dolly-15k | 2023/04 | [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm) |  [databricks-dolly-15k](https://huggingface.co/datasets/databricks/databricks-dolly-15k) | 15 |  CC BY-SA-3.0 |
+| Evol-Instruct |  |  |  |  |  | 
+| Flan 2021 |  |  |  |  |  | 
+| LIMA |  |  |  |  |  | 
 | MPT-7B-Instruct | 2023/05 | [Introducing MPT-7B: A New Standard for Open-Source, Commercially Usable LLMs](https://www.mosaicml.com/blog/mpt-7b) | [dolly_hhrlhf](https://huggingface.co/datasets/mosaicml/dolly_hhrlhf) | 59 | CC BY-SA-3.0 |
+| MetaMathQA | 2023/09 | [MetaMath: Bootstrap Your Own Mathematical Questions for Large Language Models](https://arxiv.org/abs/2309.12284)，[MetaMathQA blog](https://mp.weixin.qq.com/s/uUauSxSTScmBhWaiXJ6jsA) | [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) | --- | --- | 
+| Natural Instructions |  |  |  |  |  | 
 | OIG (Open Instruction Generalist)   | 2023/03 | [THE OIG DATASET](https://laion.ai/blog/oig-dataset/) | [OIG](https://huggingface.co/datasets/laion/OIG) | 44,000 | Apache 2.0 |
+| OpenAssistant Conversations |  |  |  |  |  | 
+| P3 (Public Pool of Prompts) |  |  |  |  |  | 
+| Self-Instruct |  |  |  |  |  | 
+| Super-Natural Instructions |  |  |  |  |  | 
+| Unnatural Instructions |  |  |  |  |  | 
 | UltraFeedback：大规模、多样化、细粒度的偏好数据集
  |  |  | [UltraFeedback Code](https://github.com/OpenBMB/UltraFeedback) |  |  | 
 |  UltraChat：高质量对话数据集，包含 150 余万条多轮指令数据|  |  | [UltraChat Code](https://github.com/thunlp/UltraChat) |  |  | 
+| xP3 |  |  |  |  |  | 
 
 ---
 

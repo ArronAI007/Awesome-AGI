@@ -1,6 +1,6 @@
-# Model-Survey
+# Model List
 
-Model Survey mainly includes Universal LLMs and Domain LLMs, In terms of Universal LLMs， including text generation model, image and video generation model, code generation model, music generation model, multimodal model；In terms of Domain LLMs， including law, medical, finance, environment, network security, education, Traffic and so on.
+Model List mainly includes Universal LLMs and Domain LLMs, In terms of Universal LLMs， including text generation model, image and video generation model, code generation model, music generation model, multimodal model；In terms of Domain LLMs， including law, medical, finance, environment, network security, education, Traffic and so on.
 
 从GPT3到ChatGPT模型的发展路线图
 
@@ -105,8 +105,6 @@ Some examples of **Universal LLMs for Text** as follows：
 | OpenChatKit |  | | [OpenChatKit Blog](https://mp.weixin.qq.com/s/9Av3nhJLrcYAsBW9vVGjTw)，[OpenChatKit Chat](https://huggingface.co/spaces/togethercomputer/OpenChatKit)  |  |  |  | [OpenChatKit Code](https://github.com/togethercomputer/OpenChatKit) |
 | WebCPM |  |  | [WebCPM: Interactive Web Search for Chinese Long-form Question Answering](https://arxiv.org/abs/2305.06849)，[WebCPM Blog](https://mp.weixin.qq.com/s/m4zsF2HDFHSKc23Oq0O98w) |  |  |  | [WebCPM Code](https://github.com/thunlp/WebCPM) |
 
-**Complete Content**: please refer to [Model Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-Survey/README.md)
-
 ---
 
 ### Universal LLMs for Code  
@@ -123,8 +121,6 @@ Some examples of **Universal LLMs for Code** as follows：
 | Code Llama  | 2023 | [Inference Code for CodeLlama models]([https://ai.meta.com/resources/models-and-libraries/llama-downloads/](https://github.com/facebookresearch/codellama)) | [Code Llama: Open Foundation Models for Code](https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/)     | 7 - 34       | [4096](https://scontent-zrh1-1.xx.fbcdn.net/v/t39.2365-6/369856151_1754812304950972_1159666448927483931_n.pdf?_nc_cat=107&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=wURKmnWKaloAX-ib5XW&_nc_ht=scontent-zrh1-1.xx&oh=00_AfAN1GB2K_XwIz54PqXTr-dhilI3CfCwdQoaLMyaYEEECg&oe=64F0A68F)  | [Custom](https://github.com/facebookresearch/llama/blob/main/LICENSE) Free if you have under 700M users and you cannot use LLaMA outputs to train other LLMs besides LLaMA and its derivatives   | [HuggingChat](https://huggingface.co/blog/codellama) | 
 | Copilot X |  |  | [Copilot X Blog](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/) |  |  |  | [Copilot X Code](https://github.com/features/copilot/) |
 
-**Complete Content**: please refer to [Model Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-Survey/README.md)
-
 ---
 
 ### Universal LLMs for Picture/Video 
@@ -140,9 +136,6 @@ Some examples of **Universal LLMs for Picture/Video** as follows：
 | CodeGen2 | 2023/04 | [codegen2 1B-16B](https://github.com/salesforce/CodeGen2) | [CodeGen2: Lessons for Training LLMs on Programming and Natural Languages](https://arxiv.org/abs/2305.02309) | 1 - 16 | [2048](https://arxiv.org/abs/2305.02309) | [Apache 2.0](https://github.com/salesforce/CodeGen2/blob/main/LICENSE)| 
 | Consistency Models |  |  | [Consistency Models](https://arxiv.org/abs/2303.01469)，[Consistency Models Blog](https://hub.baai.ac.cn/view/25445) |  |  |  | [Consistency Models Code](https://github.com/openai/consistency_models) |
 | ControlNet |  |  | [Adding Conditional Control to Text-to-Image Diffusion Models](https://arxiv.org/pdf/2302.05543.pdf)，[ControlNet Blog](https://mp.weixin.qq.com/s/k8rE9GrF97E-0TKJhih9kw)  |  |  |  | [ControlNet Code](https://github.com/lllyasviel/ControlNet) |
-| Pika | --- | --- | --- | --- | ---| --- | ---|
-
-**Complete Content**: please refer to [Model Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-Survey/README.md)
 
 ---  
 
@@ -158,8 +151,6 @@ Some examples of **Universal LLMs for Audio** as follows：
 | MUSICGEN |  |  | [Simple and Controllable Music Generation](https://arxiv.org/pdf/2306.05284.pdf)，[MUSICGEN Blog](https://the-decoder.com/metas-open-source-ai-musicgen-turns-text-and-melody-into-new-songs/) |  |  |  | [demo](https://huggingface.co/spaces/facebook/MusicGen) |
 | Make-An-Audio |  |  | [Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models](https://arxiv.org/abs/2301.12661) |  |  |  | [Make-An-Audio Code](https://text-to-audio.github.io) |
 | Voicebox |  |  | [Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale](https://research.facebook.com/file/649409006862002/paper_fixed.pdf)，[Voicebox Blog](https://hub.baai.ac.cn/view/27492) | |  |  |  | |
-
-**Complete Content**: please refer to [Model Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-Survey/README.md)
 
 ---
 
@@ -181,8 +172,8 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 | Video-LLaMA |  |  |  | [Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding](https://arxiv.org/abs/2306.02858) |  |  |  | |
 | VisCPM |  |  |  | [VisCPM Blog](https://mp.weixin.qq.com/s/Fgfbs1vV7RF6kpyk4bfIYw) |  |  |  | [VisCPM Code](https://github.com/OpenBMB/VisCPM) |
 | X-LLM |  |  |  | [X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages](https://arxiv.org/abs/2305.04160)，[项目主页](https://x-llm.github.io/) |  |  |  | |
-
-**Complete Content**: please refer to [Model Survey](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-Survey/README.md)
+| Pika | --- | --- | --- | --- | ---| --- | ---|
+| Sora | --- | --- | --- | --- | ---| --- | ---|
 
 ---
 
