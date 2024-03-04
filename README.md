@@ -21,7 +21,7 @@
 - [LLM 应用](#LLM-应用)
   - [RAG](#RAG)
   - [Agent](#Agent)
-  - [应用框架](#应用框架)
+  - [LLM 应用框架](#LLM-应用框架)
     - [LangChain](#LangChain)
     - [LlamaIndex](#LlamaIndex)
 - [LLM Concepts](#LLM-Concepts)
@@ -67,9 +67,13 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 
 这里整理了LLM预训练、微调使用的部分数据集，更多请参考【[DataSet](https://github.com/ArronAI007/Awesome-AGI/blob/main/DataSet/README.md)】
 
+---
+
 ### LLM 微调
 
 这里整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)】
+
+---
 
 ### LLM 部署
 
@@ -91,7 +95,11 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 
 【LLM大语言模型之Generate/Inference（生成/推理）中参数与解码策略原理及其代码实现】【[blog](https://mp.weixin.qq.com/s/BbWjr8mr3Iu_JLCK0x2rcA)】
 
+---
+
 ### LLM 分布式并行框架
+
+---
 
 ## LLM 应用
 
@@ -148,15 +156,21 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 | XAgent |  | [XAgent Code](https://github.com/OpenBMB/XAgent) | [XAgent官网](https://x-agent.net/)，[XAgent Blog](https://blog.x-agent.net) |  
 | Xlang |  |  |  |  
 
-### 应用框架
+---
+
+### LLM 应用框架
 
 #### LangChain
 
 整理关于LangChain的相关笔记和课程，更多请参考【[LangChain](https://github.com/ArronAI007/Awesome-AGI/tree/main/LangChain/README.md)】
 
+---
+
 #### LlamaIndex
 
 整理关于LlamaIndex的相关笔记和课程，更多请参考【[LlamaIndex](https://github.com/ArronAI007/Awesome-AGI/blob/main/LlamaIndex/README.md)】
+
+---
 
 ## LLM Concepts
 
