@@ -20,6 +20,8 @@
   - [LLM 分布式并行框架](#LLM-分布式并行框架)
 - [LLM 应用](#LLM-应用)
   - [RAG](#RAG)
+    - [向量数据库](#向量数据库)
+    - [RAG开源项目](#RAG开源项目)
   - [Agent](#Agent)
   - [LLM 应用框架](#LLM-应用框架)
     - [LangChain](#LangChain)
@@ -111,22 +113,27 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 
 ### RAG
 
+#### 向量数据库
+
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
-| RAG从入门到精通-RAG简介 |  |  | [blog](https://mp.weixin.qq.com/s/bu5hRn99hAEW1QDbswo-mA) |  
-| 使用Llama index构建多代理 RAG |  |  | [blog](https://mp.weixin.qq.com/s/Hn2f2TcJrAn28IECcTE7Dg) |  
+| Chroma |  |  |  |  
+| LanceDB |  |  |  |  
+| Milvus |  |  |  |  
+| Pinecone |  |  |  |  
+| QDrant |  |  |  |  
+| Weaviate |  |  |  |  
+| Zilliz |  |  |  |  
+
 
 ---
 
-### LLM 问答
+#### RAG开源项目
 
-| Description| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| 基于大语言模型的智能问答系统应该包含哪些环节？ |  | [OpenAI 的审核函数接口 Moderation API](https://platform.openai.com/docs/guides/moderation)  | [blog](https://mp.weixin.qq.com/s/pXEyFHEv1pcqwMNhveneew) |  
-| 搭建本地的chatpdf（原理，文档处理，语义搜索等） |  |  | [blog](https://mp.weixin.qq.com/s/aW7r4i54coW26RMsTdAQ5g) |  
-| 如何避免大语言模型绕过知识库乱答的情况？LlamaIndex 原理与应用简介 |  |  | [官方blog](https://betterprogramming.pub/llamaindex-how-to-use-index-correctly-6f928b8944c6)，[中文blog](https://mp.weixin.qq.com/s/D6_pUv7hHZHRrKSXqo0u2w) |  
-| 使用 Langchain 和 Azure OpenAI 构建一个聊天机器人来查询您的文档 |  |  | [blog](https://mp.weixin.qq.com/s/LeUuq6O5uIJPmrrYYtTaqA) |  
-| 一文搞懂LangChain是什么 |  |  | [blog](https://mp.weixin.qq.com/s/vLlS17AYe4lM95KrG5sFyQ) |  
+| Description| Code | Blog |
+| --- | --- | --- |  
+| AnythingLLM | [AnythingLLM Code](https://github.com/Mintplex-Labs/anything-llm) | [AnythingLLM官网](https://useanything.com/) |  
+| QAnything |  |  |  
 
 ---
 
