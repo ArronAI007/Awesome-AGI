@@ -164,18 +164,20 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 | BLIP-2 |  |  |  | [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)，[demo](https://huggingface.co/spaces/Salesforce/BLIP2)，[doc](https://huggingface.co/docs/transformers/main/en/model_doc/blip-2) |  |  | | [code](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)，[fine-tuing](https://github.com/salesforce/LAVIS)，[hugging face spaces](https://hf.co/spaces/Salesforce/BLIP2) |
 | CodeGen2 | | | [codegen2 1B-16B](https://github.com/salesforce/CodeGen2) | [CodeGen2: Lessons for Training LLMs on Programming and Natural Languages](https://arxiv.org/abs/2305.02309) | 1 - 16 | [2048](https://arxiv.org/abs/2305.02309) | [Apache 2.0](https://github.com/salesforce/CodeGen2/blob/main/LICENSE)| 
 | CogVLM | Vicuna-7B-v1.5，GLM，Llama2 | EVA2-CLIP-E | [modelscope](https://www.modelscope.cn/models/ZhipuAI/CogVLM)，[Huggingface](https://huggingface.co/THUDM/CogVLM) | [CogVLM: Visual Expert for Pretrained Language Models](https://arxiv.org/abs/2311.03079) | 17 |---| --- | [CogVLM Code](https://github.com/THUDM/CogVLM) |
+| EMO |  |  |  |  |  |  |  |
 | Emu2 |  |  | [Emu2](https://huggingface.co/BAAI/Emu2) | [Generative Multimodal Models are In-Context Learners](https://arxiv.org/abs/2312.13286)，[PageHome](https://baaivision.github.io/emu2/)，[Demo](https://huggingface.co/spaces/BAAI/Emu2) | 37 |---| --- | [Emu2 Code](https://github.com/baaivision/Emu/tree/main/Emu2) |
 | GPT4 |  |  |  | [OpenAI GPT4](https://openai.com/research/gpt-4)，[GPT4_System_Card中文翻译](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Official/GPT-4_System_Card_zh.md)，[GPT4_Technical_Report中文翻译](https://github.com/ArronAI007/ChatGPT-Summary/blob/main/GPT4/Official/GPT4_Technical_Report_zh.md)，[The Ultimate GPT-4 Guide](https://doc.clickup.com/37456139/d/h/13q28b-324/e2a22b0c164b1f9) | 
 | GPT4Video |  |  |  | [GPT4Video: A Unified Multimodal Large Language Model for lnstruction-Followed Understanding and Safety-Aware Generation](https://arxiv.org/abs/2311.16511)，[HomePage](https://gpt4video.github.io) |  |  |  |  |
 | LaVIN | LLaMA | ViT-L |  | [Cheap and Quick: Efficient Vision-Language Instruction Tuning for Large Language Models](https://arxiv.org/pdf/2305.15023.pdf)，[blog](https://mp.weixin.qq.com/s/MRLYk1b7VJ_b6OmJ9mzkdw) | 7，13 |  | [LaVIN Code](https://github.com/luogen1996/LaVIN) |
 | LLaVA |  |  |  | [Visual Instruction Tuning](https://arxiv.org/pdf/2304.08485.pdf)，[introduce](https://llava-vl.github.io/) |  |  |  | |
+| LTX Studio |  |  |  | [LTX Studio](https://ltx.studio/) |  |  |  |
 | UniDiffuser |  |  |  | [One Transformer Fits All Distributions in Multi-Modal Diffusion at Scale](https://ml.cs.tsinghua.edu.cn/diffusion/unidiffuser.pdf) |  |  |  | [UniDiffuser Code](https://github.com/thu-ml/unidiffuser) |
 | Video-LLaMA |  |  |  | [Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding](https://arxiv.org/abs/2306.02858) |  |  |  | |
 | VisCPM |  |  |  | [VisCPM Blog](https://mp.weixin.qq.com/s/Fgfbs1vV7RF6kpyk4bfIYw) |  |  |  | [VisCPM Code](https://github.com/OpenBMB/VisCPM) |
 | X-LLM |  |  |  | [X-LLM: Bootstrapping Advanced Large Language Models by Treating Multi-Modalities as Foreign Languages](https://arxiv.org/abs/2305.04160)，[项目主页](https://x-llm.github.io/) |  |  |  | |
-| Pika | --- | --- | --- | --- | ---| --- | ---|
-| Sora | --- | --- | --- | [Sora](https://openai.com/sora) | ---| --- | ---|
-| SoraWebui | --- | --- | --- | [SoraWebui](https://sorawebui.com/) | ---| --- | [SoraWebui Code](https://github.com/SoraWebui/SoraWebui) |
+| Pika |  |  |  |  |  |  |  |
+| Sora |  |  |  | [Sora](https://openai.com/sora) |  |  |  |
+| SoraWebui |  |  |  | [SoraWebui](https://sorawebui.com/) |  |  | [SoraWebui Code](https://github.com/SoraWebui/SoraWebui) |
 
 ---
 
