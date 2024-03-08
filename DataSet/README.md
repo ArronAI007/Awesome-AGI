@@ -51,18 +51,14 @@
 
 ## LLM Evaluation Benchmark
 
-| Name | Release Date |  Paper/Blog | Dataset | Samples (K) | License |
-| --- | --- | --- | --- | --- | ---- |
-| C-Eval | --- | --- | [C-Eval](https://cevalbenchmark.com/index.html) | --- | ---- |
-| Gaokao | --- | --- | [Gaokao](https://github.com/OpenLMLab/GAOKAO-Bench) | --- | ---- |
-| AGIEval | --- | --- | [AGIEval](https://github.com/microsoft/AGIEval) | --- | ---- |
-| MMLU | --- | --- | [MMLU](https://arxiv.org/abs/2009.03300) | --- | ---- |
-| LawBench | --- | [LawBench: Benchmarking Legal Knowledge of Large Language Models](https://arxiv.org/pdf/2309.16289.pdf) | [LawBench Code](https://github.com/open-compass/LawBench) | --- | ---- |
-| --- | --- | --- | --- | --- | ---- |
-| --- | --- | --- | --- | --- | ---- |
-| --- | --- | --- | --- | --- | ---- |
-| --- | --- | --- | --- | --- | ---- |
-| --- | --- | --- | --- | --- | ---- |
+| Name | Paper/Blog | Dataset | Samples (K) | License |
+| --- | --- | --- | --- | ---- |
+| C-Eval |  | [C-Eval](https://cevalbenchmark.com/index.html) |  |  |
+| Gaokao |  | [Gaokao](https://github.com/OpenLMLab/GAOKAO-Bench) |  |  |
+| AGIEval | | [AGIEval](https://github.com/microsoft/AGIEval) |  |  |
+| MMLU |  | [MMLU](https://arxiv.org/abs/2009.03300) |  |  |
+| LawBench | [LawBench: Benchmarking Legal Knowledge of Large Language Models](https://arxiv.org/pdf/2309.16289.pdf) | [LawBench Code](https://github.com/open-compass/LawBench) |  |  |
+
 
 
 
@@ -82,6 +78,15 @@ Some examples of **DataSets** as follows：
 | 为了让Panda LLM在中文数据集上获得强大的性能，作者使用了强大的指令微调instruction-tuning技术，将LLaMA基础模型在五个开源的中文数据集进行混合训练，其中包括来自各种语言领域的1530万个样本，例如维基百科语料，新闻语料，百科问答语料，社区问答语料，和翻译语料。 |  |  | [blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ) |  
 | RedPajama开源项目｜复制超过1.2万亿个令牌的LLaMA训练数据集 |  | [code](https://github.com/togethercomputer/RedPajama-Data) | [原始blog](https://www.together.xyz/blog/redpajama)，[中文blog](https://hub.baai.ac.cn/view/25485)，[dataset](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T) |  
 
+### 长文本数据集
+
+| Description| Paper | Code | Blog |
+| --- | --- | --- | --- | 
+| ZeroSCROLLS | [ZeroSCROLLS: A Zero-Shot Benchmark for Long Text Understanding](https://arxiv.org/pdf/2305.14196.pdf) |  | [ZeroSCROLLS Blog](https://mp.weixin.qq.com/s/rTsUjvo4hGu17ZpJmOYRKQ) |
+| L-Eval | [L-EVAL: INSTITUTING STANDARDIZED EVALUATION FOR LONG CONTEXT LANGUAGE MODELS](https://arxiv.org/pdf/2307.11088.pdf) |  |  | ---- |
+| LongBench | [LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding](https://arxiv.org/abs/2308.14508) |  |  |  
+| LooGLE | [LooGLE: CAN LONG-CONTEXT LANGUAGE MODELS UNDERSTAND LONG CONTEXTS?](https://arxiv.org/pdf/2311.04939.pdf) |  |  |  
+| CLongEval | [CLongEval: A Chinese Benchmark for Evaluating Long-Context Large Language Models](https://arxiv.org/pdf/2403.03514) | [CLongEval Code](https://github.com/zexuanqiu/CLongEval) | [CLongEval Blog](https://mp.weixin.qq.com/s/LuyanfotOGJhdUQ5fnUkqg) |  
 
 
 

@@ -26,6 +26,7 @@
   - [LLM 应用框架](#LLM-应用框架)
     - [LangChain](#LangChain)
     - [LlamaIndex](#LlamaIndex)
+    - [TaskingAI](#TaskingAI)
 - [LLM Concepts](#LLM-Concepts)
   - [Prompt Engineering](#Prompt-Engineering)
   - [RLHF](#RLHF)
@@ -125,7 +126,6 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 | Weaviate |  |  |  |  
 | Zilliz |  |  |  |  
 
-
 ---
 
 #### RAG开源项目
@@ -133,7 +133,7 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 | Description| Code | Blog |
 | --- | --- | --- |  
 | AnythingLLM | [AnythingLLM Code](https://github.com/Mintplex-Labs/anything-llm) | [AnythingLLM官网](https://useanything.com/) |  
-| QAnything |  |  |  
+| QAnything | [QAnything Code](https://github.com/netease-youdao/QAnything) |  |  
 
 ---
 
@@ -179,6 +179,10 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 #### LlamaIndex
 
 整理关于LlamaIndex的相关笔记和课程，更多请参考【[LlamaIndex](https://github.com/ArronAI007/Awesome-AGI/blob/main/LlamaIndex/README.md)】
+
+#### TaskingAI
+
+整理关于LlamaIndex的相关笔记和课程，更多请参考【[LlamaIndex](https://github.com/ArronAI007/Awesome-AGI/blob/main/TaskingAI/README.md)】
 
 ---
 
@@ -239,6 +243,7 @@ Some examples of **Prompt Engineering** as follows：
 | 图解RoPE旋转位置编码及其特性 |  |  | [blog](https://mp.weixin.qq.com/s/-1xVXjoM0imXMC7DKqo-Gw) |  
 | 详解基于调整RoPE旋转角度的大模型长度外推方法 |  |  | [blog](https://mp.weixin.qq.com/s/RtI95hu-ZLxGkdGuNIkERQ) | 
 | 无需微调的自扩展大模型上下文窗口 | [LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning](https://simg.baai.ac.cn/paperfile/a34ae7f4-f0ce-4f8f-b8f2-e8e4d84bbee5.pdf) | --- | --- |   
+| 大模型长文本评估方案CLongEval | [CLongEval: A Chinese Benchmark for Evaluating Long-Context Large Language Models](https://arxiv.org/pdf/2403.03514) | [CLongEval Code](https://github.com/zexuanqiu/CLongEval) | [CLongEval Blog](https://mp.weixin.qq.com/s/LuyanfotOGJhdUQ5fnUkqg) |  
 
 ---
 
