@@ -27,7 +27,7 @@ Prompt Engineering in action in LLM industry
 | BPO：灵活的 Prompt 对齐优化技术 | [Black-Box Prompt Optimization: Aligning Large Language Models without Model Training](https://arxiv.org/abs/2311.04155) | [BPO Code](https://github.com/thu-coai/BPO) | [blog](https://mp.weixin.qq.com/s/b3GzEi_p69EWnwwyIXRoOg) |  
 | Medprompt | [Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine](https://arxiv.org/abs/2311.16452) | [Medprompt Code](https://github.com/microsoft/promptbase) | [Medprompt Blog](https://mp.weixin.qq.com/s/s7B2lkrWkAy0yMRQ2BkOsA) |  
 | 高质量Prompt自动生成方法：PromptAgent | [PromptAgent: Strategic Planning with Language Models Enables Expert-level Prompt Optimization](https://arxiv.org/abs/2310.16427) | [PromptAgent Code](https://github.com/xinyuanwangcs/promptagent ) | [PromptAgent Blog](https://mp.weixin.qq.com/s/Wlalz2d00Orlbkb4G9CZ_A) |  
-
+| LangGPT | [LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language](https://arxiv.org/abs/2402.16929) | [](https://github.com/EmbraceAGI/LangGPT/tree/main) | [LangGPT Blog](https://mp.weixin.qq.com/s/KwRDrdrhGYz6ODUFyqGxdg) |  
 
 
 
