@@ -11,5 +11,13 @@
 | 使用 Langchain 和 Azure OpenAI 构建一个聊天机器人来查询您的文档 |  |  | [blog](https://mp.weixin.qq.com/s/LeUuq6O5uIJPmrrYYtTaqA) |  
 | 一文搞懂LangChain是什么 |  |  | [blog](https://mp.weixin.qq.com/s/vLlS17AYe4lM95KrG5sFyQ) |  
 
+## RAG扩展模型
+
+随着RAG的快速发展，一些高级RAG技术层出不穷，下面将介绍一些常见的RAG扩展模型和算法
+
+| Model| Paper | Code | Blog |
+| ---| --- | --- | --- |
+| RAT | [RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation](https://arxiv.org/pdf/2403.05313) | [RAT Code](https://github.com/CraftJarvis/RAT) | [RAT主页](https://craftjarvis.github.io/RAT/) |
+| T-RAG | [T-RAG: Lessons from the LLM Trenches](https://arxiv.org/abs/2402.07483) |  |  |
 
 

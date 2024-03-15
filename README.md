@@ -116,7 +116,7 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 
 #### 向量数据库
 
-| Description| Paper | Code | Blog |
+| VectorDB| Paper | Code | Blog |
 | --- | --- | --- | --- |  
 | Chroma |  |  |  |  
 | DingoDB |  | [dingo](https://github.com/dingodb/dingo)，[dingo-store](https://github.com/dingodb/dingo-store) | [DingoDB官网](https://www.dingodb.com/) |  
@@ -131,7 +131,7 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 
 #### RAG开源项目
 
-| Description| Code | Blog |
+| RAG_OpenSoure_Tool | Code | Blog |
 | --- | --- | --- |  
 | AnythingLLM | [AnythingLLM Code](https://github.com/Mintplex-Labs/anything-llm) | [AnythingLLM官网](https://useanything.com/) |  
 | QAnything | [QAnything Code](https://github.com/netease-youdao/QAnything) |  |  
@@ -201,17 +201,6 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 | PoT | [Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks](https://arxiv.org/abs/2211.12588) |  |  |  
 | SoT | [Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding](https://arxiv.org/abs/2307.15337) |  |  |  
 | ToT | [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) |  |  |  
-
-Some examples of **Prompt Engineering** as follows：
-
-| Description| Paper | Code | Blog |
-| --- | --- | --- | --- |  
-| 提示词管理工具agenta |  |  | [agenta主页](https://agenta.ai/) |  
-| OpenAI 应用人工智能研究负责人Lilian Weng新博文：关于提示工程的介绍 | |  | [blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) | 
-| Prompt Engineering全面自动化 | | | [blog](https://mp.weixin.qq.com/s/aj8Ls463jpF92ssn6Acwzg) | 
-| ChatGPT提示示例集合 | [huggingface](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts) | [ChatGPT提示示例集合](https://github.com/f/awesome-chatgpt-prompts/) | [主页](https://prompts.chat) | 
-| ChatGPT Prompt工程：设计、实践与思考 | | | [blog](https://mp.weixin.qq.com/s/a8hjzZ_Rzl6pOU1PRAARJQ) | 
-| 指令学习综述｜ChatGPT背后的指令学习是什么 | [Is Prompt All You Need? No. A Comprehensive and Broader View of Instruction Learning](https://arxiv.org/pdf/2303.10475v2.pdf) | | [blog](https://mp.weixin.qq.com/s/BK30JkIlshwkdHRjaRCD2g) | 
 
 更多请参考【[Prompt Engineering](https://github.com/ArronAI007/Awesome-AGI/tree/main/Prompt-Engineering/README.md)】
 
