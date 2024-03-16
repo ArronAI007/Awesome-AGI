@@ -17,7 +17,7 @@
 
 | Model| Paper | Code | Blog |
 | ---| --- | --- | --- |
-| RAT | [RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation](https://arxiv.org/pdf/2403.05313) | [RAT Code](https://github.com/CraftJarvis/RAT) | [RAT主页](https://craftjarvis.github.io/RAT/) |
+| RAT | [RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation](https://arxiv.org/pdf/2403.05313) | [RAT Code](https://github.com/CraftJarvis/RAT) | [RAT主页](https://craftjarvis.github.io/RAT/)，[RAT demo](https://huggingface.co/spaces/jeasinema/RAT) |
 | T-RAG | [T-RAG: Lessons from the LLM Trenches](https://arxiv.org/abs/2402.07483) |  |  |
 
 
