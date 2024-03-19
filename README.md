@@ -114,6 +114,10 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 
 ### RAG
 
+#### RAG实战与理论
+
+RAG实战与理论相关资料，更多请参考【[LangChain](https://github.com/ArronAI007/Awesome-AGI/blob/main/RAG/README.md)】
+
 #### 向量数据库
 
 | VectorDB| Paper | Code | Blog |
