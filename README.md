@@ -145,30 +145,36 @@ RAG实战与理论相关资料，更多请参考【[LangChain](https://github.co
 
 ### Agent
 
-| Model| Paper | Code | Blog |
+| Model| Description | Code | Paper/Blog |
 | --- | --- | --- | --- |  
-| Agents | [Agents: An Open-source Framework for Autonomous Language Agents](https://arxiv.org/pdf/2309.07870.pdf) | [Agent Code](https://github.com/aiwaves-cn/agents) | [Agent 官网](http://www.aiwaves-agents.com/)，[blog](https://mp.weixin.qq.com/s/OEud_eW7kAMYW2PagdoIcg) |  
+| Agents |  | [Agent Code](https://github.com/aiwaves-cn/agents) | [Agents: An Open-source Framework for Autonomous Language Agents](https://arxiv.org/pdf/2309.07870.pdf)，[Agent 官网](http://www.aiwaves-agents.com/)，[blog](https://mp.weixin.qq.com/s/OEud_eW7kAMYW2PagdoIcg) |  
 | AgentGPT |  | [AgentGPT Code](https://github.com/reworkd/AgentGPT) | [AgentGPT Chat](https://agentgpt.reworkd.ai/zh)，[AgentGPT docs](https://docs.reworkd.ai/introduction) | 
 | AgentVerse |  |  |  |   
 | AI Legion |  | [AI Legion Chat](https://github.com/eumemic/ai-legion) |  |  
-| AutoGen |  |  | [AutoGen blog](https://mp.weixin.qq.com/s/M7xHAA4HSH-cJG3kbvgvNg) |  
-| AutoGPT |  | [AutoGPT Code](https://github.com/Significant-Gravitas/Auto-GPT) | [AutoGPT docs](https://docs.agpt.co/setup/) ，[AutoGPT blog](https://generativeai.pub/complete-guide-to-setup-autogpt-revolutionize-your-task-automation-with-gpt-4-39eda5a85821?gi=ea5c40bac6fd) |  
-| BabyAGI |  | [BabyAGI Code](https://github.com/yoheinakajima/babyagi) | [BabyAGI docs](https://babyagi.org/) |  
-| Camel |  | [CAMEL Code](https://github.com/camel-ai/camel) | [CAMEL Chat](http://agents.camel-ai.org/)，[CAMEL docs](https://www.camel-ai.org/) |  
+| AutoGen | 微软在向 OpenAI 注资 130 亿美元并使 Bing 变得更智能后，现在成为人工智能领域的主要参与者。其 AutoGen 是一个用于开发和部署多个代理的开源框架，这些代理可以共同工作以自主实现目标。AutoGen 试图促进和简化代理之间的通信，减少错误，并最大化 LLMs 的性能。它还具有广泛的定制功能，允许您选择首选模型，通过人类反馈改进输出，并利用额外的工具。 |  | [AutoGen blog](https://mp.weixin.qq.com/s/M7xHAA4HSH-cJG3kbvgvNg) |  
+| AutoGPT | 创始人托兰·布鲁斯·理查兹开发，AutoGPT 是早期代理之一，于 2023 年 3 月发布，是根据中岛的论文开发的。它也是今天在 GitHub 上最受欢迎的代理存储库。 AutoGPT 的理念很简单 - 它是一个完整的工具包，用于构建和运行各种项目的定制 AI 代理。该工具使用 OpenAI 的 GPT-4 和 GPT-3.5 大型语言模型（LLM），并允许您为各种个人和商业项目构建代理。 | [AutoGPT Code](https://github.com/Significant-Gravitas/Auto-GPT) | [AutoGPT docs](https://docs.agpt.co/setup/) ，[AutoGPT blog](https://generativeai.pub/complete-guide-to-setup-autogpt-revolutionize-your-task-automation-with-gpt-4-39eda5a85821?gi=ea5c40bac6fd) |  
+| BabyAGI | BabyAGI 是中山的任务驱动自主代理的简化版本。这个 Python 脚本只有 140 个代码字，并且根据官方 GitHub 仓库，“使用 OpenAI 和矢量数据库，如 Chroma 或 Weaviate，来创建、优先处理和执行任务”。 | [BabyAGI Code](https://github.com/yoheinakajima/babyagi) | [BabyAGI docs](https://babyagi.org/) |  
+| Camel | 该框架利用 LLM 的力量动态分配角色给代理人，指定和开发复杂任务，并安排角色扮演场景，以促进代理人之间的协作。这就像是为人工智能设计的戏剧。    | [CAMEL Code](https://github.com/camel-ai/camel) | [CAMEL Chat](http://agents.camel-ai.org/)，[CAMEL docs](https://www.camel-ai.org/) |  
+| ChatDev | CoPilot、Bard、ChatGPT 等等都是强大的编码助手。但是像 ChatDev 这样的项目可能很快就会让它们望尘莫及。ChatDev 被打造成“一个虚拟软件公司”，它不仅使用一个，而是多个代理人来扮演传统开发组织中的不同角色。  代理人 - 每个都被分配了一个独特的角色 - 可以合作处理各种任务，从设计软件到编写代码和文档。雄心勃勃？当然。ChatDev 仍然更多地是一个代理人互动的测试平台，但如果你自己是开发人员，它是值得一看的。 | [ChatDev Code](https://github.com/OpenBMB/ChatDev) | --- |  
 | crewAI |  | [crewAI Code](https://github.com/joaomdmoura/crewAI) | [crewAI Blog](https://mp.weixin.qq.com/s/FBhrVwBlSMtfK1KTwo1yXg) |  
-| CogAgent | --- | --- | --- |  
+| CogAgent |  |  |  |  
 | Do Anything Machine |  |  | [Do Anything Machine Chat](https://www.doanythingmachine.com/) |  
-| Generative Agents | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | [GPTRPG Code](https://github.com/dzoba/gptrpg) |  | 
+| Generative Agents |  | [GPTRPG Code](https://github.com/dzoba/gptrpg) | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | 
 | Gentopia |  |  |  |  
 | Godmode |  |  | [Godmode Chat](https://godmode.space/) |  
 | GPT-Engineer |  | [GPT-Engineer Code](https://github.com/AntonOsika/gpt-engineer) |  |   
 | HuggingGPT |  | [HuggingGPT Code](https://github.com/microsoft/JARVIS) | [HuggingGPT Chat](https://huggingface.co/spaces/microsoft/HuggingGPT) |  
-| MetaGPT |  | [MetaGPT Code](https://github.com/geekan/MetaGPT) |  | 
+| JARVIS | JARVIS 远不及托尼·斯塔克标志性的人工智能助手（还有同样标志性的保罗·贝坦尼的声音），但它有一些小技巧。以 ChatGPT 作为其“决策引擎”，JARVIS 处理任务规划、模型选择、任务执行和内容生成。拥有对 HuggingFace 平台上数十种专门模型的访问权限，JARVIS 利用 ChatGPT 的推理能力来应用最佳模型到给定的任务上。这使得它对各种任务具有相当迷人的灵活性，从简单的摘要到目标检测都能胜任。 | [JARVIS Code](https://github.com/microsoft/JARVIS) | --- |  
+| LoopGPT | LoopGPT 是 Toran Bruce Richards 的 AutoGPT 的一个迭代版本。除了一个合适的 Python 实现，该框架还带来了对 GPT-3.5 的改进支持，集成和自定义代理能力。它还消耗更少的 API 令牌，因此运行成本更低。LoopGPT 可以基本上自主运行，或者与人类一起运行，以最小化模型的幻觉。有趣的是，该框架不需要访问向量数据库或外部存储来保存数据。它可以将代理状态写入文件或 Python 项目。 | [LoopGPT Code](https://github.com/farizrahman4u/loopgpt/tree/main) | --- | 
+| MetaGPT | MetaGPT 是另一个开源 AI 代理框架，试图模仿传统软件公司的结构。与 ChatDev 类似，代理被分配为产品经理、项目经理和工程师的角色，并协作完成用户定义的编码任务。到目前为止，MetaGPT 只能处理中等难度的任务 - 比如编写贪吃蛇游戏或构建简单的实用应用程序 - 但它是一个有前途的工具，可能在未来迅速发展。使用 OpenAI API 费用，生成一个完整的项目大约需要 2 美元。 | [MetaGPT Code](https://github.com/geekan/MetaGPT) |  | 
 | NexusGPT |  |  | [NexusGPT Chat](https://nexus.snikpic.io/) |  
+| OpenAGI | OpenAGI 是一个开源的 AGI（人工通用智能）研究平台，结合了小型专家模型 - 专门针对情感分析或图像去模糊等任务的模型 - 以及来自任务反馈的强化学习（RLTF）来改进它们的输出。 在幕后，OpenAGI 与其他自主开源 AI 框架并没有太大的不同。它汇集了像 ChatGPT、LLMs（如 LLaMa2）和其他专业模型等流行平台，并根据任务的上下文动态选择合适的工具。 | [OpenAGI Code](https://github.com/agiresearch/OpenAGI) | --- |  
 | RecurrentGPT |  |  |  |  
-| RestGPT | [RestGPT: Connecting Large Language Models with Real-World RESTful APIs](https://arxiv.org/abs/2306.06624) | [RestGPT Code](https://github.com/Yifan-Song793/RestGPT) | [RestGPT blog](https://mp.weixin.qq.com/s/cdkezgE31ozGPiLZBU9Cxw) | 
-| RoboGen | [RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation](https://arxiv.org/abs/2311.01455) | [RoboGen Code](https://github.com/Genesis-Embodied-AI) | [项目主页](https://robogen-ai.github.io/)，[blog](https://mp.weixin.qq.com/s/2bQTuwE-k6ukp--XHXIzMg) |   
-| Toolformer | [Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/pdf/2302.04761.pdf) |  | [Toolformer blog](https://www.sensorexpert.com.cn/article/194585.html) |  
+| RestGPT |  | [RestGPT Code](https://github.com/Yifan-Song793/RestGPT) | [RestGPT blog](https://mp.weixin.qq.com/s/cdkezgE31ozGPiLZBU9Cxw)，[RestGPT: Connecting Large Language Models with Real-World RESTful APIs](https://arxiv.org/abs/2306.06624) | 
+| RoboGen |  | [RoboGen Code](https://github.com/Genesis-Embodied-AI) | [项目主页](https://robogen-ai.github.io/)，[blog](https://mp.weixin.qq.com/s/2bQTuwE-k6ukp--XHXIzMg)，[RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation](https://arxiv.org/abs/2311.01455) | 
+| ShortGPT | AI 模型在生成内容方面表现出色。但直到最近，视频格式一直受到较少关注。ShortGPT 是一个框架，它允许您使用大型语言模型来简化诸如视频创作、语音合成和编辑等复杂任务。 ShortGPT 可以处理大多数典型的与视频相关的任务，如撰写视频脚本，生成配音，选择背景音乐，撰写标题和描述，甚至编辑视频。该工具适用于短视频和长视频内容，无论平台如何。 | [ShortGPT Code](https://github.com/RayVentura/ShortGPT) |  |    
+| SuperAGI | SuperAGI 是 AutoGPT 的更灵活、用户友好的替代品。把它想象成一个开源 AI 代理的发射台，它包含了构建、维护和运行自己代理所需的一切。这还包括插件和一个云版本，您可以在其中测试各种功能。该框架具有多个人工智能模型，图形用户界面，与向量数据库的集成（用于存储/检索数据），以及性能洞察。还有一个市场，其中有工具包，可以让您将其连接到流行的应用程序和服务，如 Google Analytics。 | [SuperAGI Code](https://github.com/TransformerOptimus/SuperAGI) |  |  
+| Toolformer |  |  | [Toolformer blog](https://www.sensorexpert.com.cn/article/194585.html)，[Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/pdf/2302.04761.pdf) |  
 | XAgent |  | [XAgent Code](https://github.com/OpenBMB/XAgent) | [XAgent官网](https://x-agent.net/)，[XAgent Blog](https://blog.x-agent.net) |  
 | Xlang |  |  |  |  
 
