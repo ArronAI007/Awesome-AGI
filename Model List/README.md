@@ -12,13 +12,13 @@ Model List mainly includes Universal LLMs and Domain LLMs, In terms of Universal
 | --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- | --- | 
 | baichuan-7b | 2023/6/15 |  |  | [Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary)，[hugging face](https://huggingface.co/baichuan-inc/baichuan-7B) | [blog](https://mp.weixin.qq.com/s/qA_E_3dUe1sSOUM87ZgHdQ) | [7](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-List/model-params.md) | 4096 | [baichuan-7b Code](https://github.com/baichuan-inc/baichuan-7B)，[baichuan-7b Demo](https://huggingface.co/baichuan-inc/baichuan-7B) |1.2T | BPE | 64000 | RoPE | Pre RMS Norm |  SwiGLU | Flash-attention |
 | baichuan-13b | 2023/7/11 |  |  | [hugging face Base](https://huggingface.co/baichuan-inc/Baichuan-13B-Base)，[hugging face Chat](https://huggingface.co/baichuan-inc/Baichuan-13B-Chat)，[modelscope Base](https://modelscope.cn/models/baichuan-inc/Baichuan-13B-Base)，[modelscope Chat](https://modelscope.cn/models/baichuan-inc/Baichuan-13B-Chat) | [baichuan-13b blog](https://mp.weixin.qq.com/s/Px4h2r3VIAFI5vfjXxROxg)，[百川大模型【Baichuan-13B】 多卡训练微调记录](https://mp.weixin.qq.com/s/EUZA6Lt-OcI170md9lXH1g) | [13](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model-List/model-params.md) | 4096 | [baichuan-13b Code](https://github.com/baichuan-inc/Baichuan-13B) | 1.4T |  | 64000 | ALiBi | RMSNorm |  | Flash-attention |
-| baichuan-53b | 2023/8/8 |  | --- | --- |--- | 53（用于搜索） | --- | [baichuan Demo](https://chat.baichuan-ai.com/home) | --- | --- | --- | --- | --- | --- | --- | 
+| baichuan-53b | 2023/8/8 |  |  |  | | 53（用于搜索） |  | [baichuan Demo](https://chat.baichuan-ai.com/home) |  |  |  |  |  |  |  | 
 | fireballoon/baichuan-vicuna-chinese-7b |  | baichuan-7b |  |  | | |  | |  |  |  |  |  |  |  | 
 | fireballoon/baichuan-vicuna-7b |  | baichuan-7b |  |  | | |  | |  |  |  |  |  |  |  | 
 | firefly-baichuan-7b-qlora-sft |  | baichuan-7b |  |  | [blog](https://mp.weixin.qq.com/s/_eTkDGG5DmxyWeiQ6DIxBw)，[Hugging Face model](https://huggingface.co/YeungNLP/firefly-baichuan-7b-qlora-sft)，[Model Scope](https://modelscope.cn/models/baichuan-inc/baichuan-7B/summary)，[C-EVAL](https://cevalbenchmark.com/static/leaderboard_zh.html) |  |  | [code](https://github.com/baichuan-inc/baichuan-7B) |
 | baichuan-13b-Chat |  |  |  |  | [blog](https://mp.weixin.qq.com/s/wStOyHPd8c7V0ug1Qebryw) |  |  | [code](https://github.com/percent4/document_qa_with_llm) |
 | Baichuan2 |  |  |  | [Baichuan2](https://huggingface.co/baichuan-inc/Baichuan2-7B-Intermediate-Checkpoints) | [Baichuan2技术报告](https://cdn.baichuan-ai.com/paper/Baichuan2-technical-report.pdf)，[SuperCLUE评测效果](https://mp.weixin.qq.com/s/SV7COWNu9uGnpOBzVYCyog) | 7，13 |  | [Baichuan2 Code](https://github.com/baichuan-inc/Baichuan2) | 2.6T |  |  |  |  |  |  | 
-| firefly-baichuan-13b | --- | baichuan-13b-base | QLoRA |--- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- | --- | 
+| firefly-baichuan-13b |  | baichuan-13b-base | QLoRA | |  |  | |  |  |  |  |  |  |  |  | 
 
 ## ChatGLM Alternatives
 
@@ -94,6 +94,7 @@ Some examples of **Universal LLMs for Text** as follows：
 | Claude 3 | 2024/3 | [Claude 3](https://www.anthropic.com/claude-3-model-card) | [Claude 3技术报告](https://www.anthropic.com/claude-3-model-card) |  |  |  |  |
 | ColossalAI |  |  | [ColossalAI SFT Blog](https://mp.weixin.qq.com/s/NS4yySeYd7QUYb7CB9V0lA) |  |  |  | [ColossalAI Code](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat) | 
 | CPM-Bee |  |  [CPM-Bee-10B](https://huggingface.co/openbmb/cpm-bee-10b)| [CPM-Bee Blog](https://mp.weixin.qq.com/s/BO4cDB9KRSODZw3TvZpUAA) |  |  |  | [CPM-Bee Code](https://github.com/OpenBMB/CPM-Bee) |
+| DBRX | 2024/03 | [DBRX-base](https://huggingface.co/databricks/dbrx-base)，[DBRX微调模型](https://huggingface.co/databricks/dbrx-instruct) |  | 132 |  |  | [DBRX Code](https://github.com/databricks/dbrx) |
 | Dolly（GPT-J）        | 2023/04 | [dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b)                            |  [Hello Dolly: Democratizing the magic of ChatGPT with open models](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html)，[Databricks Inc主页](https://www.databricks.com)            | 3, 7, 12     | [2048](https://github.com/databrickslabs/dolly#dolly) | MIT                |                                                                                                                       |
 | Dolly2.0（Pythia） |  |  | [Free Dolly: Introducing the World's First Truly Open Instruction-Tuned LLM](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)，[中文blog](https://hub.baai.ac.cn/view/25434) | 
 | DeepSpeed-Chat |  | [code](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat) | [blog](https://hub.baai.ac.cn/view/25414) | 
@@ -114,7 +115,7 @@ Some examples of **Universal LLMs for Text** as follows：
 Some examples of **Universal LLMs for Code** as follows：
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length                                                                         | Licence | Code                                                                                    |
-| --- | --- | --- | --- | --- |----------------------------------------------------------------------------------------| --- |-------------------------------------------------------------------------------------------|
+| --- | --- | --- | --- | --- |----| --- |---|
 | Baldur |  |  | [Baldur: Whole-Proof Generation and Repair with Large Language Models](https://arxiv.org/abs/2303.04910) |  |  |  |  |
 | CodeGeeX |  |  | [CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X](https://arxiv.org/pdf/2303.17568.pdf) |  |  |  | [CodeGeeX Code](https://github.com/THUDM/CodeGeeX) |
 | CodeGeeX2-6B |  |  | [CodeGeeX2-6B Blog](https://mp.weixin.qq.com/s/roQSCo-7s361P3TmJjjZjA) |  |  |  | [CodeGeeX2-6B Code](https://github.com/THUDM/CodeGeeX2) |
@@ -146,7 +147,7 @@ Some examples of **Universal LLMs for Picture/Video** as follows：
 Some examples of **Universal LLMs for Audio** as follows：
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length                                                                         | Licence | Code                                                                                    |
-| --- | --- | --- | --- | --- |----------------------------------------------------------------------------------------| --- |-------------------------------------------------------------------------------------------|
+| --- | --- | --- | --- | --- |----| --- |---|
 | AudioCraft |  |  | [AudioCraft Blog](https://mp.weixin.qq.com/s/OLLCiMqKHQJxGGR1sPA3qw) |  |  |  | [code](https://github.com/facebookresearch/audiocraft) |
 | CodeGen2 | 2023/04 | [codegen2 1B-16B](https://github.com/salesforce/CodeGen2) | [CodeGen2: Lessons for Training LLMs on Programming and Natural Languages](https://arxiv.org/abs/2305.02309) | 1 - 16 | [2048](https://arxiv.org/abs/2305.02309) | [Apache 2.0](https://github.com/salesforce/CodeGen2/blob/main/LICENSE)| 
 | Generative Disco |  |  | [Generative Disco: Text-to-Video Generation for Music Visualization](https://arxiv.org/pdf/2304.08551.pdf)，[Generative Disco Blog](https://hub.baai.ac.cn/view/25517) |  |  |  | | 
@@ -187,7 +188,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 ### Domain LLMs for Law
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
-| --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
+| --- | --- | --- | --- | --- | --- | --- |---|
 | CaMA |  |  | [CaMA Blog](https://mp.weixin.qq.com/s/FYWmMH2ndN5XfWvwI9dcUA) |  |  |   |  |    
 | ChatLaw |  |  | [ChatLaw: Open-Source Legal Large Language Model with Integrated External Knowledge Bases](https://arxiv.org/pdf/2306.16092.pdf)，[official website](https://www.chatlaw.cloud/) |  |  |   | [ChatLaw Code](https://github.com/PKU-YuanGroup/ChatLaw) |   
 | ExpertLLaMA |  |  | [ExpertLLaMA Blog](https://mp.weixin.qq.com/s/FYWmMH2ndN5XfWvwI9dcUA) |  |  |   |  |   
@@ -201,7 +202,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 ### Domain LLMs for Medical
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
-| --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
+| --- | --- | --- | --- | --- | --- | --- |---|
 | AD-AutoGPT |  |  | [AD-AutoGPT: An Autonomous GPT for Alzheimer's Disease Infodemiology](https://arxiv.org/abs/2306.10095) |  |  |  |  |     
 | BianQue |  |  |  |  |  |  | [BianQue Code](https://github.com/scutcyr/BianQue) |  
 | BiomedGPT |  |  | [BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks](https://arxiv.org/abs/2305.17100) |  |  |  |  |
@@ -221,7 +222,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 ### Domain LLMs for Finance
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
-| --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
+| --- | --- | --- | --- | --- | --- | --- |---|
 | FinGPT |  |  | [FinGPT: Open-Source Financial Large Language Models](https://arxiv.org/pdf/2306.06031v1.pdf)，[FinGPT Blog](https://mp.weixin.qq.com/s/A9euFin675nxGGciiX6rJQ) |  |  |  | [FinGPT Code](https://github.com/ai4finance-foundation/fingpt) |     
 | FinTuo |  |  |  |  |  |  | [FinTuo Code](https://github.com/qiyuan-chen/FinTuo-Chinese-Finance-LLM) |    
 
@@ -230,7 +231,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 ### Domain LLMs for Environment
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
-| --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
+| --- | --- | --- | --- | --- | --- | --- |---|
 | NowcastNet |  |  | [Skilful nowcasting of extreme precipitation with NowcastNet](https://www.nature.com/articles/s41586-023-06184-4)，[NowcastNet Blog](https://mp.weixin.qq.com/s/Aygm03CdA0zFNf9F3_JU5A) |  |  |  |  |   
 
 ---   
@@ -238,7 +239,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 ### Domain LLMs for Network Security
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
-| --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
+| --- | --- | --- | --- | --- | --- | --- |---|
 | FraudGPT |  |  | [FraudGPT Blog](https://mp.weixin.qq.com/s/OtLNybsbxDlbVb-cs4Zk8g) |  |  |  |  |      
 
 ---
@@ -246,7 +247,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 ### Domain LLMs for Education
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
-| --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
+| --- | --- | --- | --- | --- | --- | --- |---|
 | EduChat |  |  |  |  |  |  | [EduChat Code](https://github.com/icalk-nlp/EduChat) |  
 
 ---     
@@ -254,7 +255,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 ### Domain LLMs for Traffic
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
-| --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
+| --- | --- | --- | --- | --- | --- | --- |---|
 | TransGPT |  |  | [TransGPT Blog](https://mp.weixin.qq.com/s/WvzyjHqI0lOGIyPlCIFNQg) |  |  |  | [TransGPT Code](https://github.com/DUOMO/TransGPT) |   
 
 ---    
@@ -262,7 +263,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 ### Domain LLMs for Other
 
 | Language Model | Release Date | Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code                                                                                                                |
-| --- | --- | --- | --- | --- | --- | --- |-----------------------------------------------------------------------------------------------------------------------|
+| --- | --- | --- | --- | --- | --- | --- |---|
 | Panda LLM |  |  | [Panda LLM: Training Data and Evaluation for Open-Sourced Chinese Instruction-Following Large Language Models](https://arxiv.org/pdf/2305.03025v1.pdf)，[Panda LLM Blog](https://mp.weixin.qq.com/s/IsWSPAvwgT263wjO7TYTZQ) |  |  |  | [Panda LLM Code](https://github.com/dandelionsllm/pandallm) |     
   
 ---
