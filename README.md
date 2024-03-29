@@ -8,7 +8,7 @@
 
 | 交流群二维码                    | 拉你入群(备注AIGC-github) |
 | ------------------------------- | :------------------------: |
-| ![Arron](https://i.postimg.cc/JhrZ5Dhg/Wechat-IMG260.jpg) | ![Arron](https://i.postimg.cc/QMqj1DGc/Arron.jpg) |
+| ![Arron](https://i.postimg.cc/FKrqKd6R/Wechat-IMG271.jpg) | ![Arron](https://i.postimg.cc/QMqj1DGc/Arron.jpg) |
 
 ## Table of Context
 - [LLM 体验效果](#LLM-体验效果)
