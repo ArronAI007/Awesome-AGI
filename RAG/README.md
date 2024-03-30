@@ -66,6 +66,14 @@
 
 [LLM之RAG实战（三十二）| 使用RAGAs和LlamaIndex评估RAG](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247488803&idx=1&sn=2c66bedc0d79248d4593e87e9c3dae99&chksm=ced556c7f9a2dfd1916f7d42f0657b9b55a4090d596e484c1149e6402c78f5665b0be9bbbe4b&token=963123924&lang=zh_CN#rd)
 
+[LLM之RAG实战（三十三）| 探索RAG在Table的应用](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247488820&idx=1&sn=698c1bc4ecfa424bea8635b90daded94&chksm=ced556d0f9a2dfc6b021f3eb24e727ae12396be0456d5fa101340c37d1158b4f7691abec8059&token=1281124226&lang=zh_CN#rd)
+
+[LLM之RAG实战（三十四）| 使用LangChain的三个函数来优化RAG](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247488906&idx=1&sn=daa157b1d1fd42d244ae4fb9cd0825bc&chksm=ced5566ef9a2df789254af5b623abcf2edd0482a9d6373b50be8f1d4f26b19f74bf52e9c54e1&token=1281124226&lang=zh_CN#rd)
+
+[LLM之RAG实战（三十五）| 使用LangChain的3种query扩展来优化RAG](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247488911&idx=1&sn=af2a2e619858a49fded8e74f30db76ac&chksm=ced5566bf9a2df7d290470fed8d3239f2be3e173b823aa75a9c2d9d55be559dfecd39f0dbf90&token=1281124226&lang=zh_CN#rd)
+
+[LLM之RAG实战（三十六）| 使用LangChain实现多模态RAG](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247488911&idx=2&sn=e27def0c7f4b115492cc2811eb4eff86&chksm=ced5566bf9a2df7d3241cc3b7dc80babb22ef81d3a5a5d7012072cc792550abc595cab578b57&token=1281124226&lang=zh_CN#rd)
+
 ---
 
 ## RAG理论系列文章
