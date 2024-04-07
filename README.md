@@ -75,7 +75,7 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 
 ### LLM 微调
 
-这里整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/tree/main/Fine-Tune/README.md)】
+这里整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/blob/main/Open%20Tool/Fine-Tune/README.md)】
 
 ---
 
