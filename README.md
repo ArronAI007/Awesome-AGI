@@ -95,23 +95,24 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 混合高效微调，如：MAM Adapter、UniPELT
 
 
-下图是目前主流PEFT技术的总结，下面按照LoRA及其扩展模型和其他微调方法分别进行总结。
+下图是目前主流PEFT技术的总结：
 
 ![Peft](https://i.postimg.cc/fT3VcWML/peft.png)
 
 [PEFT](https://github.com/huggingface/peft)仓库是一个用于微调大模型的工具库，提供了多种高效微调技术的实现。
 
+下面按照LoRA及其扩展模型和其他微调方法分别进行总结：
+
 #### LoRA及其扩展技术
 
 | Peft | Description| Paper | Code | Blog |
 | --- | --- | --- | --- | --- | 
-| LoRA | --- | --- | --- | --- | 
-| DoRA | --- | --- | --- | --- | 
+| LoRA | 1)Transformer的权重矩阵包括Attention模块里用于计算query, key, value的Wq，Wk，Wv以及多头attention的Wo，以及MLP层的权重矩阵，LoRA只应用于Attention模块中的4种权重矩阵，而且通过消融实验发现同时调整 Wq 和 Wv 会产生最佳结果。2)实验还发现，保证权重矩阵的种类的数量比起增加隐藏层维度r更为重要，增加r并不一定能覆盖更加有意义的子空间。3)关于秩的选择，通常情况下，rank为4，8，16即可。4)实验也发现，在众多数据集上LoRA在只训练极少量参数的前提下，最终在性能上能和全量微调匹配，甚至在某些任务上优于全量微调。| [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/pdf/2106.09685.pdf) | [LoRA Code](https://github.com/microsoft/LoRA) |  | 
+| AdaLoRA | AdaLoRA是对LoRA的一种改进，它根据重要性评分动态分配参数预算给权重矩阵。具体做法如下：1)调整增量矩分配。AdaLoRA将关键的增量矩阵分配高秩以捕捉更精细和任务特定的信息，而将较不重要的矩阵的秩降低，以防止过拟合并节省计算预算。2)以奇异值分解的形式对增量更新进行参数化，并根据重要性指标裁剪掉不重要的奇异值，同时保留奇异向量。由于对一个大矩阵进行精确SVD分解的计算消耗非常大，这种方法通过减少它们的参数预算来加速计算，同时，保留未来恢复的可能性并稳定训练。3)在训练损失中添加了额外的惩罚项，以规范奇异矩阵P和Q的正交性，从而避免SVD的大量计算并稳定训练。 | [AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2303.10512) | [AdaLoRA Code](https://github.com/QingruZhang/AdaLoRA) |  | 
+| QLoRA | QLoRA使用一种新颖的高精度技术将预训练模型量化为 4 bit，然后添加一小组可学习的低秩适配器权重，这些权重通过量化权重的反向传播梯度进行微调。QLORA 有一种低精度存储数据类型（4 bit），还有一种计算数据类型（BFloat16）。实际上，这意味着无论何时使用 QLoRA 权重张量，我们都会将张量反量化为 BFloat16，然后执行 16 位矩阵乘法。QLoRA提出了两种技术实现高保真 4 bit微调——4 bit NormalFloat(NF4) 量化和双量化。此外，还引入了分页优化器，以防止梯度检查点期间的内存峰值，从而导致内存不足的错误，这些错误在过去使得大型模型难以在单台机器上进行微调。 | [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) | [QLoRA Code](https://github.com/artidoro/qlora) |  | 
+| DoRA | DoRA（Weight-Decomposed Low-Rank Adaptation：权重分解低阶适应）是由NVIDIA最新提出的一种新的参数高效的微调（PEFT）方法。DoRA旨在通过分解预训练权重为幅度（magnitude）和方向（direction）两个组成部分然后分别微调，来提高微调的学习能力和训练稳定性，同时避免额外的推理开销，它特别适用于与LoRA（Low-Rank Adaptation）结合使用。 | [DoRA: Weight-Decomposed Low-Rank Adaptation](https://arxiv.org/pdf/2402.09353.pdf) | [DoRA Code](https://github.com/catid/dora) |  | 
 | PiSSA方法 | 仅修改Lora初始化方式显著提高模型微调效果 | [PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models](https://arxiv.org/abs/2404.02948) | [PiSSA Code](https://github.com/GraphPKU/PiSSA) | [PiSSA Blog](https://zhuanlan.zhihu.com/p/687583780) | 
-| QLoRA | --- | --- | --- | --- | 
-| AdaLoRA | --- | --- | --- | --- | 
-| --- | --- | --- | --- | --- | 
-| --- | --- | --- | --- | --- | 
+| MOELora | MOELoRA 的核心思想是将 MOE 和 LoRA 结合起来，以实现多任务学习和参数高效微调。MOELoRA 由两个主要组件组成：MOE 和 LoRA。MOE 用于多任务学习，LoRA 用于参数高效微调。MOELoRA 通过 MOE 的多任务学习能力，有效地利用了有限的数据和计算资源，同时通过 LoRA 的参数高效微调能力，有效地提高了多任务医学应用的性能。 | [MOELoRA: An MOE-based Parameter Efficient Fine-Tuning Method for Multi-task Medical Applications](https://arxiv.org/abs/2310.18339) | [MOELora Code](https://github.com/liuqidong07/MOELoRA-peft) |  | 
 
 #### 其他微调技术
 
@@ -123,7 +124,11 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 | Prompt Tuning | Prompt Tuning，该方法可以看作是Prefix Tuning的简化版本，它给每个任务定义了自己的Prompt，然后拼接到数据上作为输入，但只在输入层加入prompt tokens，并且不需要加入 MLP 进行调整来解决难训练的问题。 | [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691) | [Prompt Tuning Code](https://github.com/huggingface/peft/blob/main/src/peft/tuners/prompt_tuning/model.py) |  | 
 | P-Tuning | P-Tuning，设计了一种连续可微的virtual token（同Prefix-Tuning类似）。将Prompt转换为可以学习的Embedding层，并用MLP+LSTM的方式来对Prompt Embedding进行一层处理。借助P-tuning，GPT在SuperGLUE上的成绩首次超过了同等级别的BERT模型，这颠覆了一直以来“GPT不擅长NLU”的结论，也是该论文命名的缘由。 | [GPT Understands, Too](https://arxiv.org/abs/2103.10385) | [P-Tuning Code](https://github.com/huggingface/peft/blob/main/src/peft/tuners/p_tuning/model.py) |  | 
 | P-Tuning V2 | P-Tuning 的问题是在小参数量模型上表现差。 相比 Prompt Tuning 和 P-tuning 的方法， P-tuning v2 方法在每一层加入了 Prompts tokens 作为输入。与P-Tuning相比，做了如下改变：1）移除重参数化的编码器；2)针对不同任务采用不同的提示长度;3)引入多任务学习;4)回归传统的分类标签范式，而不是映射器 | [P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks](https://arxiv.org/abs/2110.07602) | [P-Tuning-V2 Code](https://github.com/THUDM/P-tuning-v2) |  | 
-| --- | --- | --- | --- | --- | 
+| Adapter Tuning | Adapter 在预训练模型每层中插入用于下游任务的参数（针对每个下游任务，仅增加3.6%的参数），在微调时将模型主体冻结，仅训练特定于任务的参数，从而减少了训练时的算力开销。Adapter Tuning 设计了Adapter结构，并将其嵌入Transformer的结构里面，针对每一个Transformer层，增加了两个Adapter结构，分别是多头注意力的投影之后和第二个feed-forward层之后。在训练时，固定住原来预训练模型的参数不变，只对新增的 Adapter 结构和 Layer Norm 层进行微调，从而保证了训练的高效性。 | [Parameter-Efficient Transfer Learning for NLP](https://arxiv.org/abs/1902.00751) | [Adapter Tuning Code](https://github.com/google-research/adapter-bert) |  | 
+| AdapterFusion | Adapter Fusion，一种融合多任务信息的Adapter的变体，在 Adapter 的基础上进行优化，通过将学习过程分为两阶段来提升下游任务表现。1）知识提取阶段：在不同任务下引入各自的Adapter模块，用于学习特定任务的信息。2）知识组合阶段：将预训练模型参数与特定任务的Adapter参数固定，引入新参数（AdapterFusion）来学习组合多个Adapter中的知识，以提高模型在目标任务中的表现。 | [AdapterFusion: Non-Destructive Task Composition for Transfer Learning](https://arxiv.org/abs/2005.00247) |  |  | 
+| AdapterDrop | 作者通过对Adapter的计算效率进行分析，发现与全量微调相比，Adapter在训练时快60%，但是在推理时慢4%-6%。基于此，作者提出了AdapterDrop方法缓解该问题。AdapterDrop 在不影响任务性能的情况下，对Adapter动态高效的移除，尽可能的减少模型的参数量，提高模型在反向传播（训练）和正向传播（推理）时的效率。 | [AdapterDrop: On the Efficiency of Adapters in Transformers](https://arxiv.org/abs/2010.11918) |  |  | 
+| MAM Adapter | MAM Adapter，一个在Adapter、Prefix Tuning和LoRA之间建立联系的统一方法。模型 MAM Adapter 是用 FFN 层的并行Adapter和软提示的组合。 | [Towards a Unified View of Parameter-Efficient Transfer Learning](https://arxiv.org/abs/2110.04366) | [MAM Adapter Code](https://github.com/jxhe/unify-parameter-efficient-tuning) |  | 
+| UniPELT | UniPELT方法将不同的PELT方法作为子模块，并通过门控机制学习激活最适合当前数据或任务的方法。 | [UniPELT: A Unified Framework for Parameter-Efficient Language Model Tuning](https://arxiv.org/abs/2110.07577) | [UniPELT Code](https://github.com/morningmoni/UniPELT) |  | 
 
 这里整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/blob/main/Open%20Tool/Fine-Tune/README.md)】
 
