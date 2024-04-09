@@ -75,6 +75,56 @@ dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可�
 
 ### LLM 微调
 
+随着ChatGPT的发布，标志着大模型时代已来临，然而通用领域的大模型在企业垂直领域中未必会表现的好，因此会对通用领域大模型进行微调来适配垂直领域知识。
+
+**大模型的微调技术，从不同的方面，有不同的分类：**
+
+从参数规模来说，可以简单分为**全参数微调**和**高效参数微调**。前者一般是用预训练模型作为初始化权重，在特定数据集上继续训练，全部参数都更新的方法。而后者则是期望用更少的资源完成模型参数的更新，包括只更新一部分参数或者说通过对参数进行某种结构化约束，例如稀疏化或低秩近似来降低微调的参数数量。
+
+如果按照在模型哪个阶段使用微调，或者根据模型微调的目标来区分，也可以从提示微调、指令微调、有监督微调的方式来。
+高效微调技术可以粗略分为以下三大类：
+
+- 增加额外参数（Addition-Based）
+- 选取一部分参数更新（Selection-Based）
+- 引入重参数化（Reparametrization-Based）
+
+而在增加额外参数这类方法中，又主要分为类适配器（Adapter-like）方法和软提示（Soft prompts）两个小类。
+增加额外参数 Addition-Based，如：Prefix Tuning、Prompt Tuning、Adapter Tuning及其变体
+选取一部分参数更新 Selection-Based，如：BitFit
+引入重参数化 Reparametrization-Based，如：LoRA、AdaLoRA、QLoRA
+混合高效微调，如：MAM Adapter、UniPELT
+
+
+下图是目前主流PEFT技术的总结，下面按照LoRA及其扩展模型和其他微调方法分别进行总结。
+
+![Peft](https://i.postimg.cc/fT3VcWML/peft.png)
+
+[PEFT](https://github.com/huggingface/peft)仓库是一个用于微调大模型的工具库，提供了多种高效微调技术的实现。
+
+#### LoRA及其扩展技术
+
+| Peft | Description| Paper | Code | Blog |
+| --- | --- | --- | --- | --- | 
+| LoRA | --- | --- | --- | --- | 
+| DoRA | --- | --- | --- | --- | 
+| PiSSA方法 | 仅修改Lora初始化方式显著提高模型微调效果 | [PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models](https://arxiv.org/abs/2404.02948) | [PiSSA Code](https://github.com/GraphPKU/PiSSA) | [PiSSA Blog](https://zhuanlan.zhihu.com/p/687583780) | 
+| QLoRA | --- | --- | --- | --- | 
+| AdaLoRA | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- | 
+
+#### 其他微调技术
+
+| Peft | Description| Paper | Code | Blog |
+| --- | --- | --- | --- | --- | 
+| Instruction Tuning | 指令微调可以被视为有监督微调（Supervised Fine-Tuning，SFT）的一种特殊形式。但是，它们的目标依然有差别。SFT是一种使用标记数据对预训练模型进行微调的过程，以便模型能够更好地执行特定任务。而指令微调是一种通过在包括（指令，输出）对的数据集上进一步训练大型语言模型（LLMs）的过程，以增强LLMs的能力和可控性。| [nstruction Tuning for Large Language Models: A Survey](https://arxiv.org/abs/2308.10792) | [Instruction Tuning Code](https://github.com/xiaoya-li/Instruction-Tuning-Survey) |  | 
+| BitFit | BitFit是一种稀疏的微调方法，它训练时只更新bias的参数或者部分bias参数 | [BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models](https://arxiv.org/abs/2106.10199) | [BitFit Code](https://github.com/benzakenelad/BitFit) |  | 
+| Prefix Tuning | Prefix Tuning提出固定预训练LM，为LM添加可训练，任务特定的前缀，这样就可以为不同任务保存不同的前缀，微调成本也小；同时，这种Prefix实际就是连续可微的Virtual Token（Soft Prompt/Continuous Prompt），相比离散的Token，更好优化，效果更好。 | [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://arxiv.org/abs/2101.00190) | [Prefix Tuning Code](https://github.com/huggingface/peft/blob/main/src/peft/tuners/prefix_tuning/model.py) |  | 
+| Prompt Tuning | Prompt Tuning，该方法可以看作是Prefix Tuning的简化版本，它给每个任务定义了自己的Prompt，然后拼接到数据上作为输入，但只在输入层加入prompt tokens，并且不需要加入 MLP 进行调整来解决难训练的问题。 | [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691) | [Prompt Tuning Code](https://github.com/huggingface/peft/blob/main/src/peft/tuners/prompt_tuning/model.py) |  | 
+| P-Tuning | P-Tuning，设计了一种连续可微的virtual token（同Prefix-Tuning类似）。将Prompt转换为可以学习的Embedding层，并用MLP+LSTM的方式来对Prompt Embedding进行一层处理。借助P-tuning，GPT在SuperGLUE上的成绩首次超过了同等级别的BERT模型，这颠覆了一直以来“GPT不擅长NLU”的结论，也是该论文命名的缘由。 | [GPT Understands, Too](https://arxiv.org/abs/2103.10385) | [P-Tuning Code](https://github.com/huggingface/peft/blob/main/src/peft/tuners/p_tuning/model.py) |  | 
+| P-Tuning V2 | P-Tuning 的问题是在小参数量模型上表现差。 相比 Prompt Tuning 和 P-tuning 的方法， P-tuning v2 方法在每一层加入了 Prompts tokens 作为输入。与P-Tuning相比，做了如下改变：1）移除重参数化的编码器；2)针对不同任务采用不同的提示长度;3)引入多任务学习;4)回归传统的分类标签范式，而不是映射器 | [P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks](https://arxiv.org/abs/2110.07602) | [P-Tuning-V2 Code](https://github.com/THUDM/P-tuning-v2) |  | 
+| --- | --- | --- | --- | --- | 
+
 这里整理关于LLM微调的脚本以及开源工具或者平台的使用案例，更多请参考【[Fine Tune](https://github.com/ArronAI007/Awesome-AGI/blob/main/Open%20Tool/Fine-Tune/README.md)】
 
 ---
