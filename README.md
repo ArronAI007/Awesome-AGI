@@ -226,7 +226,11 @@ RAG实战主要分为LangChain框架实现和LlamaIndex框架实现，分别可�
 
 #### LangChain
 
-整理关于LangChain的相关笔记和课程，更多请参考【[LangChain](https://github.com/ArronAI007/Awesome-AGI/tree/main/LangChain/README.md)】
+关于LangChain的相关笔记和课程，更多请参考【[LangChain](https://github.com/ArronAI007/Awesome-AGI/tree/main/LangChain/README.md)】
+
+LangSmith允许您调试、测试、评估和监控构建在任何LLM框架上的链和智能代理，并与LangChain无缝集成。【[平台入口](https://www.langchain.com/langsmith)】，【[官方文档地址](https://python.langchain.com/docs/langsmith/walkthrough)】。更多实战案例代码请参考【[LangSmith实战案例](https://github.com/ArronAI007/Awesome-AGI/tree/main/LangChain/LangSmith)】
+
+LangFuse是LangSmith的平替，【[官方网站](https://langfuse.com/)】，【[项目地址](https://github.com/langfuse)】。更多实战代码请参考【[LangFuse](https://github.com/ArronAI007/Awesome-AGI/tree/main/LangChain/LangFuse)】
 
 ---
 
