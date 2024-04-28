@@ -48,6 +48,8 @@
 
 dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可以参考：【[ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained)】
 
+3) 国内外大模型API的调用案例，请参考【[语言大模型](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model%20List/LLM)】，【[语言大模型](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model%20List/MLLM)】和【[OpenAI](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model%20List/OpenAI)】
+
 ---
 
 ## LLM Pipeline
@@ -93,11 +95,16 @@ LLM预训练、微调使用的部分数据集，更多请参考【[DataSet](http
 | Peft | Description| Paper | Code | Blog |
 | --- | --- | --- | --- | --- | 
 | LoRA | 1)Transformer的权重矩阵包括Attention模块里用于计算query, key, value的Wq，Wk，Wv以及多头attention的Wo，以及MLP层的权重矩阵，LoRA只应用于Attention模块中的4种权重矩阵，而且通过消融实验发现同时调整 Wq 和 Wv 会产生最佳结果。2)实验还发现，保证权重矩阵的种类的数量比起增加隐藏层维度r更为重要，增加r并不一定能覆盖更加有意义的子空间。3)关于秩的选择，通常情况下，rank为4，8，16即可。4)实验也发现，在众多数据集上LoRA在只训练极少量参数的前提下，最终在性能上能和全量微调匹配，甚至在某些任务上优于全量微调。| [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/pdf/2106.09685.pdf) | [LoRA Code](https://github.com/microsoft/LoRA) |  | 
+| LoRA+ | LoRA+通过为矩阵a和b引入不同的学习率，矩阵B的初始化为0，所以需要比随机初始化的矩阵a需要更大的更新步骤。通过将矩阵B的学习率设置为矩阵A的16倍，作者已经能够在模型精度上获得小幅提高(约2%)，同时将RoBERTa或lama-7b等模型的训练时间加快2倍。 | [LoRA+: Efficient Low Rank Adaptation of Large Models](https://arxiv.org/abs/2402.12354) |  |  | 
 | AdaLoRA | AdaLoRA是对LoRA的一种改进，它根据重要性评分动态分配参数预算给权重矩阵。具体做法如下：1)调整增量矩分配。AdaLoRA将关键的增量矩阵分配高秩以捕捉更精细和任务特定的信息，而将较不重要的矩阵的秩降低，以防止过拟合并节省计算预算。2)以奇异值分解的形式对增量更新进行参数化，并根据重要性指标裁剪掉不重要的奇异值，同时保留奇异向量。由于对一个大矩阵进行精确SVD分解的计算消耗非常大，这种方法通过减少它们的参数预算来加速计算，同时，保留未来恢复的可能性并稳定训练。3)在训练损失中添加了额外的惩罚项，以规范奇异矩阵P和Q的正交性，从而避免SVD的大量计算并稳定训练。 | [AdaLoRA: Adaptive Budget Allocation for Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2303.10512) | [AdaLoRA Code](https://github.com/QingruZhang/AdaLoRA) |  | 
 | QLoRA | QLoRA使用一种新颖的高精度技术将预训练模型量化为 4 bit，然后添加一小组可学习的低秩适配器权重，这些权重通过量化权重的反向传播梯度进行微调。QLORA 有一种低精度存储数据类型（4 bit），还有一种计算数据类型（BFloat16）。实际上，这意味着无论何时使用 QLoRA 权重张量，我们都会将张量反量化为 BFloat16，然后执行 16 位矩阵乘法。QLoRA提出了两种技术实现高保真 4 bit微调——4 bit NormalFloat(NF4) 量化和双量化。此外，还引入了分页优化器，以防止梯度检查点期间的内存峰值，从而导致内存不足的错误，这些错误在过去使得大型模型难以在单台机器上进行微调。 | [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) | [QLoRA Code](https://github.com/artidoro/qlora) |  | 
 | DoRA | DoRA（Weight-Decomposed Low-Rank Adaptation：权重分解低阶适应）是由NVIDIA最新提出的一种新的参数高效的微调（PEFT）方法。DoRA旨在通过分解预训练权重为幅度（magnitude）和方向（direction）两个组成部分然后分别微调，来提高微调的学习能力和训练稳定性，同时避免额外的推理开销，它特别适用于与LoRA（Low-Rank Adaptation）结合使用。 | [DoRA: Weight-Decomposed Low-Rank Adaptation](https://arxiv.org/pdf/2402.09353.pdf) | [DoRA Code](https://github.com/catid/dora) |  | 
 | PiSSA方法 | 仅修改Lora初始化方式显著提高模型微调效果 | [PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models](https://arxiv.org/abs/2404.02948) | [PiSSA Code](https://github.com/GraphPKU/PiSSA) | [PiSSA Blog](https://zhuanlan.zhihu.com/p/687583780) | 
 | MOELora | MOELoRA 的核心思想是将 MOE 和 LoRA 结合起来，以实现多任务学习和参数高效微调。MOELoRA 由两个主要组件组成：MOE 和 LoRA。MOE 用于多任务学习，LoRA 用于参数高效微调。MOELoRA 通过 MOE 的多任务学习能力，有效地利用了有限的数据和计算资源，同时通过 LoRA 的参数高效微调能力，有效地提高了多任务医学应用的性能。 | [MOELoRA: An MOE-based Parameter Efficient Fine-Tuning Method for Multi-task Medical Applications](https://arxiv.org/abs/2310.18339) | [MOELora Code](https://github.com/liuqidong07/MOELoRA-peft) |  | 
+| LoRA-FA | LoRA-fa，是LoRA与Frozen-A的缩写，在LoRA-FA中，矩阵A在初始化后被冻结，因此作为随机投影。矩阵B不是添加新的向量，而是在用零初始化之后进行训练(就像在原始LoRA中一样)。这将参数数量减半，同时具有与普通LoRA相当的性能。 | [LoRA-FA: Memory-efficient Low-rank Adaptation for Large Language Models Fine-tuning
+](https://arxiv.org/abs/2308.03303) |  |  | 
+| LoRa-drop | Lora矩阵可以添加到神经网络的任何一层。LoRA-drop则引入了一种算法来决定哪些层由LoRA微调，哪些层不需要。 | [LoRA-drop: Efficient LoRA Parameter Pruning based on Output Evaluation](https://arxiv.org/abs/2402.07721) |  |  | 
+| Delta-LoRA | Delta-LoRA的作者提出用AB的梯度来更新矩阵W, AB的梯度是A*B在连续两个时间步长的差。这个梯度用超参数λ进行缩放，λ控制新训练对预训练权重的影响应该有多大。 | [Delta-LoRA: Fine-Tuning High-Rank Parameters with the Delta of Low-Rank Matrices](https://arxiv.org/abs/2309.02411) |  |  | 
 
 #### 其他微调技术
 
