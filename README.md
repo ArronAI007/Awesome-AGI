@@ -48,7 +48,7 @@
 
 dair-ai同样也整理了很多关于LLM和经典论文，感兴趣的读者可以参考：【[ML Papers Explained](https://github.com/dair-ai/ML-Papers-Explained)】
 
-3) 国内外大模型API的调用案例，请参考【[语言大模型](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model%20List/LLM)】，【[语言大模型](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model%20List/MLLM)】和【[OpenAI](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model%20List/OpenAI)】
+3）国内外大模型API的调用案例，请参考【[语言大模型](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model%20List/LLM)】，【[多模态大模型](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model%20List/MLLM)】和【[OpenAI大模型](https://github.com/ArronAI007/Awesome-AGI/tree/main/Model%20List/OpenAI)】
 
 ---
 
