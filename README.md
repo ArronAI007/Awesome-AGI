@@ -207,7 +207,8 @@ RAG实战主要分为LangChain框架实现和LlamaIndex框架实现，分别可�
 | ChatDev | CoPilot、Bard、ChatGPT 等等都是强大的编码助手。但是像 ChatDev 这样的项目可能很快就会让它们望尘莫及。ChatDev 被打造成“一个虚拟软件公司”，它不仅使用一个，而是多个代理人来扮演传统开发组织中的不同角色。  代理人 - 每个都被分配了一个独特的角色 - 可以合作处理各种任务，从设计软件到编写代码和文档。雄心勃勃？当然。ChatDev 仍然更多地是一个代理人互动的测试平台，但如果你自己是开发人员，它是值得一看的。 | [ChatDev Code](https://github.com/OpenBMB/ChatDev) |  |  
 | crewAI |  | [crewAI Code](https://github.com/joaomdmoura/crewAI) | [crewAI Blog](https://mp.weixin.qq.com/s/FBhrVwBlSMtfK1KTwo1yXg) |  
 | CogAgent |  |  |  |  
-| Do Anything Machine |  |  | [Do Anything Machine Chat](https://www.doanythingmachine.com/) |  
+| Do Anything Machine |  |  | [Do Anything Machine Chat](https://www.doanythingmachine.com/) | 
+| FixAgent | 一款自动化debug的多Agent应用，有效提升模型20% debug能力 |  | [A Unified Debugging Approach via LLM-Based Multi-Agent Synergy](https://arxiv.org/abs/2404.17153)，[FixAgent Blog](https://mp.weixin.qq.com/s/LZhHg27ce5dWQVzwLQihRg) |   
 | Generative Agents |  | [GPTRPG Code](https://github.com/dzoba/gptrpg) | [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) | 
 | Gentopia |  |  |  |  
 | Godmode |  |  | [Godmode Chat](https://godmode.space/) |  

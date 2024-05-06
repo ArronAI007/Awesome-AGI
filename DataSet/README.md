@@ -37,6 +37,7 @@
 | UltraFeedback：大规模、多样化、细粒度的偏好数据集
  |  |  | [UltraFeedback Code](https://github.com/OpenBMB/UltraFeedback) |  |  | 
 |  UltraChat：高质量对话数据集，包含 150 余万条多轮指令数据|  |  | [UltraChat Code](https://github.com/thunlp/UltraChat) |  |  | 
+| WildChat | 2024/05 | [WILDCHAT: 1M CHATGPT INTERACTION LOGS IN THE WILD](https://arxiv.org/pdf/2405.01470) | [allenai/WildChat-1M](https://hf-mirror.com/datasets/allenai/WildChat-1M) | 1M | AI2 ImpACT | 
 | xP3 |  |  |  |  |  | 
 
 ---
