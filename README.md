@@ -12,6 +12,8 @@
 
 ## Table of Context
 - [Model List](#Model-List)
+  - [LLM Benchmark评分](#LLM-Benchmark评分)
+  - [LLM 体系分类](#LLM-体系分类)
 - [LLM Pipeline](#LLM-Pipeline)
   - [LLM 预训练](#LLM-预训练)
   - [LLM 微调](#LLM-微调)
@@ -37,6 +39,18 @@
   - [LLM 文本检测](#LLM-文本检测)
 
 ## Model List
+
+### LLM Benchmark评分
+
+| Benchmark(Higher is better) | MMLU | TriviaQA | Natural Questions | GSM8K | HumanEval | AGIEval | BoolQ | HellaSwag | OpenBookQA | QuAC | Winogrande | 
+| --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- | --- |
+| MPT(7B) | 26.8 | 59.6 | 17.8 | 6.8 | 18.3 | 23.5 | 75.0 | 76.4 | 51.4 | 37.7 | 68.3 | 
+| Falcon(7B) | 26.2 | 56.8 | 18.1 | 6.8 | N/A | 21.2 | 67.5 | 74.1 | 51.6 | 18.8 | 66.3 | 
+| Llama-2(7B) | 45.3 | 68.9 | 22.7 | 14.6 | 12.8 | 29.3 | 77.4 | 77.2 | 58.6 | 39.7 | 69.2 | 
+
+---
+
+### LLM 体系分类
 
 大模型层出不穷，我对主流大模型按照如下分类体系进行分类：
 

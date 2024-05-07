@@ -6,24 +6,6 @@ Model List mainly includes Universal LLMs and Domain LLMs, In terms of Universal
 
 ![ChatGPT_family](https://i.postimg.cc/GtZmmjG2/chatgpt-3.jpg)
 
-## LLM 体验效果
-
-| Model_A| Model_B | Blog |
-| --- | --- | --- |                                                                                                                     
-| 360智脑 | 讯飞星火 | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486609&idx=2&sn=7fedb8ab37588d43968fdec2d7e5fcdd&chksm=ced54f75f9a2c663b9a2671f2548e2940730735605356cc0ffe72bc737470136a40032c80bfe&token=1282379489&lang=zh_CN#rd)|
-| 阿里通义千问 | 讯飞星火 | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486534&idx=1&sn=6f36d41b618790cba62e63eb25bb033b&chksm=ced54fa2f9a2c6b4a901528f87a7e74628dfd79d835f4cdea1ee4dea442f339adfd2736b2305&token=1282379489&lang=zh_CN#rd)|
-| Bard | Bing_VS_ChatGPT | [对比效果](https://www.theverge.com/2023/3/24/23653377/ai-chatbots-comparison-bard-bing-chatgpt-gpt-4)|
-| baichuan-53B | ChatGLM-6B | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247487325&idx=1&sn=561cb8b09c37ccfe0ed1f73de04b1db6&chksm=ced54cb9f9a2c5af30ac3d134086c955ac240f452cad0ab2b3708bc3cc09ef5b662b831c7d62&token=293446899&lang=zh_CN#rd)|
-| 文心一言 | Bard | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486260&idx=1&sn=a41224fee7ed4cb4a48eb40a420d7479&chksm=ced548d0f9a2c1c6f4930f30447468f9f01bb2af6031368e302b13a6354fc4bca6636e3b297e&token=666852558&lang=zh_CN#rd)|
-| 文心一言 | Baize-7B | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486317&idx=1&sn=ea3cc745d2991b8c657325392ce68f71&chksm=ced54889f9a2c19f3c2f85d8d7af7fff366027f79d1f4a5b2c650fea1b5dee9efde0b7c992ca&token=1173964254&lang=zh_CN#rd)|
-| 文心一言 | OpenAssistant | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486413&idx=2&sn=3816e5a4bccceee5e2af868166b18897&chksm=ced54829f9a2c13fb787b7a7e3c2aa0799eb7ff6d124f6847349346146900e05684ceb8cc7f7&token=1282379489&lang=zh_CN#rd)|
-| 文心一言 | ChatGLM-6B | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486081&idx=2&sn=fd87305419158d66dd4b05b57bee1324&chksm=ced54965f9a2c073ba1badfedbc6610036455cd769a3c8ee3445f7fbff9364b5624091be9914&token=666852558&lang=zh_CN#rd)|
-| 文心一言 | GPT-4 | [对比效果](https://mp.weixin.qq.com/s/l1pTPlohMmiYEMc4x6QKhw)|
-| 文心一言 | GPT-4实测 | [对比效果](https://mp.weixin.qq.com/s/uO8N3RpcrYU8rV1RkwBxzQ)|
-| 文心一言 | 讯飞星火 | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486490&idx=1&sn=c8d756f7f26a4e35f8b67ae485efabce&chksm=ced54ffef9a2c6e8d66f8b744d6af524e320d5aec384d142621cee53fd2150f2c7db1fa7596a&token=1282379489&lang=zh_CN#rd)|
-| GPT4 | ChatGPT | [对比效果](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485952&idx=2&sn=e54a62e358bf7aee3c007d59600fd452&chksm=ced549e4f9a2c0f2868eb8877c14fbe287a469e63b09774cefcb9edc4c0601016f6d36561973&token=666852558&lang=zh_CN#rd)|
-| GPT4 | Claude2 | [对比效果1](https://mp.weixin.qq.com/s/dj2_WlWVpGwYsa8kO-GRFQ)，[对比效果2](https://mp.weixin.qq.com/s/Xo3XXQ5zYPmDxBYivhBYqA)|
-
 ## baichuan Alternatives
 
 | Target Model | Release Date | Source Model | Optimization | Checkpoints | Paper/Blog | Params (B) | Context Length | Code | Tokens | Tokenizer | Vocab size | Position Embedding | Layer Normalization | Activation Function | Attention |
@@ -53,10 +35,16 @@ Model List mainly includes Universal LLMs and Domain LLMs, In terms of Universal
 
 ## LLaMA Alternatives
 
+Llama开源家族：从Llama-1到Llama-3发展路线图
+
+![Llama_family](https://i.postimg.cc/tg5SD6JN/download-image.webp)
+
 | Target Model | Source Model | Optimization | Checkpoints | Paper/Blog | Params (B) | Context Length | Code | Tokens | Tokenizer | Vocab size | Position Embedding | Layer Normalization | Activation Function | Attention |
 | --- | --- | --- | --- |--- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- | 
-| LLaMA |  |  |  | [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)，[blog1](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485822&idx=1&sn=b365d93a0a08769aef77f34069da1422&chksm=ced54a9af9a2c38cd5779284b5e9ae573846153e7dc00961dc163664a657d6a3fa5c8c14c7d2&token=447941009&lang=zh_CN#rd)，[blog2](https://mp.weixin.qq.com/s/fGNuTcYE8QI9_JKS9LcQ7w)，[详聊LLaMA大模型的技术细节](https://mp.weixin.qq.com/s/B9Ue0ihUGAFjT_X__R2u8Q) | 7，13，33，65 | 2048 | [LLaMA Code](https://github.com/facebookresearch/llama) | 1T/1.4T | BPE | 32000 | RoPE | Pre RMS Norm | SwiGLU |
-| LLaMA 2 |  |  | [[在 Hugging Face 上玩转LLaMA 2](https://mp.weixin.qq.com/s/UnzhBJjZfPXsaSu8gNnosw)] ，[[在Colab笔记本中微调自己的Llama 2模型](https://mp.weixin.qq.com/s/pnDJaOUh_xdNdqSBl53Arw)]，[[三步上手 LLaMA2](https://mp.weixin.qq.com/s/lkRg8-rw57wDNr7FrjOSOQ)]，[[使用 Transformers 量化 Meta AI LLaMA2 中文版大模型](https://mp.weixin.qq.com/s/DEgFNAB4gwWDlQOj7-2CEg)] | [[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486800&idx=1&sn=9b629ca41b9f6b4feedad94363a17253&chksm=ced54eb4f9a2c7a2a5b20c182981b4323b18509f2ca8f482c2a8cdbb29bf570488bdcd280eb6&token=882149695&lang=zh_CN#rd)]，[[伯克利AI博士详解Llama 2的技术细节](https://mp.weixin.qq.com/s/Mee7sMq_bxLpIOOr91li9A)]，[[NLP社区对LLaMA2论文上半部分的讨论](https://mp.weixin.qq.com/s/SJNqjSCBX-k80_r3nmTiuA)]，[[NLP中文社区顶尖研究员们对LLaMA2论文下半部分的讨论](https://mp.weixin.qq.com/s/6k5ML3HtmvBTTCgHBZGycQ)]，[[3个最值得了解llama2开发库，助你快速搭建LLM应用](https://mp.weixin.qq.com/s/_3H6Y_NolUuxYxOo8Pl7fg)]，[[使用 Docker 快速上手中文版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/9cTNa_oya2Zj9YdDYodCvw)]，[[ Llama 2资料汇总](https://mp.weixin.qq.com/s/-01Dg9ZVfPYM4mZ4iKt8Cw) | 7，13，34，70 | 4096 | [LLaMA2 Code](https://github.com/facebookresearch/llama-recipes) | 2T |  |  |  |  | SwiGLU | GQA |
+| LLaMA |  |  |  | [LLaMA: Open and Efficient Foundation Language Models](https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/)，[blog1](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247485822&idx=1&sn=b365d93a0a08769aef77f34069da1422&chksm=ced54a9af9a2c38cd5779284b5e9ae573846153e7dc00961dc163664a657d6a3fa5c8c14c7d2&token=447941009&lang=zh_CN#rd)，[blog2](https://mp.weixin.qq.com/s/fGNuTcYE8QI9_JKS9LcQ7w)，[详聊LLaMA大模型的技术细节](https://mp.weixin.qq.com/s/B9Ue0ihUGAFjT_X__R2u8Q) | 7，13，33，65 | 2048 | [LLaMA Code](https://github.com/facebookresearch/llama) | 1T/1.4T | BPE | 32k | RoPE | Pre RMS Norm | SwiGLU | MHA |
+| LLaMA 2 |  |  | [[在 Hugging Face 上玩转LLaMA 2](https://mp.weixin.qq.com/s/UnzhBJjZfPXsaSu8gNnosw)] ，[[在Colab笔记本中微调自己的Llama 2模型](https://mp.weixin.qq.com/s/pnDJaOUh_xdNdqSBl53Arw)]，[[三步上手 LLaMA2](https://mp.weixin.qq.com/s/lkRg8-rw57wDNr7FrjOSOQ)]，[[使用 Transformers 量化 Meta AI LLaMA2 中文版大模型](https://mp.weixin.qq.com/s/DEgFNAB4gwWDlQOj7-2CEg)] | [[blog](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247486800&idx=1&sn=9b629ca41b9f6b4feedad94363a17253&chksm=ced54eb4f9a2c7a2a5b20c182981b4323b18509f2ca8f482c2a8cdbb29bf570488bdcd280eb6&token=882149695&lang=zh_CN#rd)]，[[伯克利AI博士详解Llama 2的技术细节](https://mp.weixin.qq.com/s/Mee7sMq_bxLpIOOr91li9A)]，[[NLP社区对LLaMA2论文上半部分的讨论](https://mp.weixin.qq.com/s/SJNqjSCBX-k80_r3nmTiuA)]，[[NLP中文社区顶尖研究员们对LLaMA2论文下半部分的讨论](https://mp.weixin.qq.com/s/6k5ML3HtmvBTTCgHBZGycQ)]，[[3个最值得了解llama2开发库，助你快速搭建LLM应用](https://mp.weixin.qq.com/s/_3H6Y_NolUuxYxOo8Pl7fg)]，[[使用 Docker 快速上手中文版 LLaMA2 开源大模型](https://mp.weixin.qq.com/s/9cTNa_oya2Zj9YdDYodCvw)]，[[ Llama 2资料汇总](https://mp.weixin.qq.com/s/-01Dg9ZVfPYM4mZ4iKt8Cw) | 7，13，34（未开源），70 | 4096 | [LLaMA2 Code](https://github.com/facebookresearch/llama-recipes) | 2T | BPE |  |  |  | SwiGLU | GQA（仅限34、70） |
+| Llama-2 Chat | Llama-2 | SFT/RLHF |  |  |  |  |  |  | BPE |  |  |  |  |  | 
+| Llama 3 |  |  |  |  | 8、70、400（训练中） | 8k | tiktoken | 15T |  | 128k | RoPE | RMSNorm | SwiGLU | GQA | 
 | Airoboros | LLaMA |  |  |  | 13B |  |  |  |  |  |  |  |  |  | 
 | Alpaca | LLaMA 7B |  |  | [Alpaca blog](https://crfm.stanford.edu/2023/03/13/alpaca.html)，[Alpaca homepage](https://crfm.stanford.edu/alpaca) | 7，13 | 2048 | [Alpaca Code](https://github.com/tatsu-lab/stanford_alpaca) |
 | Alpaca-Lora | LLaMA 7B |  |  |  | 7 |  | [Alpaca-Lora Code](https://github.com/tloen/alpaca-lora) |
@@ -67,13 +55,14 @@ Model List mainly includes Universal LLMs and Domain LLMs, In terms of Universal
 | BELLE | Alpaca |  |  |  | 7B |  | [BELLE Code](https://github.com/LianjiaTech/BELLE) |
 | BiLLa | LLaMA |  |  | [BiLLa: A Bilingual LLaMA with Enhanced Reasoning Ability](https://mp.weixin.qq.com/s/8KDpDC6Fkb_61gFfkcT8TQ) | 7B |  | [BiLLa Code](https://github.com/Neutralzz/BiLLa) |
 | CaMA | LLaMA |  |  |  |  |  | [CaMA Code](https://github.com/zjunlp/CaMA) |
+| CAMEL | LLaMA |  |  | [blog](https://starmpcc.github.io/CAMEL/) |  |  | [CAMEL Code](https://github.com/starmpcc/CAMEL) |
 | ChatLLaMA | LLaMA | RLHF |  |  |  |  | [ChatLLaMA Code](https://github.com/nebuly-ai/nebuly/tree/main/optimization/chatllama) |
 | Chinese-LlaMA2 | Llama-2 | SFT |  |  |  |  | [Chinese-LlaMA2 Code](https://github.com/michael-wzhu/Chinese-LlaMA2) |
 | Chinese-Llama-2 | Llama-2 | LoRA/FPFT |  |  |  |  | [Chinese-Llama-2 Code](https://github.com/longyuewangdcu/Chinese-Llama-2) |
 | Chinese-Vicuna | LLaMA | LoRA |  |  |  |  | [Chinese-Vicuna Code](https://github.com/Facico/Chinese-Vicuna) |
 | Chinese-LLaMA-Alpaca | LLaMA | 扩词表 |  | [EFFICIENT AND EFFECTIVE TEXT ENCODING FOR CHINESE LL AMA AND ALPACA](https://arxiv.org/pdf/2304.08177v1.pdf) |  |  | [Chinese-LLaMA-Alpaca Code](https://github.com/ymcui/Chinese-LLaMA-Alpaca) |  |  |  |  |  |  |  | 
 | ColossalChat | LLaMA | RLHF |  | [blog](https://syncedreview.com/2023/03/29/colossalchat-an-open-source-solution-for-cloning-chatgpt-with-a-complete-rlhf-pipeline/) |  |  | [ColossalChat Code](https://github.com/hpcaitech/ColossalAI/tree/main/applications/Chat) |
-| CAMEL | LLaMA |  |  | [blog](https://starmpcc.github.io/CAMEL/) |  |  | [CAMEL Code](https://github.com/starmpcc/CAMEL) |
+| Code-Llama | Llama-2 | Code |  |  | 7、13、34、70 |  |  |  |  |  |  |  |  |  | 
 | 草本（原华驼） |  LLaMA | SFT |  | [HuaTuo (华驼): Tuning LLaMA Model with Chinese Medical Knowledge](https://arxiv.org/pdf/2304.06975v1.pdf)，[blog1](https://mp.weixin.qq.com/s/TYpc_63qDlR6MwscxCKKhA)，[blog2](https://mp.weixin.qq.com/s/iuQANmwCS7AXQRik7HwQPg) |  |  | [草本（原华驼） Code](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) |
 | ExpertLLaMA | LLaMA |  |  | [ExpertPrompting: Instructing Large Language Models to be Distinguished Experts](https://arxiv.org/abs/2305.14688)，[ExpertLLaMA demo](https://huggingface.co/spaces/OFA-Sys/expertllama) | 7B |  | [ExpertLLaMA Code](https://github.com/OFA-Sys/ExpertLLaMA) |
 | FreedomGPT | LLaMA |  |  | [FreedomGPT homepage](https://freedomgpt.com/) |  |  | [FreedomGPT Code](https://github.com/ohmplatform/FreedomGPT) |
