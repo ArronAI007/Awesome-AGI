@@ -29,6 +29,7 @@ Some examples of **Universal LLMs for Text** as follows：
 | OpenAssistant |  |  | [OpenAssistant Conversations - Democratizing Large Language Model Alignment](https://drive.google.com/file/d/10iR5hKwFqAKhL3umx8muOWSRm7hs5FqX/view)，[官网](https://open-assistant.io/chat)，[dataset](https://huggingface.co/datasets/OpenAssistant/oasst1)，[youtube](https://youtu.be/ddG2fM9i4Kk) |  |  |  | [OpenAssistant Code](https://github.com/LAION-AI/Open-Assistant) |
 | OpenChatKit |  | | [OpenChatKit Blog](https://mp.weixin.qq.com/s/9Av3nhJLrcYAsBW9vVGjTw)，[OpenChatKit Chat](https://huggingface.co/spaces/togethercomputer/OpenChatKit)  |  |  |  | [OpenChatKit Code](https://github.com/togethercomputer/OpenChatKit) |
 | WebCPM |  |  | [WebCPM: Interactive Web Search for Chinese Long-form Question Answering](https://arxiv.org/abs/2305.06849)，[WebCPM Blog](https://mp.weixin.qq.com/s/m4zsF2HDFHSKc23Oq0O98w) |  |  |  | [WebCPM Code](https://github.com/thunlp/WebCPM) |
+| Yi-1.5 |  | [Yi-1.5](https://huggingface.co/collections/01-ai/yi-15-2024-05-663f3ecab5f815a3eaca7ca8) |  | 6、9、34 | 4k | Apache 2.0 | [Yi-1.5 Code](https://github.com/01-ai/Yi-1.5) |
 
 ---
 
