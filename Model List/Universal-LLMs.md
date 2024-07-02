@@ -89,6 +89,7 @@ Some examples of **Universal LLMs for Multimodal** as follows：
 | Multimodal Model | Language Model | Vision Model |  Checkpoints | Paper/Blog | Params (B) | Context Length | Licence | Code |
 | --- | --- | --- | --- | --- |---|---| --- | --- |
 | BLIP-2 |  |  |  | [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597)，[demo](https://huggingface.co/spaces/Salesforce/BLIP2)，[doc](https://huggingface.co/docs/transformers/main/en/model_doc/blip-2) |  |  | | [code](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)，[fine-tuing](https://github.com/salesforce/LAVIS)，[hugging face spaces](https://hf.co/spaces/Salesforce/BLIP2) |
+| Claude 3.5 Sonnet |  |  |  | [Claude 3.5 Sonnet Blog](https://www.anthropic.com/news/claude-3-5-sonnet) |  | 200K |  |  |
 | CodeGen2 | | | [codegen2 1B-16B](https://github.com/salesforce/CodeGen2) | [CodeGen2: Lessons for Training LLMs on Programming and Natural Languages](https://arxiv.org/abs/2305.02309) | 1 - 16 | [2048](https://arxiv.org/abs/2305.02309) | [Apache 2.0](https://github.com/salesforce/CodeGen2/blob/main/LICENSE)| 
 | CogVLM | Vicuna-7B-v1.5，GLM，Llama2 | EVA2-CLIP-E | [modelscope](https://www.modelscope.cn/models/ZhipuAI/CogVLM)，[Huggingface](https://huggingface.co/THUDM/CogVLM) | [CogVLM: Visual Expert for Pretrained Language Models](https://arxiv.org/abs/2311.03079) | 17 |---| --- | [CogVLM Code](https://github.com/THUDM/CogVLM) |
 | EMO |  |  |  |  |  |  |  |
