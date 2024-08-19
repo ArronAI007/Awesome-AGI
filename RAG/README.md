@@ -74,6 +74,18 @@
 
 [LLM之RAG实战（三十六）| 使用LangChain实现多模态RAG](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247488911&idx=2&sn=e27def0c7f4b115492cc2811eb4eff86&chksm=ced5566bf9a2df7d3241cc3b7dc80babb22ef81d3a5a5d7012072cc792550abc595cab578b57&token=1281124226&lang=zh_CN#rd)
 
+[LLM之RAG实战（三十七）| 高级RAG从理论到LlamaIndex实现](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247488919&idx=1&sn=5c3fc047780225531bfcdc748c3e31e6&chksm=ced55673f9a2df65b4aca09d885d6039ac488cf69dfeef775e44e67a53deebc124674512a864&token=1643454895&lang=zh_CN#rd)
+
+[LLM之RAG实战（三十八）| RAG分块策略之语义分块](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247489016&idx=1&sn=907e2bf16a327d6b0805347cd603d0c4&chksm=ced5561cf9a2df0a848ca8894870038a6480caf870fd2b13c467e558b7b87df668098e7fe9f9&token=1643454895&lang=zh_CN#rd)
+
+[LLM之RAG实战（三十九）| 高级RAG技术全面解析（附代码）](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247489038&idx=1&sn=98217bf8b5890f10aa535698ec51a774&chksm=ced555eaf9a2dcfcb99f445bfbd15139be0fcdc5f1cbd65565cd6b0354550730a2f4e8561ce5&token=1643454895&lang=zh_CN#rd)
+
+[LLM之RAG实战（四十）| 使用LangChain SQL Agent和MySQL搭建多层RAG ChatBot](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247489065&idx=1&sn=014471930f95c0c252e046a5d9062a35&chksm=ced555cdf9a2dcdb2a172d9da0f57cc13ac4e1da27a432f7131e471b5abe0edc4f3b3db7b576&token=1643454895&lang=zh_CN#rd)
+
+[LLM之RAG实战（四十一）| 使用LLamaIndex和Gemini构建高级搜索引擎](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247489191&idx=1&sn=b9ff58944f4e299d10d9bed0169f790d&chksm=ced55543f9a2dc55d9659d6dae477eebd6eaf8b800be4d627d5b08d532a08f727f9bca8fc59e&token=1643454895&lang=zh_CN#rd)
+
+[LLM之RAG实战（四十二）| 如何在LlamaIndex和LangChain中正确选择RAG开发框架](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247489308&idx=1&sn=9faaf090953d9f724ae32faa13077f2b&chksm=ced554f8f9a2ddee92fe810bcb24be5c969eacc39331c86a2865ec195ea18f85f54592d74772&token=1643454895&lang=zh_CN#rd)
+
 ---
 
 ## RAG理论系列文章
@@ -95,6 +107,12 @@
 [LLM之RAG理论（八）| 提高RAG性能的9种技术](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247488506&idx=3&sn=e582ec63daaa4320854a3df4c2dc8579&chksm=ced5501ef9a2d9083a50a8c96666b7a014a5fc444f0b7fd7fde7d59a1d7a6070b372f2805336&token=963123924&lang=zh_CN#rd)
 
 [LLM之RAG理论（九）| 如何在LLM应用程序中提高RAG结果：从基础到高级](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247488582&idx=2&sn=799d7f0f6ee50d3c70223878d15fedd8&chksm=ced557a2f9a2deb41c75f99429cfa1e8ceb7d494196d0e0e65fc4f7668082d4cbf57c27a3c1a&token=963123924&lang=zh_CN#rd)
+
+[LLM之RAG理论（十）| RAT：一种协同CoT和RAG的 AI 提示策略，助力解决长任务推理和生成](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247488761&idx=1&sn=e60567a038767a31b876fc74e5d0569f&chksm=ced5571df9a2de0bcfc279f85e363f9c09cf2cb8b41dcdaef365373bb44cb2620f86b6e1b18f&token=1643454895&lang=zh_CN#rd)
+
+[LLM之RAG理论（十一）| 面向生产的RAG应用程序的12种调整策略指南](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247489006&idx=1&sn=929a210b2a58793160bee3a750063162&chksm=ced5560af9a2df1cbc9b59a545e3e6c7db3349db618590d5ed9b6ef3dc4042e3ca87d853caf7&token=1643454895&lang=zh_CN#rd)
+
+[LLM之RAG理论（十二）| RAG和Graph RAG对比](https://mp.weixin.qq.com/s?__biz=Mzg3NDIyMzI0Mw==&mid=2247489314&idx=1&sn=fbcb04e95e8d74fd8dd5acdd379035a2&chksm=ced554c6f9a2ddd0ec5f5e238c4caca1292548ce9b2fa9a0d07f26a2a561627b5b057441172c&token=1643454895&lang=zh_CN#rd)
 
 ---
 

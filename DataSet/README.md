@@ -69,6 +69,7 @@ Some examples of **DataSets** as follows：
 
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
+| 最全《大型语言模型数据集》全面综述pdf及444个数据集获取地址 |  | [Awesome-LLMs-Datasets](https://github.com/lmmlzn/Awesome-LLMs-Datasets) |  |  
 | 一篇关于LLM指令微调的综述 | [paper](https://arxiv.org/pdf/2308.10792.pdf) |  | [blog](https://mp.weixin.qq.com/s/7pqBvgF1BWDFxP5hajmBNw) |  
 | 智源研究院发布国内首个大规模、可商用中文开源指令数据集COIG：最大规模中文多任务指令集，上新千个中文数据集 | [paper](https://arxiv.org/pdf/2304.07987.pdf) |  | [blog](https://mp.weixin.qq.com/s/PvJa8dPHk6aGEv1G1B3PUw)，[COIG-PC数据下载地址](https://huggingface.co/datasets/BAAI/COIG-PC)，[COIG数据下载地址](https://huggingface.co/datasets/BAAI/COIG) |  
 | 总结当前开源可用的Instruct/Prompt Tuning数据 |  |  | [blog](https://mp.weixin.qq.com/s/vDbTJo3F7sy3-NY8xxg8jw) |  
