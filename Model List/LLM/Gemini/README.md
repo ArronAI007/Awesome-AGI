@@ -1,4 +1,4 @@
-# LlamaIndex
+# Gemini
 
 | Description| Paper | Code | Blog |
 | --- | --- | --- | --- |  
