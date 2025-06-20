@@ -1,0 +1,72 @@
+[
+    {
+      "question": "What is 'Explainable AI' and why is it considered important?",
+      "ideal_answer": "Explainable AI (XAI) aims to make AI systems more transparent and understandable, providing insights into how they make decisions. It's considered important for building trust, accountability, and ensuring fairness in AI systems.",
+      "reference": "Chapter 5: The Future of Artificial Intelligence - Explainable AI (XAI); Chapter 19: AI and Ethics",
+      "has_answer": true,
+      "reasoning": "The document directly defines and explains the importance of XAI."
+    },
+    {
+      "question": "Can AI be used to predict earthquakes?",
+      "ideal_answer": "I don't have enough information to answer that.",
+      "reference": "None",
+      "has_answer": false,
+      "reasoning": "The document does not mention the use of AI for earthquake prediction."
+    },
+    {
+      "question": "What are some of the ethical concerns related to AI-powered facial recognition?",
+      "ideal_answer": "I don't have enough information to answer that.",
+      "reference": "None, although related concepts appear in Chapter 4 (Ethical and Societal Implications) and Chapter 2 (Computer Vision)",
+      "has_answer": false,
+      "reasoning": "While the document discusses ethical concerns about AI *in general* and mentions facial recognition as a *technology*, it doesn't specifically discuss the ethical concerns *of* facial recognition."
+    },
+    {
+      "question": "How does AI contribute to personalized medicine?",
+      "ideal_answer": "AI enables personalized medicine by analyzing individual patient data, predicting treatment responses, and tailoring interventions to specific needs. This enhances treatment effectiveness and reduces adverse effects.",
+      "reference": "Chapter 11: AI and Healthcare - Personalized Medicine",
+      "has_answer": true,
+      "reasoning": "The document directly explains AI's role in personalized medicine."
+    },
+    {
+      "question": "Does the document mention any specific companies developing AI technology?",
+      "ideal_answer": "I don't have enough information to answer that.",
+      "reference": "None",
+      "has_answer": false,
+      "reasoning": "The document focuses on AI concepts and applications, not specific companies."
+    },
+    {
+      "question": "What is the role of AI in smart grids?",
+      "ideal_answer": "AI optimizes energy distribution in smart grids by enabling real-time monitoring, demand response, and integration of distributed energy resources. This enhances grid reliability, reduces energy waste, and supports renewable energy.",
+      "reference": "Chapter 5: The Future of Artificial Intelligence - Energy Storage and Grid Management - Smart Grids; Chapter 15",
+      "has_answer": true,
+      "reasoning": "The document directly describes the function of AI in smart grids."
+    },
+    {
+      "question": "Can AI write a complete, original novel?",
+      "ideal_answer": "I don't have enough information to answer that.",
+      "reference": "Chapter 9: AI, Creativity, and Innovation - AI in Writing and Content Creation (and potentially Chapter 16)",
+      "has_answer": false,
+      "reasoning": "The document mentions AI being used for writing and content creation, assisting with research and editing. It does *not* state that AI can write a *complete, original novel* independently."
+    },
+      {
+      "question": "What is a 'cobot'?",
+      "ideal_answer": "It mentions collaborative settings (cobots) in industrial robots.",
+      "reference": "Chapter 6: AI and Robotics- Types of Robots- Industrial Robots",
+      "has_answer": true,
+      "reasoning": "The document defines 'cobot'."
+    },
+    {
+      "question": "What is Direct Air Capture (DAC) used for?",
+      "ideal_answer": "DAC technology removes CO2 directly from the atmosphere. The captured CO2 can be stored or used in various applications.",
+      "reference": "Chapter 5: The Future of Artificial Intelligence - Carbon Capture and Utilization - Direct Air Capture; Chapter 15",
+      "has_answer": true,
+      "reasoning": "The document directly explains the purpose of Direct Air Capture."
+    },
+    {
+      "question": "Is AI currently being used to control nuclear weapons systems?",
+      "ideal_answer": "I don't have enough information to answer that.",
+      "reference": "None (although Chapter 4 discusses the weaponization of AI)",
+      "has_answer": false,
+      "reasoning": "The document discusses the *ethical concerns* about weaponizing AI, but it doesn't state whether AI is *currently* used to control nuclear weapons."
+    }
+  ]
