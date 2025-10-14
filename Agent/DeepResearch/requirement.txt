@@ -1,0 +1,14 @@
+
+python-dotenv
+streamlit
+pydantic_settings
+langdetect
+tavily-python
+
+
+
+
+
+
+
+
