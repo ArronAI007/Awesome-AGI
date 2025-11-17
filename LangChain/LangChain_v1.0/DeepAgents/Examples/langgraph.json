@@ -1,0 +1,8 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "research_simple": "./research_stock_deep_agent.py:agent"
+  },
+  "env": ".env",
+  "python_version": "3.13"
+}
