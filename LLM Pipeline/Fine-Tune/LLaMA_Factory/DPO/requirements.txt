@@ -1,0 +1,10 @@
+# DeepSeek Agent 调用项目依赖
+
+# OpenAI SDK - DeepSeek 兼容 OpenAI API
+openai>=1.12.0
+
+# Tavily Python SDK - 用于在线搜索
+tavily-python>=0.3.0
+
+# 环境变量管理
+python-dotenv>=1.0.0

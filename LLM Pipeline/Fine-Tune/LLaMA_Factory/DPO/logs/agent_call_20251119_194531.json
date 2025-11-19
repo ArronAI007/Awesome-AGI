@@ -1,0 +1,308 @@
+{
+  "session_id": "20251119_194359",
+  "start_time": "2025-11-19T19:43:59.342299",
+  "conversations": [
+    {
+      "type": "user_input",
+      "timestamp": "2025-11-19T19:45:28.077988",
+      "content": "现在几点了"
+    },
+    {
+      "type": "api_request",
+      "timestamp": "2025-11-19T19:45:28.078757",
+      "request_data": {
+        "model": "deepseek-chat",
+        "temperature": 0.7,
+        "max_tokens": 2000,
+        "messages": [
+          {
+            "role": "system",
+            "content": "你是一个智能助手，可以使用多种工具来帮助用户。\n你可以获取当前时间、查询天气信息、进行网络搜索等。\n请根据用户的问题，选择合适的工具来回答。"
+          },
+          {
+            "role": "user",
+            "content": "现在几点了"
+          }
+        ],
+        "tools": [
+          {
+            "type": "function",
+            "function": {
+              "name": "get_current_time",
+              "description": "获取当前的日期和时间，包括星期几。当用户询问现在几点、今天日期等时间相关问题时使用。",
+              "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": []
+              }
+            }
+          },
+          {
+            "type": "function",
+            "function": {
+              "name": "get_weather",
+              "description": "查询指定城市的实时天气信息。当用户询问某地天气、气温、天气状况时使用。",
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "city": {
+                    "type": "string",
+                    "description": "要查询天气的城市名称，例如：北京、上海、深圳等"
+                  }
+                },
+                "required": [
+                  "city"
+                ]
+              }
+            }
+          },
+          {
+            "type": "function",
+            "function": {
+              "name": "search_online",
+              "description": "在互联网上搜索最新信息、新闻、事实等。当用户询问最新的事件、新闻、不在你知识库中的信息时使用。",
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "query": {
+                    "type": "string",
+                    "description": "搜索查询字符串，应该清晰准确地描述要搜索的内容"
+                  }
+                },
+                "required": [
+                  "query"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "api_response",
+      "timestamp": "2025-11-19T19:45:30.474769",
+      "response_data": {
+        "id": "bc9f128e-08bd-48b5-a2d1-e4b0f0f8df11",
+        "choices": [
+          {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "我来帮您查看当前时间。",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": [
+                {
+                  "id": "call_00_g2jUJridPdq901OLNEBWAQFK",
+                  "function": {
+                    "arguments": "{}",
+                    "name": "get_current_time"
+                  },
+                  "type": "function",
+                  "index": 0
+                }
+              ]
+            }
+          }
+        ],
+        "created": 1763552728,
+        "model": "deepseek-chat",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache",
+        "usage": {
+          "completion_tokens": 16,
+          "prompt_tokens": 348,
+          "total_tokens": 364,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": 0
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 348
+        }
+      }
+    },
+    {
+      "type": "agent_thinking",
+      "timestamp": "2025-11-19T19:45:30.476964",
+      "content": "我来帮您查看当前时间。",
+      "model": "deepseek-chat",
+      "role": "assistant"
+    },
+    {
+      "type": "tool_call",
+      "timestamp": "2025-11-19T19:45:30.477184",
+      "tool_name": "get_current_time",
+      "tool_args": {},
+      "tool_call_id": "call_00_g2jUJridPdq901OLNEBWAQFK",
+      "tool_result": "当前时间: 2025-11-19 19:45:30, 周三"
+    },
+    {
+      "type": "api_request",
+      "timestamp": "2025-11-19T19:45:30.477511",
+      "request_data": {
+        "model": "deepseek-chat",
+        "temperature": 0.7,
+        "max_tokens": 2000,
+        "messages": [
+          {
+            "role": "system",
+            "content": "你是一个智能助手，可以使用多种工具来帮助用户。\n你可以获取当前时间、查询天气信息、进行网络搜索等。\n请根据用户的问题，选择合适的工具来回答。"
+          },
+          {
+            "role": "user",
+            "content": "现在几点了"
+          },
+          {
+            "content": "我来帮您查看当前时间。",
+            "refusal": null,
+            "role": "assistant",
+            "annotations": null,
+            "audio": null,
+            "function_call": null,
+            "tool_calls": [
+              {
+                "id": "call_00_g2jUJridPdq901OLNEBWAQFK",
+                "function": {
+                  "arguments": "{}",
+                  "name": "get_current_time"
+                },
+                "type": "function",
+                "index": 0
+              }
+            ]
+          },
+          {
+            "role": "tool",
+            "tool_call_id": "call_00_g2jUJridPdq901OLNEBWAQFK",
+            "name": "get_current_time",
+            "content": "当前时间: 2025-11-19 19:45:30, 周三"
+          }
+        ],
+        "tools": [
+          {
+            "type": "function",
+            "function": {
+              "name": "get_current_time",
+              "description": "获取当前的日期和时间，包括星期几。当用户询问现在几点、今天日期等时间相关问题时使用。",
+              "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": []
+              }
+            }
+          },
+          {
+            "type": "function",
+            "function": {
+              "name": "get_weather",
+              "description": "查询指定城市的实时天气信息。当用户询问某地天气、气温、天气状况时使用。",
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "city": {
+                    "type": "string",
+                    "description": "要查询天气的城市名称，例如：北京、上海、深圳等"
+                  }
+                },
+                "required": [
+                  "city"
+                ]
+              }
+            }
+          },
+          {
+            "type": "function",
+            "function": {
+              "name": "search_online",
+              "description": "在互联网上搜索最新信息、新闻、事实等。当用户询问最新的事件、新闻、不在你知识库中的信息时使用。",
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "query": {
+                    "type": "string",
+                    "description": "搜索查询字符串，应该清晰准确地描述要搜索的内容"
+                  }
+                },
+                "required": [
+                  "query"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "api_response",
+      "timestamp": "2025-11-19T19:45:31.892069",
+      "response_data": {
+        "id": "36d687e9-3d26-4642-b4b6-555c00408f7d",
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "content": "现在是2025年11月19日，星期三，晚上7点45分30秒。",
+              "refusal": null,
+              "role": "assistant",
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "tool_calls": null
+            }
+          }
+        ],
+        "created": 1763552730,
+        "model": "deepseek-chat",
+        "object": "chat.completion",
+        "service_tier": null,
+        "system_fingerprint": "fp_ffc7281d48_prod0820_fp8_kvcache",
+        "usage": {
+          "completion_tokens": 19,
+          "prompt_tokens": 386,
+          "total_tokens": 405,
+          "completion_tokens_details": null,
+          "prompt_tokens_details": {
+            "audio_tokens": null,
+            "cached_tokens": 320
+          },
+          "prompt_cache_hit_tokens": 320,
+          "prompt_cache_miss_tokens": 66
+        }
+      }
+    },
+    {
+      "type": "agent_thinking",
+      "timestamp": "2025-11-19T19:45:31.892133",
+      "content": "现在是2025年11月19日，星期三，晚上7点45分30秒。",
+      "model": "deepseek-chat",
+      "role": "assistant"
+    },
+    {
+      "type": "final_response",
+      "timestamp": "2025-11-19T19:45:31.892196",
+      "content": "现在是2025年11月19日，星期三，晚上7点45分30秒。",
+      "usage": {
+        "completion_tokens": 19,
+        "prompt_tokens": 386,
+        "total_tokens": 405,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 320
+        },
+        "prompt_cache_hit_tokens": 320,
+        "prompt_cache_miss_tokens": 66
+      }
+    }
+  ],
+  "end_time": "2025-11-19T19:45:31.892220"
+}

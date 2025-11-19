@@ -1,0 +1,51 @@
+{
+  "session_id": "20251110_120706",
+  "start_time": "2025-11-10T12:07:06.215498",
+  "conversations": [
+    {
+      "type": "user_input",
+      "timestamp": "2025-11-10T12:07:17.005899",
+      "content": "现在几了"
+    },
+    {
+      "type": "agent_thinking",
+      "timestamp": "2025-11-10T12:07:18.857119",
+      "content": "我来帮您查看当前时间。",
+      "model": "deepseek-chat",
+      "role": "assistant"
+    },
+    {
+      "type": "tool_call",
+      "timestamp": "2025-11-10T12:07:18.857262",
+      "tool_name": "get_current_time",
+      "tool_args": {},
+      "tool_call_id": "call_00_g6jNRa3mpswGLW9chMr1Bpmt",
+      "tool_result": "当前时间: 2025-11-10 12:07:18, 周一"
+    },
+    {
+      "type": "agent_thinking",
+      "timestamp": "2025-11-10T12:07:20.447221",
+      "content": "现在是2025年11月10日，星期一，中午12点07分。",
+      "model": "deepseek-chat",
+      "role": "assistant"
+    },
+    {
+      "type": "final_response",
+      "timestamp": "2025-11-10T12:07:20.447314",
+      "content": "现在是2025年11月10日，星期一，中午12点07分。",
+      "usage": {
+        "completion_tokens": 17,
+        "prompt_tokens": 386,
+        "total_tokens": 403,
+        "completion_tokens_details": null,
+        "prompt_tokens_details": {
+          "audio_tokens": null,
+          "cached_tokens": 320
+        },
+        "prompt_cache_hit_tokens": 320,
+        "prompt_cache_miss_tokens": 66
+      }
+    }
+  ],
+  "end_time": "2025-11-10T12:07:20.447346"
+}
