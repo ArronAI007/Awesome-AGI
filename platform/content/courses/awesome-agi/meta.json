@@ -1,0 +1,8 @@
+{
+  "title": "Awesome-AGI 大模型全栈指南",
+  "description": "从 LLM 基础理论到 Agent 实战的完整学习路径，涵盖微调、RAG、多 Agent 系统等核心技术。",
+  "coverImage": "/images/agi-cover.png",
+  "price": 29900,
+  "isFree": false,
+  "isPublished": true
+}

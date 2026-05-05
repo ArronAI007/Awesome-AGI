@@ -1,0 +1,7 @@
+{
+  "title": "大模型基础理论",
+  "sortOrder": 1,
+  "type": "doc",
+  "isPreview": true,
+  "description": "了解 LLM 的核心概念、微调方法和评估体系"
+}

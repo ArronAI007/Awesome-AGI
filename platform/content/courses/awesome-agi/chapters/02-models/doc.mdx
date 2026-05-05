@@ -1,0 +1,41 @@
+# 主流模型与 API 实践
+
+## 国内大模型
+
+| 厂商 | 模型 | 特点 |
+|------|------|------|
+| 阿里云 | 通义千问 (Qwen) | 开源生态完善 |
+| 百度 | 文心一言 | 中文理解强 |
+| 智谱 | ChatGLM | 学术导向 |
+| 百川 | Baichuan | 长上下文 |
+| 讯飞 | 星火 | 语音交互 |
+
+## 国际大模型
+
+- **OpenAI GPT-4** — 功能最全面的闭源模型
+- **Meta LLaMA** — 开源社区首选
+- **Mistral** — 欧洲开源标杆
+- **Google Gemini** — 多模态能力强
+
+## API 调用示例
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    api_key="your-api-key",
+    base_url="https://api.openai.com/v1"
+)
+
+response = client.chat.completions.create(
+    model="gpt-4",
+    messages=[
+        {"role": "system", "content": "你是一个AI助手"},
+        {"role": "user", "content": "你好"}
+    ]
+)
+```
+
+---
+
+> 完整 API 教程请参考项目中的 `02-models/` 目录。
