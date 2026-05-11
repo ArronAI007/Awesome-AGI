@@ -205,6 +205,7 @@ LLM预训练、微调使用的部分数据集，更多请参考【[DataSet](http
 | OpenAI重磅发布官方「ChatGPT检测器」 |  |  | [blog](https://mp.weixin.qq.com/s/EcZE7TgHspf22rPRWhAybw) |
 | 斯坦福最新研究：不要过度依赖GPT生成内容，其检测器可能存在不利于非母语英语写作者的偏见 | [paper](https://arxiv.org/abs/2304.02819) |  |  |
 | TUM发布最新《检测ChatGPT生成文本现状》综述 | [paper](https://arxiv.org/abs/2309.07689) |  |  |
+| humanize-chinese：开源中文 AI 文本检测+改写工具，n-gram 困惑度 + 20+ 检测维度加权 0–100 打分，配套 7 种风格改写（含学术降重对接知网/维普/万方），纯 Python 零依赖本地运行 |  | [code](https://github.com/voidborne-d/humanize-chinese) |  |
 
 ---
 
