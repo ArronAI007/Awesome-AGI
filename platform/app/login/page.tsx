@@ -1,3 +1,6 @@
+"use client"
+
+import { useEffect, useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -9,6 +12,27 @@ import { WeChatLoginButton } from "./wechat-button"
 export default function LoginPage() {
   const wechatEnabled =
     !!process.env.WECHAT_APP_ID && !!process.env.WECHAT_APP_SECRET
+
+  const [email, setEmail] = useState("")
+  const [rememberMe, setRememberMe] = useState(false)
+
+  useEffect(() => {
+    const saved = localStorage.getItem("remembered_email")
+    if (saved) {
+      setEmail(saved)
+      setRememberMe(true)
+    }
+  }, [])
+
+  async function handleSubmit(formData: FormData) {
+    const submittedEmail = formData.get("email") as string
+    if (rememberMe) {
+      localStorage.setItem("remembered_email", submittedEmail)
+    } else {
+      localStorage.removeItem("remembered_email")
+    }
+    await loginAction(formData)
+  }
 
   return (
     <div className="flex min-h-full flex-col justify-center px-4 py-12 sm:px-6 lg:px-8">
@@ -23,7 +47,7 @@ export default function LoginPage() {
           </h2>
         </div>
 
-        <form action={loginAction} className="mt-8 space-y-6">
+        <form action={handleSubmit} className="mt-8 space-y-6">
           <div className="space-y-4">
             <div>
               <Label htmlFor="email" className="text-zinc-300">邮箱</Label>
@@ -32,6 +56,8 @@ export default function LoginPage() {
                 name="email"
                 type="email"
                 required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
                 className="mt-1 bg-zinc-900 border-zinc-800 text-white placeholder:text-zinc-600"
                 placeholder="you@example.com"
               />
@@ -43,10 +69,24 @@ export default function LoginPage() {
                 name="password"
                 type="password"
                 required
+                autoComplete="current-password"
                 className="mt-1 bg-zinc-900 border-zinc-800 text-white placeholder:text-zinc-600"
                 placeholder="******"
               />
             </div>
+          </div>
+
+          <div className="flex items-center justify-between">
+            <label className="flex items-center gap-2 text-sm text-zinc-400 cursor-pointer">
+              <input
+                type="checkbox"
+                name="rememberMe"
+                checked={rememberMe}
+                onChange={(e) => setRememberMe(e.target.checked)}
+                className="rounded border-zinc-700 bg-zinc-900 text-emerald-500 h-4 w-4"
+              />
+              记住用户名和密码
+            </label>
           </div>
 
           <Button

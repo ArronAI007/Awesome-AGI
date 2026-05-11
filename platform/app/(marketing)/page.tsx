@@ -42,16 +42,19 @@ export default async function HomePage() {
                 icon={<BookOpen className="h-6 w-6" />}
                 title="系统化课程"
                 description="从基础理论到工程实践，覆盖 LLM 全生命周期"
+                href="/courses"
               />
               <FeatureCard
                 icon={<Code2 className="h-6 w-6" />}
                 title="在线 Notebook"
                 description="浏览器内直接运行和修改代码，无需本地环境"
+                href="/courses"
               />
               <FeatureCard
                 icon={<Play className="h-6 w-6" />}
                 title="视频教程"
                 description="录屏讲解复杂概念，配合文档深入理解"
+                href="/courses"
               />
               <FeatureCard
                 icon={<Shield className="h-6 w-6" />}
@@ -110,13 +113,15 @@ function FeatureCard({
   icon,
   title,
   description,
+  href,
 }: {
   icon: React.ReactNode
   title: string
   description: string
+  href?: string
 }) {
-  return (
-    <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6">
+  const card = (
+    <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 transition-colors hover:border-zinc-700 hover:bg-zinc-900">
       <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-400">
         {icon}
       </div>
@@ -124,4 +129,9 @@ function FeatureCard({
       <p className="mt-2 text-sm text-zinc-400">{description}</p>
     </div>
   )
+
+  if (href) {
+    return <Link href={href}>{card}</Link>
+  }
+  return card
 }

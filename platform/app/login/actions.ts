@@ -7,11 +7,13 @@ import { redirect } from "next/navigation"
 export async function loginAction(formData: FormData) {
   const email = formData.get("email") as string
   const password = formData.get("password") as string
+  const rememberMe = formData.get("rememberMe") === "on"
 
   try {
     await signIn("credentials", {
       email,
       password,
+      rememberMe: rememberMe ? "true" : "false",
       redirectTo: "/courses",
     })
   } catch (error) {

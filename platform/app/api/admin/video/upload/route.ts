@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server"
 import { auth } from "@/lib/auth"
+import { checkAdmin } from "@/lib/access"
 import { r2Client, R2_BUCKET_NAME, getR2PublicUrl } from "@/lib/r2"
 import { PutObjectCommand } from "@aws-sdk/client-s3"
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner"
@@ -7,7 +8,7 @@ import { prisma } from "@/lib/prisma"
 
 export async function POST(req: Request) {
   const session = await auth()
-  if (!session?.user?.email?.endsWith("@admin.com")) {
+  if (!session?.user?.id || !(await checkAdmin(session.user.id))) {
     return NextResponse.json({ error: "无权访问" }, { status: 403 })
   }
 

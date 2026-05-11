@@ -54,6 +54,7 @@ model User {
   name          String?
   image         String?
   password      String?
+  role          String    @default("user")
   createdAt     DateTime  @default(now()) @map("created_at")
 
   accounts      Account[]

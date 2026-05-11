@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { BookOpen, LogOut, User } from "lucide-react"
+import { BookOpen, LogOut, User, GraduationCap } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { auth, signOut } from "@/lib/auth"
 
@@ -14,27 +14,22 @@ export async function Navbar() {
           <span>Awesome-AGI</span>
         </Link>
         <nav className="flex items-center gap-6">
-          <Link href="/courses" className="text-sm font-medium text-zinc-400 hover:text-zinc-100 transition-colors">
+          <Link href="/courses" className="text-sm font-medium text-zinc-400 hover:text-zinc-100 transition-colors flex items-center gap-1.5">
+            <GraduationCap className="h-4 w-4" />
             全部课程
           </Link>
-          <Link href="/membership" className="text-sm font-medium text-zinc-400 hover:text-zinc-100 transition-colors">
-            会员
-          </Link>
           {session?.user ? (
-            <div className="flex items-center gap-4">
-              <span className="text-sm text-zinc-300">{session.user.name || session.user.email}</span>
-              <form
-                action={async () => {
-                  "use server"
-                  await signOut({ redirectTo: "/" })
-                }}
-              >
-                <Button variant="ghost" size="sm" className="text-zinc-400 hover:text-zinc-100">
-                  <LogOut className="mr-2 h-4 w-4" />
-                  退出
-                </Button>
-              </form>
-            </div>
+            <form
+              action={async () => {
+                "use server"
+                await signOut({ redirectTo: "/" })
+              }}
+            >
+              <Button type="submit" variant="ghost" size="sm" className="text-zinc-400 hover:text-zinc-100">
+                <LogOut className="mr-2 h-4 w-4" />
+                退出
+              </Button>
+            </form>
           ) : (
             <Link href="/login">
               <Button variant="ghost" size="sm" className="text-zinc-400 hover:text-zinc-100">

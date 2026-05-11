@@ -2,12 +2,16 @@ import Link from "next/link"
 import { redirect } from "next/navigation"
 import { auth } from "@/lib/auth"
 import { prisma } from "@/lib/prisma"
+import { checkAdmin } from "@/lib/access"
 import { Navbar } from "@/components/navbar"
-import { BookOpen, ShoppingCart, Users, CreditCard } from "lucide-react"
+import { BookOpen, ShoppingCart, Users, CreditCard, Plus } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { CourseRowActions } from "./courses/course-row-actions"
+import { PlanManager } from "./plan-manager"
 
 export default async function AdminPage() {
   const session = await auth()
-  if (!session?.user?.email?.endsWith("@admin.com")) {
+  if (!session?.user?.id || !(await checkAdmin(session.user.id))) {
     redirect("/")
   }
 
@@ -53,7 +57,15 @@ export default async function AdminPage() {
 
           {/* Courses */}
           <div className="mt-10">
-            <h2 className="text-xl font-semibold text-white mb-4">课程管理</h2>
+            <div className="flex items-center justify-between mb-4">
+              <h2 className="text-xl font-semibold text-white">课程管理</h2>
+              <Link href="/admin/courses/new">
+                <Button size="sm" className="bg-emerald-500 hover:bg-emerald-600 text-zinc-950 font-semibold">
+                  <Plus className="mr-1.5 h-4 w-4" />
+                  添加课程
+                </Button>
+              </Link>
+            </div>
             <div className="rounded-lg border border-zinc-800 overflow-hidden">
               <table className="w-full text-sm text-left">
                 <thead className="bg-zinc-900 text-zinc-400">
@@ -63,6 +75,7 @@ export default async function AdminPage() {
                     <th className="px-4 py-3">章节</th>
                     <th className="px-4 py-3">状态</th>
                     <th className="px-4 py-3">创建时间</th>
+                    <th className="px-4 py-3">操作</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-zinc-800">
@@ -79,6 +92,9 @@ export default async function AdminPage() {
                         </span>
                       </td>
                       <td className="px-4 py-3 text-zinc-500">{course.createdAt.toLocaleDateString("zh-CN")}</td>
+                      <td className="px-4 py-3">
+                        <CourseRowActions courseId={course.id} />
+                      </td>
                     </tr>
                   ))}
                 </tbody>
@@ -88,31 +104,8 @@ export default async function AdminPage() {
 
           {/* Subscription Plans */}
           <div className="mt-10">
-            <h2 className="text-xl font-semibold text-white mb-4">会员计划</h2>
-            <div className="rounded-lg border border-zinc-800 overflow-hidden">
-              <table className="w-full text-sm text-left">
-                <thead className="bg-zinc-900 text-zinc-400">
-                  <tr>
-                    <th className="px-4 py-3">名称</th>
-                    <th className="px-4 py-3">价格</th>
-                    <th className="px-4 py-3">时长(天)</th>
-                    <th className="px-4 py-3">描述</th>
-                    <th className="px-4 py-3">创建时间</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-zinc-800">
-                  {plans.map((plan) => (
-                    <tr key={plan.id} className="bg-zinc-950 hover:bg-zinc-900">
-                      <td className="px-4 py-3 text-zinc-200">{plan.name}</td>
-                      <td className="px-4 py-3 text-zinc-400">¥{(plan.price / 100).toFixed(0)}</td>
-                      <td className="px-4 py-3 text-zinc-400">{plan.duration}</td>
-                      <td className="px-4 py-3 text-zinc-400">{plan.description}</td>
-                      <td className="px-4 py-3 text-zinc-500">{plan.createdAt.toLocaleDateString("zh-CN")}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+            <h2 className="text-xl font-semibold text-white mb-4">会员等级及费用管理</h2>
+            <PlanManager initialPlans={plans} />
           </div>
 
           {/* Recent Orders */}

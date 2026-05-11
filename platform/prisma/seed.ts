@@ -79,6 +79,15 @@ async function main() {
     },
   })
 
+  // Create admin user
+  await prisma.user.create({
+    data: {
+      email: "admin@admin.com",
+      password: "$2b$12$bgV65KxXmn/b8XlKfFYaROsCB9XKZ9ZIccWE1Qx2f0A/wKawqIDBW", // bcrypt hash for "admin123"
+      role: "admin",
+    },
+  })
+
   // Seed subscription plans
   await prisma.subscriptionPlan.createMany({
     data: [

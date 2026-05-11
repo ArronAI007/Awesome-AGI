@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { BookOpen } from "lucide-react"
+import { BookOpen, ArrowLeft } from "lucide-react"
 import { getAllCoursesFromDB } from "@/lib/course"
 import { Navbar } from "@/components/navbar"
 
@@ -11,7 +11,11 @@ export default async function CoursesPage() {
       <Navbar />
       <main className="flex-1 px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
-          <h1 className="text-3xl font-bold tracking-tight text-white">
+          <Link href="/" className="inline-flex items-center gap-1.5 text-sm text-zinc-400 hover:text-emerald-400 transition-colors">
+            <ArrowLeft className="h-4 w-4" />
+            返回首页
+          </Link>
+          <h1 className="mt-4 text-3xl font-bold tracking-tight text-white">
             全部课程
           </h1>
           <p className="mt-2 text-zinc-400">
