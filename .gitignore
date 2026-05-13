@@ -130,3 +130,24 @@ dmypy.json
 
 # macOS
 .DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# VitePress
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Docs generated content (copied by prepare-docs.js)
+docs/01-fundamentals/
+docs/02-models/
+docs/03-infrastructure/
+docs/04-applications/
+docs/05-frameworks/
+docs/06-datasets/
+docs/overview.md

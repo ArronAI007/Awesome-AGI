@@ -1,0 +1,13 @@
+{
+  "name": "awesome-agi-docs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "docs:dev": "node scripts/prepare-docs.js && vitepress dev docs",
+    "docs:build": "node scripts/prepare-docs.js && vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
