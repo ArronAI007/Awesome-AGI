@@ -32,6 +32,7 @@
 - [05. 开发框架](#05-开发框架)
   - [LangChain](#langchain)
   - [LlamaIndex](#llamaindex)
+  - [Agent Framework Insights](#agent-framework-insights)
 
 ---
 
@@ -385,6 +386,12 @@ Opik 是一个开源的 LLM 可观测性与评估平台，支持追踪、评估�
 ### LlamaIndex
 
 整理关于LlamaIndex的相关笔记和课程，更多请参考【[LlamaIndex](https://github.com/ArronAI007/Awesome-AGI/blob/main/05-frameworks/llama-index/README.md)】
+
+---
+
+### Agent Framework Insights
+
+五套面向"彻底剖析"的中文技术课程，系统性拆解 PI、DeepSeek Harness、Hermes Agent、OpenHarness、OpenClaw 等真实开源 Agent Harness 项目的架构设计，并配套 Agent/Harness 从零实现的教学代码。更多请参考【[Agent Framework Insights](https://github.com/ArronAI007/Awesome-AGI/blob/main/05-frameworks/agent-framework-insights/README.md)】
 
 ---
 
