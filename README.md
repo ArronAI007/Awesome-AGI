@@ -33,6 +33,7 @@
   - [LangChain](#langchain)
   - [LlamaIndex](#llamaindex)
   - [Agent Framework Insights](#agent-framework-insights)
+- [08. ChatGPT / GPT-4 归档](#08-chatgpt--gpt-4-归档)
 
 ---
 
@@ -392,6 +393,12 @@ Opik 是一个开源的 LLM 可观测性与评估平台，支持追踪、评估�
 ### Agent Framework Insights
 
 五套面向"彻底剖析"的中文技术课程，系统性拆解 PI、DeepSeek Harness、Hermes Agent、OpenHarness、OpenClaw 等真实开源 Agent Harness 项目的架构设计，并配套 Agent/Harness 从零实现的教学代码。更多请参考【[Agent Framework Insights](https://github.com/ArronAI007/Awesome-AGI/blob/main/05-frameworks/agent-framework-insights/README.md)】
+
+---
+
+## 08. ChatGPT / GPT-4 归档
+
+合并自 [LLM-Paper-Lists](https://github.com/ArronAI007/LLM-Paper-Lists) 仓库，将 ChatGPT、GPT-4 发布前后（2023 年初）的论文、OpenAI 官方技术文档、技术解读博客及媒体报道整理在 `08-chatgpt-gpt4-archive/` 目录下，作为 AGI/LLM 发展历程的历史资料留存。更多请参考【[ChatGPT / GPT-4 归档](https://github.com/ArronAI007/Awesome-AGI/blob/main/08-chatgpt-gpt4-archive/README.md)】
 
 ---
 
