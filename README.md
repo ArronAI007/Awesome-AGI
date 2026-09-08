@@ -33,6 +33,9 @@
   - [LangChain](#langchain)
   - [LlamaIndex](#llamaindex)
   - [Agent Framework Insights](#agent-framework-insights)
+  - [Web UI](#web-ui)
+- [06. 数据集](#06-数据集)
+- [07. 电子书](#07-电子书)
 - [08. ChatGPT / GPT-4 归档](#08-chatgpt--gpt-4-归档)
 
 ---
@@ -393,6 +396,35 @@ Opik 是一个开源的 LLM 可观测性与评估平台，支持追踪、评估�
 ### Agent Framework Insights
 
 五套面向"彻底剖析"的中文技术课程，系统性拆解 PI、DeepSeek Harness、Hermes Agent、OpenHarness、OpenClaw 等真实开源 Agent Harness 项目的架构设计，并配套 Agent/Harness 从零实现的教学代码。更多请参考【[Agent Framework Insights](https://github.com/ArronAI007/Awesome-AGI/blob/main/05-frameworks/agent-framework-insights/README.md)】
+
+---
+
+### Web UI
+
+Gradio 是一个用于快速构建机器学习/大模型 Demo 界面的 Python 库。整理了从创建第一个应用、多输入输出、图像处理、`ChatInterface`、`Blocks` 低阶 API 到公网分享的入门教程，更多请参考【[Gradio](https://github.com/ArronAI007/Awesome-AGI/tree/main/05-frameworks/web-ui/gradio)】
+
+---
+
+## 06. 数据集
+
+本仓库将大模型预训练、指令微调、对齐微调等阶段常用的开源数据集及评测基准整理在 `06-datasets/` 目录下，更多请参考【[DataSet](https://github.com/ArronAI007/Awesome-AGI/blob/main/06-datasets/README.md)】，涵盖：
+
+- 预训练数据集：Anthropic HH、RedPajama、starcoderdata、Stanford Alpaca 等
+- 指令微调数据集：databricks-dolly-15k、MetaMathQA、OIG、WildChat 等
+- 对齐微调数据集：OpenAssistant Conversations Dataset（oasst1）等
+- 评测基准：C-Eval、Gaokao、AGIEval、MMLU、LawBench 等
+- 长文本评测数据集：ZeroSCROLLS、L-Eval、LongBench、LooGLE、CLongEval 等
+
+---
+
+## 07. 电子书
+
+`07-ebooks/` 目录下整理了 Agent/大模型应用相关的电子书，供系统性学习参考：
+
+- [Agentic Design Patterns](https://github.com/ArronAI007/Awesome-AGI/blob/main/07-ebooks/Agentic_Design_Patterns_FINAL_v2.pdf)（及中文版【[代理设计模式-构建智能系统实战指南](https://github.com/ArronAI007/Awesome-AGI/blob/main/07-ebooks/代理设计模式-构建智能系统实战指南.pdf)】）
+- [AI Agents Guidebook](https://github.com/ArronAI007/Awesome-AGI/blob/main/07-ebooks/AI%20Agents%20guidebook.pdf)
+- [Building Applications with AI Agents](<https://github.com/ArronAI007/Awesome-AGI/blob/main/07-ebooks/Building Applications with AI Agents (Fifth Early Release) (Michael Albada) (Z-Library).epub>)
+- [动手做AI Agent](<https://github.com/ArronAI007/Awesome-AGI/blob/main/07-ebooks/动手做AI Agent .pdf>)
 
 ---
 
