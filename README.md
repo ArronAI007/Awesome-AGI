@@ -36,7 +36,8 @@
   - [Web UI](#web-ui)
 - [06. 数据集](#06-数据集)
 - [07. 电子书](#07-电子书)
-- [08. ChatGPT / GPT-4 归档](#08-chatgpt--gpt-4-归档)
+- [附录：历史资料归档](#附录历史资料归档)
+  - [ChatGPT / GPT-4 归档](#chatgpt--gpt-4-归档)
 
 ---
 
@@ -428,9 +429,13 @@ Gradio 是一个用于快速构建机器学习/大模型 Demo 界面的 Python �
 
 ---
 
-## 08. ChatGPT / GPT-4 归档
+## 附录：历史资料归档
 
-合并自 [LLM-Paper-Lists](https://github.com/ArronAI007/LLM-Paper-Lists) 仓库，将 ChatGPT、GPT-4 发布前后（2023 年初）的论文、OpenAI 官方技术文档、技术解读博客及媒体报道整理在 `08-chatgpt-gpt4-archive/` 目录下，作为 AGI/LLM 发展历程的历史资料留存。更多请参考【[ChatGPT / GPT-4 归档](https://github.com/ArronAI007/Awesome-AGI/blob/main/08-chatgpt-gpt4-archive/README.md)】
+`archive/` 目录用于存放按时间归档的历史资料，与 01-07 按主题组织的内容分开管理，避免混淆两种不同的分类维度。
+
+### ChatGPT / GPT-4 归档
+
+合并自 [LLM-Paper-Lists](https://github.com/ArronAI007/LLM-Paper-Lists) 仓库，将 ChatGPT、GPT-4 发布前后（2023 年初）的论文、OpenAI 官方技术文档、技术解读博客及媒体报道整理在 `archive/chatgpt-gpt4/` 目录下，作为 AGI/LLM 发展历程的历史资料留存。更多请参考【[ChatGPT / GPT-4 归档](https://github.com/ArronAI007/Awesome-AGI/blob/main/archive/chatgpt-gpt4/README.md)】
 
 ---
 
