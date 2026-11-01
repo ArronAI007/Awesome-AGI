@@ -401,6 +401,9 @@ Opik 是一个开源的 LLM 可观测性与评估平台，支持追踪、评估�
 ---
 
 ### Web UI
+- [PromptImage](https://promptimage.cloud)：Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium
+- [TeslaWraps](https://teslawraps.design)：Browser Tesla Paint Shop wrap designer — core editing + PNG export free without account; optional AI credit…
+- [GrokVideo Studio](https://grokvideogenerator.dev)：Independent web app for text/image-to-video via Grok Imagine API (Free Trial, 20 credits). Not an official …
 
 Gradio 是一个用于快速构建机器学习/大模型 Demo 界面的 Python 库。整理了从创建第一个应用、多输入输出、图像处理、`ChatInterface`、`Blocks` 低阶 API 到公网分享的入门教程，更多请参考【[Gradio](https://github.com/ArronAI007/Awesome-AGI/tree/main/05-frameworks/web-ui/gradio)】
 
